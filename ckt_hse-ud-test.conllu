@@ -1446,16 +1446,16 @@
 # text = Киноԓьыт ыныкит ӈан риӈъэтвэ риӈъэтвэыʼмэ.
 # text[phon] = kinoɬʔət ənəkit ŋan riŋʔetwe riŋʔetweʔəme
 # text[rus] = Когда киномеханики на самолёте это…
-# text[eng] = When projectionists on an airplane…
+# text[eng] = When projectionists on an aeroplane…
 # labels = complete-dep anno-karina
 1	Киноԓьыт	_	NOUN	_	_	4	nsubj	_	Gloss=фильм-ATTR-NOM.PL
 2	ыныкит	_	ADV	_	_	5	advmod	_	Gloss=если
 3	ӈан	_	PART	_	_	4	discourse	_	Gloss=DEICT
 4	риӈъэтвэ	_	NOUN	_	_	0	root	_	Gloss=взлетать-лодка-INS
-5-7	риӈъэтвэыʼмэ	_	_	_	_	_	_	_	_
-5	риӈъэтвэыʼ	_	NOUN	_	_	4	parataxis	_	Gloss=взлетать-лодка-INS-=EMPH-=PTCL
-6	м	_	PART	_	_	5	discourse	_	_
-7	э	_	PART	_	_	5	discourse	_	SpaceAfter=No
+5-7	риӈъэтвэыʼмэ	_	_	_	_	_	_	_	Gloss=взлетать-лодка-INS-=EMPH-=PTCL|SpaceAfter=No
+5	риӈъэтвэ	_	NOUN	_	_	4	parataxis	_	Gloss=взлетать-лодка-INS
+6	ыʼм	_	PART	_	_	5	discourse	_	Gloss=EMPH
+7	э	_	PART	_	_	5	discourse	_	Gloss=PTCL
 8	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Chapaev:2
@@ -1478,13 +1478,13 @@
 # text[rus] = Этим транспортом привезли кино в клуб.
 # text[eng] = They brought the movie to the club by this transport.
 # labels = complete-dep anno-karina
-1	Ынӄэната	_	DET	_	_	2	obl	_	Gloss=DET-INS
+1	Ынӄэната	_	PRON	_	_	2	obl	2:obl	Gloss=DET-INS
 2-3	гакиноратԓенатъым	_	_	_	_	_	_	_	Gloss=PF-фильм-приносить-PF.3SG-PL=EMPH
-2	гакиноратԓенат	_	VERB	_	_	0	root	_	Gloss=PF-фильм-приносить-PF.3SG-PL
+2	гакиноратԓенат	_	VERB	_	_	0	root	0:root	Gloss=PF-фильм-приносить-PF.3SG-PL
 2.1	кино	_	NOUN	_	_	_	_	2:obj	Gloss=фильм
-3	ъым	_	PART	_	_	2	discourse	_	Gloss=EMPH
-4	кԓюпчыко	_	NOUN	_	_	2	obl	_	Gloss=клуб-IN|SpaceAfter=No
-5	.	_	PUNCT	_	_	2	punct	_	_
+3	ъым	_	PART	_	_	2	discourse	2:discourse	Gloss=EMPH
+4	кԓюпчыко	_	NOUN	_	_	2	obl	2:obl	Gloss=клуб-IN|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	2:punct	_
 
 # sent_id = Chapaev:5
 # text = Ӄытԓыгиыʼм ынӄэнэ чапаевӄай чапаев ынӄэн мытԓьуэʼн кино тэӈвытку ӄэԓюӄэ.
@@ -1503,10 +1503,10 @@
 7	ынӄэн	_	DET	_	_	6	det	_	Gloss=DET
 8	мытԓьуэʼн	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-видеть-TH-3SG.O
 9	кино	_	NOUN	_	_	5	appos	_	Gloss=фильм
-10	тэӈвытку	_	ADV	_	_	8	advmod	Gloss=GOOD-впервые	_
-11-12	ӄэԓюӄэ	_	_	_	_	_	_	_	_
-11	ӄэԓюӄ	_	ADV	_	_	8	advmod	_	Gloss=конечно-=PTCL
-12	э	_	PART	_	_	11	discourse	_	SpaceAfter=No
+10	тэӈвытку	_	ADV	_	_	8	advmod	_	Gloss=GOOD-впервые
+11-12	ӄэԓюӄэ	_	_	_	_	_	_	_	Gloss=конечно-=PTCL|SpaceAfter=No
+11	ӄэԓюӄ	_	ADV	_	_	8	advmod	_	Gloss=конечно
+12	э	_	PART	_	_	11	discourse	_	Gloss=PTCL
 13	.	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Chapaev:6
