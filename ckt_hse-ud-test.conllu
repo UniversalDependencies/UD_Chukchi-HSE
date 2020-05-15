@@ -2109,7 +2109,7 @@
 2	таӈымыԓьо	_	PRON	_	_	1	nsubj	_	Gloss=GOOD-весь
 3-4	гэетръуԓинэтэ	_	_	_	_	_	_	_	Gloss=PF-приходить-DISTR.S-PF.3SG-PL-=PTCL
 3	гэетръуԓинэт	_	VERB	_	_	1	parataxis	_	Gloss=PF-приходить-DISTR.S-PF.3SG-PL
-4	э	_	PART	_	_	4	discourse	_	Gloss=PTCL
+4	э	_	PART	_	_	3	discourse	_	Gloss=PTCL
 5	ямганымгынымгыпы	_	X	_	_	11	reparandum	_	Gloss=FST
 6	ям	_	X	_	_	11	reparandum	_	Gloss=FST
 7	ян	_	X	_	_	11	reparandum	_	Gloss=FST
@@ -2629,7 +2629,7 @@
 # text[eng] = No!
 # labels = complete-dep anno-karina
 1	Уйӈэ	_	VERB	_	_	0	root	_	Gloss=нет|SpaceAfter=No
-2	.	_	PUNCT	_	_	2	punct	_	_
+2	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Fly_agarics:6
 # text = Уйӈэ.
@@ -2638,7 +2638,7 @@
 # text[eng] = No!
 # labels = complete-dep anno-karina
 1	Уйӈэ	_	VERB	_	_	0	root	_	Gloss=нет|SpaceAfter=No
-2	.	_	PUNCT	_	_	2	punct	_	_
+2	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Fly_agarics:7
 # text = Уйӈэ.
@@ -2647,7 +2647,7 @@
 # text[eng] = No!
 # labels = complete-dep anno-karina
 1	Уйӈэ	_	VERB	_	_	0	root	_	Gloss=нет|SpaceAfter=No
-2	.	_	PUNCT	_	_	2	punct	_	_
+2	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Fly_agarics:8
 # text = Уйӈэ.
@@ -2656,7 +2656,7 @@
 # text[eng] = No!
 # labels = complete-dep anno-karina
 1	Уйӈэ	_	VERB	_	_	0	root	_	Gloss=нет|SpaceAfter=No
-2	.	_	PUNCT	_	_	2	punct	_	_
+2	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Fly_agarics:9
 # text = Ванныт рынныт ванныт рынныт ванныт рынныт ванныт рынныт ванныт рынныт ванныт рынныт ванныт рынныт ванныт рынныт.
@@ -3648,7 +3648,7 @@
 # labels = complete-dep anno-karina
 1-2	Ынкъамэ	_	_	_	_	_	_	_	Gloss=и-=PTCL
 1	Ынкъам	_	CCONJ	_	_	8	cc	_	Gloss=и
-2	э	_	PART	_	_	1	discourse	Gloss=PTCL	_
+2	э	_	PART	_	_	1	discourse	_	Gloss=PTCL
 3	ӄаӈан	_	PART	_	_	8	discourse	_	Gloss=же
 4	микынти	_	PRON	_	_	7	nsubj	_	Gloss=кто-AN.GEN-NOM.PL
 5	игыт	_	ADV	_	_	7	advmod	_	Gloss=сегодня
@@ -5403,7 +5403,7 @@
 # text[rus] = Я в выходные дни…
 # text[eng] = On holidays, I…
 # labels = complete-dep anno-fran
-1	Гым	_	PRON	_	_	1	nsubj	_	Gloss=я
+1	Гым	_	PRON	_	_	2	nsubj	_	Gloss=я
 2	паӈъэвӈытъыԓёк	_	VERB	_	_	0	root	_	Gloss=утомляться-выходить.нер.изм.-день-LOC|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
@@ -5467,7 +5467,7 @@
 6	ъым	_	PART	_	_	5	discourse	_	_
 7	ынкъам	_	CCONJ	_	_	10	cc	_	Gloss=и
 8	эчг	_	X	_	_	9	reparandum	_	Gloss=FST
-9	иԓгытэвкинэт	_	VERB	_	_	10	acl	_	Gloss=мыться-REL-NOM.PL
+9	иԓгытэвкинэт	_	VERB	_	_	10	acl:relat	_	Gloss=мыться-REL-NOM.PL
 10	яаёԓӄыԓтэ	_	NOUN	_	_	2	orphan	2.1:conj	Gloss=использовать-PTCP.PASS-DEB-NOM.PL|SpaceAfter=No
 11	.	_	PUNCT	_	_	2	punct	_	_
 
@@ -5741,7 +5741,7 @@
 4	нинэԓьуӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-видеть-ST.3SG
 5	чиниткин	_	PRON	_	_	6	nmod	_	Gloss=сам-REL-NOM.SG
 6	экык	_	NOUN	_	_	4	obj	_	Gloss=сын-NOM.SG
-7	эймэвыԓьын	_	VERB	_	_	6	acl	_	Gloss=приближаться-ATTR-NOM.SG
+7	эймэвыԓьын	_	VERB	_	_	6	acl:attr	_	Gloss=приближаться-ATTR-NOM.SG
 8-9	ыныкагтым	_	_	_	_	_	_	_	SpaceAfter=No
 8	ыныкагты	_	PRON	_	_	7	obl	_	Gloss=он-OBL-DAT-=EMPH
 9	м	_	PART	_	_	8	discourse	_	_
@@ -6619,7 +6619,7 @@
 # text[eng] = And we were drinking tea.
 # labels = complete-dep anno-fran
 1	И	_	X	_	_	3	discourse	_	Gloss=
-2	это	_	X	_	_	2	flat:foreign	_	Gloss=
+2	это	_	X	_	_	1	flat:foreign	_	Gloss=
 3	нычаёӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-чай-EAT-ST.3SG-PL|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -7533,7 +7533,7 @@
 # labels = complete-dep anno-fran
 1	Ԓьунин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-видеть-3SG.A.3.O-3SG.O
 2	энмэпы	_	NOUN	_	_	3	obl	_	Gloss=скала-ABL
-3	раԓечетыԓьын	_	VERB	_	_	4	acl	_	Gloss=прокатиться-COMB-ATTR-NOM.SG
+3	раԓечетыԓьын	_	VERB	_	_	4	acl:attr	_	Gloss=прокатиться-COMB-ATTR-NOM.SG
 4	ваԓвийӈын	_	NOUN	_	_	1	obj	_	Gloss=ворон-AUG-NOM.SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	1	punct	_	_
 
@@ -7712,7 +7712,7 @@
 # labels = complete-dep anno-fran
 1-3	Тэӈкэԓиԓьыӈэԓвыԓ	_	_	_	_	_	_	_	Gloss=GOOD-писать-ATTR-стадо-NOM.SG
 1	Тэӈ	_	VERB	_	_	2	advmod	_	Gloss=GOOD
-2	кэԓиԓьы	_	ADJ	_	_	3	acl	_	Gloss=писать-ATTR
+2	кэԓиԓьы	_	ADJ	_	_	3	acl:attr	_	Gloss=писать-ATTR
 3	ӈэԓвыԓ	_	NOUN	_	_	4	obj	_	Gloss=стадо-NOM.SG
 4	мыйыԓгыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-давать-2SG.O|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
@@ -10540,7 +10540,7 @@
 # text[rus] = А он на вершине скалы выколачивает подстилку на нарте от снежной пыли.
 # text[eng] = And he is on top of the mountain cleaning the seat pad from snow.
 # labels = complete-dep anno-fran
-1	Энмыткынык	_	NOUN	_	_	1	obl	_	Gloss=скала-TOP-LOC
+1	Энмыткынык	_	NOUN	_	_	2	obl	_	Gloss=скала-TOP-LOC
 2	напэӄовтытэвԓяӄэн	_	VERB	_	_	0	root	_	Gloss=ST-подстилка.на.нарте.из.шкуры-стряхивать-ST.3SG|SpaceAfter=No
 3	.	_	PUNCT	_	_	1	punct	_	_
 
