@@ -16,7 +16,7 @@
 9	.	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Abramovich:2
-# text = Ынкъа ԓюут ӈыръа вэрталёттэ вакъогъатӈа.
+# text = Ынкъа ԓюут ӈыръа вертолёттэ вакъогъатӈа.
 # text[phon] = ənkʔa ɬuut ŋərʔa wertalʲotte wakʔoɣʔatŋa
 # text[rus] = И вдруг четыре вертолёта приземлились.
 # text[eng] = Suddenly, four helicopters landed.
@@ -25,9 +25,9 @@
 2	ԓюут	_	ADV	_	_	5	advmod	_	Gloss=вдруг
 3	ӈыръа	_	NUM	_	_	4	nummod	_	Gloss=четыре
 4	вертолёттэ	_	NOUN	_	_	5	nsubj	_	Gloss=вертолёт-NOM.PL
-5-6	вакъогъатӈа	_	_	_	_	_	_	_	Gloss=2/3.S/A-садиться-TH-PL-=PTCL
-5	вакъогъатӈ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-садиться-TH-PL
-6	а	_	PART	_	_	5	discourse	_	Gloss=PTCL|SpaceAfter=No
+5-6	вакъогъатӈа	_	_	_	_	_	_	_	Gloss=2/3.S/A-садиться-TH-PL-=PTCL|SpaceAfter=No
+5	вакъогъат	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-садиться-TH-PL
+6	ӈа	_	PART	_	_	5	discourse	_	Gloss=PTCL
 7	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Abramovich:3
@@ -39,9 +39,9 @@
 1	Ныныпчеӈивйивӄин	_	VERB	_	_	0	root	_	Gloss=ST-TR-расспрашивать-CS-DISTR.O-ST.3SG
 2	коԓё	_	ADV	_	_	1	advmod	_	Gloss=очень
 3	нымныма	_	NOUN	_	_	1	nsubj	_	Gloss=посёлок-INS
-4-5	Медведевъым	_	_	_	_	_	_	_	Gloss=Медведев-NOM.SG-=EMPH
+4-5	Медведевъым	_	_	_	_	_	_	_	Gloss=Медведев-NOM.SG-=EMPH|SpaceAfter=No
 4	Медведев	_	PROPN	_	_	1	obj	_	Gloss=Медведев-NOM.SG
-5	ъым	_	PART	_	_	4	discourse	_	Gloss=EMPH|SpaceAfter=No
+5	ъым	_	PART	_	_	4	discourse	_	Gloss=EMPH
 6	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Abramovich:4
@@ -58,7 +58,7 @@
 6	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Abramovich:5
-# text = Ԓюутэ Абрамович ӈыронвэрталёта вакъогъэ нэмыӄэй.
+# text = Ԓюутэ Абрамович ӈыронвертолёта вакъогъэ нэмыӄэй.
 # text[phon] = ɬuute abramowič ŋəronwertalʲota wakʔoɣʔe neməqej
 # text[rus] = Вдруг Абрамович на трёх вертолётах приземлился тоже.
 # text[eng] = Suddenly, three helicopters landed and Abramovich was there.
