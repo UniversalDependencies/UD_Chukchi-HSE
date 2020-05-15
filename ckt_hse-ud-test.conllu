@@ -10025,13 +10025,13 @@
 # text[rus] = Быстро надел меховую одежду.
 # text[eng] = I quickly put on my fur clothes.
 # labels = complete-dep anno-fran
-1	Пэтԓе	_	ADV	_	_	2	advmod	_	Gloss=быстро
-2-4	тыԓыгавэръэпыгъакъыма	_	_	_	_	_	_	_	SpaceAfter=No
-2	тыԓыгавэръэпыгъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-AUTH-одежда.из.шкур-надевать-TH-1SG.S-=EMPH-=PTCL
-2.1	авэръ	_	NOUN	_	_	_	_	1:obj	Gloss=одежда.из.шкур
-3	ъым	_	PART	_	_	2	discourse	_	_
-4	а	_	PART	_	_	2	discourse	_	_
-5	.	_	PUNCT	_	_	2	punct	_	_
+1	Пэтԓе	_	ADV	_	_	2	advmod	2:advmod	Gloss=быстро
+2-4	тыԓыгавэръэпыгъакъыма	_	_	_	_	_	_	_	Gloss=1SG.S/A-AUTH-одежда.из.шкур-надевать-TH-1SG.S-=EMPH-=PTCL|SpaceAfter=No
+2	тыԓыгавэръэпыгъак	_	VERB	_	_	0	root	0:root	Gloss=1SG.S/A-AUTH-одежда.из.шкур-надевать-TH-1SG.S
+2.1	авэръ	_	NOUN	_	_	_	_	2:obj	Gloss=одежда.из.шкур
+3	ъым	_	PART	_	_	2	discourse	2:discourse	Gloss=EMPH
+4	а	_	PART	_	_	2	discourse	2:discourse	Gloss=PTCL
+5	.	_	PUNCT	_	_	2	punct	2:punct	_
 
 # sent_id = Water_cart:12
 # text = Ӄорыӈа эʼми епӈа ӄуттиӈа нъатчаӄаат оʼравэтԓьат.
@@ -10125,12 +10125,12 @@
 # text[phon] = naqam eek nəwitʔəteɬpəqin
 # text[rus] = Но на лампе заканчивался фитиль.
 # text[eng] = But the wick in the oil lamp was coming to an end.
-# labels = complete-dep anno-fran incorporation
-1	Наӄам	_	ADV	_	_	3	advmod	_	Gloss=однако
-2	ээк	_	NOUN	_	_	3	nsubj	_	Gloss=жирник-NOM.SG
-3	нывитъытэԓпыӄин	_	VERB	_	_	0	root	_	Gloss=ST-фитиль-кончаться-ST.3SG|SpaceAfter=No
+# labels = complete-dep anno-fran valency incorporation
+1	Наӄам	_	CCONJ	_	_	3	cc	3:cc	Gloss=однако
+2	ээк	_	NOUN	_	_	3	nsubj	3:nsubj	Gloss=жирник-NOM.SG
+3	нывитъытэԓпыӄин	_	VERB	_	_	0	root	0:root	Gloss=ST-фитиль-кончаться-ST.3SG|SpaceAfter=No
 3.1	витъ	_	NOUN	_	_	_	_	3:dep	Gloss=фитиль
-4	.	_	PUNCT	_	_	3	punct	_	_
+4	.	_	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = Water_cart:18
 # text = Пэԓӄынтэнмык вездеходетыӈ.
@@ -10421,13 +10421,13 @@
 # text[rus] = А у водителя совсем заканчивалось топливо.
 # text[eng] = And the driver was running out of fuel.
 # labels = complete-dep anno-fran
-1	Наӄам	_	CCONJ	_	_	3	cc	_	Gloss=однако
-2	ковԓёрвыткоԓьын	_	NOUN	_	_	3	nsubj	_	Gloss=шар-нарта-ITER-ATTR-NOM.SG
-3-4	гаԓгэмытӄытаԓпыӈӈоԓенъым	_	_	_	_	_	_	_	SpaceAfter=No
-3	гаԓгэмытӄытаԓпыӈӈоԓен	_	VERB	_	_	0	root	_	Gloss=PF-INTS-жир-кончаться-INCH-PF.3SG-=EMPH
+1	Наӄам	_	CCONJ	_	_	3	cc	3:cc	Gloss=однако
+2	ковԓёрвыткоԓьын	_	NOUN	_	_	3	nsubj	3:nsubj	Gloss=шар-нарта-ITER-ATTR-NOM.SG
+3-4	гаԓгэмытӄытаԓпыӈӈоԓенъым	_	_	_	_	_	_	_	Gloss=PF-INTS-жир-кончаться-INCH-PF.3SG-=EMPH|SpaceAfter=No
+3	гаԓгэмытӄытаԓпыӈӈоԓен	_	VERB	_	_	0	root	0:root	Gloss=PF-INTS-жир-кончаться-INCH-PF.3SG
 3.1	мытӄыт	_	NOUN	_	_	_	_	3:obj	Gloss=жир
-4	ъым	_	PART	_	_	3	discourse	_	_
-5	.	_	PUNCT	_	_	3	punct	_	_
+4	ъым	_	PART	_	_	3	discourse	3:discourse	_
+5	.	_	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = Water_cart:40
 # text = Ръэнут.
@@ -10832,18 +10832,18 @@
 # text[rus] = Смотрят: уже и ветер стих (пар прошёл), и снежный вихрь.
 # text[eng] = They look around, and the snowstorm is gone, the blizzard is gone.
 # labels = complete-dep anno-fran
-1	Нэгитэгъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-смотреть-TH-3SG.O
+1	Нэгитэгъэн	_	VERB	_	_	0	root	0:root	Gloss=LOW.A-смотреть-TH-3SG.O
 2-3	эвына	_	_	_	_	_	_	_	_
-2	эвын	_	ADV	_	_	4	advmod	_	Gloss=уже-=PTCL
-3	а	_	PART	_	_	2	discourse	_	_
-4	выегаԓягъэ	_	VERB	_	_	1	parataxis	_	Gloss=2/3.S/A-воздух-проходить-TH-2/3SG.S
+2	эвын	_	ADV	_	_	4	advmod	4:advmod	Gloss=уже-=PTCL
+3	а	_	PART	_	_	2	discourse	2:discourse	_
+4	выегаԓягъэ	_	VERB	_	_	1	parataxis	1:parataxis	Gloss=2/3.S/A-воздух-проходить-TH-2/3SG.S
 4.1	вые	_	NOUN	_	_	_	_	4:obj	Gloss=воздух
-5	въяԓгаԓягъэ	_	VERB	_	_	1	parataxis	_	Gloss=2/3.S/A-пурга-проходить-TH-2/3SG.S
+5	въяԓгаԓягъэ	_	VERB	_	_	1	parataxis	1:parataxis	Gloss=2/3.S/A-пурга-проходить-TH-2/3SG.S
 5.1	въяԓ	_	NOUN	_	_	_	_	5:obj	Gloss=пурга
-6-7	эвына	_	_	_	_	_	_	_	SpaceAfter=No
-6	эвын	_	ADV	_	_	5	advmod	_	Gloss=уже-=PTCL
-7	а	_	PART	_	_	6	discourse	_	_
-8	.	_	PUNCT	_	_	1	punct	_	_
+6-7	эвына	_	_	_	_	_	_	_	Gloss=уже-=PTCL|SpaceAfter=No
+6	эвын	_	ADV	_	_	5	advmod	5:advmod	Gloss=уже
+7	а	_	PART	_	_	6	discourse	6:discourse	Gloss=PTCL
+8	.	_	PUNCT	_	_	1	punct	1:punct	_
 
 # sent_id = Yurgayuk:10
 # text = Энмыткынык напэӄовтытэвԓяӄэн.
