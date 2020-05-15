@@ -1111,6 +1111,7 @@
 1	Мрэнти	_	PROPN	_	_	0	root	_	Gloss=комар-NOM.PL|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Brandy:7
 # text[phon] = naqam brendi называлось
 # text[rus] = На самом деле называлось «Бренди».
 # text[eng] = In fact, it was called «Brandy».
