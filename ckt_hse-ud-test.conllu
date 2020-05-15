@@ -1562,7 +1562,7 @@
 # text[eng] = How this Chapaev jumps out at high speed.
 # labels = complete-dep anno-karina
 1	Ынӄэн	_	DET	_	_	3	det	_	Gloss=DET
-2	ыныкит	_	SCONJ	_	_	6	advmod	_	Gloss=если
+2	ыныкит	_	ADV	_	_	6	advmod	_	Gloss=если
 3	чапаевӄай	_	PROPN	_	_	6	nsubj	_	Gloss=Чапаев-DIM-NOM.SG
 4	нын	_	X	_	_	6	reparandum	_	Gloss=FST
 5	нэнъиръиԓемйигӈы	_	X	_	_	6	reparandum	_	Gloss=FST
@@ -1592,12 +1592,12 @@
 # text[eng] = And he is moving it above his head like that.
 # labels = complete-dep anno-karina
 1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
-1	Ынӄэн	_	DET	_	_	7	nsubj	_	Gloss=DET-=PTCL
+1	Ынӄэн	_	PRON	_	_	7	nsubj	_	Gloss=DET-=PTCL
 2	э	_	PART	_	_	1	discourse	_	_
 3	ԓевтык	_	NOUN	_	_	7	obl	_	Gloss=голова-LOC
 4	гыргоԓя	_	ADP	_	_	3	case	_	Gloss=вверху
 5	вай	_	PART	_	_	6	discourse	_	Gloss=вот
-6	ынӈин	_	PRON	_	_	7	advmod	_	Gloss=так
+6	ынӈин	_	ADV	_	_	7	advmod	_	Gloss=так
 7	нинэниԓюйвыӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-TR-двигаться-DISTR.O-ST.3SG
 8-9	нинэниԓюйвыӄинъым	_	_	_	_	_	_	_	SpaceAfter=No
 8	нинэниԓюйвыӄин	_	VERB	_	_	7	parataxis	_	Gloss=ST-INV-TR-двигаться-DISTR.O-ST.3SG-=EMPH
@@ -1612,7 +1612,7 @@
 # labels = complete-dep anno-karina
 1	И	_	X	_	_	5	cc	_	Gloss=и
 2	ӈинӄэйӄэгти	_	NOUN	_	_	5	nsubj	_	Gloss=молодой-DIM-DIM-NOM.PL
-3	ӈээккэӄэгти	_	NOUN	_	_	2	cc	_	Gloss=FEM-сын-DIM-NOM.PL
+3	ӈээккэӄэгти	_	NOUN	_	_	2	conj	_	Gloss=FEM-сын-DIM-NOM.PL
 4	ымыԓьо	_	PRON	_	_	3	appos	_	Gloss=весь
 5	нивӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3SG-PL|SpaceAfter=No
 6	.	_	PUNCT	_	_	5	punct	_	_
