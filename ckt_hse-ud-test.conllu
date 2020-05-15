@@ -852,22 +852,22 @@
 4	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Boots:8
-# text = Ынкъамэ триԓгытэквъэыʼм травэръэпыгъа трачапокгыпгъа.
+# text = Ынкъамэ триԓгытэквъэыʼм травэръэпыгъа трасапокгыпгъа.
 # text[phon] = ənkʔame triɬɣətekwʔeʔəm trawerʔepəɣʔa trasapokɣəpɣʔa
 # text[rus] = DMP: — Ещё помоюсь, оденусь, надену сапоги.
 # text[eng] = DMP: — And I will wash myself, get dressed, put on my boots.
 # labels = complete-dep anno-fran
-1-2	Ынкъамэ	_	_	_	_	_	_	_	_
-1	Ынкъам	_	CCONJ	_	_	3	cc	_	Gloss=и-=PTCL
-2	э	_	PART	_	_	1	discourse	_	_
-3-4	триԓгытэквъэыʼм	_	_	_	_	_	_	_	_
-3	триԓгытэквъэ	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-мыться-TH-=EMPH
-4	ыʼм	_	PART	_	_	3	discourse	_	_
-5	травэръэпыгъа	_	VERB	_	_	3	parataxis	_	Gloss=1SG.S/A-FUT-одежда.из.шкур-надевать-TH
+1-2	Ынкъамэ	_	_	_	_	_	_	_	Gloss=и-=PTCL
+1	Ынкъам	_	CCONJ	_	_	3	cc	3:cc	Gloss=и
+2	э	_	PART	_	_	1	advmod:emph	1:advmod	Gloss=PTCL
+3-4	триԓгытэквъэыʼм	_	_	_	_	_	_	_	Gloss=1SG.S/A-FUT-мыться-TH-=EMPH
+3	триԓгытэквъэ	_	VERB	_	_	0	root	0:root	Gloss=1SG.S/A-FUT-мыться-TH
+4	ыʼм	_	PART	_	_	3	advmod:emph	3:advmod	Gloss=EMPH
+5	травэръэпыгъа	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=1SG.S/A-FUT-одежда.из.шкур-надевать-TH
 5.1	авэръ	_	NOUN	_	_	_	_	5:obj	Gloss=одежда.из.шкур
-6	трачапокгыпгъа	_	VERB	_	_	3	parataxis	_	Gloss=1SG.S/A-FUT-сапог-надевать-TH|SpaceAfter=No
-6.1	чапок	_	NOUN	_	_	_	_	6:obj	Gloss=сапог
-7	.	_	PUNCT	_	_	3	punct	_	_
+6	трасапокгыпгъа	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=1SG.S/A-FUT-сапог-надевать-TH|SpaceAfter=No
+6.1	сапок	_	NOUN	_	_	_	_	6:obj	Gloss=сапог
+7	.	_	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = Boots:9
 # text = Ынӄо гыныкы травэтгавъёԓгыткогъам ынкъам мынԓеркын мынԓеркын.
