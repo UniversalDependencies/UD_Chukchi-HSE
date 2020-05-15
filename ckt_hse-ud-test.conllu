@@ -3960,7 +3960,7 @@
 # text[eng] = They are talking together.
 # labels = complete-dep anno-fran
 1	Нывэтгавӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-говорить-ST.3SG-PL
-2	ӈирэргэри	_	NUM	_	_	1	advmod	_	Gloss=два-AGGR|SpaceAfter=No
+2	ӈирэргэри	_	ADV	_	_	1	advmod	_	Gloss=два-AGGR|SpaceAfter=No
 3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = I_am_from_Chukotka:22
