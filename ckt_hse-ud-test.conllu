@@ -2860,7 +2860,7 @@
 8	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Grass:1
-# text = Мури Ӈакаԓгын ынмынкав гым ынкъам ӄоԓьым Наташа Канунникава.
+# text = Мури Ӈакаԓгын Ынмынкав гым ынкъам ӄоԓьым Наташа Канунникава.
 # text[phon] = muri ŋakaɬɣən ənmənkaw ɣəm ənkʔam qoɬʔəm nataša kanunnʲikawa
 # text[rus] = Мы — Накаль, Ынмынкау, я и это… Наташа Канунникова…
 # text[eng] = We—Ngakalgyn, Ynmynkaw, me and… Natasha Kanunnikova…
@@ -2874,7 +2874,7 @@
 6	ӄоԓ	_	PRON	_	_	8	discourse	_	Gloss=некий-=EMPH
 7	ьым	_	PART	_	_	6	discourse	_	_
 8	Наташа	_	PROPN	_	_	9	flat:name	_	Gloss=Наташа-NOM.SG
-9	Канунникава	_	PROPN	_	_	2	conj	_	Gloss=Канунникова-NOM.SG
+9	Канунникава	_	PROPN	_	_	2	conj	_	Gloss=Канунникова-NOM.SG|SpaceAfter=No
 10	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Grass:2
@@ -3658,7 +3658,7 @@
 9	.	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Hooligan:1
-# text = Нымӈыԓтэԓӄэн Ваӈӄарэмакэн куувэӈэ аӈӄаԓьын.
+# text = Нымӈыԓтэԓӄэн Ваӈӄарэмакэн Куувэӈэ аӈӄаԓьын.
 # text[phon] = nəmŋəɬteɬqen waŋqaremaken kuuweŋe aŋqaɬʔən
 # text[rus] = Ванкаремский Куувэн, помор, рассказывал.
 # text[eng] = Kuuwen from Wankarem, a maritime Chukchi, told (this story).
@@ -3666,9 +3666,9 @@
 1	Нымӈыԓтэԓӄэн	_	VERB	_	_	0	root	_	Gloss=ST-весть-DUR-ST.3SG
 2	Ваӈӄарэмакэн	_	PROPN	_	_	3	nmod:relat	_	Gloss=Ванкарем-REL
 3-4	Куувэӈэ	_	_	_	_	_	_	_	Gloss=Куувэн-NOM.SG-=PTCL
-3	Куувэӈ	_	PROPN	_	_	1	nsubj	_	Gloss=Куувэн-NOM.SG
+3	Куувэ	_	PROPN	_	_	1	nsubj	_	Gloss=Куувэн-NOM.SG
 4	ӈэ	_	PART	_	_	3	discourse	_	Gloss=PTCL
-5	аӈӄаԓьын	_	NOUN	_	_	3	nmod	_	Gloss=море-ATTR-NOM.SG
+5	аӈӄаԓьын	_	NOUN	_	_	3	nmod	_	Gloss=море-ATTR-NOM.SG|SpaceAfter=No
 6	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Hooligan:2
@@ -5421,7 +5421,7 @@
 6	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Let’s_go_wash_to_Egvekinot:3
-# text = Эпэӄэй эԓгыӄанъявэты мынги мыниԓгытэвысӄивмык.
+# text = Эпэӄэй Эԓгыӄанъявэты мынги мыниԓгытэвысӄивмык.
 # text[phon] = epeqej eɬɣəqanjawetə mənɣi məniɬɣətewəsqiwmək
 # text[rus] = «Бабушка, давай поедем в Эгвекинот мыться (в бане)».
 # text[eng] = Babushka, let’go wash to Egvekinot.
@@ -5429,7 +5429,7 @@
 1	Эпэӄэй	_	NOUN	_	_	4	vocative	_	Gloss=бабушка-NOM.SG
 2	Эԓгыӄанъявэты	_	PROPN	_	_	4	obl	_	Gloss=белый-ущелье-DAT
 3	мынги	_	X	_	_	4	reparandum	_	Gloss=FST
-4	мыниԓгытэвысӄивмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-мыться-MCP-1PL.S/O
+4	мыниԓгытэвысӄивмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-мыться-MCP-1PL.S/O|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Let’s_go_wash_to_Egvekinot:4
@@ -5522,7 +5522,7 @@
 3	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Let’s_go_wash_to_Egvekinot:10
-# text = Етгъэтъым мытэквэнмык эԓгыӄанъявэты.
+# text = Етгъэтъым мытэквэнмык Эԓгыӄанъявэты.
 # text[phon] = jetɣʔetʔəm mətekwenmək eɬɣəqanjawetə
 # text[rus] = Они приехали, мы поехали в Эгвекинот.
 # text[eng] = They came, we went to Egvekinot.
@@ -5531,7 +5531,7 @@
 1	Етгъэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-приходить-TH-PL-=EMPH
 2	ъым	_	PART	_	_	1	discourse	_	_
 3	мытэквэнмык	_	VERB	_	_	1	parataxis	_	Gloss=1PL.S/A-отправляться-1PL.S/O
-4	Эԓгыӄанъявэты	_	PROPN	_	_	3	obl	_	Gloss=белый-ущелье-DAT
+4	Эԓгыӄанъявэты	_	PROPN	_	_	3	obl	_	Gloss=белый-ущелье-DAT|SpaceAfter=No
 5	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Let’s_go_wash_to_Egvekinot:11
@@ -5913,7 +5913,7 @@
 8	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Mother:2
-# text = Гымнин ытԓя тэԓенъеп ганрагтатԓен ытԓыгэ ринтыкэвнэ.
+# text = Гымнин ытԓя тэԓенъеп ганрагтатԓен ытԓыгэ Ринтыкэвнэ.
 # text[phon] = ɣəmnin ətɬa teɬenjep ɣanraɣtatɬen ətɬəɣe rintəkewne
 # text[rus] = Давным-давно мой отец, Ринтыкеу, взял в жёны мою мать.
 # text[eng] = A long time ago my father Rintykew married my mother.
@@ -5923,11 +5923,11 @@
 3	тэԓенъеп	_	ADV	_	_	4	advmod	_	Gloss=раньше-ещё
 4	ганрагтатԓен	_	VERB	_	_	0	root	_	Gloss=PF-TR-жилище-GO.TO-VB-PF.3SG
 5	ытԓыгэ	_	NOUN	_	_	4	nsubj	_	Gloss=отец-INS
-6	Ринтыкэвнэ	_	PROPN	_	_	5	appos	_	Gloss=Ринтыкеу-AN.INS
+6	Ринтыкэвнэ	_	PROPN	_	_	5	appos	_	Gloss=Ринтыкеу-AN.INS|SpaceAfter=No
 7	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Mother:3
-# text = Ныннын гымынин ытԓьакэн руԓтыӈэвыт.
+# text = Ныннын гымынин ытԓьакэн Руԓтыӈэвыт.
 # text[phon] = nənnən ɣəmənin ətɬʔaken ruɬtəŋewət
 # text[rus] = Мою маму звали Рультынэвыт.
 # text[eng] = The name of my mother was Rultynewyt.
@@ -5935,7 +5935,7 @@
 1	Ныннын	_	PRON	_	_	4	nsubj	_	Gloss=имя-NOM.SG
 2	гымынин	_	PRON	_	_	3	nmod:poss	_	Gloss=я-AN.GEN
 3	ытԓьакэн	_	NOUN	_	_	1	nmod:relat	_	Gloss=мать-REL
-4	Руԓтыӈэвыт	_	PROPN	_	_	0	root	_	Gloss=Рультынэвыт-NOM.SG
+4	Руԓтыӈэвыт	_	PROPN	_	_	0	root	_	Gloss=Рультынэвыт-NOM.SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Mother:5
@@ -7444,7 +7444,7 @@
 4	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Public_baths:3
-# text = Ӈоонрэ тыԓяма эԓгыӄанъявэты гэмэчпъоӈгэԓеморэ.
+# text = Ӈоонрэ тыԓяма Эԓгыӄанъявэты гэмэчпъоӈгэԓеморэ.
 # text[phon] = ŋoonre təɬama eɬɣəqanjawetə ɣemespʔoŋɣeɬemore
 # text[rus] = По дороге туда, в Эгвекинот, мы собрали немного грибов.
 # text[eng] = On the road to Egvekinot we gathered some mushrooms.
@@ -7452,7 +7452,7 @@
 1	Ӈоонрэ	_	ADV	_	_	4	advmod	_	Gloss=там-ADV.ALL
 2	тыԓяма	_	VERB	_	_	4	advcl	_	Gloss=идти-SIM
 3	Эԓгыӄанъявэты	_	PROPN	_	_	4	obl	_	Gloss=белый-ущелье-DAT
-4	гэмэчпъоӈгэԓеморэ	_	VERB	_	_	0	root	_	Gloss=PF-APPR-гриб-SEARCH-NP.1PL
+4	гэмэчпъоӈгэԓеморэ	_	VERB	_	_	0	root	_	Gloss=PF-APPR-гриб-SEARCH-NP.1PL|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Public_baths:4
@@ -8199,7 +8199,7 @@
 9	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Telyopka:1
-# text = Тэлёпкаӄай тэлёпкаӄай аны ӄыгывъекви.
+# text = Тэлёпкаӄай Тэлёпкаӄай аны ӄыгывъекви.
 # text[phon] = telʲopkaqaj telʲopkaqaj anə qəɣəwjekwi
 # text[rus] = Телёпка, Телёпка, ну проснись.
 # text[eng] = Telyopka, Telyopka, come on, wake up.
@@ -8207,11 +8207,11 @@
 1	Тэлёпкаӄай	_	PROPN	_	_	2	reparandum	_	Gloss=Телёпка-DIM-NOM.SG
 2	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
 3	аны	_	ADV	_	_	4	advmod	_	Gloss=давай
-4	ӄыгывъекви	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S
+4	ӄыгывъекви	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Telyopka:2
-# text = Ивкэ гыто ӄуӈэԓги тэлёпкаӄай.
+# text = Ивкэ гыто ӄуӈэԓги Тэлёпкаӄай.
 # text[phon] = iwke ɣəto quŋeɬɣi telʲopkaqaj
 # text[rus] = Пожалуйста, сходи за дровами, Телёпка.
 # text[eng] = Please, go and gather firewood, Telyopka.
@@ -8219,7 +8219,7 @@
 1	Ивкэ	_	AUX	_	_	3	aux	_	Gloss=OPT
 2	гыто	_	PRON	_	_	3	nsubj	_	Gloss=ты
 3	ӄуӈэԓги	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-собирать.дрова-IRR-2/3SG.S
-4	Тэлёпкаӄай	_	PROPN	_	_	3	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+4	Тэлёпкаӄай	_	PROPN	_	_	3	vocative	_	Gloss=Телёпка-DIM-NOM.SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Telyopka:3
@@ -8269,7 +8269,7 @@
 6	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Telyopka:7
-# text = Тэлёпкаӄай тэлёпкаӄай аны ӄыгывъекви.
+# text = Тэлёпкаӄай Тэлёпкаӄай аны ӄыгывъекви.
 # text[phon] = telʲopkaqaj telʲopkaqaj anə qəɣəwjekwi
 # text[rus] = Телёпка, Телёпка, ну проснись.
 # text[eng] = Telyopka, Telyopka, come on, wake up.
@@ -8277,11 +8277,11 @@
 1	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
 2	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
 3	аны	_	AUX	_	_	4	aux	_	Gloss=давай
-4	ӄыгывъекви	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S
+4	ӄыгывъекви	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Telyopka:8
-# text = Ивкэ гыто ӄаймыгэ тэлёпкаӄай.
+# text = Ивкэ гыто ӄаймыгэ Тэлёпкаӄай.
 # text[phon] = iwke ɣəto qajməɣe telʲopkaqaj
 # text[rus] = Пожалуйста, ты сходи за водой, Телёпка.
 # text[eng] = Please, go and get some water, Telyopka.
@@ -8289,7 +8289,7 @@
 1	Ивкэ	_	AUX	_	_	3	aux	_	Gloss=OPT
 2	гыто	_	PRON	_	_	3	nsubj	_	Gloss=ты
 3	ӄаймыгэ	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-сходить.за.водой-IRR-2/3SG.S
-4	Тэлёпкаӄай	_	PROPN	_	_	3	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+4	Тэлёпкаӄай	_	PROPN	_	_	3	vocative	_	Gloss=Телёпка-DIM-NOM.SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Telyopka:9
@@ -8326,7 +8326,7 @@
 3	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Telyopka:12
-# text = Ыммымэӄэй тэлёпкаӄай тэлёпкаӄай аны ӄыгывъекви.
+# text = Ыммымэӄэй Тэлёпкаӄай Тэлёпкаӄай аны ӄыгывъекви.
 # text[phon] = əmməmeqej telʲopkaqaj telʲopkaqaj anə qəɣəwjekwi
 # text[rus] = Мама: Телёпка, Телёпка, ну проснись.
 # text[eng] = Mother: Telyopka, Telyopka, come on, wake up.
@@ -8335,11 +8335,11 @@
 2	Тэлёпкаӄай	_	PROPN	_	_	5	vocative	_	Gloss=Телёпка-DIM-NOM.SG
 3	Тэлёпкаӄай	_	PROPN	_	_	5	vocative	_	Gloss=Телёпка-DIM-NOM.SG
 4	аны	_	AUX	_	_	5	aux	_	Gloss=давай
-5	ӄыгывъекви	_	VERB	_	_	1	parataxis	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S
+5	ӄыгывъекви	_	VERB	_	_	1	parataxis	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S|SpaceAfter=No
 6	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Telyopka:13
-# text = Ивкэ гынан ӄывинтэтги тэлёпкаӄай.
+# text = Ивкэ гынан ӄывинтэтги Тэлёпкаӄай.
 # text[phon] = iwke ɣənan qəwintetɣi telʲopkaqaj
 # text[rus] = Пожалуйста, подкинь дров в костёр, Телёпка.
 # text[eng] = Please, put some wood into the fire, Telyopka.
@@ -8347,7 +8347,7 @@
 1	Ивкэ	_	AUX	_	_	3	aux	_	Gloss=OPT
 2	гынан	_	PRON	_	_	3	nsubj	_	Gloss=ты.INS
 3	ӄывинтэтги	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-подбрасывать.дрова.в.огонь-VB-IRR-2/3SG.S
-4	Тэлёпкаӄай	_	PROPN	_	_	3	vocative	_	Gloss=Телёпка-DIM-NOM.SG
+4	Тэлёпкаӄай	_	PROPN	_	_	3	vocative	_	Gloss=Телёпка-DIM-NOM.SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Telyopka:14
@@ -8385,7 +8385,7 @@
 3	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Telyopka:17
-# text = Тэлёпкаӄай тэлёпкаӄай аны ӄыгывъекви.
+# text = Тэлёпкаӄай Тэлёпкаӄай аны ӄыгывъекви.
 # text[phon] = telʲopkaqaj telʲopkaqaj anə qəɣəwjekwi
 # text[rus] = Телёпка, Телёпка, ну проснись.
 # text[eng] = Telyopka, Telyopka, come on, wake up.
@@ -8393,7 +8393,7 @@
 1	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
 2	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
 3	аны	_	AUX	_	_	4	aux	_	Gloss=давай
-4	ӄыгывъекви	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S
+4	ӄыгывъекви	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Telyopka:18
@@ -8590,7 +8590,7 @@
 2	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tenylqot_and_Eqelqot:1
-# text = Гатваԓенат Тэӈыԓӄотъым эʼӄэԓӄот.
+# text = Гатваԓенат Тэӈыԓӄотъым Эʼӄэԓӄот.
 # text[phon] = ɣatwaɬenat teŋəɬqotʔəm ʔeqeɬqot
 # text[rus] = Жили-были Тэнылькот и Экэлькот.
 # text[eng] = Once upon a time, there lived Tenylkot and Ekelkot.
@@ -8599,7 +8599,7 @@
 2-3	Тэӈыԓӄотъым	_	_	_	_	_	_	_	_
 2	Тэӈыԓӄот	_	PROPN	_	_	1	nsubj	_	Gloss=Тэнылькот-NOM.SG-=EMPH
 3	ъым	_	PART	_	_	2	discourse	_	_
-4	Эʼӄэԓӄот	_	PROPN	_	_	2	conj	_	Gloss=Экэлькот-NOM.SG
+4	Эʼӄэԓӄот	_	PROPN	_	_	2	conj	_	Gloss=Экэлькот-NOM.SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Tenylqot_and_Eqelqot:2
@@ -8627,14 +8627,14 @@
 5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Tenylqot_and_Eqelqot:4
-# text = А эʼӄэԓӄот гэтэӈыԓтэтԓин.
+# text = А Эʼӄэԓӄот гэтэӈыԓтэтԓин.
 # text[phon] = а ʔeqeɬqot ɣeteŋəɬtetɬin
 # text[rus] = А Экэлькот хорошо себя повёл.
 # text[eng] = And Ekelkot behaved well.
 # labels = complete-dep anno-fran
 1	А	_	CCONJ	_	_	3	cc	_	Gloss=
 2	Эʼӄэԓӄот	_	PROPN	_	_	3	nsubj	_	Gloss=Экэлькот-NOM.SG
-3	гэтэӈыԓтэтԓин	_	ADJ	_	_	0	root	_	Gloss=PF-хороший-BE-PF.3SG
+3	гэтэӈыԓтэтԓин	_	ADJ	_	_	0	root	_	Gloss=PF-хороший-BE-PF.3SG|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = The_day_before_yesterday:1
@@ -9217,7 +9217,7 @@
 10	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Vacation:11
-# text = Ынӄоры нэмэ Питирэты мытрэԓӄытгъэ.
+# text = Ынӄоры нэмэ Питерэты мытрэԓӄытгъэ.
 # text[phon] = ənqorə neme pitiretə mətreɬqətɣʔe
 # text[rus] = Потом мы вернёмся в Питер.
 # text[eng] = Then we will return to St. Petersburg.
@@ -9225,7 +9225,7 @@
 1	Ынӄоры	_	ADV	_	_	4	advmod	_	Gloss=потом
 2	нэмэ	_	ADV	_	_	4	advmod	_	Gloss=опять
 3	Питерэты	_	PROPN	_	_	4	obl	_	Gloss=Питер-DAT
-4	мытрэԓӄытгъэ	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-FUT-идти-TH
+4	мытрэԓӄытгъэ	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-FUT-идти-TH|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Vacation:12
@@ -9842,7 +9842,7 @@
 # text[eng] = We came back to the all-terrain vehicle.
 # labels = complete-dep anno-fran
 1	Пэԓӄынтэнмык	_	VERB	_	_	0	root	_	Gloss=возвращаться-VB-1PL.S/O
-2	вездехотетыӈ	_	NOUN	_	_	1	obl	_	Gloss=вездеход-DAT-AD
+2	вездеходетыӈ	_	NOUN	_	_	1	obl	_	Gloss=вездеход-DAT-AD|SpaceAfter=No
 3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Water_cart:19
