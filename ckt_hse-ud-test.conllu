@@ -2159,7 +2159,7 @@
 # text[rus] = И пристально смотрели на танцующих.
 # text[eng] = And they gazed at the dancers.
 # labels = complete-dep anno-karina
-1	Чама	_	ADV	_	_	2	сс	_	Gloss=также
+1	Чама	_	ADV	_	_	2	cc	_	Gloss=также
 2	ныԓыԓептиԓръуӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-открыть.глаза-DUR-DISTR.S-ST.3SG-PL
 3-4	эԓёԓьыԓьэтъым	_	_	_	_	_	_	_	SpaceAfter=No
 3	эԓёԓьыԓьэт	_	VERB	_	_	2	obj	_	Gloss=шевелиться-ATTR-DAT-=EMPH
@@ -2273,8 +2273,8 @@
 # text[rus] = В общем, в клубе народ побывал на концерте.
 # text[eng] = In the end, people went to the concert in the club.
 # labels = complete-dep anno-karina
-1	В	_	X	_	_	2	flat:foreign	_	Gloss=
-2	общем	_	X	_	_	5	discourse	_	Gloss=
+1	В	_	X	_	_	5	flat:foreign	_	Gloss=
+2	общем	_	X	_	_	1	discourse	_	Gloss=
 3	рэмкын	_	NOUN	_	_	5	nsubj	_	Gloss=народ-NOM.SG
 4	клубык	_	NOUN	_	_	5	obl	_	Gloss=клуб-LOC
 5	гаканчертԓен	_	VERB	_	_	0	root	_	Gloss=PF-концерт-PF.3SG|SpaceAfter=No
@@ -8831,9 +8831,9 @@
 # text[rus] = Таким образом…
 # text[eng] = So…
 # labels = complete-dep anno-fran
-1-2	Ынӄэнатаӈэ	_	_	_	_	_	_	_	SpaceAfter=No
-1	Ынӄэнатаӈ	_	PRON	_	_	0	root	_	Gloss=DET-INS-=PTCL
-2	э	_	PART	_	_	1	discourse	_	_
+1-2	Ынӄэнатаӈэ	_	_	_	_	_	_	_	Gloss=DET-INS-=PTCL|SpaceAfter=No
+1	Ынӄэната	_	PRON	_	_	0	root	_	Gloss=DET-INS
+2	ӈэ	_	PART	_	_	1	discourse	_	Gloss=PTCL
 3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = The_Eskimo_is_fishing:10
