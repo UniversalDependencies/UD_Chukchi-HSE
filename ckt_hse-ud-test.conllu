@@ -9682,15 +9682,15 @@
 # text[rus] = Потом мы залезали на сопку, сначала по склону сопки поднимались, чай попили на склоне сопки.
 # text[eng] = Then we climbed a hill, first we climbed the hill slope, then we drank tea on the hill slope.
 # labels = complete-dep anno-fran
-1	Ынӄо	_	ADV	_	_	2	advmod	_	Gloss=потом
-2	мытӈэйыттэнмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-сопка-взбираться-1PL.S/O
+1	Ынӄо	_	ADV	_	_	2	advmod	2:advmod	Gloss=потом
+2	мытӈэйыттэнмык	_	VERB	_	_	0	root	0:root	Gloss=1PL.S/A-сопка-взбираться-1PL.S/O
 2.1	ӈэйы	_	NOUN	_	_	_	_	2:obj	Gloss=сопка
-3	янот	_	ADV	_	_	6	advmod	_	Gloss=сначала
-4	йиӈ	_	X	_	_	5	reparandum	_	Gloss=FST
-5	ӈайгыточгыткок	_	NOUN	_	_	6	obl	_	Gloss=сопка-склон-ITER-LOC
-6	мытчаёмык	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-чай-EAT-1PL.S/O
-7	ӈайгытоԓыӈкы	_	NOUN	_	_	6	obl	_	Gloss=сопка-склон-LOC|SpaceAfter=No
-8	.	_	PUNCT	_	_	2	punct	_	_
+3	янот	_	ADV	_	_	6	advmod	6:advmod	Gloss=сначала
+4	йиӈ	_	X	_	_	5	reparandum	5:reparandum	Gloss=FST
+5	ӈайгыточгыткок	_	NOUN	_	_	6	obl	6:obl	Gloss=сопка-склон-ITER-LOC
+6	мытчаёмык	_	VERB	_	_	2	parataxis	2:parataxis	Gloss=1PL.S/A-чай-EAT-1PL.S/O
+7	ӈайгытоԓыӈкы	_	NOUN	_	_	6	obl	6:obl	Gloss=сопка-склон-LOC|SpaceAfter=No
+8	.	_	PUNCT	_	_	2	punct	2:punct	_
 
 # sent_id = Walk:6
 # text = Ынӄо нэмэ мытӈэйыттэнмык.
@@ -9698,11 +9698,11 @@
 # text[rus] = Потом снова на сопку залезали.
 # text[eng] = Then we climbed the hill again.
 # labels = complete-dep anno-fran
-1	Ынӄо	_	ADV	_	_	3	advmod	_	Gloss=потом
-2	нэмэ	_	ADV	_	_	3	advmod	_	Gloss=опять
-3	мытӈэйыттэнмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-сопка-взбираться-1PL.S/O|SpaceAfter=No
+1	Ынӄо	_	ADV	_	_	3	advmod	3:advmod	Gloss=потом
+2	нэмэ	_	ADV	_	_	3	advmod	3:advmod	Gloss=опять
+3	мытӈэйыттэнмык	_	VERB	_	_	0	root	0:root	Gloss=1PL.S/A-сопка-взбираться-1PL.S/O|SpaceAfter=No
 3.1	ӈэйы	_	NOUN	_	_	_	_	3:obj	Gloss=сопка
-4	.	_	PUNCT	_	_	3	punct	_	_
+4	.	_	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = Walk:7
 # text = И таӈԓымынӄо ӈай ӈай ӈайгыпы мытԓе ӈайыткыната мытԓейвымык.
@@ -9726,14 +9726,14 @@
 # text[rus] = Потом мы спустились и сварили чай.
 # text[eng] = Then we went down and brewed tea.
 # labels = complete-dep anno-fran
-1	Ынӄо	_	ADV	_	_	3	advmod	_	Gloss=потом
-2	мытивыт	_	X	_	_	3	reparandum	_	Gloss=FST
-3	мыткэӈкэԓенмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-сойти-1PL.S/O
-4-5	мытчайпанмыкы	_	_	_	_	_	_	_	SpaceAfter=No
-4	мытчайпанмык	_	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A-чай-варить-1PL.S/O-=PTCL
-4.1	чай	_	NOUN	_	_	_	_	4:obj	_
-5	ы	_	PART	_	_	4	discourse	_	_
-6	.	_	PUNCT	_	_	3	punct	_	_
+1	Ынӄо	_	ADV	_	_	3	advmod	3:advmod	Gloss=потом
+2	мытивыт	_	X	_	_	3	reparandum	3:reparandum	Gloss=FST
+3	мыткэӈкэԓенмык	_	VERB	_	_	0	root	0:root	Gloss=1PL.S/A-сойти-1PL.S/O
+4-5	мытчайпанмыкы	_	_	_	_	_	_	_	Gloss=1PL.S/A-чай-варить-1PL.S/O-=PTCL|SpaceAfter=No
+4	мытчайпанмык	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=1PL.S/A-чай-варить-1PL.S/O
+4.1	чай	_	NOUN	_	_	_	_	4:obj	Gloss=чай
+5	ы	_	PART	_	_	4	discourse	4:discourse	Gloss=PTCL
+6	.	_	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = Walk:9
 # text = Мытчаёмыкъым и нэмэ мытпъугыркимык.
