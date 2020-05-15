@@ -401,7 +401,7 @@
 7	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Being_a_child:3
-# text = Ытԓыгыт ытԓьат ынӄэнэ нутэвги и омрыквытгавыт.
+# text = Ытԓыгыт ытԓьат ынӄэнэ Нутэвги и Омрыквытгавыт.
 # text[phon] = ətɬəɣət ətɬʔat ənqene nutewɣi и omrəkwətɣawət
 # text[rus] = Отец — Нутевги, и мать — Омрыквутгавыт.
 # text[eng] = My father is Nutewgi and my mother is Omrykwutgawyt.
@@ -413,11 +413,11 @@
 4	э	_	PART	_	_	3	discourse	_	Gloss=PTCL
 5	Нутэвги	_	PROPN	_	_	0	root	_	Gloss=Нутевги-NOM.SG
 6	и	_	CCONJ	_	_	7	cc	_	Gloss=
-7	Омрыквытгавыт	_	PROPN	_	_	5	conj	_	Gloss=Омрыквутгавыт-NOM.SG
+7	Омрыквытгавыт	_	PROPN	_	_	5	conj	_	Gloss=Омрыквутгавыт-NOM.SG|SpaceAfter=No
 8	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Being_a_child:4
-# text = Это она ытԓонъымыт ныԓгиныӈинӄинэ гаккантоԓен ынпычьын гымнин ынинэԓьын ынӄэнэ котыгыргинэ Иван.
+# text = Это она ытԓонъымыт ныԓгиныӈинӄинэ гаккантоԓен ынпычьын гымнин ынинэԓьын ынӄэнэ Котыгыргинэ Иван.
 # text[phon] = это она ətɬоnʔəmət nəɬɣinəŋinqine ɣakkantoɬen ənpəsʔən ɣəmnin ənineɬʔən ənqene kotəɣərɣine ivan
 # text[rus] = Она (мать) очень молодой родила сына — моего старшего брата Котыгыргина Ивана.
 # text[eng] = She was very young when she gave birth to her son, my elder brother Ivan Kotygyrgin.
@@ -439,8 +439,8 @@
 12-13	Котыгыргинэ	_	_	_	_	_	_	_	_
 12	Котыгыргин	_	PROPN	_	_	9	appos	_	Gloss=Котыгыргин-=PTCL
 13	э	_	PART	_	_	12	discourse	_	_
-14	Иван	_	PROPN	_	_	12	flat:name	_	Gloss=Иван-NOM.SG
-15	.	_	PUNCT	_	_	4	punct	_	_
+14	Иван	_	PROPN	_	_	12	flat:name	12:flat	Gloss=Иван-NOM.SG|SpaceAfter=No
+15	.	_	PUNCT	_	_	4	punct	4:punct	_
 
 # sent_id = Being_a_child:5
 # text = Потом потом вслед конечно ынык я ч ыныкъым гъэмэтыԓенъымэ ынпыӈэв гымнинэ нутэӈэвыт.
@@ -506,7 +506,7 @@
 1-2	Гымнинэ	_	_	_	_	_	_	_	_
 1	Гымнин	_	PRON	_	_	4	nmod:poss	_	Gloss=я-AN.GEN-=PTCL
 2	э	_	PART	_	_	1	discourse	_	_
-3	игыткин	_	ADV	_	_	4	nmod:rel	_	Gloss=сегодня-REL
+3	игыткин	_	ADV	_	_	4	nmod:relat	_	Gloss=сегодня-REL
 4	чакэттомгыт	_	NOUN	_	_	6	nsubj	_	Gloss=сестра-друг-NOM.PL
 5	ымыԓьо	_	PRON	_	_	4	appos	_	Gloss=весь
 6-7	Кымъытваԓьынтэыʼм	_	_	_	_	_	_	_	_
@@ -5063,8 +5063,8 @@
 # text[rus] = Здешний амгуэмский Тымнелькот рассказывал.
 # text[eng] = Tynelkot from here, from Amguema, told (this story).
 # labels = complete-dep anno-fran
-1	Ӈуткэкин	_	ADV	_	_	3	nmod:rel	_	Gloss=тут-OBL-REL
-2	Омваамвыкэн	_	PROPN	_	_	3	nmod:rel	_	Gloss=Амгуэма-REL
+1	Ӈуткэкин	_	ADV	_	_	3	nmod:relat	_	Gloss=тут-OBL-REL
+2	Омваамвыкэн	_	PROPN	_	_	3	nmod:relat	_	Gloss=Амгуэма-REL
 3	Тымӈэԓӄот	_	PROPN	_	_	4	nsubj	_	Gloss=Тынелькот-NOM.SG
 4	нымӈыԓтэԓӄэн	_	VERB	_	_	0	root	_	Gloss=ST-весть-DUR-ST.3SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
@@ -5931,7 +5931,7 @@
 # labels = complete-dep anno-fran
 1	Ныннын	_	PRON	_	_	4	nsubj	_	Gloss=имя-NOM.SG
 2	гымынин	_	PRON	_	_	3	nmod:poss	_	Gloss=я-AN.GEN
-3	ытԓьакэн	_	NOUN	_	_	1	nmod:rel	_	Gloss=мать-REL
+3	ытԓьакэн	_	NOUN	_	_	1	nmod:relat	_	Gloss=мать-REL
 4	Руԓтыӈэвыт	_	PROPN	_	_	0	root	_	Gloss=Рультынэвыт-NOM.SG
 5	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -6055,7 +6055,7 @@
 5	ынан	_	PRON	_	_	6	nsubj	_	Gloss=он.INS
 6	гэтэйкыԓин	_	VERB	_	_	2	parataxis	_	Gloss=PF-делать-PF.3SG
 7	рэтэм	_	NOUN	_	_	6	obj	_	Gloss=покрышка.яранги-NOM.SG
-8	яракэн	_	NOUN	_	_	7	nmod:rel	_	Gloss=яранга-REL|SpaceAfter=No
+8	яракэн	_	NOUN	_	_	7	nmod:relat	_	Gloss=яранга-REL|SpaceAfter=No
 9	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Mother:13
