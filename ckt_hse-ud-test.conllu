@@ -2107,15 +2107,15 @@
 # labels = complete-dep anno-karina
 1	Гъэраӄорԓен	_	VERB	_	_	0	root	_	Gloss=PF-Эракор-PF.3SG
 2	таӈымыԓьо	_	PRON	_	_	1	nsubj	_	Gloss=GOOD-весь
-3-4	гэетръуԓинэтэ	_	_	_	_	_	_	_	_
-3	гэетръуԓинэт	_	VERB	_	_	1	parataxis	_	Gloss=PF-приходить-DISTR.S-PF.3SG-PL-=PTCL
-4	э	_	PART	_	_	4	discourse	_	_
-5	ямганымгынымгыпы	_	X	_	_	12	reparandum	_	Gloss=FST
-6	ям	_	X	_	_	12	reparandum	_	Gloss=FST
-7	ян	_	X	_	_	12	reparandum	_	Gloss=FST
-8	ян	_	X	_	_	12	reparandum	_	Gloss=FST
-9	ямна	_	X	_	_	12	reparandum	_	Gloss=FST
-10	гын	_	X	_	_	12	reparandum	_	Gloss=FST
+3-4	гэетръуԓинэтэ	_	_	_	_	_	_	_	Gloss=PF-приходить-DISTR.S-PF.3SG-PL-=PTCL
+3	гэетръуԓинэт	_	VERB	_	_	1	parataxis	_	Gloss=PF-приходить-DISTR.S-PF.3SG-PL
+4	э	_	PART	_	_	4	discourse	_	Gloss=PTCL
+5	ямганымгынымгыпы	_	X	_	_	11	reparandum	_	Gloss=FST
+6	ям	_	X	_	_	11	reparandum	_	Gloss=FST
+7	ян	_	X	_	_	11	reparandum	_	Gloss=FST
+8	ян	_	X	_	_	11	reparandum	_	Gloss=FST
+9	ямна	_	X	_	_	11	reparandum	_	Gloss=FST
+10	гын	_	X	_	_	11	reparandum	_	Gloss=FST
 11	нымнымгыпы	_	NOUN	_	_	4	obl	_	Gloss=посёлок-ABL|SpaceAfter=No
 12	.	_	PUNCT	_	_	1	punct	_	_
 
@@ -7143,15 +7143,15 @@
 # text[eng] = I wash up, drink tea, cook food again for the evening.
 # text[eng'] = I wash, drink tea, eat, again cook eating for when it becomes dark food.
 # labels = complete-dep anno-fran missing-lemma
-1	Ниԓгытэвивым	_	VERB	_	_	0	root	_	Gloss=ST-мыться-NP.1SG
-2	нычаёйгым	_	VERB	_	_	1	parataxis	_	Gloss=ST-чай-EAT-NP.1SG
-3	ныӄамэтвайгым	_	VERB	_	_	1	parataxis	_	Gloss=ST-есть-NP.1SG
-4	нэмэ	_	ADV	_	_	5	advmod	_	Gloss=опять
-5	нывийгым	_	VERB	_	_	1	parataxis	1	Gloss=ST-варить-NP.1SG
-6	воԓӄытвэӄамэтвак	_	VERB	_	_	5	dep	_	Gloss=темнота-TRSF-есть-LOC
+1	Ниԓгытэвивым	_	VERB	_	_	0	root	0:root	Gloss=ST-мыться-NP.1SG
+2	нычаёйгым	_	VERB	_	_	1	parataxis	1:parataxis	Gloss=ST-чай-EAT-NP.1SG
+3	ныӄамэтвайгым	_	VERB	_	_	1	parataxis	1:parataxis	Gloss=ST-есть-NP.1SG
+4	нэмэ	_	ADV	_	_	5	advmod	5:advmod	Gloss=опять
+5	нывийгым	_	VERB	_	_	1	parataxis	1:parataxis	Gloss=ST-варить-NP.1SG
+6	воԓӄытвэӄамэтвак	_	VERB	_	_	5	dep	5:dep	Gloss=темнота-TRSF-есть-LOC
 6.1	воԓӄытвэ	_	VERB	_	_	_	_	6:advcl	Gloss=темнота-TRSF
-7	рооԓӄыԓ	_	VERB	_	_	5	obj	_	Gloss=есть-PTCP.PASS-DEB-NOM.SG|SpaceAfter=No
-8	.	_	PUNCT	_	_	1	punct	_	_
+7	рооԓӄыԓ	_	VERB	_	_	5	obj	5:obj	Gloss=есть-PTCP.PASS-DEB-NOM.SG|SpaceAfter=No
+8	.	_	PUNCT	_	_	1	punct	1:punct	_
 
 # sent_id = On_a_daily_basis:12
 # text = Уунъытэ.
