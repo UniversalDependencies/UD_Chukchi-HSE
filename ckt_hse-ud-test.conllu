@@ -285,7 +285,6 @@
 4	евъев	_	INTJ	_	_	3	parataxis	_	Gloss=постой|SpaceAfter=No
 5	.	_	PUNCT	_	_	2	punct	_	_
 
-
 # sent_id = An_evil_spirit_and_a_dicky_bird:7
 # text = Оонъыԓгыӄай пиринин.
 # text[phon] = oonʔəɬɣəqaj pirinin
@@ -1332,7 +1331,6 @@
 2	мычичевнэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-понимать-3SG.O-PL|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
-
 # sent_id = Breast:9
 # text = Тынарагтын нэмыӄэй нивӄин.
 # text[phon] = tənaraɣtən neməqej niwqin
@@ -1695,7 +1693,6 @@
 4	ныкиноӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-фильм-ST.3SG-PL|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
-
 # sent_id = Chapaev:19
 # text = Ынԓеко ымыӈ ытри аӈӄавъе ынӄэн нывакъотваӄэнат нэмыӄэйъым чыпэт тъэче маԓмытԓыӈча нэгитээʼн ынӄэн ыннэнчьэн чапаевӄай.
 # text[phon] = ənɬeko əməŋ ətri aŋqawje ənqen nəwakʔotwaqenat neməqejʔəm səpet tʔese maɬmətɬəŋsa neɣiteʔen ənqen ənnensʔen sapajewqaj
@@ -2056,7 +2053,6 @@
 3	ваԓвийӈын	_	NOUN	_	_	2	nsubj	_	Gloss=ворон-AUG-NOM.SG|SpaceAfter=No
 4	.	_	PUNCT	_	_	2	punct	_	_
 
-
 # sent_id = Endless_fairy_tale:7
 # text = Ымы игыт варкын.
 # text[phon] = əmə iɣət warkən
@@ -2077,7 +2073,6 @@
 1	Ытръэч	_	ADV	_	_	0	root	_	Gloss=только|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
 
-
 # sent_id = Endless_fairy_tale:9
 # text = Ӄээӄын.
 # text[phon] = qeeqən
@@ -2086,7 +2081,6 @@
 # labels = complete-dep anno-fran
 1	Ӄээӄын	_	ADV	_	_	0	root	_	Gloss=ещё.немного|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
-
 
 # sent_id = Eraqor:1
 # text = Эԓгааткоӈӈок допустим мургин рэмкын гъэраӄорԓена.
@@ -2596,7 +2590,6 @@
 6	вапаӄат	_	NOUN	_	_	5	parataxis	_	Gloss=мухомор-NOM.PL|SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	_
 
-
 # sent_id = Fly_agarics:2
 # text = Вапаӄат гымнин.
 # text[phon] = wapaqat ɣəmnin
@@ -2606,7 +2599,6 @@
 1	Вапаӄат	_	NOUN	_	_	0	root	_	Gloss=мухомор-NOM.PL
 2	гымнин	_	PRON	_	_	1	nmod:poss	_	Gloss=я-AN.GEN|SpaceAfter=No
 3	.	_	PUNCT	_	_	1	punct	_	_
-
 
 # sent_id = Fly_agarics:3
 # text = Вапаӄат эʼми.
@@ -2618,7 +2610,6 @@
 2	эʼми	_	ADV	_	_	1	advmod	_	Gloss=где|SpaceAfter=No
 3	.	_	PUNCT	_	_	1	punct	_	_
 
-
 # sent_id = Fly_agarics:4
 # text = Вапаӄат уйӈэ.
 # text[phon] = wapaqat ujŋe
@@ -2628,7 +2619,6 @@
 1	Вапаӄат	_	NOUN	_	_	2	nsubj	_	Gloss=мухомор-NOM.PL
 2	уйӈэ	_	VERB	_	_	0	root	_	Gloss=нет|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
-
 
 # sent_id = Fly_agarics:5
 # text = Уйӈэ.
@@ -2689,7 +2679,6 @@
 15	ванныт	_	NOUN	_	_	13	parataxis	_	Gloss=зуб-NOM.PL
 16	рынныт	_	NOUN	_	_	15	conj	_	Gloss=рог-NOM.PL|SpaceAfter=No
 17	.	_	PUNCT	_	_	1	punct	_	_
-
 
 # sent_id = Fly_agarics:10
 # text = Аны вай ӈавԓыӄай мынрагтымык.
@@ -7836,7 +7825,6 @@
 7	ӈэвъэнйыръын	_	NOUN	_	_	4	obj	_	Gloss=жена-содержимое-NOM.SG
 8	.	_	PUNCT	_	_	4	punct	_	_
 
-
 # sent_id = Raven_and_fox:31
 # text = Рырагтаннэнъым ивнин.
 # text[phon] = rəraɣtannenʔəm iwnin
@@ -10144,7 +10132,6 @@
 # labels = complete-dep anno-fran
 1	Ытръэч	_	ADV	_	_	0	root	_	Gloss=только|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
-
 
 # sent_id = WC:1
 # text = Чапаевна Пэтька ивнин.
