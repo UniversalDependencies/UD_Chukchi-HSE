@@ -9066,6 +9066,303 @@
 4	ӈэвъэнӄэй	_	NOUN	_	_	0	root	_	Gloss=жена-DIM-NOM.SG
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Transhumance:1
+# text = Итыкъым ԓьэԓеӈкыӈэ ныяԓгынморэ.
+# text[phon] = itəkʔəm ɬʔeɬeŋkəŋe nəjaɬɣənmore
+# text[rus] = Зимой, вообще-то мы зимой кочевали.
+# text[eng] = Actually, we nomadized in the winter.
+# labels = complete-dep anno-karina
+1-2	Итыкъым	_	_	_	_	_	_	_	_
+1	Итык	_	VERB	_	_	5	discourse	_	Gloss=являться-LOC-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3-4	ԓьэԓеӈкыӈэ	_	_	_	_	_	_	_	_
+3	ԓьэԓеӈкы	_	NOUN	_	_	5	obl	_	Gloss=зима-LOC-=PTCL
+4	ӈэ	_	PART	_	_	3	discourse	_	_
+5	ныяԓгынморэ	_	VERB	_	_	0	root	_	Gloss=ST-кочевать-NP.1PL|SpaceAfter=No
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Transhumance:2
+# text = Ытръэч ынӄэн ԓгиинъэ ныгъевмури.
+# text[phon] = ətrʔes ənqen ɬɣiinʔe nəɣjewmuri
+# text[rus] = Только вот очень рано утром просыпались.
+# text[eng] = We used to wake up early in the morning.
+# labels = complete-dep anno-karina
+1	Ытръэч	_	ADV	_	_	4	advmod	_	Gloss=только
+2	ынӄэн	_	DET	_	_	4	discourse	_	Gloss=DET
+3	ԓгиинъэ	_	NOUN	_	_	4	obl	_	Gloss=INTS-утро-INS
+4	ныгъевмури	_	VERB	_	_	0	root	_	Gloss=ST-просыпаться-NP.1PL|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Transhumance:3
+# text = Ымы мургинэ ынпыначгынэ ыʼвэӄучин тумгытум ыʼвэӄучин ытԓыгын мык гымыгтумгин ытԓыгынэ.
+# text[phon] = əmə murɣine ənpənasɣəne ʔəwequsin tumɣətum ʔəwequsin ətɬəɣən mək ɣəməɣtumɣin ətɬəɣəne
+# text[rus] = И наш старик, друг мужа... отец мужа, отец моего мужа...
+# text[eng] = And our old man, (my) husband's friend... (my) husband's father, my husband's father...
+# labels = complete-dep anno-karina
+1	Ымы	_	ADV	_	_	4	cc	_	Gloss=также
+2-3	мургинэ	_	_	_	_	_	_	_	_
+2	мургин	_	PRON	_	_	4	nmod:poss	_	Gloss=мы-GEN-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4-5	ынпыначгынэ	_	_	_	_	_	_	_	_
+4	ынпыначгын	_	NOUN	_	_	0	root	_	Gloss=старик-NOM.SG-=PTCL
+5	э	_	PART	_	_	4	discourse	_	_
+6	ыʼвэӄучин	_	NOUN	_	_	7	nmod	_	Gloss=муж-GEN
+7	тумгытум	_	NOUN	_	_	4	parataxis	_	Gloss=друг-NOM.SG
+8	ыʼвэӄучин	_	NOUN	_	_	9	nmod	_	Gloss=муж-GEN
+9	ытԓыгын	_	NOUN	_	_	4	parataxis	_	Gloss=отец-NOM.SG
+10	мык	_	X	_	_	11	reparandum	_	Gloss=FST
+11	гымыгтумгин	_	NOUN	_	_	12	nmod	_	Gloss=я-POSS.INC-друг-GEN
+12-13	ытԓыгынэ	_	_	_	_	_	_	_	SpaceAfter=No
+12	ытԓыгын	_	NOUN	_	_	4	parataxis	_	Gloss=отец-NOM.SG-=PTCL
+13	э	_	PART	_	_	12	discourse	_	_
+14	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Transhumance:4
+# text = Моргынан нынԓеӄоно нинъэйӈэвмури.
+# text[phon] = morɣənan nənɬeqono ninʔejŋewmuri
+# text[rus] = Мы называли его Нынлеко.
+# text[eng] = We called him Nynleko.
+# labels = complete-dep anno-karina
+1	Моргынан	_	PRON	_	_	3	obj	_	Gloss=мы-INS
+2	нынԓеӄоно	_	PROPN	_	_	3	obl	_	Gloss=Нынлеко-EQU
+3	нинъэйӈэвмури	_	VERB	_	_	0	root	_	Gloss=ST-INV-звать-NP.1PL|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Transhumance:5
+# text = Ынпыначгын.
+# text[phon] = ənpənasɣən
+# text[rus] = Старик.
+# text[eng] = Old man.
+# labels = complete-dep anno-karina
+1	Ынпыначгын	_	NOUN	_	_	0	root	_	Gloss=старик-NOM.SG|SpaceAfter=No
+2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Transhumance:6
+# text = Ынӄэн нинэныгъевмури ымы ӈинӄэгти ымы ныӄамэтвачаёморэ инъэ ԓгиинъэӄэй.
+# text[phon] = ənqen ninenəɣjewmuri əmə ŋinqeɣti əmə nəqametwasajomore inʔe ɬɣiinʔeqej
+# text[rus] = Это... нас будили и мальчиков тоже, и мы ели, чай пили рано утречком.
+# text[eng] = So... they would wake us up, and the boys, too, and we would eat and drink tea early in the morning.
+# labels = complete-dep anno-karina
+1	Ынӄэн	_	PART	_	_	2	discourse	2:discourse	Gloss=DET
+2	нинэныгъевмури	_	VERB	_	_	0	root	0:root	Gloss=ST-INV-TR-просыпаться-NP.1PL
+3	ымы	_	ADV	_	_	4	advmod	4:advmod	Gloss=также
+4	ӈинӄэгти	_	NOUN	_	_	2	obj	2:obj	Gloss=молодой-DIM-NOM.PL
+5	ымы	_	ADV	_	_	6	advmod	6:advmod	Gloss=также
+6	ныӄамэтвачаёморэ	_	VERB	_	_	2	parataxis	2:parataxis	Gloss=ST-есть-чай-EAT-NP.1PL
+6.1	ӄамэтва	_	VERB	_	_	_	_	6:advcl	Gloss=есть
+7	инъэ	_	NOUN	_	_	6	obl	6:obl	Gloss=утро-INS
+8	ԓгиинъэӄэй	_	NOUN	_	_	7	appos	7:appos	Gloss=INTS-утро-INS-DIM|SpaceAfter=No
+9	.	_	PUNCT	_	_	2	punct	2:punct	_
+
+# sent_id = Transhumance:7
+# text = Тымӈэӈырачьэтъым ԓиӈыткучьын ныԓеӄинъымэ ӈэвэӄ нынтовэрэнморэ ымыԓьо.
+# text[phon] = təmŋeŋərasʔetʔəm ɬiŋətkusʔən nəɬeqinʔəme ŋeweq nəntowerenmore əməɬʔo
+# text[rus] = Время уже где-то к четырём на часах идёт, все выходят.
+# text[eng] = It is almost four, everyone goes outside.
+# labels = complete-dep anno-karina
+1-2	Тымӈэӈырачьэтъым	_	_	_	_	_	_	_	_
+1	Тымӈэӈырачьэт	_	ADJ	_	_	4	obl	4:obl	Gloss=INDEF-четыре-ADJ-DAT-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	ԓиӈыткучьын	_	NOUN	_	_	4	nsubj	4:nsubj	Gloss=часы-NOM.SG
+4-6	ныԓеӄинъымэ	_	_	_	_	_	_	_	Gloss=ST-идти-ST.3SG-=EMPH-=PTCL
+4	ныԓеӄин	_	VERB	_	_	0	root	0:root	Gloss=ST-идти-ST.3SG
+5	ъым	_	PART	_	_	4	discourse	4:discourse	Gloss=EMPH
+6	э	_	PART	_	_	4	discourse	4:discourse	Gloss=PTCL
+7	ӈэвэӄ	_	PART	_	_	8	discourse	8:discourse	Gloss=же
+8	нынтовэрэнморэ	_	VERB	_	_	4	parataxis	4:parataxis	Gloss=ST-выходить-спускаться-VB-NP.1PL
+8.1	нто	_	VERB	_	_	_	_	8:advcl	Gloss=Gloss=ST-выходить-спускаться-VB-NP.1PL
+9	ымыԓьо	_	DET	_	_	8	nsubj	8:nsubj	Gloss=весь|SpaceAfter=No
+10	.	_	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = Transhumance:8
+# text = Ӄорыӈэ ныръэйвэнмури яраӈы.
+# text[phon] = qorəŋe nərʔejwenmuri jaraŋə
+# text[rus] = Потом грузим ярангу.
+# text[eng] = Then we load the yaranga (on a sledge).
+# labels = complete-dep anno-karina
+1-2	Ӄорыӈэ	_	_	_	_	_	_	_	_
+1	Ӄоры	_	ADV	_	_	3	advmod	_	Gloss=потом-=PTCL
+2	ӈэ	_	PART	_	_	1	discourse	_	_
+3	ныръэйвэнмури	_	VERB	_	_	0	root	_	Gloss=ST-укладывать.груз.при.кочёвке-VB-NP.1PL
+4	яраӈы	_	NOUN	_	_	3	obj	_	Gloss=яранга-NOM.SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Transhumance:9
+# text = Нырэтэмӈытэнмури ымыԓьэты ынӄэнэ.
+# text[phon] = nəretemŋətenmuri əməɬʔetə ənqene
+# text[rus] = Полностью освобождаем рэтэм, это...
+# text[eng] = We remove the yaranga roof, so...
+# labels = complete-dep anno-karina
+1	Нырэтэмӈытэнмури	_	VERB	_	_	0	root	0:root	Gloss=ST-покрышка.яранги-отрываться-NP.1PL
+1.1	рэтэм	_	NOUN	_	_	_	_	1:obj	Gloss=ST-покрышка.яранги-отрываться-NP.1PL
+2	ымыԓьэты	_	PRON	_	_	1	obl	1:obl	Gloss=весь-DAT
+3-4	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL|SpaceAfter=No
+3	ынӄэн	_	PART	_	_	1	discourse	_	Gloss=DET
+4	э	_	PART	_	_	3	discourse	_	Gloss=PTCL
+5	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Transhumance:10
+# text = Нинэйӈэмури ӈэвэӄэ нытиӈэӈӈымури орвыт.
+# text[phon] = ninejŋemuri ŋeweqe nətiŋeŋŋəmuri orwət
+# text[rus] = Загружаем нарты.
+# text[eng] = We load the sledge.
+# labels = complete-dep anno-karina
+1	Нинэйӈэмури	_	VERB	_	_	0	root	_	Gloss=ST-INV-грузить-NP.1PL
+2-3	ӈэвэӄэ	_	_	_	_	_	_	_	_
+2	ӈэвэӄ	_	PART	_	_	1	cc	_	Gloss=же-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4	нытиӈэӈӈымури	_	VERB	_	_	1	parataxis	_	Gloss=ST-MAKE-ноша-MAKE-NP.1PL
+5	орвыт	_	NOUN	_	_	4	obj	_	Gloss=нарта-NOM.PL|SpaceAfter=No
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Transhumance:11
+# text = Нинэтиӈэӈӈу нинэтиӈэӈӈымури орвыт.
+# text[phon] = ninetiŋeŋŋu ninetiŋeŋŋəmuri orwət
+# text[rus] = Загружаем нарты.
+# text[eng] = We load the sledge.
+# labels = complete-dep anno-karina
+1	Нинэтиӈэӈӈу	_	X	_	_	2	reparandum	_	Gloss=FST
+2	нинэтиӈэӈӈымури	_	VERB	_	_	0	root	_	Gloss=ST-INV-MAKE-ноша-MAKE-NP.1PL
+3	орвыт	_	NOUN	_	_	2	obj	_	Gloss=нарта-NOM.PL|SpaceAfter=No
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Transhumance:12
+# text = Ынӄоры ӄԓявыԓтэ норвынпэтгавӄэнатъым.
+# text[phon] = ənqorə qɬawəɬte norwənpetɣawqenatʔəm
+# text[rus] = Потом мужчины строят загон из нарт.
+# text[eng] = Then men build an enclosure with sledges.
+# labels = complete-dep anno-karina
+1	Ынӄоры	_	ADV	_	_	3	advmod	3:advmod	Gloss=потом
+2	ӄԓявыԓтэ	_	NOUN	_	_	3	nsubj	3:nsubj	Gloss=мужчина-NOM.PL
+3-4	норвынпэтгавӄэнатъым	_	_	_	_	_	_	_	Gloss=ST-TR-прямой-CS-ST.3SG-PL-=EMPH|SpaceAfter=No
+3	норвынпэтгавӄэнат	_	VERB	_	_	0	root	0:root	Gloss=ST-TR-прямой-CS-ST.3SG-PL
+3.1	орвы	_	NOUN	_	_	_	_	3:obj	Gloss=нарта
+4	ъым	_	PART	_	_	3	discourse	3:discourse	Gloss=EMPH
+5	.	_	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Transhumance:13
+# text = Ынӄэн виин рыюԓьынэ рыюԓьэ виин ынӄэнэ ӄаагтыноԓгынэ нинэ нинэныпкирэтӄинъым.
+# text[phon] = ənqen wiin rəjuɬʔəne rəjuɬʔe wiin ənqene qaaɣtənoɬɣəne nine ninenəpkiretqinʔəm
+# text[rus] = Это пока ночной дежурный подгоняет часть стада.
+# text[eng] = As the night herdsman leads the herd.
+# labels = complete-dep anno-karina
+1	Ынӄэн	_	DET	_	_	3	det	_	Gloss=DET
+2	виин	_	ADV	_	_	12	advmod	_	Gloss=пока
+3-4	рыюԓьынэ	_	_	_	_	_	_	_	_
+3	рыюԓьын	_	NOUN	_	_	5	appos	_	Gloss=пасти.оленей.ночью-ATTR-NOM.SG-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5	рыюԓьэ	_	NOUN	_	_	12	nsubj	_	Gloss=пасти.оленей.ночью-ATTR-INS
+6	виин	_	ADV	_	_	2	reparandum	_	Gloss=пока
+7-8	ынӄэнэ	_	_	_	_	_	_	_	_
+7	ынӄэн	_	DET	_	_	9	det	_	Gloss=DET-=PTCL
+8	э	_	PART	_	_	7	discourse	_	_
+9-10	ӄаагтыноԓгынэ	_	_	_	_	_	_	_	_
+9	ӄаагтыноԓгын	_	NOUN	_	_	12	obj	_	Gloss=олень-GO.TO-APUD-NOM.SG-=PTCL
+10	э	_	PART	_	_	9	discourse	_	_
+11	нинэ	_	X	_	_	12	reparandum	_	Gloss=FST
+12-13	нинэныпкирэтӄинъым	_	_	_	_	_	_	_	SpaceAfter=No
+12	нинэныпкирэтӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-TR-прибывать-VB-ST.3SG-=EMPH
+13	ъым	_	PART	_	_	12	discourse	_	_
+14	.	_	PUNCT	_	_	12	punct	_	_
+
+# sent_id = Transhumance:14
+# text = Тэкэм инъэыʼмэ ӄэԓюӄъым нычайпанморэ чамаыʼм ынӄэнэ эръэт нэмыӄэй амрачаёӈа.
+# text[phon] = tekem inʔeʔəme qeɬuqʔəm nəsajpanmore samaʔəm ənqene erʔet neməqej amrasajoŋa
+# text[rus] = Утром, конечно, чай готовим, и мясо тоже, чтобы чай попить.
+# text[eng] = Of course, in the morning we make tea and cook meat to drink tea.
+# labels = complete-dep anno-karina
+1	Тэкэм	_	ADV	_	_	2	advmod	2:advmod	Gloss=прямо.к
+2-4	инъэыʼмэ	_	_	_	_	_	_	_	Gloss=утро-INS-=EMPH-=PTCL
+2	инъэыʼ	_	NOUN	_	_	7	obl	7:obl	Gloss=утро-INS
+3	м	_	PART	_	_	2	discourse	2:discourse	Gloss=EMPH
+4	э	_	PART	_	_	2	discourse	2:discourse	Gloss=PTCL
+5-6	ӄэԓюӄъым	_	_	_	_	_	_	_	Gloss=конечно-=EMPH
+5	ӄэԓюӄ	_	ADV	_	_	7	discourse	7:discourse	Gloss=конечно
+6	ъым	_	PART	_	_	5	discourse	5:discourse	Gloss=EMPH
+7	нычайпанморэ	_	VERB	_	_	0	root	0:root	Gloss=ST-чай-варить-NP.1PL
+7.1	чай	_	NOUN	_	_	_	_	7:obj	Gloss=чай
+8-9	чамаыʼм	_	_	_	_	_	_	_	Gloss=также-=EMPH
+8	чама	_	ADV	_	_	7	advmod	7:advmod	Gloss=также
+9	ыʼм	_	PART	_	_	8	discourse	8:discourse	Gloss=EMPH
+10-11	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+10	ынӄэн	_	PART	_	_	7	discourse	7:discourse	Gloss=DET
+11	э	_	PART	_	_	10	discourse	10:discourse	Gloss=PTCL
+12	эръэт	_	NOUN	_	_	7	orphan	7.1:conj	Gloss=варёное.мясо-NOM.PL
+13	нэмыӄэй	_	ADV	_	_	12	advmod	12:advmod	Gloss=тоже
+14	амрачаёӈа	_	VERB	_	_	12	advcl	12:advcl	Gloss=RESTR-FUT-чай-EAT-DES-INS|SpaceAfter=No
+15	.	_	PUNCT	_	_	7	punct	7:punct	_
+
+# sent_id = Transhumance:15
+# text = Ынӄэнэ ӄаагтыноԓгын эмрэнъыԓиӈэ энэӄыԓпэ нычаёморэ ынан ӈинӄэгти нэнанӄамэтвавморэ ынӄоры ӈэԓвыԓ нинэнъыԓимури.
+# text[phon] = ənqene qaaɣtənoɬɣən emrenʔəɬiŋe eneqəɬpe nəsajomore ənan ŋinqeɣti nenanqametwawmore ənqorə ŋeɬwəɬ ninenʔəɬimuri
+# text[rus] = Чтобы стадо загнать, быстрее чай пьём, потом мальчишек кормим, потом стадо загоняем.
+# text[eng] = As we have to drive the herd in (the enclosure), we quickly drink tea, feed the boys and then drive the herd in (the enclosure).
+# labels = complete-dep anno-karina
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	DET	_	_	6	discourse	_	Gloss=DET-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	ӄаагтыноԓгын	_	NOUN	_	_	4	obj	_	Gloss=олень-GO.TO-APUD-NOM.SG
+4	эмрэнъыԓиӈэ	_	VERB	_	_	6	advcl	_	Gloss=RESTR-DES-вталкивать-DES-INS
+5	энэӄыԓпэ	_	ADV	_	_	6	advmod	_	Gloss=быстро
+6	нычаёморэ	_	VERB	_	_	0	root	_	Gloss=ST-чай-EAT-NP.1PL
+7	ынан	_	ADV	_	_	9	advmod	_	Gloss=потом
+8	ӈинӄэгти	_	NOUN	_	_	9	obj	_	Gloss=молодой-DIM-NOM.PL
+9	нэнанӄамэтвавморэ	_	VERB	_	_	6	parataxis	_	Gloss=ST-INV-TR-есть-CS-NP.1PL
+10	ынӄоры	_	ADV	_	_	12	advmod	_	Gloss=потом
+11	ӈэԓвыԓ	_	NOUN	_	_	12	obj	_	Gloss=стадо
+12	нинэнъыԓимури	_	VERB	_	_	6	parataxis	_	Gloss=ST-INV-вталкивать-NP.1PL|SpaceAfter=No
+13	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Transhumance:16
+# text = И ныӄор ныӄорагыркэморэ ӈэвэӄ.
+# text[phon] = и nəqor nəqoraɣərkemore ŋeweq
+# text[rus] = И ездовых оленей по местам расставляем.
+# text[eng] = And we set the draught reindeer into their positions.
+# labels = complete-dep anno-karina
+1	И	_	X	_	_	3	discourse	_	Gloss=
+2	ныӄор	_	X	_	_	3	reparandum	_	Gloss=FST
+3	ныӄорагыркэморэ	_	VERB	_	_	0	root	_	Gloss=ST-олень-DRAG.OUT-NP.1PL
+3.1	ӄора	_	NOUN	_	_	_	_	3:obj	Gloss=ST-олень-DRAG.OUT-NP.1PL
+4	ӈэвэӄ	_	PART	_	_	3	discourse	_	Gloss=же|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Transhumance:17
+# text = Ымыӈэ гым тумгынэ нинивӄин.
+# text[phon] = əməŋe ɣəm tumɣəne niniwqin
+# text[rus] = И мне муж говорит:
+# text[eng] = And my husbends says:
+# labels = complete-dep anno-karina
+1-2	Ымыӈэ	_	_	_	_	_	_	_	_
+1	Ымы	_	ADV	_	_	5	conj	_	Gloss=также-=PTCL
+2	ӈэ	_	PART	_	_	1	discourse	_	_
+3	гым	_	PRON	_	_	5	obj	_	Gloss=я
+4	тумгынэ	_	NOUN	_	_	5	nsubj	_	Gloss=друг-AN.INS
+5	нинивӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-сказать-ST.3SG|SpaceAfter=No
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Transhumance:18
+# text = Эʼптэ ӄыӄорагыркэ ӄыӄорагыркэркын ынӄэн ӄинэвинрэтыркын.
+# text[phon] = ʔepte qəqoraɣərke qəqoraɣərkerkən ənqen qinewinretərkən
+# text[rus] = «Ты тоже оленей расставляй, давай помогай».
+# text[eng] = «Set the reindeer, too, help me.»
+# labels = complete-dep anno-karina
+1	Эʼптэ	_	ADV	_	_	3	advmod	3:advmod	Gloss=тоже
+2	ӄыӄорагыркэ	_	X	_	_	3	reparandum	3:reparandum	Gloss=FST
+3	ӄыӄорагыркэркын	_	VERB	_	_	0	root	0:root	Gloss=2.S/A.SUBJ-олень-DRAG.OUT-IPFV
+3.1	ӄора	_	NOUN	_	_	_	_	3:obj	Gloss=2.S/A.SUBJ-олень-DRAG.OUT-IPFV
+4	ынӄэн	_	PART	_	_	5	discourse	5:discourse	Gloss=DET
+5	ӄинэвинрэтыркын	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=2.S/A.SUBJ-INV-помогать-IPFV|SpaceAfter=No
+6	.	_	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Transhumance:27
+# text = Ӈэвъэн.
+# text[phon] = ŋewʔen
+# text[rus] = «Жена!».
+# text[eng] = «Wife!»
+# labels = complete-dep anno-fran
+1	Ӈэвъэн	_	NOUN	_	_	0	root	_	Gloss=жена-NOM.SG|SpaceAfter=No
+2	.	_	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Vacation:1
 # text = Янор Омваамгыпы такчитэ ԓымэвыр афтобуча Камаза трэԓӄытгъэ Эԓгыӄанъявэты.
 # text[phon] = janor omwaamɣəpə taksite ɬəmewər aftobusa kamaza treɬqətɣʔe eɬɣəqanjawetə
@@ -9872,9 +10169,9 @@
 # text[eng] = The foreigners were grumpy:
 # labels = complete-dep anno-fran
 1	Ныӈыръатваӄаат	_	VERB	_	_	0	root	_	Gloss=ST-сердиться-VB-RES-ST.3PL
-2-3	танӈыта	_	_	_	_	_	_	_	SpaceAfter=No
-2	танӈыт	_	NOUN	_	_	1	nsubj	_	Gloss=чужеземец-NOM.PL-=PTCL
-3	а	_	PART	_	_	2	discourse	_	_
+2-3	танӈыта	_	_	_	_	_	_	_	Gloss=чужеземец-NOM.PL-=PTCL|SpaceAfter=No
+2	танӈыт	_	NOUN	_	_	1	nsubj	_	Gloss=чужеземец-NOM.PL
+3	а	_	PART	_	_	2	discourse	_	Gloss=PTCL
 4	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Water_cart:22
@@ -9884,10 +10181,10 @@
 # text[eng] =  «Where are we going to?»
 # labels = complete-dep anno-fran
 1	Миӈкыри	_	ADV	_	_	0	root	_	Gloss=где-LOC-ADV.ALL
-2-4	мынинмыкъыма	_	_	_	_	_	_	_	SpaceAfter=No
-2	мынинмык	_	AUX	_	_	1	cop	_	Gloss=1PL.S/A.SUBJ-являться-1PL.S/O-=EMPH-=PTCL
-3	ъым	_	PART	_	_	2	discourse	_	_
-4	а	_	PART	_	_	2	discourse	_	_
+2-4	мынинмыкъыма	_	_	_	_	_	_	_	Gloss=1PL.S/A.SUBJ-являться-1PL.S/O-=EMPH-=PTCL|SpaceAfter=No
+2	мынинмык	_	AUX	_	_	1	cop	_	Gloss=1PL.S/A.SUBJ-являться-1PL.S/O
+3	ъым	_	PART	_	_	2	discourse	_	Gloss=EMPH
+4	а	_	PART	_	_	2	discourse	_	Gloss=PTCL
 5	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Water_cart:23
@@ -10090,6 +10387,20 @@
 11	тотръэт	_	NOUN	_	_	12	obj	_	Gloss=новый-дорога-NOM.SG
 12	мытйъогъан	_	VERB	_	_	9	parataxis	_	Gloss=1PL.S/A-настигать-TH-3SG.O|SpaceAfter=No
 13	.	_	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Water_cart:37
+# text = Ынӄэн ԓыгэн ръэт мытыркыԓегъэнъым.
+# text[phon] = ənqen ɬəɣen rʔet mətərkəɬeɣʔenʔəm
+# text[rus] = Прямо по этому следу шли.
+# text[eng] = We were following the track.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+2	ԓыгэн	_	ADV	_	_	4	advmod	_	Gloss=просто
+3	ръэт	_	NOUN	_	_	4	obj	_	Gloss=дорога-NOM.SG
+4-5	мытыркыԓегъэнъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-преследовать-TH-3SG.O-=EMPH|SpaceAfter=No
+4	мытыркыԓегъэн	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-преследовать-TH-3SG.O
+5	ъым	_	PART	_	_	4	discourse	_	Gloss=EMPH
+6	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Water_cart:38
 # text = Ԓюут ӈэраӄычьэты ныкитэ мытынрынгиивын ковԓёрвоор.
