@@ -487,18 +487,18 @@
 8	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Being_a_child:10
-# text = Ынӄоры оʼмрыӈа нагтоаʼн.
+# text = Ынӄоры Оʼмрыӈа нагтоаʼн.
 # text[phon] = ənqorə ʔomrəŋa naɣtoʔan
 # text[rus] = Потом родилась Омрына.
 # text[eng] = And then Omryna was born.
 # labels = complete-dep anno-fran
 1	Ынӄоры	_	ADV	_	_	3	advmod	_	Gloss=потом
 2	Оʼмрыӈа	_	PROPN	_	_	3	nsubj	_	Gloss=Омрына-NOM.SG
-3	нагтоаʼн	_	VERB	_	_	0	root	_	Gloss=LOW.A-вынимать-TH-3SG.O
+3	нагтоаʼн	_	VERB	_	_	0	root	_	Gloss=LOW.A-вынимать-TH-3SG.O|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Being_a_child:11
-# text = Гымнинэ игыткин чакэттомгыт ымыԓьо кымъытваԓьынтэыʼм.
+# text = Гымнинэ игыткин чакэттомгыт ымыԓьо Кымъытваԓьынтэыʼм.
 # text[phon] = ɣəmnine iɣətkin sakettomɣət əməɬʔo kəmʔətwaɬʔənteʔəm
 # text[rus] = Все мои сёстры, которые живы сейчас, – Кымытвали.
 # text[eng] = All my sisters that are now alive are Kamytwals.
@@ -509,7 +509,7 @@
 3	игыткин	_	ADV	_	_	4	nmod:relat	_	Gloss=сегодня-REL
 4	чакэттомгыт	_	NOUN	_	_	6	nsubj	_	Gloss=сестра-друг-NOM.PL
 5	ымыԓьо	_	PRON	_	_	4	appos	_	Gloss=весь
-6-7	Кымъытваԓьынтэыʼм	_	_	_	_	_	_	_	_
+6-7	Кымъытваԓьынтэыʼм	_	_	_	_	_	_	_	SpaceAfter=No
 6	Кымъытваԓьынтэ	_	PROPN	_	_	0	root	_	Gloss=Кымъытваль-NOM.PL-=EMPH
 7	ыʼм	_	PART	_	_	6	discourse	_	_
 8	.	_	PUNCT	_	_	6	punct	_	_
@@ -1112,24 +1112,25 @@
 2	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Brandy:7
+# text = Наӄам Брэнди называлось.
 # text[phon] = naqam brendi называлось
 # text[rus] = На самом деле называлось «Бренди».
 # text[eng] = In fact, it was called «Brandy».
 # labels = complete-dep anno-fran
 1	Наӄам	_	ADV	_	_	3	advmod	_	Gloss=однако
-2	брэнди	_	PROPN	_	_	3	obj	_	Gloss=бренди-NOM.SG
-3	называлось	_	VERB	_	_	0	root	_	Gloss=
+2	Брэнди	_	PROPN	_	_	3	obj	_	Gloss=бренди-NOM.SG
+3	называлось	_	VERB	_	_	0	root	_	Gloss=|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Brandy:8
-# text = Брэнди брэндину ныԓгыӄинэтъым.
+# text = Брэнди Брэндину ныԓгыӄинэтъым.
 # text[phon] = brendi brendinu nəɬɣəqinetʔəm
 # text[rus] = Называли его «Бренди».
 # text[eng] = They called it «Brandy».
 # labels = complete-dep anno-fran unclear-syntax
 1	Брэнди	_	PROPN	_	_	2	reparandum	_	Gloss=бренди-NOM.SG
 2	Брэндину	_	PROPN	_	_	3	obj	_	Gloss=бренди-EQU
-3-4	ныԓгыӄинэтъым	_	_	_	_	_	_	_	_
+3-4	ныԓгыӄинэтъым	_	_	_	_	_	_	_	SpaceAfter=No
 3	ныԓгыӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-считать-ST.3SG-PL-=EMPH
 4	ъым	_	PART	_	_	3	discourse	_	_
 5	.	_	PUNCT	_	_	3	punct	_	_
@@ -1235,17 +1236,17 @@
 9	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Brandy:21
-# text = Пличка бличка чымчеӄэй вэԓыткоран мрэнти ӄыркургынэт.
+# text = Плиска блиска чымчеӄэй вэԓыткоран Мрэнти ӄыркургынэт.
 # text[phon] = pliska bliska səmseqej weɬətkoran mrenti qərkurɣənet
 # text[rus] = «Рядом магазин, купи бренди!».
 # text[eng] = «The store is close, buy brandy!».
 # labels = complete-dep anno-fran unclear-syntax
-1	Пличка	_	X	_	_	3	reparandum	_	Gloss=близко
-2	бличка	_	X	_	_	3	reparandum	_	Gloss=близко
+1	Плиска	_	X	_	_	3	reparandum	_	Gloss=близко
+2	блиска	_	X	_	_	3	reparandum	_	Gloss=близко
 3	чымчеӄэй	_	ADV	_	_	0	root	_	Gloss=близко-INS-DIM
 4	вэԓыткоран	_	NOUN	_	_	3	nsubj	_	Gloss=товар-ITER-жилище-NOM.SG
 5	Мрэнти	_	PROPN	_	_	6	obj	_	Gloss=комар-NOM.PL
-6	ӄыркургынэт	_	VERB	_	_	3	parataxis	_	Gloss=2.S/A.SUBJ-покупать-IRR-3SG.O-PL
+6	ӄыркургынэт	_	VERB	_	_	3	parataxis	_	Gloss=2.S/A.SUBJ-покупать-IRR-3SG.O-PL|SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Brandy:24
@@ -1488,7 +1489,7 @@
 5	.	_	PUNCT	_	_	2	punct	2:punct	_
 
 # sent_id = Chapaev:5
-# text = Ӄытԓыгиыʼм ынӄэнэ чапаевӄай чапаев ынӄэн мытԓьуэʼн кино тэӈвытку ӄэԓюӄэ.
+# text = Ӄытԓыгиыʼм ынӄэнэ чапаевӄай Чапаев ынӄэн мытԓьуэʼн кино тэӈвытку ӄэԓюӄэ.
 # text[phon] = qətɬəɣiʔəm ənqene čapajewqaj čapajew ənqen mətɬʔuʔen kino teŋwətku qeɬuqe
 # text[rus] = Конечно же, мы этот фильм, «Чапаев», смотрели впервые.
 # text[eng] = Of course, we watched this film, «Chapaev», for the first time.
@@ -2859,7 +2860,7 @@
 8	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Grass:1
-# text = Мури ӈакаԓгын ынмынкав гым ынкъам ӄоԓьым Наташа Канунникава.
+# text = Мури Ӈакаԓгын ынмынкав гым ынкъам ӄоԓьым Наташа Канунникава.
 # text[phon] = muri ŋakaɬɣən ənmənkaw ɣəm ənkʔam qoɬʔəm nataša kanunnʲikawa
 # text[rus] = Мы — Накаль, Ынмынкау, я и это… Наташа Канунникова…
 # text[eng] = We—Ngakalgyn, Ynmynkaw, me and… Natasha Kanunnikova…
@@ -3384,14 +3385,14 @@
 5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Having_bear_ears:8
-# text = Ӈинӄэй кэйӈывиԓюну ӄытэнынныӈгын.
+# text = Ӈинӄэй Кэйӈывиԓюну ӄытэнынныӈгын.
 # text[phon] = ŋinqej kejŋəwiɬunu qətenənnəŋɣən
 # text[rus] = Мальчика назови Медвежьим Ушком.
 # text[eng] = Name the boy Bearberry (Bear's ear).
 # labels = complete-dep anno-fran
 1	Ӈинӄэй	_	NOUN	_	_	3	obj	_	Gloss=молодой-DIM-NOM.SG
 2	Кэйӈывиԓюну	_	NOUN	_	_	3	xcomp	_	Gloss=бурый.медведь-ухо-EQU
-3	ӄытэнынныӈгын	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-MAKE-имя-MAKE-IRR-3SG.O
+3	ӄытэнынныӈгын	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-MAKE-имя-MAKE-IRR-3SG.O|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Having_bear_ears:9
@@ -3612,6 +3613,7 @@
 6	нутэӈэвыт	_	PROPN	_	_	3	conj	_	Gloss=Нутеневыт-NOM.SG|SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Having_bear_ears:31
 # text = Йъарат это накапчачгэтагъан ынӄо ԓгэкоргаквъат.
 # text[phon] = jʔarat это nakapsasɣetaɣʔan ənqo ɬɣekorɣakwʔat
 # text[rus] = Конечно же, удивились и потом сильно обрадовались.
@@ -3656,16 +3658,16 @@
 9	.	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Hooligan:1
-# text = Нымӈыԓтэԓӄэн ваӈӄарэмакэн куувэӈэ аӈӄаԓьын.
+# text = Нымӈыԓтэԓӄэн Ваӈӄарэмакэн куувэӈэ аӈӄаԓьын.
 # text[phon] = nəmŋəɬteɬqen waŋqaremaken kuuweŋe aŋqaɬʔən
 # text[rus] = Ванкаремский Куувэн, помор, рассказывал.
 # text[eng] = Kuuwen from Wankarem, a maritime Chukchi, told (this story).
 # labels = complete-dep anno-fran
 1	Нымӈыԓтэԓӄэн	_	VERB	_	_	0	root	_	Gloss=ST-весть-DUR-ST.3SG
 2	Ваӈӄарэмакэн	_	PROPN	_	_	3	nmod:relat	_	Gloss=Ванкарем-REL
-3-4	Куувэӈэ	_	_	_	_	_	_	_	_
-3	Куувэӈ	_	PROPN	_	_	1	nsubj	_	Gloss=Куувэн-NOM.SG-=PTCL
-4	э	_	PART	_	_	3	discourse	_	_
+3-4	Куувэӈэ	_	_	_	_	_	_	_	Gloss=Куувэн-NOM.SG-=PTCL
+3	Куувэӈ	_	PROPN	_	_	1	nsubj	_	Gloss=Куувэн-NOM.SG
+4	ӈэ	_	PART	_	_	3	discourse	_	Gloss=PTCL
 5	аӈӄаԓьын	_	NOUN	_	_	3	nmod	_	Gloss=море-ATTR-NOM.SG
 6	.	_	PUNCT	_	_	1	punct	_	_
 
@@ -3740,7 +3742,7 @@
 3	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Hooligan:9
-# text = Читъым нэрмэйгым гым нэрмэчитивым ваӈӄарэмак тэйкэвык.
+# text = Читъым нэрмэйгым гым нэрмэчитивым Ваӈӄарэмак тэйкэвык.
 # text[phon] = sitʔəm nermejɣəm ɣəm nermesitiwəm waŋqaremak tejkewək
 # text[rus] = А я был силач в Ванкареме, практически непобедим.
 # text[eng] = And I was a strong man in Wankarem, almost invincible.
@@ -3752,11 +3754,11 @@
 4	гым	_	PRON	_	_	5	nsubj	_	Gloss=я
 5	нэрмэчитивым	_	VERB	_	_	3	parataxis	_	Gloss=ST-сильный-COMB-NP.1SG
 6	Ваӈӄарэмак	_	PROPN	_	_	5	obl	_	Gloss=Ванкарем-LOC
-7	тэйкэвык	_	VERB	_	_	5	advcl	_	Gloss=бороться-LOC
+7	тэйкэвык	_	VERB	_	_	5	advcl	_	Gloss=бороться-LOC|SpaceAfter=No
 8	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Hooligan:10
-# text = Тыгитэгъэн ӄытԓыги ӄырым ӄытԓыги эмнуӈыԓьын пэгытту.
+# text = Тыгитэгъэн ӄытԓыги ӄырым ӄытԓыги эмнуӈыԓьын Пэгытту.
 # text[phon] = təɣiteɣʔen qətɬəɣi qərəm qətɬəɣi emnuŋəɬʔən peɣəttu
 # text[rus] = Смотрю — оказывается, это не он, а тундровик Пегыт.
 # text[eng] = I look at him and it turns out that this is not him but Pegyt, a man from tundra.
@@ -3766,11 +3768,11 @@
 3	ӄырым	_	AUX	_	_	1	parataxis	_	Gloss=NEG.FUT
 4	ӄытԓыги	_	ADV	_	_	6	advmod	_	Gloss=оказывается
 5	эмнуӈыԓьын	_	NOUN	_	_	6	nmod:attr	_	Gloss=тундра-ATTR-NOM.SG
-6	Пэгытту	_	PROPN	_	_	1	parataxis	_	Gloss=Пегыт-NOM.SG
+6	Пэгытту	_	PROPN	_	_	1	parataxis	_	Gloss=Пегыт-NOM.SG|SpaceAfter=No
 7	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Hooligan:11
-# text = Чит тыгынтэвыркынъым инэпирииʼ.
+# text = Чит тыгынтэвыркынъым инэпириъи.
 # text[phon] = sit təɣəntewərkənʔəm inepiriʔi
 # text[rus] = Я хотел смыться, а он меня схватил.
 # text[eng] = I wanted to run away but he caught me.
@@ -3779,7 +3781,7 @@
 2-3	тыгынтэвыркынъым	_	_	_	_	_	_	_	_
 2	тыгынтэвыркын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-убегать-IPFV-=EMPH
 3	ъым	_	PART	_	_	2	discourse	_	_
-4	инэпириъи	_	VERB	_	_	2	parataxis	_	Gloss=2/3.S/A-INV-брать-TH-2/3SG.S
+4	инэпириъи	_	VERB	_	_	2	parataxis	_	Gloss=2/3.S/A-INV-брать-TH-2/3SG.S|SpaceAfter=No
 5	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Hooligan:12
@@ -3962,14 +3964,14 @@
 3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = I_am_from_Chukotka:22
-# text = Чашкана Данилка нэнамӈыԓёӄэн.
+# text = Сашкана Данилка нэнамӈыԓёӄэн.
 # text[phon] = saškana danilka nenamŋəɬoqen
 # text[rus] = Сашка Данилку спрашивает:
 # text[eng] = Sashka asks Danilka:
 # labels = complete-dep anno-fran
 1	Сашкана	_	PROPN	_	_	3	nsubj	_	Gloss=Сашка-AN.INS
 2	Данилка	_	PROPN	_	_	3	obj	_	Gloss=Данилка-NOM.SG
-3	нэнамӈыԓёӄэн	_	VERB	_	_	0	root	_	Gloss=ST-INV-спрашивать-ST.3SG
+3	нэнамӈыԓёӄэн	_	VERB	_	_	0	root	_	Gloss=ST-INV-спрашивать-ST.3SG|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = I_am_from_Chukotka:23
@@ -4029,7 +4031,7 @@
 3	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = I_am_from_Chukotka:29
-# text = А гым нотапынмэпы тыпки нэмыӄэй нутэпынмыԓьивым.
+# text = А гым Нотапынмэпы тыпки нэмыӄэй нутэпынмыԓьивым.
 # text[phon] = а ɣəm notapənmepə təpki neməqej nutepənməɬʔiwəm
 # text[rus] = «А я с Нутэпэльмена, нутэпэльменский я».
 # text[eng] = «And me… I am from Nutepelmen».
@@ -4039,11 +4041,11 @@
 3	Нотапынмэпы	_	PROPN	_	_	0	root	_	Gloss=Нутэпэльмен-ABL
 4	тыпки	_	X	_	_	5	reparandum	_	Gloss=FST
 5	нэмыӄэй	_	ADV	_	_	6	advmod	_	Gloss=тоже
-6	нутэпынмыԓьивым	_	PROPN	_	_	3	parataxis	_	Gloss=Нутэпэльмен-ATTR-NP.1SG
+6	нутэпынмыԓьивым	_	PROPN	_	_	3	parataxis	_	Gloss=Нутэпэльмен-ATTR-NP.1SG|SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Ice_Age:1
-# text = Ынпыӈэвӄэй кымъыӈэӄэйъымэ Ԓетынтагравнэн ытԓьаӄай ԓгитэԓенъепкинэ ԓыгэн ԓгиынпыӈэвӄэй аръаԓя.
+# text = Ынпыӈэвӄэй Кымъыӈэӄэйъымэ Ԓетынтагравнэн ытԓьаӄай ԓгитэԓенъепкинэ ԓыгэн ԓгиынпыӈэвӄэй аръаԓя.
 # text[phon] = ənpəŋewqej kəmʔəŋeqejʔəme ɬetəntaɣrawnen ətɬʔaqaj ɬɣiteɬenjepkine ɬəɣen ɬɣiənpəŋewqej arʔaɬa
 # text[rus] = Давным-давно старушка Кымъынэкэй, мать Лэтынтаграва, прямо совсем старушка…
 # text[eng] = Long ago, the old woman Kymyneqej, the mother of Letyntagraw, really an old woman…
@@ -4060,11 +4062,11 @@
 8	э	_	PART	_	_	7	discourse	_	_
 9	ԓыгэн	_	ADV	_	_	10	advmod	_	Gloss=просто
 10	ԓгиынпыӈэвӄэй	_	ADJ	_	_	2	appos	_	Gloss=INTS-старый-FEM-DIM-NOM.SG
-11	аръаԓя	_	ADV	_	_	10	advmod	_	Gloss=очень
+11	аръаԓя	_	ADV	_	_	10	advmod	_	Gloss=очень|SpaceAfter=No
 12	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Ice_Age:2
-# text = Купрэткумуриӈэ ямгагытгыкъым рээн ӈоонӄо ваӈӄарэмак ӄача кынмаӈӄакъым.
+# text = Купрэткумуриӈэ ямгагытгыкъым рээн ӈоонӄо Ваӈӄарэмак ӄача кынмаӈӄакъым.
 # text[phon] = kupretkumuriŋe jamɣaɣətɣəkʔəm reen ŋoonqo waŋqaremak qasa kənmaŋqakʔəm
 # text[rus] = Мы рыбачили сеткой на озёрах, и оттуда дальше, возле Ванкарема, в лагуне.
 # text[eng] = We fished with a net on the lakes, there further as well, near Vankarem, in the lagoon.
@@ -4079,7 +4081,7 @@
 6	ӈоонӄо	_	ADV	_	_	1	advmod	_	Gloss=там-ADV.ABL
 7	Ваӈӄарэмак	_	PROPN	_	_	1	obl	_	Gloss=Ванкарем-LOC
 8	ӄача	_	ADP	_	_	7	case	_	Gloss=около
-9-10	кынмаӈӄакъым	_	_	_	_	_	_	_	_
+9-10	кынмаӈӄакъым	_	_	_	_	_	_	_	SpaceAfter=No
 9	кынмаӈӄак	_	NOUN	_	_	1	obl	_	Gloss=лагуна-LOC-=EMPH
 10	ъым	_	PART	_	_	9	discourse	_	_
 11	.	_	PUNCT	_	_	1	punct	_	_
