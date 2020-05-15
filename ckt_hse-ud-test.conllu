@@ -1658,29 +1658,29 @@
 # text = Нэмыӄэйъымэ ӄынвэтъымэ тъэче гииӈитыкъымэ ӄынвэтэ амноӈэты нэмыӄэй киноратыӈӈоаʼт.
 # text[phon] = neməqejʔəme qənwetʔəme tʔese ɣiiŋitəkʔəme qənwete amnoŋetə neməqej kinoratəŋŋoʔat
 # text[rus] = Как-то через несколько лет тоже наконец стали возить кино по бригадам.
-# text[eng] = Sometimes a few years later, they also finally began to carry movies around the camps.
+# text[eng] = Sometimes a few years later, they also finally began to carry films around the camps.
 # labels = complete-dep anno-karina
-1-3	Нэмыӄэйъымэ	_	_	_	_	_	_	_	_
-1	Нэмыӄэйъы	_	ADV	_	_	15	advmod	_	Gloss=тоже-=EMPH-=PTCL
-2	м	_	PART	_	_	1	discourse	_	_
-3	э	_	PART	_	_	1	discourse	_	_
-4-6	ӄынвэтъымэ	_	_	_	_	_	_	_	_
-4	ӄынвэтъы	_	ADV	_	_	15	advmod	_	Gloss=наконец-=EMPH-=PTCL
-5	м	_	PART	_	_	4	discourse	_	_
-6	э	_	PART	_	_	4	discourse	_	_
-7	тъэче	_	ADV	_	_	8	det	_	Gloss=сколько-MPL
-8-10	гииӈитыкъымэ	_	_	_	_	_	_	_	_
-8	гииӈитыкъы	_	NOUN	_	_	15	obl	_	Gloss=год-TIME-LOC-=EMPH-=PTCL
-9	м	_	PART	_	_	8	discourse	_	_
-10	э	_	PART	_	_	8	discourse	_	_
-11-12	ӄынвэтэ	_	_	_	_	_	_	_	_
-11	ӄынвэт	_	ADV	_	_	15	advmod	_	Gloss=наконец-=PTCL
-12	э	_	PART	_	_	11	discourse	_	_
-13	амноӈэты	_	NOUN	_	_	15	obl	_	Gloss=тундра-DAT
-14	нэмыӄэй	_	ADV	_	_	15	advmod	_	Gloss=тоже
-15	киноратыӈӈоаʼт	_	VERB	_	_	0	root	_	2/3.S/A-фильм-приносить-INCH-TH-PL|SpaceAfter=No
+1-3	Нэмыӄэйъымэ	_	_	_	_	_	_	_	Gloss=тоже-=EMPH-=PTCL
+1	Нэмыӄэй	_	ADV	_	_	15	advmod	15:advmod	Gloss=тоже
+2	ъым	_	PART	_	_	1	advmod:emph	1:discourse	Gloss=EMPH
+3	э	_	PART	_	_	1	advmod:emph	1:discourse	Gloss=PTCL
+4-6	ӄынвэтъымэ	_	_	_	_	_	_	_	Gloss=наконец-=EMPH-=PTCL
+4	ӄынвэт	_	ADV	_	_	15	advmod	15:advmod	Gloss=наконец
+5	ъым	_	PART	_	_	4	advmod:emph	4:discourse	Gloss=EMPH
+6	э	_	PART	_	_	4	advmod:emph	4:discourse	Gloss=PTCL
+7	тъэче	_	ADV	_	_	8	advmod	_	Gloss=сколько-MPL
+8-10	гииӈитыкъымэ	_	_	_	_	_	_	_	Gloss=год-TIME-LOC-=EMPH-=PTCL
+8	гииӈитык	_	NOUN	_	_	15	obl	15:obl	Gloss=год-TIME-LOC
+9	ъым	_	PART	_	_	8	advmod:emph	8:discourse	Gloss=EMPH
+10	э	_	PART	_	_	8	advmod:emph	8:discourse	Gloss=PTCL
+11-12	ӄынвэтэ	_	_	_	_	_	_	_	Gloss=наконец-=PTCL
+11	ӄынвэт	_	ADV	_	_	15	advmod	15:advmod	Gloss=наконец
+12	э	_	PART	_	_	11	advmod:emph	11:discourse	Gloss=PTCL
+13	амноӈэты	_	NOUN	_	_	15	obl	15:obl	Gloss=тундра-DAT
+14	нэмыӄэй	_	ADV	_	_	15	advmod	15:advmod	Gloss=тоже
+15	киноратыӈӈоаʼт	_	VERB	_	_	0	root	0:root	2/3.S/A-фильм-приносить-INCH-TH-PL|SpaceAfter=No
 15.1	кино	_	NOUN	_	_	_	_	15:obj	Gloss=фильм
-16	.	_	PUNCT	_	_	15	punct	_	_
+16	.	_	PUNCT	_	_	15	punct	15:punct	_
 
 # sent_id = Chapaev:18
 # text = Ынпыначгытъым нэмыӄэй ныкиноӄэнат.
