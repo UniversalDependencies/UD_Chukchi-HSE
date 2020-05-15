@@ -558,7 +558,7 @@
 # text[eng] = «Mom, give me your breast!»
 # labels = complete-dep anno-fran
 1	Мэмэй	_	NOUN	_	_	3	vocative	_	Gloss=мама-VOC
-2	аны	_	PART	_	_	3	aux	_	Gloss=давай
+2	аны	_	ADV	_	_	3	advmod	_	Gloss=давай
 3	мыммэмэаʼк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-сосать.грудь-TH-1SG.S|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -1069,7 +1069,7 @@
 1	Ӄоԓьы	_	PRON	_	_	3	nsubj	_	Gloss=некий-=EMPH
 2	м	_	PART	_	_	1	discourse	_	_
 3	нытэнӈыткуӄин	_	VERB	_	_	0	root	_	Gloss=ST-смеяться-ITER-ST.3SG
-4	аны	_	PART	_	_	6	discourse	_	Gloss=давай
+4	аны	_	ADV	_	_	6	advmod	_	Gloss=давай
 5	ванэ	_	PART	_	_	4	flat	_	Gloss=NEG.NFUT
 6	ӄъыԓтыёгэ	_	VERB	_	_	3	parataxis	_	Gloss=2.S/A.SUBJ-снег-класть-IRR-2/3SG.S|SpaceAfter=No
 6.1	ъыԓ	_	NOUN	_	_	_	_	6:obj	Gloss=снег
@@ -8230,7 +8230,7 @@
 # labels = complete-dep anno-fran
 1	Ыммымэӄэй	_	NOUN	_	_	4	vocative	_	Gloss=мама-DIM-NOM.SG
 2	ыммымэӄэй	_	NOUN	_	_	4	vocative	_	Gloss=мама-DIM-NOM.SG
-3	аны	_	AUX	_	_	4	aux	_	Gloss=давай
+3	аны	_	ADV	_	_	4	advmod	_	Gloss=давай
 4	тыэʼнӄэркын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-не.хотеть-VB-IPFV|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -8263,7 +8263,7 @@
 # labels = complete-dep anno-fran
 1	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
 2	тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
-3	аны	_	AUX	_	_	4	aux	_	Gloss=давай
+3	аны	_	ADV	_	_	4	advmod	_	Gloss=давай
 4	ӄаймыгэ	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-сходить.за.водой-IRR-2/3SG.S
 5	ӄаймыгэ	_	VERB	_	_	4	parataxis	_	Gloss=2.S/A.SUBJ-сходить.за.водой-IRR-2/3SG.S|SpaceAfter=No
 6	.	_	PUNCT	_	_	4	punct	_	_
@@ -8276,7 +8276,7 @@
 # labels = complete-dep anno-fran
 1	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
 2	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
-3	аны	_	AUX	_	_	4	aux	_	Gloss=давай
+3	аны	_	ADV	_	_	4	advmod	_	Gloss=давай
 4	ӄыгывъекви	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -8300,7 +8300,7 @@
 # labels = complete-dep anno-fran
 1	Ыммымэӄэй	_	NOUN	_	_	4	vocative	_	Gloss=мама-DIM-NOM.SG
 2	ыммымэӄэй	_	NOUN	_	_	4	vocative	_	Gloss=мама-DIM-NOM.SG
-3	аны	_	AUX	_	_	4	aux	_	Gloss=давай
+3	аны	_	ADV	_	_	4	advmod	_	Gloss=давай
 4	тыэʼнӄэркын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-не.хотеть-VB-IPFV|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -8334,7 +8334,7 @@
 1	Ыммымэӄэй	_	NOUN	_	_	0	root	_	Gloss=мама-DIM-NOM.SG
 2	Тэлёпкаӄай	_	PROPN	_	_	5	vocative	_	Gloss=Телёпка-DIM-NOM.SG
 3	Тэлёпкаӄай	_	PROPN	_	_	5	vocative	_	Gloss=Телёпка-DIM-NOM.SG
-4	аны	_	AUX	_	_	5	aux	_	Gloss=давай
+4	аны	_	ADV	_	_	5	advmod	_	Gloss=давай
 5	ӄыгывъекви	_	VERB	_	_	1	parataxis	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S|SpaceAfter=No
 6	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -8359,7 +8359,7 @@
 1	Тэлёпка	_	PROPN	_	_	0	root	_	Gloss=Телёпка-NOM.SG
 2	ыммымэӄэй	_	NOUN	_	_	5	vocative	_	Gloss=мама-DIM-NOM.SG
 3	ыммымэӄэй	_	NOUN	_	_	5	vocative	_	Gloss=мама-DIM-NOM.SG
-4	аны	_	AUX	_	_	5	aux	_	Gloss=давай
+4	аны	_	ADV	_	_	5	advmod	_	Gloss=давай
 5	тыэʼнӄэркын	_	VERB	_	_	1	parataxis	_	Gloss=1SG.S/A-не.хотеть-VB-IPFV|SpaceAfter=No
 6	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -8392,7 +8392,7 @@
 # labels = complete-dep anno-fran
 1	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
 2	Тэлёпкаӄай	_	PROPN	_	_	4	vocative	_	Gloss=Телёпка-DIM-NOM.SG
-3	аны	_	AUX	_	_	4	aux	_	Gloss=давай
+3	аны	_	ADV	_	_	4	advmod	_	Gloss=давай
 4	ӄыгывъекви	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-просыпаться-IRR-2/3SG.S|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
