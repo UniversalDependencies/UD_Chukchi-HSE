@@ -2273,8 +2273,8 @@
 # text[rus] = В общем, в клубе народ побывал на концерте.
 # text[eng] = In the end, people went to the concert in the club.
 # labels = complete-dep anno-karina
-1	В	_	X	_	_	5	flat:foreign	_	Gloss=
-2	общем	_	X	_	_	1	discourse	_	Gloss=
+1	В	_	X	_	_	5	discourse	_	Gloss=
+2	общем	_	X	_	_	1	flat:foreign	_	Gloss=
 3	рэмкын	_	NOUN	_	_	5	nsubj	_	Gloss=народ-NOM.SG
 4	клубык	_	NOUN	_	_	5	obl	_	Gloss=клуб-LOC
 5	гаканчертԓен	_	VERB	_	_	0	root	_	Gloss=PF-концерт-PF.3SG|SpaceAfter=No
@@ -2873,8 +2873,8 @@
 6-7	ӄоԓьым	_	_	_	_	_	_	_	_
 6	ӄоԓ	_	PRON	_	_	8	discourse	_	Gloss=некий-=EMPH
 7	ьым	_	PART	_	_	6	discourse	_	_
-8	Наташа	_	PROPN	_	_	9	flat:name	_	Gloss=Наташа-NOM.SG
-9	Канунникава	_	PROPN	_	_	2	conj	_	Gloss=Канунникова-NOM.SG|SpaceAfter=No
+8	Наташа	_	PROPN	_	_	2	conj	_	Gloss=Наташа-NOM.SG
+9	Канунникава	_	PROPN	_	_	8	flat:name	_	Gloss=Канунникова-NOM.SG|SpaceAfter=No
 10	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Grass:2
