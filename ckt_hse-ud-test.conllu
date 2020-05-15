@@ -9249,7 +9249,7 @@
 1	Ынӄэн	_	DET	_	_	3	det	_	Gloss=DET
 2	виин	_	ADV	_	_	12	advmod	_	Gloss=пока
 3-4	рыюԓьынэ	_	_	_	_	_	_	_	_
-3	рыюԓьын	_	NOUN	_	_	5	appos	_	Gloss=пасти.оленей.ночью-ATTR-NOM.SG-=PTCL
+3	рыюԓьын	_	NOUN	_	_	5	reparandum	_	Gloss=пасти.оленей.ночью-ATTR-NOM.SG-=PTCL
 4	э	_	PART	_	_	3	discourse	_	_
 5	рыюԓьэ	_	NOUN	_	_	12	nsubj	_	Gloss=пасти.оленей.ночью-ATTR-INS
 6	виин	_	ADV	_	_	2	reparandum	_	Gloss=пока
