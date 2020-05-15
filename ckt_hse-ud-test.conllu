@@ -1152,7 +1152,7 @@
 8	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Brandy:10
-# text = Ӄораваԓьыт ӄэԓюӄъым пыкитԓьыт отпучкыԓьыт.
+# text = Ӄораваԓьыт ӄэԓюӄъым пыкитԓьыт отпускыԓьыт.
 # text[phon] = qorawaɬʔət qeɬuqʔəm pəkitɬʔət otpuskəɬʔət
 # text[rus] = Пастухи потому что приезжали в отпуск.
 # text[eng] = Because shepherds came on vacation.
@@ -1162,7 +1162,7 @@
 2	ӄэԓюӄ	_	ADV	_	_	4	advmod	_	Gloss=конечно-=EMPH
 3	ъым	_	PART	_	_	2	discourse	_	_
 4	пыкитԓьыт	_	VERB	_	_	0	root	_	Gloss=прибывать-ATTR-NOM.PL
-5	отпучкыԓьыт	_	VERB	_	_	4	parataxis	_	Gloss=отпуск-ATTR-NOM.PL|SpaceAfter=No
+5	отпускыԓьыт	_	NOUN	_	_	4	parataxis	_	Gloss=отпуск-ATTR-NOM.PL|SpaceAfter=No
 6	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Brandy:14
@@ -8702,7 +8702,7 @@
 3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = The_day_before_yesterday:7
-# text = Ынкъам мытъенмык эԓгыӄанъяквыпы пэтԓе.
+# text = Ынкъам мытъенмык Эԓгыӄанъяквыпы пэтԓе.
 # text[phon] = ənkʔam mətjenmək eɬɣəqanjakwəpə petɬe
 # text[rus] = DMP: — И мы приехали из Эгвекинота быстро.
 # text[eng] = DMP: — And we quickly came back from Egvekiot.
@@ -8710,7 +8710,7 @@
 1	Ынкъам	_	CCONJ	_	_	2	cc	_	Gloss=и
 2	мытъенмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-приходить-1PL.S/O
 3	Эԓгыӄанъяквыпы	_	PROPN	_	_	2	obl	_	Gloss=белый-ущелье-ABL
-4	пэтԓе	_	ADV	_	_	2	advmod	_	Gloss=быстро
+4	пэтԓе	_	ADV	_	_	2	advmod	_	Gloss=быстро|SpaceAfter=No
 5	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = The_day_before_yesterday:8
@@ -9065,7 +9065,7 @@
 5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Vacation:1
-# text = Янор Омваамгыпы такчитэ ԓымэвыр афтобуча Камаза трэԓӄытгъэ эԓгыӄанъявэты.
+# text = Янор Омваамгыпы такчитэ ԓымэвыр афтобуча Камаза трэԓӄытгъэ Эԓгыӄанъявэты.
 # text[phon] = janor omwaamɣəpə taksite ɬəmewər aftobusa kamaza treɬqətɣʔe eɬɣəqanjawetə
 # text[rus] = Сначала из Амгуэмы я поеду на такси или на автобусе, на Камазе в Эгвекинот.
 # text[eng] = First, from Amguema, I will take a taxi or a bus, or Kamaz to Egvekinot.
@@ -9077,7 +9077,7 @@
 5	афтобуча	_	NOUN	_	_	3	conj	_	Gloss=автобус-INS
 6	Камаза	_	PROPN	_	_	3	conj	_	Gloss=Камаз-INS
 7	трэԓӄытгъэ	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-идти-TH
-8	Эԓгыӄанъявэты	_	PROPN	_	_	7	obl	_	Gloss=белый-ущелье-DAT
+8	Эԓгыӄанъявэты	_	PROPN	_	_	7	obl	_	Gloss=белый-ущелье-DAT|SpaceAfter=No
 9	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Vacation:2
@@ -9131,7 +9131,7 @@
 4	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Vacation:5
-# text = Ынкы трэԓьуӈынэт гымнинэт чакэттомгыӄай Ларича ынкъам гымнин ӈавытԓывэӄай Виталина.
+# text = Ынкы трэԓьуӈынэт гымнинэт чакэттомгыӄай Лариса ынкъам гымнин ӈавытԓывэӄай Виталина.
 # text[phon] = ənkə treɬʔuŋənet ɣəmninet sakettomɣəqaj larisa ənkʔam ɣəmnin ŋawətɬəweqaj vʲitalʲina
 # text[rus] = Там я увижу сестрёнку Ларису и племянницу Виталину.
 # text[eng] = There I will see my sister Larissa and my niece Vitalina.
@@ -9144,11 +9144,11 @@
 6	ынкъам	_	CCONJ	_	_	8	cc	_	Gloss=и
 7	гымнин	_	PRON	_	_	8	nmod:poss	_	Gloss=я-AN.GEN
 8	ӈавытԓывэӄай	_	NOUN	_	_	4	conj	_	Gloss=FEM-племянник-DIM-NOM.SG
-9	Виталина	_	PROPN	_	_	8	appos	_	Gloss=Виталина-NOM.SG
+9	Виталина	_	PROPN	_	_	8	appos	_	Gloss=Виталина-NOM.SG|SpaceAfter=No
 10	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Vacation:6
-# text = Мэсӄээӄын ынкы мытратвааʼ Дианана транкаԓровӈынат музеи ԓыгэн питиргоф тэӈимыръэнут мытрэгитэӈын.
+# text = Мэсӄээӄын ынкы мытратвааʼ Дианана транкаԓровӈынат музеи ԓыгэн Петергоф тэӈимыръэнут мытрэгитэӈын.
 # text[phon] = mesqeeqən ənkə mətratwaʔa dianana trankaɬrowŋənat музеи ɬəɣen pitirgof teŋimərʔenut mətreɣiteŋən
 # text[rus] = Там ещё чуть-чуть побудем, Диане покажу музеи, Петергоф, всё остальное, всё посмотрим.
 # text[eng] = We’ll be there a little bit more, I will show Diana the museums, Peterhof, everything else, we’ll see everything.
@@ -9162,7 +9162,7 @@
 7	ԓыгэн	_	ADV	_	_	6	advmod	_	Gloss=просто
 8	Петергоф	_	PROPN	_	_	6	conj	_	Gloss=Петергоф-NOM.SG
 9	тэӈимыръэнут	_	PRON	_	_	10	obj	_	Gloss=GOOD-FC-что.NOM.SG
-10	мытрэгитэӈын	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-FUT-смотреть-FUT-3SG.O
+10	мытрэгитэӈын	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-FUT-смотреть-FUT-3SG.O|SpaceAfter=No
 11	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Vacation:8
@@ -9179,7 +9179,7 @@
 5	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Vacation:9
-# text = Ынӄоры Виталинанэн отпучк ратвагъа мури кынмаԓ мытрэԓӄытгъэ аӈӄагты Чёрное море мытрайъоӈын.
+# text = Ынӄоры Виталинанэн отпуск ратвагъа мури кынмаԓ мытрэԓӄытгъэ аӈӄагты Чёрное море мытрайъоӈын.
 # text[phon] = ənqorə vʲitalʲinanen otpusk ratwaɣʔa muri kənmaɬ mətreɬqətɣʔe aŋqaɣtə Чёрное море mətrajʔoŋən
 # text[rus] = Потом у Виталины отпуск начнётся, мы вместе поедем на море, на Чёрное море.
 # text[eng] = Then Vitalina’s vacation will begin, we will go together to the sea, to the Black Sea.
@@ -9194,16 +9194,16 @@
 8	аӈӄагты	_	NOUN	_	_	7	obl	_	Gloss=море-DAT
 9	Чёрное	_	X	_	_	11	obj	_	Gloss=
 10	море	_	X	_	_	9	flat:name	_	Gloss=
-11	мытрайъоӈын	_	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A-FUT-настигать-FUT-3SG.O
+11	мытрайъоӈын	_	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A-FUT-настигать-FUT-3SG.O|SpaceAfter=No
 12	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Vacation:10
-# text = Ларичанэн ыʼԓгытумгыӄэй Жэня мытрай мытрайъоӈын ынкы мытранымытвагъа тъэр нидэлят.
+# text = Ларисанэн ыʼԓгытумгыӄэй Жэня мытрай мытрайъоӈын ынкы мытранымытвагъа тъэр нидэлят.
 # text[phon] = larisanen ʔəɬɣətumɣəqej ženʲa mətraj mətrajʔoŋən ənkə mətranəmətwaɣʔa tʔer nidelʲat
 # text[rus] = К Ларисиной лучшей подруге поедем и там проживем несколько недель.
 # text[eng] = We’ll go to Larissa’s best friend and live there for a few weeks.
 # labels = complete-dep anno-fran
-1	Лариснэн	_	PROPN	_	_	2	nmod:poss	_	Gloss=Лариса-AN.GEN
+1	Ларисанэн	_	PROPN	_	_	2	nmod:poss	_	Gloss=Лариса-AN.GEN
 2	ыʼԓгытумгыӄэй	_	NOUN	_	_	5	obj	_	Gloss=любить-друг-DIM-NOM.SG
 3	Жэня	_	PROPN	_	_	2	appos	_	Gloss=Женя-NOM.SG
 4	мытрай	_	X	_	_	5	reparandum	_	Gloss=FST
@@ -9211,7 +9211,7 @@
 6	ынкы	_	PRON	_	_	7	obl	_	Gloss=тот-LOC
 7	мытранымытвагъа	_	NOUN	_	_	5	parataxis	_	Gloss=1PL.S/A-FUT-посёлок-RES-TH
 8	тъэр	_	ADV	_	_	9	advmod	_	Gloss=сколько
-9	нидэлят	_	NOUN	_	_	7	obl	_	Gloss=неделя-NOM.PL
+9	нидэлят	_	NOUN	_	_	7	obl	_	Gloss=неделя-NOM.PL|SpaceAfter=No
 10	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Vacation:11
@@ -9834,13 +9834,13 @@
 4	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Water_cart:18
-# text = Пэԓӄынтэнмык виздикотетыӈ.
+# text = Пэԓӄынтэнмык вездеходетыӈ.
 # text[phon] = peɬqəntenmək wizʲdʲikotʲetəŋ
 # text[rus] = Мы вернулись в вездеход.
 # text[eng] = We came back to the all-terrain vehicle.
 # labels = complete-dep anno-fran
 1	Пэԓӄынтэнмык	_	VERB	_	_	0	root	_	Gloss=возвращаться-VB-1PL.S/O
-2	виздикотетыӈ	_	NOUN	_	_	1	obl	_	Gloss=вездеход-DAT-AD|SpaceAfter=No
+2	вездехотетыӈ	_	NOUN	_	_	1	obl	_	Gloss=вездеход-DAT-AD
 3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Water_cart:19
@@ -10000,7 +10000,7 @@
 2	ӄыӈэԓӄиквъи	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-садиться.в.транспорт-IRR-2/3SG.S-=EMPH-=PTCL
 3	м	_	PART	_	_	2	discourse	_	_
 4	а	_	PART	_	_	2	discourse	_	_
-5-8	ыʼттъыёԓвиздиходыкъыма	_	_	_	_	_	_	_	Gloss=перед-вездеход-LOC-=EMPH-=PTCL
+5-8	ыʼттъыёԓвездеходыкъыма	_	_	_	_	_	_	_	Gloss=перед-вездеход-LOC-=EMPH-=PTCL|SpaceAfter=No
 5	ыʼттъыёԓ	_	ADJ	_	_	6	amod	_	Gloss=перед
 6	вездеходык	_	NOUN	_	_	2	obl	_	Gloss=вездеход-LOC
 7	ъым	_	PART	_	_	6	discourse	_	Gloss=EMPH
@@ -10254,7 +10254,7 @@
 6	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Worms:3
-# text = Кымъыруԓтын кымъытэгын кымгытчитгъэт мимԓытэгнык.
+# text = Кымъыруԓтын Кымъытэгын кымгытчитгъэт мимԓытэгнык.
 # text[phon] = kəmʔəruɬtən kəmʔəteɣən kəmɣətsitɣʔet mimɬəteɣnək
 # text[rus] = Кымъырультын и Кымъытэгын свернулись возле воды.
 # text[eng] = Kymyrultyn and Kymytegyn curled up near the water.
@@ -10262,7 +10262,7 @@
 1	Кымъыруԓтын	_	PROPN	_	_	3	nsubj	_	Gloss=червь-отодвигаться-NOM.SG
 2	Кымъытэгын	_	PROPN	_	_	1	conj	_	Gloss=червь-FRONT-NOM.SG
 3	кымгытчитгъэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сжиматься-COMB-TH-PL
-4	мимԓытэгнык	_	NOUN	_	_	3	obl	_	Gloss=вода-FRONT-LOC
+4	мимԓытэгнык	_	NOUN	_	_	3	obl	_	Gloss=вода-FRONT-LOC|SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Worms:4
