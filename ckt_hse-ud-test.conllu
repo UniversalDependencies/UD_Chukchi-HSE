@@ -2125,7 +2125,7 @@
 # text[rus] = Очень много людей приехало.
 # text[eng] = Many people arrived.
 # labels = complete-dep anno-karina
-1	Ԓгинымкыӄин	_	ADJ	_	_	2	det	_	Gloss=INTS-ST-многий-ST.3SG
+1	Ԓгинымкыӄин	_	ADJ	_	_	2	amod	_	Gloss=INTS-ST-многий-ST.3SG
 2	оʼравэтԓьан	_	NOUN	_	_	3	nsubj	_	Gloss=человек-NOM.SG
 3	гэетԓин	_	VERB	_	_	0	root	_	Gloss=PF-приходить-PF.3SG|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
@@ -2137,7 +2137,7 @@
 # text[eng] = We had so much fun.
 # labels = complete-dep anno-karina
 1	Ԓгэгэчевкы	_	ADJ	_	_	0	root	_	Gloss=INTS-интересный-LOC
-2	гатваморэ	_	VERB	_	_	1	aux	_	Gloss=PF-быть-NP.1PL|SpaceAfter=No
+2	гатваморэ	_	AUX	_	_	1	cop	_	Gloss=PF-быть-NP.1PL|SpaceAfter=No
 3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Eraqor:5
@@ -2195,10 +2195,10 @@
 # text[rus] = И кашу варили.
 # text[eng] = And they also cooked porridge.
 # labels = complete-dep anno-karina
-1	Чама	_	ADV	_	_	2	advmod	_	Gloss=также
-2	таӈнырэԓӄыпатӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-каша-варить-ST.3SG-PL|SpaceAfter=No
+1	Чама	_	ADV	_	_	2	advmod	2:advmod	Gloss=также
+2	таӈнырэԓӄыпатӄэнат	_	VERB	_	_	0	root	0:root	Gloss=ST-каша-варить-ST.3SG-PL|SpaceAfter=No
 2.1	рэԓӄ	_	NOUN	_	_	_	_	2:obj	Gloss=каша
-3	.	_	PUNCT	_	_	2	punct	_	_
+3	.	_	PUNCT	_	_	2	punct	2:punct	_
 
 # sent_id = Eraqor:10
 # text = Чама рэн йъа гаԓгэтаранԓен рэмкын.
@@ -2229,14 +2229,14 @@
 # text[phon] = muriʔəm nəɬɣeɬwawmore miɬɣənjunewkə
 # text[rus] = А мы никак не могли разжечь костёр.
 # text[eng] = We could not set the fire.
-# labels = complete-dep anno-karina auxiliary
+# labels = complete-dep anno-karina
 1-2	Муриыʼм	_	_	_	_	_	_	_	Gloss=мы-=EMPH
-1	Мури	_	PRON	_	_	3	nsubj	_	Gloss=мы
-2	ыʼм	_	PART	_	_	1	discourse	_	Gloss=EMPH
-3	ныԓгэԓвавморэ	_	VERB	_	_	4	aux	_	Gloss=ST-INTS-не.мочь-NP-1PLNP.1PL
-4	миԓгынъюнэвкы	_	VERB	_	_	0	root	_	Gloss=разжигать.костёр-INF|SpaceAfter=No
+1	Мури	_	PRON	_	_	3	nsubj	3:nsubj|4.1:nsubj	Gloss=мы
+2	ыʼм	_	PART	_	_	1	discourse	1:discourse	Gloss=EMPH
+3	ныԓгэԓвавморэ	_	VERB	_	_	0	root	0:root	Gloss=ST-INTS-не.мочь-NP-1PLNP.1PL
+4	миԓгынъюнэвкы	_	VERB	_	_	3	xcomp	3:xcomp	Gloss=разжигать.костёр-INF|SpaceAfter=No
 4.1	миԓгы	_	NOUN	_	_	_	_	4:obj	Gloss=огонь
-5	.	_	PUNCT	_	_	4	punct	_	_
+5	.	_	PUNCT	_	_	4	punct	4:punct	_
 
 # sent_id = Eraqor:13
 # text = Мургинэт уттыт гэԓгийъэтитӄэтԓинэт ӈэргэрык.
