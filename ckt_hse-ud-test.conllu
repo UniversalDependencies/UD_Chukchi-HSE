@@ -1696,7 +1696,7 @@
 5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Chapaev:19
-# text = Ынԓеко ымыӈ ытри аӈӄавъе ынӄэн нывакъотваӄэнат нэмыӄэйъым чыпэт тъэче маԓмытԓыӈча нэгитээʼн ынӄэн ыннэнчьэн чапаевӄай.
+# text = Ынԓеко ымыӈ ытри Аӈӄавъе ынӄэн нывакъотваӄэнат нэмыӄэйъым чыпэт тъэче маԓмытԓыӈча нэгитээʼн ынӄэн ыннэнчьэн Чапаевӄай.
 # text[phon] = ənɬeko əməŋ ətri aŋqawje ənqen nəwakʔotwaqenat neməqejʔəm səpet tʔese maɬmətɬəŋsa neɣiteʔen ənqen ənnensʔen sapajewqaj
 # text[rus] = Нынлеко и Анкавъе cидели тоже и аж раз пять посмотрели этого первого «Чапаева».
 # text[eng] = Nynleko and Anqawje sat too, and watched this «Chapaev» as much as around five times.
@@ -1704,7 +1704,7 @@
 1	Ынԓеко	_	PROPN	_	_	6	nsubj	_	Gloss=Нынлеко-NOM.SG
 2	ымыӈ	_	ADV	_	_	4	cc	_	Gloss=также
 3	ытри	_	PRON	_	_	1	appos	_	Gloss=они
-4	аӈӄавъе	_	PROPN	_	_	1	conj	_	Gloss=Анкавъе-NOM.SG
+4	Аӈӄавъе	_	PROPN	_	_	1	conj	_	Gloss=Анкавъе-NOM.SG
 5	ынӄэн	_	DET	_	_	3	det	_	Gloss=DET
 6	нывакъотваӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-садиться-RES-ST.3SG-PL
 7-8	нэмыӄэйъым	_	_	_	_	_	_	_	_
@@ -1716,35 +1716,35 @@
 12	нэгитээʼн	_	VERB	_	_	6	parataxis	_	Gloss=LOW.A-смотреть-TH-3SG.O
 13	ынӄэн	_	DET	_	_	14	det	_	Gloss=DET
 14	ыннэнчьэн	_	ADJ	_	_	15	amod	_	Gloss=один-ADJ-NOM.SG
-15	чапаевӄай	_	PROPN	_	_	12	obj	_	Gloss=Чапаев-DIM-NOM.SG|SpaceAfter=No
+15	Чапаевӄай	_	PROPN	_	_	12	obj	_	Gloss=Чапаев-DIM-NOM.SG|SpaceAfter=No
 16	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Chapaev:20
-# text = Ынԓеко нивӄинэ ынԓекона нинивӄинэ аӈӄавъе.
+# text = Ынԓеко нивӄинэ Ынԓекона нинивӄинэ Аӈӄавъе.
 # text[phon] = ənɬeko niwqine ənɬekona niniwqine aŋqawje
 # text[rus] = Нынлеко говорит Анкавъе:
 # text[eng] = Nynleko says to Anqawje:
-# labels = complete-dep anno-karina
+# labels = complete-dep anno-karina speech inverse-contrast
 1	Ынԓеко	_	PROPN	_	_	2	nsubj	_	Gloss=Нынлеко-NOM.SG
 2-3	нивӄинэ	_	_	_	_	_	_	_	_
 2	нивӄин	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3SG-=PTCL
 3	э	_	PART	_	_	2	discourse	_	_
-4	ынԓекона	_	PROPN	_	_	5	nsubj	_	Gloss=Нынлеко-AN.INS
+4	Ынԓекона	_	PROPN	_	_	5	nsubj	_	Gloss=Нынлеко-AN.INS
 5-6	нинивӄинэ	_	_	_	_	_	_	_	_
 5	нинивӄин	_	VERB	_	_	2	parataxis	_	Gloss=ST-INV-сказать-ST.3SG-=PTCL
 6	э	_	PART	_	_	5	discourse	_	_
-7	аӈӄавъе	_	PROPN	_	_	5	iobj	_	Gloss=Анкавъе-NOM.SG|SpaceAfter=No
+7	Аӈӄавъе	_	PROPN	_	_	5	obj	_	Gloss=Анкавъе-NOM.SG|SpaceAfter=No
 8	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Chapaev:21
-# text = Ынӈатаԓ аръаԓя чапаевӄай этъуркыкыԓьи.
+# text = Ынӈатаԓ аръаԓя Чапаевӄай этъуркыкыԓьи.
 # text[phon] = ənŋataɬ arʔaɬa čapajewqaj etʔurkəkəɬʔi
 # text[rus] = «Надо же, Чапаев такой неосторожный!».
 # text[eng] = «Oh my gosh! Chapaev is so careless!».
 # labels = complete-dep anno-karina
 1	Ынӈатаԓ	_	ADV	_	_	2	advmod	_	Gloss=очень
 2	аръаԓя	_	ADV	_	_	4	advmod	_	Gloss=очень
-3	чапаевӄай	_	PROPN	_	_	4	nsubj	_	Gloss=Чапаев-DIM-NOM.SG
+3	Чапаевӄай	_	PROPN	_	_	4	nsubj	_	Gloss=Чапаев-DIM-NOM.SG
 4	этъуркыкыԓьи	_	ADJ	_	_	0	root	_	Gloss=неосторожный|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -1753,10 +1753,10 @@
 # text[phon] = qoɬʔəm niwqin qun ii wenʔəm ʔetki
 # text[rus] = Другой отвечает: «Да, я абсолютно с тобой согласен, как так можно».
 # text[eng] = Another one answers: «Yes, I absolutely agree with you, it’s insanity!».
-# labels = complete-dep anno-karina
-1-2	Ӄоԓьым	_	_	_	_	_	_	_	_
-1	Ӄоԓьы	_	PRON	_	_	3	nsubj	_	Gloss=некий-=EMPH
-2	м	_	PART	_	_	1	discourse	_	_
+# labels = complete-dep anno-karina speech
+1-2	Ӄоԓьым	_	_	_	_	_	_	_	Gloss=некий-=EMPH
+1	Ӄоԓ	_	PRON	_	_	3	nsubj	_	Gloss=некий
+2	ьым	_	PART	_	_	1	discourse	_	Gloss=EMPH
 3	нивӄин	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3SG
 4	ӄун	_	PART	_	_	7	discourse	_	Gloss=QUN
 5	ии	_	INTJ	_	_	7	discourse	_	Gloss=да
