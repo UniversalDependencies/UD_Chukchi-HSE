@@ -2528,6 +2528,23 @@
 8	э	_	PART	_	_	7	discourse	_	_
 9	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id = Fishing_with_Ilya:9
+# text = Ро ро роч рочгэты ынӄэн миӈкы нытваӄэн мургин палатка.
+# text[phon] = ro ro ros rosɣetə ənqen miŋkə nətwaqen murɣin палатка
+# text[rus] = На другой берег, где стояла наша палатка.
+# text[eng] = To the other shore where our tent was.
+# labels = complete-dep anno-fran ənqen unclear-syntax relative-clause
+1	Ро	_	X	_	_	4	reparandum	_	Gloss=FST
+2	ро	_	X	_	_	4	reparandum	_	Gloss=FST
+3	роч	_	X	_	_	4	reparandum	_	Gloss=FST
+4	рочгэты	_	NOUN	_	_	0	root	_	Gloss=другой.берег-DAT
+5	ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+6	миӈкы	_	ADV	_	_	4	acl	_	Gloss=где-LOC
+7	нытваӄэн	_	AUX	_	_	6	cop	_	Gloss=ST-быть-ST.3SG
+8	мургин	_	PRON	_	_	9	nmod:poss	_	Gloss=мы-GEN
+9	палатка	_	NOUN	_	_	6	nsubj	_	Gloss=|SpaceAfter=No
+10	.	_	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Fishing_with_Ilya:10
 # text = Мытымпэмыкэ мытчайпанмык.
 # text[phon] = mətəmpeməke mətsajpanmək
@@ -2579,6 +2596,27 @@
 5	ы	_	PART	_	_	4	discourse	_	_
 6	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Fishing_with_Ilya:14
+# text = Ынӄо чаёпԓыткокэ Сашана тэйкынин гымнинэ орвыӄай ынӄэнэ.
+# text[phon] = ənqo sajopɬətkoke sašana tejkənin ɣəmnine orwəqaj ənqene
+# text[rus] = Потом, после чаепития Саша сделал мои саночки.
+# text[eng] = Then, after the tea time, Saha made me a tiny sledge.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄо	_	ADV	_	_	5	advmod	_	Gloss=потом
+2-3	чаёпԓыткокэ	_	_	_	_	_	_	_	_
+2	чаёпԓыткок	_	VERB	_	_	5	advcl	_	Gloss=чай-EAT-COMPL-LOC-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4	Сашана	_	PROPN	_	_	5	nsubj	_	Gloss=Саша-AN.INS
+5	тэйкынин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-делать-3SG.A.3.O-3SG.O
+6-7	гымнинэ	_	_	_	_	_	_	_	_
+6	гымнин	_	PRON	_	_	8	nmod:poss	_	Gloss=я-AN.GEN-=PTCL
+7	э	_	PART	_	_	6	discourse	_	_
+8	орвыӄай	_	NOUN	_	_	5	obj	_	Gloss=нарта-DIM-NOM.SG
+9-10	ынӄэнэ	_	_	_	_	_	_	_	SpaceAfter=No
+9	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET-=PTCL
+10	э	_	PART	_	_	9	discourse	_	_
+11	.	_	PUNCT	_	_	5	punct	_	_
+
 # sent_id = Fishing_with_Ilya:15
 # text = Нъанэԓёморэ ынкъа орвыръараӄӄагтэ.
 # text[phon] = nʔaneɬomore ənkʔa orwərʔaraqqaɣte
@@ -2590,6 +2628,21 @@
 3	орвыръараӄӄагтэ	_	NOUN	_	_	1	conj	_	Gloss=нарта-что-что-DIM-NOM.PL|SpaceAfter=No
 4	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Fishing_with_Ilya:16
+# text = Ынкы ныйымэтваӄэнатэ гыръоӈ ӄнут гыръоӈавыръэнутэт.
+# text[phon] = ənkə nəjəmetwaqenate ɣərʔoŋ qnut ɣərʔoŋawərʔenutet
+# text[rus] = Там развешаны как будто мушки (штуки, похожие на мух).
+# text[eng] = There are these things that look like flies, hanged on it.
+# labels = complete-dep anno-fran unclear-syntax unclear-morph
+1	Ынкы	_	PRON	_	_	2	obl	_	Gloss=тот-LOC
+2-3	ныйымэтваӄэнатэ	_	_	_	_	_	_	_	_
+2	ныйымэтваӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-вешать-RES-ST.3SG-PL-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4	гыръоӈ	_	X	_	_	5	reparandum	_	Gloss=FST
+5	ӄнут	_	ADV	_	_	6	dep	_	Gloss=как
+6	гыръоӈавыръэнутэт	_	NOUN	_	_	2	nsubj	_	Gloss=рожать-FEM-что.NOM.SG-NOM.PL|SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Fishing_with_Ilya:17
 # text = Ынӄо Илья гэннуԓин.
 # text[phon] = ənqo ilʲja ɣennuɬin
@@ -2600,6 +2653,20 @@
 2	Илья	_	PROPN	_	_	3	nsubj	_	Gloss=Илья-NOM.SG
 3	гэннуԓин	_	VERB	_	_	0	root	_	Gloss=PF-рыба-EAT-PF.3SG|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Fishing_with_Ilya:18
+# text = Чинит гэнвыԓин орвыӄай ынӄэнэ.
+# text[phon] = sinit ɣenwəɬin orwəqaj ənqene
+# text[rus] = Сам вытащил саночки.
+# text[eng] = He pulled out the sledge himself.
+# labels = complete-dep anno-fran ənqen
+1	Чинит	_	ADV	_	_	2	advmod	_	Gloss=сам
+2	гэнвыԓин	_	VERB	_	_	0	root	_	Gloss=PF-вытаскивать-PF.3SG
+3	орвыӄай	_	NOUN	_	_	2	obj	_	Gloss=нарта-DIM-NOM.SG
+4-5	ынӄэнэ	_	_	_	_	_	_	_	SpaceAfter=No
+4	ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET-=PTCL
+5	э	_	PART	_	_	4	discourse	_	_
+6	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Fishing_with_Ilya:19
 # text = Ынӄо гэннуԓин.
@@ -4537,6 +4604,20 @@
 3	рынна	_	NOUN	_	_	4	nsubj	_	Gloss=рог-INS
 4	гагтоԓенат	_	VERB	_	_	0	root	_	Gloss=PF-вынимать-PF.3SG-PL|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Incident:4
+# text = Ынӄэн гатваԓен ынӈин пыӈыԓ тит тэԓенъеп.
+# text[phon] = ənqen ɣatwaɬen ənŋin pəŋəɬ tit teɬenjep
+# text[rus] = Это было… такой случай… в старину…
+# text[eng] = It was… such a case… in the old days…
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	Ынӄэн	_	PRON	_	_	2	nsubj	_	Gloss=DET
+2	гатваԓен	_	AUX	_	_	0	root	_	Gloss=PF-быть-PF.3SG
+3	ынӈин	_	ADV	_	_	4	advmod	_	Gloss=так
+4	пыӈыԓ	_	NOUN	_	_	2	parataxis	_	Gloss=весть-NOM.SG
+5	тит	_	X	_	_	6	reparandum	_	Gloss=FST
+6	тэԓенъеп	_	ADV	_	_	2	parataxis	_	Gloss=раньше-ещё|SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = In_the_evening:1
 # text = Ыʼттъыгрына ԓьунин ӈэвысӄэт итэй нрзб.
