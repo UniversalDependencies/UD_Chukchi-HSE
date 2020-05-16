@@ -3040,6 +3040,27 @@
 11	нэмыӄэй	_	ADV	_	_	9	advmod	_	Gloss=тоже|SpaceAfter=No
 12	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = GUM:2
+# text = Гамачквантат через так хочется по-русски сказать ынӄэнъымэ гавэԓыткорантаморэм.
+# text[phon] = ɣamaskwantat через так хочется по-русски сказать ənqenʔəme ɣaweɬətkorantamoreʔm
+# text[rus] = Пошли в большой магазин.
+# text[eng] = We went to a big store.
+# labels = complete-dep anno-fran ənqen disfluency
+1	Гамачквантат	_	X	_	_	10	reparandum	_	Gloss=FST
+2	через	_	X	_	_	10	parataxis	_	Gloss=
+3	так	_	X	_	_	2	flat:foreign	_	Gloss=
+4	хочется	_	X	_	_	2	flat:foreign	_	Gloss=
+5	по-русски	_	X	_	_	2	flat:foreign	_	Gloss=
+6	сказать	_	X	_	_	2	flat:foreign	_	Gloss=
+7-9	ынӄэнъымэ	_	_	_	_	_	_	_	_
+7	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET-=EMPH-=PTCL
+8	ъым	_	PART	_	_	7	discourse	_	_
+9	э	_	PART	_	_	7	discourse	_	_
+10-11	гавэԓыткорантаморэм	_	_	_	_	_	_	_	SpaceAfter=No
+10	гавэԓыткорантаморэ	_	VERB	_	_	0	root	_	Gloss=PF-товар-ITER-жилище-GO.DO-NP.1PL-=EMPH
+11	м	_	PART	_	_	10	discourse	_	_
+12	.	_	PUNCT	_	_	10	punct	_	_
+
 # sent_id = GUM:3
 # text = Вэнъым нымэйыӈӄин ӄоныры ԓыгэныԓгинивԓыӄин чама.
 # text[phon] = wenʔəm nəmejəŋqin qonərə ɬəɣenəɬɣiniwɬəqin sama
@@ -3052,6 +3073,42 @@
 4	ԓыгэныԓгинивԓыӄин	_	ADJ	_	_	2	parataxis	_	Gloss=AUTH-ST-INTS-ST-длинный-ST.3SG
 5	чама	_	ADV	_	_	4	advmod	_	Gloss=также|SpaceAfter=No
 6	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:4
+# text = Мыг мы мы как и сказать короче нымэйыӈӄин вэԓыткоран ынӄэн.
+# text[phon] = məɣ mə mə как и сказать короче nəmejəŋqin weɬətkoran ənqen
+# text[rus] = Как и сказать, короче, большой магазин.
+# text[eng] = How to say, in a short, a large store.
+# labels = complete-dep anno-fran ənqen disfluency
+1	Мыг	_	X	_	_	4	reparandum	_	Gloss=FST
+2	мы	_	X	_	_	4	reparandum	_	Gloss=FST
+3	мы	_	X	_	_	4	reparandum	_	Gloss=FST
+4	как	_	X	_	_	9	discourse	_	Gloss=
+5	и	_	X	_	_	4	flat:foreign	_	Gloss=
+6	сказать	_	X	_	_	4	flat:foreign	_	Gloss=
+7	короче	_	X	_	_	4	flat:foreign	_	Gloss=
+8	нымэйыӈӄин	_	ADJ	_	_	9	amod	_	Gloss=ST-большой-ST.3SG
+9	вэԓыткоран	_	NOUN	_	_	0	root	_	Gloss=товар-ITER-жилище-NOM.SG
+10	ынӄэн	_	PART	_	_	9	discourse	_	Gloss=DET|SpaceAfter=No
+11	.	_	PUNCT	_	_	9	punct	_	_
+
+# sent_id = GUM:5
+# text = Гыргоԓят гыргоԓя гыргоԓяйпы ныԓейвымури ынӄэн нинэгитэмури имыръэнут ԓыгэнэ.
+# text[phon] = ɣərɣoɬat ɣərɣoɬa ɣərɣoɬajpə nəɬejwəmuri ənqen nineɣitemuri imərʔenut ɬəɣene
+# text[rus] = Сверху идём, рассматриваем всякие вещи…
+# text[eng] = From above we are going, we are looking at all sorts of things…
+# labels = complete-dep anno-fran ənqen
+1	Гыргоԓят	_	X	_	_	2	reparandum	_	Gloss=FST
+2	гыргоԓя	_	ADV	_	_	4	advmod	_	Gloss=вверху
+3	гыргоԓяйпы	_	ADV	_	_	4	advmod	_	Gloss=вверху-ABL
+4	ныԓейвымури	_	VERB	_	_	0	root	_	Gloss=ST-ходить-NP.1PL
+5	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET
+6	нинэгитэмури	_	VERB	_	_	4	parataxis	_	Gloss=ST-INV-смотреть-NP.1PL
+7	имыръэнут	_	PRON	_	_	6	obj	_	Gloss=FC-что.NOM.SG
+8-9	ԓыгэнэ	_	_	_	_	_	_	_	SpaceAfter=No
+8	ԓыгэн	_	ADV	_	_	6	advmod	_	Gloss=просто-=PTCL
+9	э	_	PART	_	_	8	discourse	_	_
+10	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = GUM:6
 # text = Ӄытԓыги пԓеӄӄэгти ты тыԓьунэт.
@@ -3153,6 +3210,22 @@
 4	тынтоаʼк	_	VERB	_	_	2	parataxis	_	Gloss=1SG.S/A-выходить-TH-1SG.S|SpaceAfter=No
 5	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id = GUM:15
+# text = Ыннэнчьэн тытыԓ тынтоаʼнъым тъатчаӈӈоаʼк ынӄэн нын.
+# text[phon] = ənnensʔen tətəɬ təntoʔanʔəm tʔatsaŋŋoʔak ənqen nən
+# text[rus] = Прошла первую дверь, стала ждать.
+# text[eng] = I passed the first door and started waiting.
+# labels = complete-dep anno-fran ənqen
+1	Ыннэнчьэн	_	ADJ	_	_	2	amod	_	Gloss=один-ADJ-NOM.SG
+2	тытыԓ	_	NOUN	_	_	3	obj	_	Gloss=дверь-NOM.SG
+3-4	тынтоаʼнъым	_	_	_	_	_	_	_	_
+3	тынтоаʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-выходить-TH-3SG.O-=EMPH
+4	ъым	_	PART	_	_	3	discourse	_	_
+5	тъатчаӈӈоаʼк	_	VERB	_	_	3	parataxis	_	Gloss=1SG.S/A-ждать-INCH-TH-1SG.S
+6	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
+7	нын	_	X	_	_	5	reparandum	_	Gloss=FST|SpaceAfter=No
+8	.	_	PUNCT	_	_	3	punct	_	_
+
 # sent_id = GUM:16
 # text = Ӄутти нынтоӄэнат ынӄоръым.
 # text[phon] = qutti nəntoqenat ənqorʔəm
@@ -3194,6 +3267,24 @@
 3	аԓымы	_	ADV	_	_	1	advmod	_	Gloss=хотя|SpaceAfter=No
 4	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = GUM:21
+# text = Ӄытԓыги ынӄэн ԓюутэ энаркып энаркыпчыткогъэ ӈинчьэккэтэыʼм.
+# text[phon] = qətɬəɣi ənqen ɬuute enarkəp enarkəpsətkoɣʔe ŋinsʔekketeʔəm
+# text[rus] = Оказывается, как хорошо, что стукнул меня младший сын.
+# text[eng] = It turns out how good that the youngest son hit me.
+# labels = complete-dep anno-fran ənqen
+1	Ӄытԓыги	_	ADV	_	_	6	advmod	_	Gloss=оказывается
+2	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET
+3-4	ԓюутэ	_	_	_	_	_	_	_	_
+3	ԓюут	_	ADV	_	_	6	advmod	_	Gloss=вдруг-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5	энаркып	_	X	_	_	6	reparandum	_	Gloss=FST
+6	энаркыпчыткогъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INV-ударять-ITER-TH-2/3SG.S
+7-8	ӈинчьэккэтэыʼм	_	_	_	_	_	_	_	SpaceAfter=No
+7	ӈинчьэккэтэ	_	NOUN	_	_	6	nsubj	_	Gloss=молодой-ADJ-сын-INS-=EMPH
+8	ыʼм	_	PART	_	_	7	discourse	_	_
+9	.	_	PUNCT	_	_	6	punct	_	_
+
 # sent_id = GUM:22
 # text = Нивигым оо мэӈин.
 # text[phon] = niwiɣəm oo meŋin
@@ -3214,6 +3305,17 @@
 1	Оʼмрын	_	PROPN	_	_	0	root	_	Gloss=Омрын-NOM.SG
 2	ӄытԓыги	_	PART	_	_	1	discourse	_	Gloss=оказывается|SpaceAfter=No
 3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = GUM:24
+# text = Ынӄэн оʼмрынына нрзб.
+# text[phon] = ənqen ʔomrənəna нрзб
+# text[rus] = Я Омрына спрашиваю:
+# text[eng] = I am asking Omryn:
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET
+2	Оʼмрынына	_	PROPN	_	_	0	root	_	Gloss=Омрын-AN.DAT
+3	нрзб	_	X	_	_	2	discourse	_	Gloss=
+4	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GUM:25
 # text = Эʼми ӄуттиӈэ эʼмиыʼмэ эʼми атэӄай ымы эʼми ынъэӄэй.
@@ -3260,6 +3362,34 @@
 3	нэԓӄырирчыӄиквыт	_	VERB	_	_	0	root	_	Gloss=LOW.A-искать-MCP-2SG.O|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = GUM:28
+# text = Еээй ынӈатаԓ эʼтки нивигым вай тынтымӈэвтык.
+# text[phon] = jeeej ənŋataɬ ʔetki niwiɣəm waj təntəmŋewtək
+# text[rus] = «Эх, как же так», — говорю я, — «я вас потеряла».
+# text[eng] = «Heh, how so?», I am saying, «I lost you».
+# labels = complete-dep anno-fran unclear-syntax
+1	Еээй	_	INTJ	_	_	3	discourse	_	Gloss=эх
+2	ынӈатаԓ	_	ADV	_	_	3	advmod	_	Gloss=очень
+3	эʼтки	_	ADV	_	_	0	root	_	Gloss=плохо
+4	нивигым	_	VERB	_	_	3	parataxis	_	Gloss=ST-сказать-NP.1SG
+5	вай	_	ADV	_	_	6	advmod	_	Gloss=вот
+6	тынтымӈэвтык	_	VERB	_	_	3	parataxis:speech	_	Gloss=1SG.S/A-TR-потеряться-2PL.S/O|SpaceAfter=No
+7	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = GUM:29
+# text = Ынӄэнъымэ тыйъоаʼнат ԓым.
+# text[phon] = ənqenʔəme təjʔoʔanat ɬəm
+# text[rus] = Пошла к ним.
+# text[eng] = I went to them.
+# labels = complete-dep anno-fran ənqen
+1-3	Ынӄэнъымэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET-=EMPH-=PTCL
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	э	_	PART	_	_	1	discourse	_	_
+4	тыйъоаʼнат	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-настигать-TH-3SG.O-PL
+5	ԓым	_	X	_	_	4	reparandum	_	Gloss=FST|SpaceAfter=No
+6	.	_	PUNCT	_	_	4	punct	_	_
+
 # sent_id = GUM:30
 # text = Ынъэӄэйынъэмэ гымнинъым ынӄэн ынпычьэкык иниквъи.
 # text[phon] = ənʔeqejənʔeme ɣəmninʔəm ənqen ənpəsʔekək inikwʔi
@@ -3298,6 +3428,18 @@
 1	Мытынтымӈэквыт	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-TR-потеряться-2SG.O|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = GUM:33
+# text = Ынкъам тымӈэвыркын иаʼм ынӄэн.
+# text[phon] = ənkʔam təmŋewərkən iʔam ənqen
+# text[rus] = И почему ты теряешься?»
+# text[eng] = And why are you getting lost?»
+# labels = complete-dep anno-fran ənqen
+1	Ынкъам	_	CCONJ	_	_	2	cc	_	Gloss=и
+2	тымӈэвыркын	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-потеряться-IPFV
+3	иаʼм	_	ADV	_	_	2	advmod	_	Gloss=почему
+4	ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
 # sent_id = GUM:34
 # text = Аʼйыӈ эʼйӈэԓьэтгъи кытэӄэй ӄэԓюӄ эт.
 # text[phon] = ʔajəŋ ʔejŋeɬʔetɣʔi kəteqej qeɬuq et
@@ -3310,6 +3452,55 @@
 4	ӄэԓюӄ	_	ADV	_	_	2	advmod	_	Gloss=конечно
 5	эт	_	X	_	_	2	dep	_	Gloss=FST|SpaceAfter=No
 6	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = GUM:35
+# text = Ӄытԓыгим ынӄэн вэтчатваӈӈоэʼм.
+# text[phon] = qətɬəɣiʔm ənqen wetsatwaŋŋoʔeʔm
+# text[rus] = Потом начал стоять [и ждать].
+# text[eng] = Then he began to stand [and wait].
+# labels = complete-dep anno-fran ənqen
+1-2	Ӄытԓыгим	_	_	_	_	_	_	_	_
+1	Ӄытԓыги	_	ADV	_	_	4	advmod	_	Gloss=оказывается-=EMPH
+2	м	_	PART	_	_	1	discourse	_	_
+3	ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+4-5	вэтчатваӈӈоэʼм	_	_	_	_	_	_	_	SpaceAfter=No
+4	вэтчатваӈӈо	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-вставать-RES-INCH-TH-2/3SG.S-=EMPH
+5	эʼм	_	PART	_	_	4	discourse	_	_
+6	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Guy:1
+# text = Нымӈыԓтэԓӄэнат эмнуӈыԓьыт ынӄэн ынпыначгыт ынӄэнэ.
+# text[phon] = nəmŋəɬteɬqenat emnuŋəɬʔət ənqen ənpənasɣət ənqene
+# text[rus] = Тундровые старики рассказывали это.
+# text[eng] = Old tundra men told it.
+# labels = complete-dep anno-fran ənqen
+1	Нымӈыԓтэԓӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-весть-DUR-ST.3SG-PL
+2	эмнуӈыԓьыт	_	NOUN	_	_	4	nmod:attr	_	Gloss=тундра-ATTR-NOM.PL
+3	ынӄэн	_	PART	_	_	1	discourse	_	Gloss=DET
+4	ынпыначгыт	_	NOUN	_	_	1	nsubj	_	Gloss=старик-NOM.PL
+5-6	ынӄэнэ	_	_	_	_	_	_	_	SpaceAfter=No
+5	ынӄэн	_	PART	_	_	1	discourse	_	Gloss=DET-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Guy:2
+# text = Ӄорагынрэтыԓьына аʼачек молодой аʼачек ынӄэн гаӄэтывъэӈӈоԓенэ.
+# text[phon] = qoraɣənretəɬʔəna ʔaasek молодой ʔaasek ənqen ɣaqetəwʔeŋŋoɬene
+# text[rus] = Молодой парень, пастух, чуть было не замёрз насмерть.
+# text[eng] = A young boy, a shepherd, almost froze to death.
+# labels = complete-dep anno-fran ənqen
+1-2	Ӄорагынрэтыԓьына	_	_	_	_	_	_	_	_
+1	Ӄорагынрэтыԓьын	_	NOUN	_	_	5	nmod:attr	_	Gloss=олень-защищать-ATTR-NOM.SG-=PTCL
+2	а	_	PART	_	_	1	discourse	_	_
+3	аʼачек	_	NOUN	_	_	5	reparandum	_	Gloss=парень-NOM.SG
+4	молодой	_	ADJ	_	_	5	amod	_	Gloss=
+5	аʼачек	_	NOUN	_	_	7	nsubj	_	Gloss=парень-NOM.SG
+6	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET
+7-8	гаӄэтывъэӈӈоԓенэ	_	_	_	_	_	_	_	SpaceAfter=No
+7	гаӄэтывъэӈӈоԓен	_	VERB	_	_	0	root	_	Gloss=PF-замерзать-умереть-INCH-PF.3SG-=PTCL
+7.1	ӄэты	_	VERB	_	_	_	_	_	7:advcl
+8	э	_	PART	_	_	7	discourse	_	_
+9	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Guy:3
 # text = Нутэк ӄорагынрэтыԓьын ынӄэн.
@@ -3333,6 +3524,20 @@
 3	наномаваквъан	_	VERB	_	_	0	root	_	Gloss=LOW.A-TR-тёплый-CS-CS-TH-3SG.O|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Guy:5
+# text = Ынӄэн иʼгэ иʼгэ ынӄэ наноно наномаваквъан.
+# text[phon] = ənqen ʔiɣe ʔiɣe ənqe nanono nanomawakwʔan
+# text[rus] = Это… волки его согрели.
+# text[eng] =  He was warmed by the wolves.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PRON	_	_	6	discourse	_	Gloss=DET
+2	иʼгэ	_	NOUN	_	_	3	reparandum	_	Gloss=волк-INS
+3	иʼгэ	_	NOUN	_	_	6	nsubj	_	Gloss=волк-INS
+4	ынӄэ	_	PART	_	_	6	discourse	_	Gloss=DET
+5	наноно	_	X	_	_	6	reparandum	_	Gloss=FST
+6	наномаваквъан	_	VERB	_	_	0	root	_	Gloss=LOW.A-TR-тёплый-CS-CS-TH-3SG.O|SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
 # sent_id = Guy:6
 # text = Он иʼгчыкуӈ ынкы гомавԓен.
 # text[phon] = он ʔiɣsəkuŋ ənkə ɣomawɬen
@@ -3345,6 +3550,19 @@
 3	ӈ	_	PART	_	_	2	discourse	_	_
 4	ынкы	_	PRON	_	_	5	obl	_	Gloss=тот-LOC
 5	гомавԓен	_	VERB	_	_	0	root	_	Gloss=PF-тёплый-CS-PF.3SG|SpaceAfter=No
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Guy:7
+# text = Ынӄэн ынӈин егтэ ег нэнъегтэԓев.
+# text[phon] = ənqen ənŋin jeɣte jeɣ nenjeɣteɬew
+# text[rus] = Вот так они его спасли.
+# text[eng] = That’s how they saved him.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
+2	ынӈин	_	ADV	_	_	5	advmod	_	Gloss=так
+3	егтэ	_	X	_	_	5	reparandum	_	Gloss=FST
+4	ег	_	X	_	_	5	reparandum	_	Gloss=FST
+5	нэнъегтэԓев	_	VERB	_	_	0	root	_	Gloss=LOW.A-TR-спастись-CS|SpaceAfter=No
 6	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Guy:8
