@@ -1517,6 +1517,22 @@
 4	кԓюпчыко	_	NOUN	_	_	2	obl	2:obl	Gloss=клуб-IN|SpaceAfter=No
 5	.	_	PUNCT	_	_	2	punct	2:punct	_
 
+# sent_id = Chapaev:4
+# text = Клюбэты мури ымыԓьо кэԓиткуԓьымури ынӄэнэ нанвакъовсӄэвмык.
+# text[phon] = kɬubetə muri əməɬʔo keɬitkuɬʔəmuri ənqene nanwakʔowsqewmək
+# text[rus] = Нас всех — мы были школьниками — собрали и рассадили в клубе.
+# text[eng] = All of us—we were schoolchildren—were gathered and seated at the club.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	Клюбэты	_	NOUN	_	_	7	obl	_	Gloss=клуб-DAT
+2	мури	_	PRON	_	_	7	nsubj	_	Gloss=мы
+3	ымыԓьо	_	PRON	_	_	2	appos	_	Gloss=весь
+4	кэԓиткуԓьымури	_	NOUN	_	_	2	parataxis	_	Gloss=писать-ITER-ATTR-NP.1PL
+5-6	ынӄэнэ	_	_	_	_	_	_	_	_
+5	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7	нанвакъовсӄэвмык	_	VERB	_	_	0	root	_	Gloss=LOW.A-TR-садиться-CS-MCP-1PL.S/O|SpaceAfter=No
+8	.	_	PUNCT	_	_	7	punct	_	_
+
 # sent_id = Chapaev:5
 # text = Ӄытԓыгиыʼм ынӄэнэ чапаевӄай Чапаев ынӄэн мытԓьуэʼн кино тэӈвытку ӄэԓюӄэ.
 # text[phon] = qətɬəɣiʔəm ənqene čapajewqaj čapajew ənqen mətɬʔuʔen kino teŋwətku qeɬuqe
@@ -1553,6 +1569,23 @@
 4	нывакъотваӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-садиться-RES-ST.3SG-PL-=EMPH
 5	ъым	_	PART	_	_	4	discourse	_	_
 6	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Chapaev:7
+# text = Наӄам ӈоонко ԓыгэнъым нрзб вай ынӄэн нрзб.
+# text[phon] = naqam ŋoonko ɬəɣenʔəm нрзб waj ənqen нрзб
+# text[rus] = Однако в той стороне прямо так это самое…
+# text[eng] = However, on the other side, just like that, you know…
+# labels = complete-dep anno-fran unclear-syntax
+1	Наӄам	_	CCONJ	_	_	3	cc	_	Gloss=однако
+2	ӈоонко	_	PRON	_	_	3	obl	_	Gloss=там-LOC.нер.изм.
+3-4	ԓыгэнъым	_	_	_	_	_	_	_	_
+3	ԓыгэн	_	ADV	_	_	0	root	_	Gloss=просто-=EMPH
+4	ъым	_	PART	_	_	3	discourse	_	_
+5	нрзб	_	X	_	_	3	discourse	_	Gloss=
+6	вай	_	ADV	_	_	3	advmod	_	Gloss=вот
+7	ынӄэн	_	DET	_	_	3	discourse	_	Gloss=DET
+8	нрзб	_	X	_	_	3	discourse	_	Gloss=|SpaceAfter=No
+9	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Chapaev:8
 # text = Нывыргыргыръуӄинъымӈэ уʼрэӈэнри.
@@ -5620,6 +5653,24 @@
 3	ӈэ	_	PART	_	_	2	discourse	_	_
 4	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Larvae:2
+# text = Ынӄэнэ гым ипэ Кымъыӈэнэ нэнатарычваӈӄэн ӄэԓюӄ ӈээккэӄэйивым еп.
+# text[phon] = ənqene ɣəm ipe kəmʔəŋene nenatarəswaŋqen qeɬuq ŋeekkeqejiwəm jep
+# text[rus] = Тогда мне Кымъынэ собирала личинок, я ведь ещё девочка была.
+# text[eng] = Kymyne was gathering grubs for me, I was still a girl back then.
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	гым	_	PRON	_	_	6	obj	_	Gloss=я
+4	ипэ	_	ADV	_	_	6	advmod	_	Gloss=поистине
+5	Кымъыӈэнэ	_	PROPN	_	_	6	nsubj	_	Gloss=Кымъынэ-AN.INS
+6	нэнатарычваӈӄэн	_	VERB	_	_	0	root	_	Gloss=ST-INV-MAKE-личинка-MAKE-ST.3SG
+7	ӄэԓюӄ	_	ADV	_	_	8	advmod	_	Gloss=конечно
+8	ӈээккэӄэйивым	_	NOUN	_	_	6	parataxis	_	Gloss=FEM-сын-DIM-NP.1SG
+9	еп	_	ADV	_	_	8	advmod	_	Gloss=ещё|SpaceAfter=No
+10	.	_	PUNCT	_	_	6	punct	_	_
+
 # sent_id = Larvae:3
 # text = Нэнатарычваӈӄээтъымэ.
 # text[phon] = nenatarəswaŋqeetʔəme
@@ -5631,6 +5682,22 @@
 2	м	_	PART	_	_	1	discourse	_	_
 3	э	_	PART	_	_	1	discourse	_	_
 4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Larvae:4
+# text = Нинэйыԓӄин гым каарачыко ваԓьэвым ва ынӄэн нэнаԓпынрыӄэн кэгынмычыку.
+# text[phon] = ninejəɬqin ɣəm kaarasəko waɬʔewəm wa ənqen nenaɬpənrəqen keɣənməsəku
+# text[rus] = Давала мне, я в кибитке сидела, а она давала мне их в кулаке.
+# text[eng] = She was giving them to me, I was sitting in the closed sledge and she was giving them to me holding them in her fist.
+# labels = complete-dep anno-fran ənqen
+1	Нинэйыԓӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-давать-ST.3SG
+2	гым	_	PRON	_	_	3	nsubj	_	Gloss=я
+3	каарачыко	_	NOUN	_	_	1	parataxis	_	Gloss=нарта.с.кибиткой-IN
+4	ваԓьэвым	_	AUX	_	_	3	cop	_	Gloss=быть-ATTR-NP.1SG
+5	ва	_	X	_	_	6	reparandum	_	Gloss=FST
+6	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET
+7	нэнаԓпынрыӄэн	_	VERB	_	_	1	parataxis	_	Gloss=ST-INV-давать-ST.3SG
+8	кэгынмычыку	_	NOUN	_	_	7	obl	_	Gloss=кисть.руки-IN|SpaceAfter=No
+9	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Larvae:5
 # text = Аԓымъым чит нин нрычвойгымъым.
@@ -5721,6 +5788,72 @@
 3	гамӈыԓтэтԓен	_	VERB	_	_	0	root	_	Gloss=PF-весть-DUR-PF.3SG
 4	апаӄайына	_	NOUN	_	_	3	obl	_	Gloss=бабушка-AN.DAT|SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Larvae:13
+# text = Ытчаяӄэйъым гымнинэ эпэӄэйыну нинъэйӈэвивым.
+# text[phon] = ətsajaqejʔəm ɣəmnine epeqejənu ninʔejŋewiwəm
+# text[rus] = Тётю свою я бабушкой называла.
+# text[eng] = I used to call my aunt grandmother.
+# labels = complete-dep anno-fran valency secondary-predication
+1-2	Ытчаяӄэйъым	_	_	_	_	_	_	_	_
+1	Ытчаяӄэй	_	NOUN	_	_	6	obj	_	Gloss=тётя-DIM-NOM.SG-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3-4	гымнинэ	_	_	_	_	_	_	_	_
+3	гымнин	_	PRON	_	_	1	nmod:poss	_	Gloss=я-AN.GEN-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5	эпэӄэйыну	_	NOUN	_	_	6	xcomp	_	Gloss=бабушка-EQU
+6	нинъэйӈэвивым	_	VERB	_	_	0	root	_	Gloss=ST-INV-звать-NP.1SG|SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Larvae:14
+# text = Ытԓьэ гымыкытԓьэн ынӄэнэ ынпыччакит ынпычьын чакыгэт.
+# text[phon] = ətɬʔe ɣəməkətɬʔen ənqene ənpəssakit ənpəsʔən sakəɣet
+# text[rus] = Моей мамы старшая сестра.
+# text[eng] = My mother's elder sister.
+# labels = complete-dep anno-fran ənqen
+1	Ытԓьэ	_	X	_	_	2	reparandum	_	Gloss=FST
+2	гымыкытԓьэн	_	NOUN	_	_	7	nmod:poss	_	Gloss=я-POSS.INC-мать-GEN
+3-4	ынӄэнэ	_	_	_	_	_	_	_	_
+3	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5	ынпыччакит	_	X	_	_	6	reparandum	_	Gloss=FST
+6	ынпычьын	_	ADJ	_	_	7	amod	_	Gloss=старый-ADJ-NOM.SG
+7	чакыгэт	_	NOUN	_	_	0	root	_	Gloss=сестра-NOM.SG|SpaceAfter=No
+8	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Larvae:15
+# text = Гымнан эпэӄэйыну нинъэйӈэвивым ынӄэн ынӈинэ.
+# text[phon] = ɣəmnan epeqejənu ninʔejŋewiwəm ənqen ənŋine
+# text[rus] = Я так её бабушкой называла.
+# text[eng] = I called her my grandmother, that way.
+# labels = complete-dep anno-fran valency secondary-predication
+1	Гымнан	_	PRON	_	_	3	nsubj	_	Gloss=я-INS
+2	эпэӄэйыну	_	NOUN	_	_	3	xcomp	_	Gloss=бабушка-EQU
+3	нинъэйӈэвивым	_	VERB	_	_	0	root	_	Gloss=ST-INV-звать-NP.1SG
+4	ынӄэн	_	PART	_	_	3	discourse	_	Gloss=DET
+5-6	ынӈинэ	_	_	_	_	_	_	_	SpaceAfter=No
+5	ынӈин	_	ADV	_	_	3	advmod	_	Gloss=так-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Larvae:16
+# text = Ыныкэккэԓӄыԓин ӈэв ӈэвъэнйыръын ӈэ ӈэвъэнъым ынӄэн Кымъыӈэ.
+# text[phon] = ənəkekkeɬqəɬin ŋew ŋewʔenjərʔən ŋe ŋewʔenʔəm ənqen kəmʔəŋe
+# text[rus] = Это её приёмного сына жена, Кымъынэ.
+# text[eng] = This is her adopted son's wife, Kymyne.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1-2	Ыныкэккэԓӄыԓин	_	_	_	_	_	_	_	_
+1	Ынык	_	PRON	_	_	2	nmod:poss	_	Gloss=он-POSS.INC-сын-DEB-GEN
+2	эккэԓӄыԓин	_	NOUN	_	_	6	nmod:poss	_	_
+3	ӈэв	_	X	_	_	6	reparandum	_	Gloss=FST
+4	ӈэвъэнйыръын	_	NOUN	_	_	6	reparandum	_	Gloss=жена-содержимое-NOM.SG
+5	ӈэ	_	X	_	_	6	reparandum	_	Gloss=FST
+6-7	ӈэвъэнъым	_	_	_	_	_	_	_	_
+6	ӈэвъэн	_	NOUN	_	_	0	root	_	Gloss=жена-NOM.SG-=EMPH
+7	ъым	_	PART	_	_	6	discourse	_	_
+8	ынӄэн	_	PRON	_	_	6	nsubj	_	Gloss=DET
+9	Кымъыӈэ	_	PROPN	_	_	8	appos	_	Gloss=Кымъынэ-NOM.SG|SpaceAfter=No
+10	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Larvae:18
 # text = Ивнин.
