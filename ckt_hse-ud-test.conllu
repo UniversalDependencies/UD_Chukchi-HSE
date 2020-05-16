@@ -9441,6 +9441,27 @@
 1	Ӈэвъэн	_	NOUN	_	_	0	root	_	Gloss=жена-NOM.SG|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Transhumance:28
+# text = Ну и нытарагморэ мури гэтумгинэтэ ӈинӄэгти виинэ ӄоо миӈкы ԓымынӄо ныԓейвыӄинэт.
+# text[phon] = ну и nətaraɣmore muri ɣetumɣinete ŋinqeɣti wiine qoo miŋkə ɬəmənqo nəɬejwəqinet
+# text[rus] = Ну и мы с мужем ставим ярангу, а мальчишки в это время пока неизвестно где (везде) гуляют.
+# text[eng] = Me and my husband set the yaranga and the boys are... I do not know... somewhere, walk around the area.
+# labels = complete-dep anno-fran
+1	Ну	_	X	_	_	3	discourse	_	Gloss=
+2	и	_	X	_	_	1	flat:foreign	_	Gloss=
+3	нытарагморэ	_	VERB	_	_	0	root	_	Gloss=ST-MAKE-жилище-MAKE-NP.1PL
+4	мури	_	PRON	_	_	3	nsubj	_	Gloss=мы
+5	гэтумгинэтэ	_	NOUN	_	_	4	conj	_	Gloss=COM-друг-GEN-INS
+6	ӈинӄэгти	_	NOUN	_	_	4	conj	_	Gloss=молодой-DIM-NOM.PL
+7-8	виинэ	_	_	_	_	_	_	_	_
+7	виин	_	ADV	_	_	9	discourse	_	Gloss=пока-=PTCL
+8	э	_	PART	_	_	7	discourse	_	_
+9	ӄоо	_	VERB	_	_	3	parataxis	_	Gloss=не.знаю
+10	миӈкы	_	ADV	_	_	12	advmod	_	Gloss=где-LOC
+11	ԓымынӄо	_	ADV	_	_	12	advmod	_	Gloss=OMN-тот-ADV.ABL
+12	ныԓейвыӄинэт	_	VERB	_	_	9	ccomp	_	Gloss=ST-идти-DISTR.O-ST.3SG-NOM.PL|SpaceAfter=No
+13	.	_	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Transhumance:29
 # text = Нытарагморэ нытарогморэ.
 # text[phon] = nətaraɣmore nətaroɣmore
@@ -9484,10 +9505,10 @@
 9-10	ӄэԓюӄъым	_	_	_	_	_	_	_	_
 9	ӄэԓюӄ	_	ADV	_	_	14	advmod	_	Gloss=конечно-=EMPH
 10	ъым	_	PART	_	_	9	discourse	_	_
-11	гэмо	_	AUX	_	_	14	aux	_	Gloss=не.знать
+11	гэмо	_	VERB	_	_	1	parataxis	_	Gloss=не.знать
 12	гымнан	_	PRON	_	_	14	nsubj	_	Gloss=я-INS
 13	титэ	_	ADV	_	_	14	advmod	_	Gloss=когда
-14	трэпириӈынэт	_	VERB	_	_	1	parataxis	_	Gloss=1SG.S/A-FUT-брать-FUT-3SG.O-PL
+14	трэпириӈынэт	_	VERB	_	_	11	ccomp	_	Gloss=1SG.S/A-FUT-брать-FUT-3SG.O-PL
 15	билеты	_	NOUN	_	_	14	obj	_	Gloss=
 16	Въэӈэты	_	PROPN	_	_	15	nmod	_	Gloss=Анадырь-DAT|SpaceAfter=No
 17	.	_	PUNCT	_	_	14	punct	_	_
