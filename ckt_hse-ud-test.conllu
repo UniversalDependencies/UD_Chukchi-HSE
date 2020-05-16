@@ -9069,7 +9069,7 @@
 # text = Итыкъым ԓьэԓеӈкыӈэ ныяԓгынморэ.
 # text[phon] = itəkʔəm ɬʔeɬeŋkəŋe nəjaɬɣənmore
 # text[rus] = Зимой, вообще-то мы зимой кочевали.
-# text[eng] = Actually, we nomadized in the winter.
+# text[eng] = Actually, we nomadised in the winter.
 # labels = complete-dep anno-karina
 1-2	Итыкъым	_	_	_	_	_	_	_	_
 1	Итык	_	VERB	_	_	5	discourse	_	Gloss=являться-LOC-=EMPH
@@ -9353,6 +9353,85 @@
 5	ӄинэвинрэтыркын	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=2.S/A.SUBJ-INV-помогать-IPFV|SpaceAfter=No
 6	.	_	PUNCT	_	_	3	punct	3:punct	_
 
+# sent_id = Transhumance:20
+# text = Ӈоонӄоӈэ мэӈӄо поӄэпы нэнанӈытоӈанморэ.
+# text[phon] = ŋoonqoŋe meŋqo poqepə nenanŋətoŋanmore
+# text[rus] = Оттуда, откуда... с зада (с узкого прохода) выводим.
+# text[eng] = From there... From where... From behid we bring the reindeer.
+# labels = complete-dep anno-fran
+1-2	Ӈоонӄоӈэ	_	_	_	_	_	_	_	_
+1	Ӈоонӄо	_	ADV	_	_	5	advmod	_	Gloss=там-ADV.ABL-=PTCL
+2	ӈэ	_	PART	_	_	1	discourse	_	_
+3	мэӈӄо	_	ADV	_	_	5	advmod	_	Gloss=где-ADV.ABL
+4	поӄэпы	_	NOUN	_	_	5	obl	_	Gloss=зад-ABL
+5	нэнанӈытоӈанморэ	_	VERB	_	_	0	root	_	Gloss=ST-INV-TR-выходить-SF-NP.1PL|SpaceAfter=No
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Transhumance:23
+# text = Ԓыгэн ӈэнриԓьым уʼрэӈэнри ныԓемури нымгутыԓемури ымъыԓёӈэт.
+# text[phon] = ɬəɣen ŋenriɬʔəm ʔureŋenri nəɬemuri nəmɣutəɬemuri əmʔəɬoŋet
+# text[rus] = В ту сторону и кочуем весь день.
+# text[eng] = And we nomadise all day long going that direction.
+# labels = complete-dep anno-fran incorporation
+1	Ԓыгэн	_	ADV	_	_	5	advmod	5:advmod	Gloss=просто
+2-3	ӈэнриԓьым	_	_	_	_	_	_	_	_
+2	ӈэнриԓ	_	ADV	_	_	5	advmod	5:advmod	Gloss=там-ADV.ALL.EXH-=EMPH
+3	ьым	_	PART	_	_	2	discourse	2:discourse	_
+4	уʼрэӈэнри	_	ADV	_	_	5	advmod	5:advmod	Gloss=открытый-там-ADV.ALL
+5	ныԓемури	_	VERB	_	_	0	root	0:root	Gloss=ST-идти-NP.1PL
+6	нымгутыԓемури	_	VERB	_	_	5	parataxis	5:parataxis	Gloss=ST-аргиш-идти-NP.1PL
+6.1	мгу	_	NOUN	_	_	_	_	6:obl	Gloss=аргиш
+7	ымъыԓёӈэт	_	ADV	_	_	6	advmod	6:advmod	Gloss=TOT-день-TIME|SpaceAfter=No
+8	.	_	PUNCT	_	_	5	punct	5:punct	_
+
+# sent_id = Transhumance:24
+# text = Нырэювмури ынӄэнэ ныӄаавъянморэ.
+# text[phon] = nərejuwmuri ənqene nəqaawjanmore
+# text[rus] = Становимся стойбищем и распрягаем оленей.
+# text[eng] = We set the camp and unharness the reindeer.
+# labels = complete-dep anno-fran
+1	Нырэювмури	_	VERB	_	_	0	root	_	Gloss=ST-становиться.стойбищем-NP.1PL
+2-3	ынӄэнэ	_	_	_	_	_	_	_	_
+2	ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4	ныӄаавъянморэ	_	VERB	_	_	1	parataxis	_	Gloss=ST-олень-распрягать-NP.1PL|SpaceAfter=No
+5	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Transhumance:25
+# text = Гымнанэ ӄэԓюӄ рырвинрыёт кааръаматыԓьыт чеймыкинэт нинэт нэнавъятэвым итык чама.
+# text[phon] = ɣəmnane qeɬuq rərwinrəjot kaarʔamatəɬʔət sejməkinet ninet nenawjatewəm itək sama
+# text[rus] = Я, конечно же, ручных, тех, которые в детской кибитке, и тягловых оленей распрягаю.
+# text[eng] = Of course, I unharness the same domestic ones that drag the sledge for babies and the draught reindeer.
+# labels = complete-dep anno-fran weird-advcl
+1-2	Гымнанэ	_	_	_	_	_	_	_	_
+1	Гымнан	_	PRON	_	_	8	nsubj	_	Gloss=я-INS-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	ӄэԓюӄ	_	ADV	_	_	8	advmod	_	Gloss=конечно
+4	рырвинрыёт	_	VERB	_	_	8	obj	_	Gloss=TR-вести.за.руку-PTCP.PASS-NOM.PL
+5	кааръаматыԓьыт	_	NOUN	_	_	4	nmod:attr	_	Gloss=нарта.с.кибиткой-тащить.волоком-ATTR-NOM.PL
+6	чеймыкинэт	_	NOUN	_	_	4	nmod:relat	_	Gloss=тягловый.олень-REL-NOM.PL
+7	нинэт	_	X	_	_	8	reparandum	_	Gloss=FST
+8	нэнавъятэвым	_	VERB	_	_	0	root	_	Gloss=ST-INV-распрягать-NP.1SG
+9	итык	_	AUX	_	_	10	cop	_	Gloss=являться-LOC
+10	чама	_	ADV	_	_	8	advcl	_	Gloss=также|SpaceAfter=No
+11	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Transhumance:26
+# text = Чымӄыкъым эты тумгэ ыʼвэӄучитэ нэнайпа нэнавъятӄэнат.
+# text[phon] = səmqəkʔəm etə tumɣe ʔəwequsite nenajpa nenawjatqenat
+# text[rus] = Остальных муж распрягал.
+# text[eng] = My husband sets the the rest of them free.
+# labels = complete-dep anno-fran
+1-2	Чымӄыкъым	_	_	_	_	_	_	_	_
+1	Чымӄык	_	NOUN	_	_	7	obj	_	Gloss=часть-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	эты	_	ADV	_	_	7	advmod	_	Gloss=наверное
+4	тумгэ	_	NOUN	_	_	5	reparandum	_	Gloss=друг-INS
+5	ыʼвэӄучитэ	_	NOUN	_	_	7	nsubj	_	Gloss=муж-INS
+6	нэнайпа	_	X	_	_	7	reparandum	_	Gloss=FST
+7	нэнавъятӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-INV-распрягать-ST.3SG-PL|SpaceAfter=No
+8	.	_	PUNCT	_	_	7	punct	_	_
+
 # sent_id = Transhumance:27
 # text = Ӈэвъэн.
 # text[phon] = ŋewʔen
@@ -9361,6 +9440,16 @@
 # labels = complete-dep anno-fran
 1	Ӈэвъэн	_	NOUN	_	_	0	root	_	Gloss=жена-NOM.SG|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Transhumance:29
+# text = Нытарагморэ нытарогморэ.
+# text[phon] = nətaraɣmore nətaroɣmore
+# text[rus] = Ставим ярангу, ставим полог.
+# text[eng] = We set the yaranga and make the yaranga roof.
+# labels = complete-dep anno-fran
+1	Нытарагморэ	_	VERB	_	_	0	root	_	Gloss=ST-MAKE-жилище-MAKE-NP.1PL
+2	нытарогморэ	_	VERB	_	_	1	parataxis	_	Gloss=ST-MAKE-полог-MAKE-NP.1PL|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Vacation:1
 # text = Янор Омваамгыпы такчитэ ԓымэвыр афтобуча Камаза трэԓӄытгъэ Эԓгыӄанъявэты.
