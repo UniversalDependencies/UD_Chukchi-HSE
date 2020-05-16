@@ -3307,14 +3307,14 @@
 3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = GUM:24
-# text = Ынӄэн оʼмрынына нрзб.
+# text = Ынӄэн Оʼмрынына нрзб.
 # text[phon] = ənqen ʔomrənəna нрзб
 # text[rus] = Я Омрына спрашиваю:
 # text[eng] = I am asking Omryn:
 # labels = complete-dep anno-fran ənqen
 1	Ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET
 2	Оʼмрынына	_	PROPN	_	_	0	root	_	Gloss=Омрын-AN.DAT
-3	нрзб	_	X	_	_	2	discourse	_	Gloss=
+3	нрзб	_	X	_	_	2	discourse	_	Gloss=|SpaceAfter=No
 4	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = GUM:25
@@ -3490,17 +3490,17 @@
 # text[eng] = A young boy, a shepherd, almost froze to death.
 # labels = complete-dep anno-fran ənqen
 1-2	Ӄорагынрэтыԓьына	_	_	_	_	_	_	_	_
-1	Ӄорагынрэтыԓьын	_	NOUN	_	_	5	nmod:attr	_	Gloss=олень-защищать-ATTR-NOM.SG-=PTCL
-2	а	_	PART	_	_	1	discourse	_	_
-3	аʼачек	_	NOUN	_	_	5	reparandum	_	Gloss=парень-NOM.SG
-4	молодой	_	ADJ	_	_	5	amod	_	Gloss=
-5	аʼачек	_	NOUN	_	_	7	nsubj	_	Gloss=парень-NOM.SG
-6	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET
+1	Ӄорагынрэтыԓьын	_	NOUN	_	_	5	nmod:attr	5:nmod:attr	Gloss=олень-защищать-ATTR-NOM.SG-=PTCL
+2	а	_	PART	_	_	1	discourse	1:discourse	_
+3	аʼачек	_	NOUN	_	_	5	reparandum	5:reparandum	Gloss=парень-NOM.SG
+4	молодой	_	ADJ	_	_	5	amod	5:amod	Gloss=
+5	аʼачек	_	NOUN	_	_	7	nsubj	7:nsubj	Gloss=парень-NOM.SG
+6	ынӄэн	_	PART	_	_	7	discourse	7:discourse	Gloss=DET
 7-8	гаӄэтывъэӈӈоԓенэ	_	_	_	_	_	_	_	SpaceAfter=No
-7	гаӄэтывъэӈӈоԓен	_	VERB	_	_	0	root	_	Gloss=PF-замерзать-умереть-INCH-PF.3SG-=PTCL
-7.1	ӄэты	_	VERB	_	_	_	_	_	7:advcl
-8	э	_	PART	_	_	7	discourse	_	_
-9	.	_	PUNCT	_	_	7	punct	_	_
+7	гаӄэтывъэӈӈоԓен	_	VERB	_	_	0	root	0:root	Gloss=PF-замерзать-умереть-INCH-PF.3SG-=PTCL
+7.1	ӄэты	_	VERB	_	_	_	_	7:advcl	Gloss=замерзать
+8	э	_	PART	_	_	7	discourse	7:discourse	_
+9	.	_	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = Guy:3
 # text = Нутэк ӄорагынрэтыԓьын ынӄэн.
