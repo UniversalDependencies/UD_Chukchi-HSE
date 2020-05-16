@@ -7710,8 +7710,8 @@
 # text[rus] = «Я очень пёстрое стадо тебе отдам».
 # text[eng] = «I will give you an extremely mottled herd.»
 # labels = complete-dep anno-fran
-1-3	Тэӈкэԓиԓьыӈэԓвыԓ	_	_	_	_	_	_	_	Gloss=GOOD-писать-ATTR-стадо-NOM.SG
-1	тэӈкэԓиԓьы	_	ADJ	_	_	2	acl:attr	_	Gloss=GOOD-писать-ATTR
+1-2	Тэӈкэԓиԓьыӈэԓвыԓ	_	_	_	_	_	_	_	Gloss=GOOD-писать-ATTR-стадо-NOM.SG
+1	Тэӈкэԓиԓьы	_	ADJ	_	_	2	acl:attr	_	Gloss=GOOD-писать-ATTR
 2	ӈэԓвыԓ	_	NOUN	_	_	3	obj	_	Gloss=стадо-NOM.SG
 3	мыйыԓгыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-давать-2SG.O|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
