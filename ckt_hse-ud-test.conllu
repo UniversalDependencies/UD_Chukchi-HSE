@@ -3941,6 +3941,22 @@
 5.1	ӄытэнынныӈгын	_	VERB	_	_	_	_	0:root	_
 6	.	_	PUNCT	_	_	5	punct	5:punct	_
 
+# sent_id = Having_bear_ears:10
+# text = Ынӄэн а то яраԓьата энмэч гынин эвиръыт нэныԓгывэтыркынэт.
+# text[phon] = ənqen а то jaraɬʔata enmes ɣənin ewirʔət nenəɬɣəwetərkənet
+# text[rus] = А то домашние уже сжигают твою одежду (как бы хоронят вместо тебя)».
+# text[eng] = Your family has already been burning your clothes.»
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	8	discourse	_	Gloss=DET
+2	а	_	X	_	_	8	discourse	_	Gloss=
+3	то	_	X	_	_	2	flat:foreign	_	Gloss=
+4	яраԓьата	_	NOUN	_	_	8	nsubj	_	Gloss=яранга-ATTR-INS
+5	энмэч	_	ADV	_	_	8	advmod	_	Gloss=уже
+6	гынин	_	PRON	_	_	7	nmod:poss	_	Gloss=ты-GEN
+7	эвиръыт	_	NOUN	_	_	8	obj	_	Gloss=одежда.из.шкур-NOM.PL
+8	нэныԓгывэтыркынэт	_	VERB	_	_	0	root	_	Gloss=LOW.A-сжигать-IPFV-PL|SpaceAfter=No
+9	.	_	PUNCT	_	_	8	punct	_	_
+
 # sent_id = Having_bear_ears:11
 # text = Ынӄо ыԓвыԓютэ рытриԓнин ӄԓявыԓ.
 # text[phon] = ənqo əɬwəɬute rətriɬnin qɬawəɬ
@@ -4026,6 +4042,18 @@
 1	Ангынтавкэгты	_	VERB	_	_	0	root	_	Gloss=CAR-TR-убегать-CAR.DAT|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Having_bear_ears:18
+# text = Ынӄэн гынинэт эвиръыт нэныԓгывэтыркынэт.
+# text[phon] = ənqen ɣəninet ewirʔət nenəɬɣəwetərkənet
+# text[rus] = А то твою одежду сжигают».
+# text[eng] = As they are burning your clothes.»
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PRON	_	_	4	discourse	_	Gloss=DET
+2	гынинэт	_	PRON	_	_	3	nmod:poss	_	Gloss=ты-GEN-PL
+3	эвиръыт	_	NOUN	_	_	4	obj	_	Gloss=одежда.из.шкур-NOM.PL
+4	нэныԓгывэтыркынэт	_	VERB	_	_	0	root	_	Gloss=LOW.A-сжигать-IPFV-PL|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Having_bear_ears:19
 # text = Ӈуттэԓвъэм ваԓёмгъэ.
 # text[phon] = ŋutteɬwʔem waɬomɣʔe
@@ -4059,6 +4087,17 @@
 3	гыргочайпы	_	NOUN	_	_	4	obl	_	Gloss=вверху-ABL
 4	выёпчанэнат	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-свистеть-3SG.A.3.O-3SG.O-PL|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Having_bear_ears:22
+# text = Эвиръынԓеԓьыт яраԓьыт.
+# text[phon] = ewirʔənɬeɬʔət jaraɬʔət
+# text[rus] = Домашние хоронят одежду.
+# text[eng] = His relatives are burying his clothes.
+# labels = complete-dep anno-fran unclear-syntax
+1	Эвиръынԓеԓьыт	_	VERB	_	_	0	root	0:root	Gloss=одежда.из.шкур-хоронить-ATTR-NOM.PL
+1.1	Эвиръынт	_	NOUN	_	_	_	_	1:obj	Gloss=одежда.из.шкур
+2	яраԓьыт	_	NOUN	_	_	1	nsubj	1:nsubj	Gloss=яранга-ATTR-NOM.PL|SpaceAfter=No
+3	.	_	PUNCT	_	_	1	punct	1:punct	_
 
 # sent_id = Having_bear_ears:23
 # text = Нэгитэгъэн нэԓкыԓгъэн.
@@ -4107,6 +4146,18 @@
 1	Ынан	_	PRON	_	_	2	nsubj	_	Gloss=он.INS
 2	ивнинэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O-PL|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Having_bear_ears:27
+# text = Ынӄэнэ ынӄэнайгым.
+# text[phon] = ənqene ənqenajɣəm
+# text[rus] = «Это я.
+# text[eng] = «This is me.
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	3	discourse	_	Gloss=DET-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	ынӄэнайгым	_	PRON	_	_	0	root	_	Gloss=DET-NP.1SG|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Having_bear_ears:28
 # text = Ванэ гым это мраквачак.
@@ -8625,7 +8676,7 @@
 # text[phon] = teŋʔinkeɬi ʔiŋkesiŋewʔenjərʔən trejəɬɣət trerenŋən
 # text[rus] = «Я тебе девушку с татуированным носом отдам, привезу».
 # text[eng] = «I will give you a girl with a tattooed nose, I will bring her.»
-# labels = complete-dep anno-fran
+# labels = complete-dep anno-fran unclear-morph
 1	Тэӈъинкэԓи	_	X	_	_	4	reparandum	_	Gloss=FST
 2-4	иʼӈкэчиӈэвъэнйыръын	_	_	_	_	_	_	_	Gloss=нос-писать-жена-содержимое-NOM.SG
 2	иʼӈ	_	NOUN	_	_	3	obj	_	Gloss=нос
@@ -10010,6 +10061,25 @@
 7	гаканйы	_	NOUN	_	_	6	obj	_	Gloss=упряжка-NOM.SG-=PTCL
 8	ӈ	_	PART	_	_	7	discourse	_	_
 9	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = The_race_to_death:5
+# text = Нрзб ынӄэнэ гакооԓгыԓе ынръама ръиԓеԓьынъым.
+# text[phon] = нрзб ənqene ɣakooɬɣəɬe ənrʔama rʔiɬeɬʔənʔəm
+# text[rus] = А гонщика сразу же схватил инфаркт.
+# text[eng] = And the driver immediately caught a heart attack.
+# labels = complete-dep anno-fran ənqen
+1	Нрзб	_	X	_	_	4	discourse	_	Gloss=
+2-3	ынӄэнэ	_	_	_	_	_	_	_	_
+2	ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4	гакооԓгыԓе	_	VERB	_	_	0	root	_	Gloss=PF-падать.замертво-PF.3SG.нер.изм.
+5-6	ынръама	_	_	_	_	_	_	_	_
+5	ынръам	_	ADV	_	_	4	advmod	_	Gloss=видимо-=PTCL
+6	а	_	PART	_	_	5	discourse	_	_
+7-8	ръиԓеԓьынъым	_	_	_	_	_	_	_	SpaceAfter=No
+7	ръиԓеԓьын	_	NOUN	_	_	4	nsubj	_	Gloss=участвовать.в.гонках-ATTR-NOM.SG-=EMPH
+8	ъым	_	PART	_	_	7	discourse	_	_
+9	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = The_race_to_death:7
 # text = Таӈранъав орвоор ныԓеӄин.
