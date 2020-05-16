@@ -8644,6 +8644,37 @@
 3	э	_	PART	_	_	2	discourse	_	_
 4	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Tent:3
+# text = Ынӄэнэ ръэнут нинэтэйкыӄин кэԓикэԓ юрэӄъымэ.
+# text[phon] = ənqene rʔenut ninetejkəqin keɬikeɬ jureqʔəme
+# text[rus] = Что-то он там делает, наверное, книгу пишет.
+# text[eng] = He is doing something, probably, writing a book.
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	ръэнут	_	PRON	_	_	4	obj	_	Gloss=что.NOM.SG
+4	нинэтэйкыӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-делать-ST.3SG
+5	кэԓикэԓ	_	NOUN	_	_	4	parataxis	_	Gloss=книга-NOM.SG
+6-8	юрэӄъымэ	_	_	_	_	_	_	_	SpaceAfter=No
+6	юрэӄ	_	ADV	_	_	5	advmod	_	Gloss=может.быть-=EMPH-=PTCL
+7	ъым	_	PART	_	_	6	discourse	_	_
+8	э	_	PART	_	_	6	discourse	_	_
+9	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Tent:4
+# text = Ӈаргыночьыт нинэтэнгыеӈӄээт миӈкыри ваԓьыт.
+# text[phon] = ŋarɣənosʔət ninetenɣəjeŋqeet miŋkəri waɬʔət
+# text[rus] = Занимается волками, какие они.
+# text[eng] = He is examining wolves, the way they are.
+# comment = Нет уверенности, что второе слово именно такое.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ӈаргыночьыт	_	ADJ	_	_	2	obj	_	Gloss=внешняя.сторона-ADJ-NOM.PL
+2	нинэтэнгыеӈӄээт	_	VERB	_	_	0	root	_	Gloss=ST-INV-определять-ST.3PL
+3	миӈкыри	_	ADV	_	_	2	parataxis	_	Gloss=где-LOC-ADV.ALL
+4	ваԓьыт	_	AUX	_	_	3	cop	_	Gloss=быть-ATTR-NOM.PL|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Tent:5
 # text = Вытку ԓьунин ынӄэн игыт.
 # text[phon] = wətku ɬʔunin ənqen iɣət
@@ -8664,6 +8695,37 @@
 # labels = complete-dep anno-fran
 1	Ытръэч	_	ADV	_	_	0	root	_	Gloss=только|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Tent:7
+# text = И вот иʼныӈэ энмэна эн ынӄэн иʼны мэԓьыттъывытрынэ ныръэӄин ӄынут гэгиинрэԓин ӄынутэ гытъэвыԓьын гэймэвԓин оʼравэтԓьак.
+# text[phon] = и вот ʔinəŋe enmena en ənqen ʔinə meɬʔəttʔəwətrəne nərʔeqin qənut ɣeɣiinreɬin qənute ɣətʔewəɬʔən ɣejmewɬin ʔorawetɬʔak
+# text[rus] = И вот этот волк, похожий на собаку, что он там делает... как будто высматривает, как будто оголодавший подошёл к человеку.
+# text[eng] = And this wolf that looks like a dog, what is it doing there... gazing, came to the man as if it is hungry.
+# labels = complete-dep anno-fran unclear-syntax
+1	И	_	X	_	_	12	discourse	_	Gloss=
+2	вот	_	X	_	_	1	flat:foreign	_	Gloss=
+3-4	иʼныӈэ	_	_	_	_	_	_	_	_
+3	иʼны	_	NOUN	_	_	12	dislocated	_	Gloss=волк.NOM.SG-=PTCL
+4	ӈэ	_	PART	_	_	3	discourse	_	_
+5-6	энмэна	_	_	_	_	_	_	_	_
+5	энмэн	_	ADV	_	_	12	discourse	_	Gloss=итак-=PTCL
+6	а	_	PART	_	_	5	discourse	_	_
+7	эн	_	X	_	_	8	reparandum	_	Gloss=FST
+8	ынӄэн	_	PRON	_	_	9	det	_	Gloss=DET
+9	иʼны	_	NOUN	_	_	12	nsubj	_	Gloss=волк.NOM.SG
+10-11	мэԓьыттъывытрынэ	_	_	_	_	_	_	_	_
+10	мэԓьыттъывытрын	_	NOUN	_	_	9	appos	_	Gloss=SEEM-собака-SIMILAR-NOM.SG-=PTCL
+11	э	_	PART	_	_	10	discourse	_	_
+12	ныръэӄин	_	X	_	_	0	root	_	Gloss=
+13	ӄынут	_	ADV	_	_	14	advmod	_	Gloss=как
+14	гэгиинрэԓин	_	VERB	_	_	12	parataxis	_	Gloss=PF-алчно.смотреть-PF.3SG
+15-16	ӄынутэ	_	_	_	_	_	_	_	_
+15	ӄынут	_	ADV	_	_	17	advmod	_	Gloss=как-=PTCL
+16	э	_	PART	_	_	15	discourse	_	_
+17	гытъэвыԓьын	_	NOUN	_	_	18	dep	_	Gloss=голодный-CS-ATTR-NOM.SG
+18	гэймэвԓин	_	VERB	_	_	12	parataxis	_	Gloss=PF-приближаться-PF.3SG
+19	оʼравэтԓьак	_	NOUN	_	_	18	obl	_	Gloss=человек-LOC|SpaceAfter=No
+20	.	_	PUNCT	_	_	12	punct	_	_
 
 # sent_id = Tent:8
 # text = Ытръэч.
@@ -9659,6 +9721,21 @@
 10	мытрэгитэӈын	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-FUT-смотреть-FUT-3SG.O|SpaceAfter=No
 11	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Vacation:7
+# text = Ԓыгэнъым ынӄэн майӈынымэӈын Санкт-Петербург транкаԓровӈын.
+# text[phon] = ɬəɣenʔəm ənqen majŋənəmeŋən sanktpitirburk trankaɬrowŋən
+# text[rus] = Покажу ей Санкт-Петербург, большой город.
+# text[eng] = I’ll show her St. Petersburg, a big city.
+# labels = complete-dep anno-fran ənqen
+1-2	Ԓыгэнъым	_	_	_	_	_	_	_	_
+1	Ԓыгэн	_	ADV	_	_	6	advmod	_	Gloss=просто-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET
+4	майӈынымэӈын	_	NOUN	_	_	6	obj	_	Gloss=большой-посёлок-AUG-NOM.SG
+5	Санкт-Петербург	_	PROPN	_	_	4	appos	_	Gloss=Санкт.Петербург-NOM.SG
+6	транкаԓровӈын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-FUT-показывать-FUT-3SG.O|SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
 # sent_id = Vacation:8
 # text = Ынкы ткэԓиткугъэк тъэргииӈит.
 # text[phon] = ənkə tkeɬitkuɣʔek tʔerɣiiŋit
@@ -9795,6 +9872,18 @@
 6	ӄонпы	_	ADV	_	_	7	advmod	_	Gloss=всегда
 7	нинэпириӄинэт	_	VERB	_	_	2	parataxis	_	Gloss=ST-INV-брать-ST.3SG-PL|SpaceAfter=No
 8	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Vacation:17
+# text = Ынӄэ мачынан нымэч нымачпэԓятъан.
+# text[phon] = ənqe masənan nəmes nəmaspeɬatʔan
+# text[rus] = Пусть она немного опоздает.
+# text[eng] = Let her be late a little.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэ	_	PART	_	_	4	discourse	_	Gloss=DET
+2	мачынан	_	PART	_	_	4	discourse	_	Gloss=пусть
+3	нымэч	_	X	_	_	4	reparandum	_	Gloss=FST
+4	нымачпэԓятъан	_	VERB	_	_	0	root	_	Gloss=ST-APPR-оставлять-VB-TH-3SG.O|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Vacation:18
 # text = Пэтԓе рэркыԓегнинэт кэԓиткутумгыт.
@@ -10405,6 +10494,24 @@
 3	айгыпы	_	ADV	_	_	4	advmod	_	Gloss=против.ветра
 4	мынԓеԓьэнмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-идти-PLAC-1PL.S/O|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Water_cart:25
+# text = Миӈкы винвыт эвын мытрайъоӈына мытрантымӈэвӈӈоӈын мынкынпыткоԓьатыӈӈомыкъым.
+# text[phon] = miŋkə winwət ewən mətrajʔoŋəna mətrantəmŋewŋŋoŋən mənkənpətkoɬʔatəŋŋoməkʔəm
+# text[rus] = Где следы начнём терять, там привяжемся (букв. начнём петлять)».
+# text[eng] = And we will stay at the spot (lit. start to meander) where we begin to loose the trace.»
+# labels = complete-dep anno-fran unclear-syntax difficult-verb
+1	Миӈкы	_	ADV	_	_	4	advmod	_	Gloss=где-LOC
+2	винвыт	_	NOUN	_	_	4	obj	_	Gloss=след-NOM.PL
+3	эвын	_	ADV	_	_	4	advmod	_	Gloss=если
+4-5	мытрайъоӈына	_	_	_	_	_	_	_	_
+4	мытрайъоӈын	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-FUT-настигать-FUT-3SG.O-=PTCL
+5	а	_	PART	_	_	4	discourse	_	_
+6	мытрантымӈэвӈӈоӈын	_	VERB	_	_	4	parataxis	_	Gloss=1PL.S/A-FUT-TR-потеряться-INCH-FUT-3SG.O
+7-8	мынкынпыткоԓьатыӈӈомыкъым	_	_	_	_	_	_	_	SpaceAfter=No
+7	мынкынпыткоԓьатыӈӈомык	_	VERB	_	_	4	parataxis	_	Gloss=1PL.S/A.SUBJ-ITER-PLAC-INCH-1PL.S/O-=EMPH
+8	ъым	_	PART	_	_	7	discourse	_	_
+9	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Water_cart:26
 # text = Ԓгиэʼӄээʼвкы ваԓьын танӈочочьым тиквъэна.
