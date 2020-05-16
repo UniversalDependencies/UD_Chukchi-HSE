@@ -469,6 +469,20 @@
 16	нутэӈэвыт	_	PROPN	_	_	13	appos	_	Gloss=Нутеневыт-NOM.SG|SpaceAfter=No
 17	.	_	PUNCT	_	_	10	punct	_	_
 
+# sent_id = Being_a_child:6
+# text = Ынӄэнэ чеԓг гачеԓгыръоԓенат гатъыԓыӈӈоԓенат.
+# text[phon] = ənqene seɬɣ ɣaseɬɣərʔoɬenat ɣatʔəɬəŋŋoɬenat
+# text[rus] = Все заболели краснухой.
+# text[eng] = Everyone got infected with rubella.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	чеԓг	_	X	_	_	4	reparandum	_	Gloss=FST
+4	гачеԓгыръоԓенат	_	VERB	_	_	0	root	_	Gloss=PF-красный-DISTR.S-PF.3SG-PL
+5	гатъыԓыӈӈоԓенат	_	VERB	_	_	4	parataxis	_	Gloss=PF-болеть-INCH-PF.3SG-PL|SpaceAfter=No
+6	.	_	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Being_a_child:9
 # text = Вытгытчьэн нэмыӄэе ӈээккэӄэй нэмыӄэе гагаԓяԓен.
 # text[phon] = wətɣətsʔen neməqeje ŋeekkeqej neməqeje ɣaɣaɬaɬen
@@ -514,6 +528,53 @@
 7	ыʼм	_	PART	_	_	6	discourse	_	_
 8	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id = Being_a_child:12
+# text = Ынӄорыӈ ытԓыгынэ гатъыԓыӈӈоԓен ынӄэн.
+# text[phon] = ənqorəŋ ətɬəɣəne ɣatʔəɬəŋŋoɬen ənqen
+# text[rus] = Потом отец заболел.
+# text[eng] = Then my father became sick.
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄорыӈ	_	_	_	_	_	_	_	_
+1	Ынӄоры	_	ADV	_	_	5	advmod	_	Gloss=потом-=PTCL
+2	ӈ	_	PART	_	_	1	discourse	_	_
+3-4	ытԓыгынэ	_	_	_	_	_	_	_	_
+3	ытԓыгын	_	NOUN	_	_	5	nsubj	_	Gloss=отец-NOM.SG-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5	гатъыԓыӈӈоԓен	_	VERB	_	_	0	root	_	Gloss=PF-болеть-INCH-PF.3SG
+6	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET|SpaceAfter=No
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Being_a_child:13
+# text = Гаԓвавыӈӈоԓен ӄынвэт чейвыткук ынӄэнэ.
+# text[phon] = ɣaɬwawəŋŋoɬen qənwet sejwətkuk ənqene
+# text[rus] = В итоге не смог ходить.
+# text[eng] = In the end, he could not walk anymore.
+# labels = complete-dep anno-fran ənqen
+1	Гаԓвавыӈӈоԓен	_	VERB	_	_	0	root	_	Gloss=PF-не.мочь-INCH-PF.3SG
+2	ӄынвэт	_	ADV	_	_	1	advmod	_	Gloss=наконец
+3	чейвыткук	_	VERB	_	_	1	xcomp	_	Gloss=идти-ITER-INF
+4-5	ынӄэнэ	_	_	_	_	_	_	_	SpaceAfter=No
+4	ынӄэн	_	PART	_	_	1	discourse	_	Gloss=DET-=PTCL
+5	э	_	PART	_	_	4	discourse	_	_
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Being_a_child:14
+# text = Ымы эʼчек выква вык ныквынтоӄэн ынӄэнэ.
+# text[phon] = əmə ʔesek wəkwa wək nəkwəntoqen ənqene
+# text[rus] = Даже когда мочился, у него выходили камни.
+# text[eng] = And even when he was urinating, the stones were coming out.
+# labels = complete-dep anno-fran ənqen
+1	Ымы	_	ADV	_	_	5	advmod	5:advmod	Gloss=также
+2	эʼчек	_	VERB	_	_	5	advcl	5:advcl	Gloss=мочиться-LOC
+3	выква	_	NOUN	_	_	5	reparandum	5:reparandum	Gloss=камень-INS
+4	вык	_	X	_	_	5	reparandum	5:reparandum	Gloss=FST
+5	ныквынтоӄэн	_	VERB	_	_	0	root	0:root	Gloss=ST-камень-выходить-ST.3SG
+5.1	квы	_	NOUN	_	_	_	_	5:nsubj	Gloss=камень
+6-7	ынӄэнэ	_	_	_	_	_	_	_	SpaceAfter=No
+6	ынӄэн	_	PART	_	_	5	discourse	5:discourse	Gloss=DET-=PTCL
+7	э	_	PART	_	_	6	discourse	6:discourse	_
+8	.	_	PUNCT	_	_	5	punct	5:punct	_
+
 # sent_id = Being_a_child:16
 # text = Эʼчууԓгычыку ԓюут ръэнут пэгԓягъэ.
 # text[phon] = ʔesuuɬɣəsəku ɬuut rʔenut peɣɬaɣʔe
@@ -525,6 +586,62 @@
 3	ръэнут	_	PRON	_	_	4	nsubj	_	Gloss=что.NOM.SG
 4	пэгԓягъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-трещать-TH-2/3SG.S|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Being_a_child:17
+# text = Ӄытԓыги выквыԓгыӄай тэгнувъэԓеӄин тэгныкээӄин ынӄэнэ.
+# text[phon] = qətɬəɣi wəkwəɬɣəqaj teɣnuwʔeɬeqin teɣnəkeeqin ənqene
+# text[rus] = Оказывается, это был камень чёрный-чёрный, гладкий-гладкий.
+# text[eng] = It turned out that it was a black smooth stone.
+# labels = complete-dep anno-fran ənqen
+1	Ӄытԓыги	_	ADV	_	_	3	advmod	_	Gloss=оказывается
+2	выквыԓгыӄай	_	NOUN	_	_	3	nsubj	_	Gloss=камень-SING-DIM-NOM.SG
+3	тэгнувъэԓеӄин	_	ADJ	_	_	0	root	_	Gloss=GOOD-ST-чёрный-ST.3SG
+4	тэгныкээӄин	_	ADJ	_	_	3	parataxis	_	Gloss=GOOD-ST-шероховатый-ST.3SG
+5-6	ынӄэнэ	_	_	_	_	_	_	_	SpaceAfter=No
+5	ынӄэн	_	PART	_	_	3	discourse	_	Gloss=DET-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Being_a_child:18
+# text = Нивӄинъым ӄэԓюӄ мури ныԓгиныӈинмури ныӈинмуриыʼм ынӄэнэ ыʼттъыгрээн тынинтыгъэн выквыԓгыӄай.
+# text[phon] = niwqinʔəm qeɬuq muri nəɬɣinəŋinmuri nəŋinmuriʔəm ənqene ʔəttʔəɣreen tənintəɣʔen wəkwəɬɣəqaj
+# text[rus] = Говорит, так как мы еще совсем детьми были, выбросили камень туда, где собаки.
+# text[eng] = She says that we were small kids and threw the stone away to where the dogs were.
+# labels = complete-dep anno-fran ənqen
+1-2	Нивӄинъым	_	_	_	_	_	_	_	_
+1	Нивӄин	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3SG-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	ӄэԓюӄ	_	ADV	_	_	5	advmod	_	Gloss=конечно
+4	мури	_	PRON	_	_	5	nsubj	_	Gloss=мы
+5	ныԓгиныӈинмури	_	ADJ	_	_	1	parataxis:speech	_	Gloss=ST-INTS-ST-молодой-NP.1PL
+6-7	ныӈинмуриыʼм	_	_	_	_	_	_	_	_
+6	ныӈинмури	_	ADJ	_	_	5	parataxis	_	Gloss=ST-молодой-NP.1PL-=EMPH
+7	ыʼм	_	PART	_	_	6	discourse	_	_
+8-9	ынӄэнэ	_	_	_	_	_	_	_	_
+8	ынӄэн	_	PART	_	_	12	discourse	_	Gloss=DET-=PTCL
+9	э	_	PART	_	_	8	discourse	_	_
+10-11	ыʼттъыгрээн	_	_	_	_	_	_	_	Gloss=собака-LOC-=с
+10	ыʼттъыг	_	NOUN	_	_	12	obl	_	Gloss=собака-LOC
+11	рээн	_	ADP	_	_	10	case	_	Gloss=с
+12	тынинтыгъэн	_	VERB	_	_	5	parataxis	_	Gloss=1SG.S/A-бросать-TH-3SG.O
+13	выквыԓгыӄай	_	NOUN	_	_	12	obj	_	Gloss=камень-SING-DIM-NOM.SG|SpaceAfter=No
+14	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Being_a_child:20
+# text = Ынӄэнъым ынкъам гым итыкэ.
+# text[phon] = ənqenʔəm ənkʔam ɣəm itəke
+# text[rus] = И я ведь...
+# text[eng] = And I was...
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнъым	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	ынкъам	_	CCONJ	_	_	5	cc	_	Gloss=и
+4	гым	_	PRON	_	_	5	nsubj	_	Gloss=я
+5-6	итыкэ	_	_	_	_	_	_	_	SpaceAfter=No
+5	итык	_	VERB	_	_	0	root	_	Gloss=являться-LOC-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Being_a_child:21
 # text = Чакэттомгыӄай уйӈэ гагаԓяԓенъым.
