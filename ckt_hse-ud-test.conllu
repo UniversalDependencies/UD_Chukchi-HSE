@@ -545,11 +545,11 @@
 # text[rus] = Меня мать второй раз грудью кормила.
 # text[eng] = My mother was breast-feeding me again.
 # labels = complete-dep anno-fran
-1	Гым	_	PRON	_	_	3	obj	_	Gloss=я
+1	Гым	_	PRON	_	_	3	obj	3:obj	Gloss=я
 2	ытԓьата	_	NOUN	_	_	3	nsubj	_	Gloss=мать-INS
-3	гэнапытӄынԓыватԓен	_	VERB	_	_	0	root	_	Gloss=PF-INV-повторно-TR-молоко-VB-PF.3SG|SpaceAfter=No
-3.1	_	_	ADV	_	_	_	_	3:advmod	Gloss=повторно
-4	.	_	PUNCT	_	_	3	punct	_	_
+3	гэнапытӄынԓыватԓен	_	VERB	_	_	0	root	0:root	Gloss=PF-INV-повторно-TR-молоко-VB-PF.3SG|SpaceAfter=No
+3.1	пытӄы	_	ADV	_	_	_	_	3:advmod	Gloss=повторно
+4	.	_	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = Being_a_child:25
 # text = Мэмэй аны мыммэмэаʼк.
@@ -900,9 +900,9 @@
 # text[rus] = Я тогда только закончила учиться.
 # text[eng] = I had just finished school.
 # labels = complete-dep anno-fran
-1	Торкаԓеткопааԓьэвым	_	VERB	_	_	0	root	_	Gloss=IMM-писать-ITER-переставать-ATTR-NP.1SG|SpaceAfter=No
+1	Торкаԓеткопааԓьэвым	_	VERB	_	_	0	root	0:root	Gloss=IMM-писать-ITER-переставать-ATTR-NP.1SG|SpaceAfter=No
 1.1	каԓетко	_	NOUN	_	_	_	_	1:obj	Gloss=писать-ITER,школа
-2	.	_	PUNCT	_	_	1	punct	_	_
+2	.	_	PUNCT	_	_	1	punct	1:punct	_
 
 # sent_id = Bouillon_with_crushed_bones:2
 # text = Тыта тытаԓяпԓытконат ръэнутэт а.
@@ -1064,16 +1064,16 @@
 # text[phon] = qoɬʔəm nətenŋətkuqin anə wane qʔəɬtəjoɣe
 # text[rus] = Она смеётся: «Да не, снег положи.
 # text[eng] = She laughs: «No, just put some snow in it.
-# labels = complete-dep anno-fran
+# labels = complete-dep anno-fran check-subject
 1-2	Ӄоԓьым	_	_	_	_	_	_	_	_
-1	Ӄоԓьы	_	PRON	_	_	3	nsubj	_	Gloss=некий-=EMPH
-2	м	_	PART	_	_	1	discourse	_	_
-3	нытэнӈыткуӄин	_	VERB	_	_	0	root	_	Gloss=ST-смеяться-ITER-ST.3SG
-4	аны	_	ADV	_	_	6	advmod	_	Gloss=давай
-5	ванэ	_	PART	_	_	4	flat	_	Gloss=NEG.NFUT
-6	ӄъыԓтыёгэ	_	VERB	_	_	3	parataxis	_	Gloss=2.S/A.SUBJ-снег-класть-IRR-2/3SG.S|SpaceAfter=No
+1	Ӄоԓ	_	PRON	_	_	3	nsubj	3:nsubj	Gloss=некий-=EMPH
+2	ьым	_	PART	_	_	1	discourse	_	1:discourse
+3	нытэнӈыткуӄин	_	VERB	_	_	0	root	0:root	Gloss=ST-смеяться-ITER-ST.3SG
+4	аны	_	ADV	_	_	6	advmod	6:advmod	Gloss=давай
+5	ванэ	_	PART	_	_	4	flat	4:flat	Gloss=NEG.NFUT
+6	ӄъыԓтыёгэ	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=2.S/A.SUBJ-снег-класть-IRR-2/3SG.S|SpaceAfter=No
 6.1	ъыԓ	_	NOUN	_	_	_	_	6:obj	Gloss=снег
-7	.	_	PUNCT	_	_	3	punct	_	_
+7	.	_	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = Bouillon_with_crushed_bones:20
 # text = Ынӈэ эӄэпԓюкэ.
@@ -1081,7 +1081,7 @@
 # text[rus] = Не надо пинать».
 # text[eng] = Do not kick it.»
 # labels = complete-dep anno-fran
-1	Ынӈэ	_	PART	_	_	2	aux	_	Gloss=PROH
+1	Ынӈэ	_	AUX	_	_	2	aux	_	Gloss=PROH
 2	эӄэпԓюкэ	_	VERB	_	_	0	root	_	Gloss=CAR-пинать-CAR-INS|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
@@ -7639,7 +7639,7 @@
 2	ъым	_	PART	_	_	1	discourse	_	_
 3	ӈан	_	ADV	_	_	4	advmod	_	Gloss=DEICT
 4	тиквыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-2SG.O
-5	ынӈэ	_	PART	_	_	6	aux	_	Gloss=PROH
+5	ынӈэ	_	AUX	_	_	6	aux	_	Gloss=PROH
 6	араԓека	_	VERB	_	_	4	parataxis:speech	_	Gloss=CAR-прокатиться-CAR-INS
 7	мимԓык	_	NOUN	_	_	8	obl	_	Gloss=вода-LOC
 8	пыкирык	_	VERB	_	_	9	advcl	_	Gloss=прибывать-LOC
@@ -8504,7 +8504,7 @@
 # text[eng] = No?
 # labels = complete-dep anno-fran
 1	Этԓы	_	INTJ	_	_	0	root	_	Gloss=NEG
-2	ынӈэ	_	PART	_	_	1	discourse	_	Gloss=PROH|SpaceAfter=No
+2	ынӈэ	_	AUX	_	_	1	parataxis	_	Gloss=PROH|SpaceAfter=No
 3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Telyopka:29
