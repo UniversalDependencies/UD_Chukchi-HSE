@@ -532,11 +532,11 @@
 # text[rus] = Младшей сестры не стало.
 # text[eng] = My younger sister passed away.
 # labels = complete-dep anno-fran
-1	Чакэттомгыӄай	_	NOUN	_	_	3	nsubj	_	Gloss=сестра-друг-DIM-NOM.SG
-2	уйӈэ	_	PART	_	_	3	aux	_	Gloss=нет
-3-4	гагаԓяԓенъым	_	_	_	_	_	_	_	SpaceAfter=No
-3	гагаԓяԓен	_	VERB	_	_	0	root	_	Gloss=PF-проходить-PF.3SG-=EMPH
-4	ъым	_	PART	_	_	3	discourse	_	_
+1	Чакэттомгыӄай	_	NOUN	_	_	2	nsubj	_	Gloss=сестра-друг-DIM-NOM.SG
+2	уйӈэ	_	AUX	_	_	0	root	_	Gloss=нет
+3-4	гагаԓяԓенъым	_	_	_	_	_	_	_	Gloss=PF-проходить-PF.3SG-=EMPH|SpaceAfter=No
+3	гагаԓяԓен	_	VERB	_	_	2	parataxis	_	Gloss=PF-проходить-PF.3SG
+4	ъым	_	PART	_	_	3	discourse	_	Gloss=EMPH
 5	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Being_a_child:22
@@ -1329,7 +1329,7 @@
 # text[rus] = Я их не понимаю.
 # text[eng] = I do not understand them.
 # labels = complete-dep anno-fran
-1	Ванэван	_	PART	_	_	2	aux	_	Gloss=NEG.NFUT
+1	Ванэван	_	AUX	_	_	2	aux:neg	_	Gloss=NEG.NFUT
 2	мычичевнэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-понимать-3SG.O-PL|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
@@ -4436,9 +4436,9 @@
 1	Таӈванэван	_	AUX	_	_	2	aux	_	Gloss=GOOD-NEG.NFUT
 2	нэйитгъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-капать-TH-3SG.O
 3	пыгпыг	_	NOUN	_	_	5	reparandum	_	Gloss=пузырь-NOM.SG
-4	ӈан	_	PART	_	_	3	det	_	Gloss=DEICT
+4	ӈан	_	PART	_	_	3	advmod	_	Gloss=DEICT
 5	пыгпыг	_	NOUN	_	_	2	obj	_	Gloss=пузырь-NOM.SG
-6	ӈан	_	PART	_	_	5	det	_	Gloss=DEICT|SpaceAfter=No
+6	ӈан	_	PART	_	_	5	advmod	_	Gloss=DEICT|SpaceAfter=No
 7	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Kettle:1
@@ -4661,9 +4661,9 @@
 # text[eng] = She said it several times, two times, three times:
 # labels = complete-dep anno-fran
 1	Тъэче	_	ADV	_	_	3	advmod	_	Gloss=сколько-MPL
-2	ӈирэче	_	NUM	_	_	3	advmod	_	Gloss=два-MPL
+2	ӈирэче	_	ADV	_	_	3	advmod	_	Gloss=два-MPL
 3	ивнин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O
-4	ӈыроча	_	NUM	_	_	5	advmod	_	Gloss=три-MULT
+4	ӈыроча	_	ADV	_	_	5	advmod	_	Gloss=три-MULT
 5	ивнин	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O|SpaceAfter=No
 6	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -4776,7 +4776,7 @@
 # text[rus] = «Потом он нам нужен».
 # text[eng] = «We also need it.»
 # labels = complete-dep anno-fran
-1	Потом	_	X	_	_	3	advmod	_	Gloss=
+1	Потом	_	X	_	_	3	discourse	_	Gloss=
 2	мургин	_	PRON	_	_	3	nmod:poss	_	Gloss=мы-GEN
 3	яаёԓӄыԓ	_	VERB	_	_	0	root	_	Gloss=использовать-PTCP.PASS-DEB|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
@@ -5657,7 +5657,7 @@
 2	гымнин	_	PRON	_	_	1	nmod:poss	_	Gloss=я-AN.GEN-=PTCL
 3	э	_	PART	_	_	2	discourse	_	_
 4	ӄорагынрэтыԓьу	_	NOUN	_	_	0	root	_	Gloss=олень-защищать-ATTR-EQU
-5	гитԓин	_	VERB	_	_	4	cop	_	Gloss=PF-являться-PF.3SG|SpaceAfter=No
+5	гитԓин	_	AUX	_	_	4	cop	_	Gloss=PF-являться-PF.3SG|SpaceAfter=No
 6	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Life:3
@@ -5689,7 +5689,7 @@
 # text[rus] = Там работала.
 # text[eng] = I worked there.
 # labels = complete-dep anno-fran
-1	Ынкы	_	PRON	_	_	2	advmod	_	Gloss=тот-LOC
+1	Ынкы	_	PRON	_	_	2	obl	_	Gloss=тот-LOC
 2	тымигчирэтгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-работа-VB-TH-1SG.S|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
@@ -6067,7 +6067,7 @@
 # text[rus] = Мы никогда не нуждались.
 # text[eng] = We were never in need.
 # labels = complete-dep anno-fran
-1	Таӈванэван	_	AUX	_	_	4	aux	_	Gloss=GOOD-NEG.NFUT
+1	Таӈванэван	_	AUX	_	_	4	aux:neg	_	Gloss=GOOD-NEG.NFUT
 2	мури	_	PRON	_	_	4	nsubj	_	Gloss=мы
 3	мын	_	X	_	_	4	reparandum	_	Gloss=FST
 4	мынӈъомык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-жить.в.нужде-1PL.S/O|SpaceAfter=No
@@ -6469,7 +6469,7 @@
 3	прих	_	X	_	_	1	flat:foreign	_	Gloss=
 4	трагтыгъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-жилище-GO.TO-TH-1SG.S
 5	гым	_	PRON	_	_	7	obj	_	Gloss=я
-6	и	_	X	_	_	7	advmod	_	Gloss=
+6	и	_	CCONJ	_	_	7	cc	_	Gloss=
 7	иниквъи	_	VERB	_	_	4	parataxis	_	Gloss=2/3.S/A-INV-сказать-TH-2/3SG.S|SpaceAfter=No
 8	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -6743,7 +6743,7 @@
 # text[eng] = «But wash your hands after you take out the grubs.»
 # labels = complete-dep anno-fran unclear-syntax
 1	Ыннэн	_	NUM	_	_	2	reparandum	2:reparandum	Gloss=один
-2	тэӈыннэ	_	NUM	_	_	3	advmod	3:advmod	Gloss=GOOD-один
+2	тэӈыннэ	_	ADV	_	_	3	advmod	3:advmod	Gloss=GOOD-один
 3	ӄиԓгытэквынэт	_	VERB	_	_	0	root	0:root	Gloss=2.S/A.SUBJ-мыться-IRR-3SG.O-PL
 4	кэгынмыт	_	NOUN	_	_	3	obj	3:obj	Gloss=кисть.руки-NOM.PL
 5	рычвантопԓыткок	_	VERB	_	_	3	advcl	3:advcl	Gloss=личинка-вынимать-COMPL-LOC|SpaceAfter=No
@@ -6845,7 +6845,7 @@
 2-3	вае	_	_	_	_	_	_	_	_
 2	ва	_	PART	_	_	1	discourse	1:discourse	Gloss=вот-=PTCL
 3	е	_	PART	_	_	2	discourse	2:discourse	_
-4	уже	_	X	_	_	1	advmod	1:advmod	Gloss=
+4	уже	_	ADV	_	_	1	advmod	1:advmod	Gloss=
 5	тынанӄыпаатгъак	_	VERB	_	_	1	parataxis	1:parataxis	Gloss=1SG.S/A-живот-опухать-TH-1SG.S
 5.1	нанӄы	_	NOUN	_	_	_	_	5:obj	Gloss=живот
 6	эвниквичиԓьэткэ	_	VERB	_	_	7	nsubj	7:nsubj	Gloss=PREF-CAR-пить-PLAC-CAR-INS
@@ -6909,7 +6909,7 @@
 # text[rus] = «Не хочу пи́сать».
 # text[eng] = «I do not want to pee.»
 # labels = complete-dep anno-fran
-1	Ванэ	_	PART	_	_	2	aux	_	Gloss=NEG.NFUT
+1	Ванэ	_	AUX	_	_	2	aux	_	Gloss=NEG.NFUT
 2	мыԓётаӈӈогъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-мочиться.о.женщине-INCH-TH-1SG.S|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
@@ -6981,7 +6981,7 @@
 # labels = complete-dep anno-fran
 1	Я	_	X	_	_	2	nsubj	_	Gloss=
 2	говорю	_	X	_	_	0	root	_	Gloss=
-3	ӄырым	_	PART	_	_	6	aux:neg	_	Gloss=NEG.FUT
+3	ӄырым	_	AUX	_	_	6	aux:neg	_	Gloss=NEG.FUT
 4	ытръэч	_	ADV	_	_	6	advmod	_	Gloss=только
 5	игыт	_	ADV	_	_	6	advmod	_	Gloss=сегодня
 6	трэгичиркынэт	_	VERB	_	_	2	parataxis:speech	_	Gloss=1SG.S/A-FUT-собирать-IPFV-PL
@@ -7358,7 +7358,7 @@
 5	Оʼмрыквот	_	PROPN	_	_	2	appos	_	Gloss=Омрыквот-NOM.SG
 6	нэмыӄэй	_	ADV	_	_	7	advmod	_	Gloss=тоже
 7	ӄорагынрэтыԓьо	_	NOUN	_	_	0	root	_	Gloss=олень-защищать-ATTR-EQU
-8	нитӄин	_	VERB	_	_	7	cop	_	Gloss=ST-являться-ST.3SG|SpaceAfter=No
+8	нитӄин	_	AUX	_	_	7	cop	_	Gloss=ST-являться-ST.3SG|SpaceAfter=No
 9	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Parents:3
@@ -7377,7 +7377,7 @@
 7	нымигчирэтӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-работа-VB-ST.3SG-PL
 8	нэмыӄэй	_	ADV	_	_	9	advmod	_	Gloss=тоже
 9	ӄорагынрэтыԓьо	_	NOUN	_	_	7	parataxis	_	Gloss=олень-защищать-ATTR-EQU
-10	нитӄинэт	_	VERB	_	_	9	cop	_	Gloss=ST-являться-ST.3SG-PL|SpaceAfter=No
+10	нитӄинэт	_	AUX	_	_	9	cop	_	Gloss=ST-являться-ST.3SG-PL|SpaceAfter=No
 11	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Parents:4
@@ -7711,11 +7711,10 @@
 # text[eng] = «I will give you an extremely mottled herd.»
 # labels = complete-dep anno-fran
 1-3	Тэӈкэԓиԓьыӈэԓвыԓ	_	_	_	_	_	_	_	Gloss=GOOD-писать-ATTR-стадо-NOM.SG
-1	Тэӈ	_	VERB	_	_	2	advmod	_	Gloss=GOOD
-2	кэԓиԓьы	_	ADJ	_	_	3	acl:attr	_	Gloss=писать-ATTR
-3	ӈэԓвыԓ	_	NOUN	_	_	4	obj	_	Gloss=стадо-NOM.SG
-4	мыйыԓгыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-давать-2SG.O|SpaceAfter=No
-5	.	_	PUNCT	_	_	4	punct	_	_
+1	тэӈкэԓиԓьы	_	ADJ	_	_	2	acl:attr	_	Gloss=GOOD-писать-ATTR
+2	ӈэԓвыԓ	_	NOUN	_	_	3	obj	_	Gloss=стадо-NOM.SG
+3	мыйыԓгыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-давать-2SG.O|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Raven_and_fox:21
 # text = Тэӈыпԓыԓыӈэԓвыԓ мыйыԓ.
@@ -9384,19 +9383,19 @@
 # text[phon] = iɬɣəqenjewək ənkə n kitkit tratwaɣʔa tʔer ʔəɬoŋet tratwaɣʔa qeɬuqʔəm ɣemo ɣəmnan tite trepiriŋənet билеты wʔeŋetə
 # text[rus] = В Эгвекиноте я побуду чуть-чуть, несколько дней, потому что я не знаю, когда куплю билеты на Анадырь.
 # text[eng] = In Egvekinot I will stay a little, a few days, because I do not know when I will buy tickets to Anadyr.
-# labels = complete-dep anno-fran
+# labels = complete-dep anno-fran unclear-syntax
 1	Иԓгыӄэнъевык	_	PROPN	_	_	0	root	_	Gloss=белый-ущелье-LOC
 2	ынкы	_	PRON	_	_	1	appos	_	Gloss=тот-LOC
 3	н	_	X	_	_	4	reparandum	_	Gloss=FST
 4	киткит	_	ADV	_	_	1	advmod	_	Gloss=немного
 5	тратвагъа	_	AUX	_	_	1	cop	_	Gloss=1SG.S/A-FUT-быть-TH
 6	тъэр	_	ADJ	_	_	7	amod	_	Gloss=сколько
-7	ыʼԓёӈэт	_	NOUN	_	_	8	advmod	_	Gloss=день-TIME
+7	ыʼԓёӈэт	_	ADV	_	_	8	advmod	_	Gloss=день-TIME
 8	тратвагъа	_	AUX	_	_	1	parataxis	_	Gloss=1SG.S/A-FUT-быть-TH
 9-10	ӄэԓюӄъым	_	_	_	_	_	_	_	_
 9	ӄэԓюӄ	_	ADV	_	_	14	advmod	_	Gloss=конечно-=EMPH
 10	ъым	_	PART	_	_	9	discourse	_	_
-11	гэмо	_	PART	_	_	14	aux	_	Gloss=не.знать
+11	гэмо	_	AUX	_	_	14	aux	_	Gloss=не.знать
 12	гымнан	_	PRON	_	_	14	nsubj	_	Gloss=я-INS
 13	титэ	_	ADV	_	_	14	advmod	_	Gloss=когда
 14	трэпириӈынэт	_	VERB	_	_	1	parataxis	_	Gloss=1SG.S/A-FUT-брать-FUT-3SG.O-PL
