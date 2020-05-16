@@ -5961,7 +5961,7 @@
 1	Нэмэ	_	ADV	_	_	7	advmod	_	Gloss=опять
 2	ын	_	X	_	_	3	reparandum	_	Gloss=FST
 3	нэмэ	_	ADV	_	_	7	advmod	_	Gloss=опять
-4	ынӄэн	_	PART	_	_	7	det	_	Gloss=DET
+4	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET
 5	ӈыро	_	X	_	_	6	reparandum	_	Gloss=FST
 6	комната	_	NOUN	_	_	7	obj	_	Gloss=комната-NOM.SG
 7	ныйъоӄэн	_	VERB	_	_	0	root	_	Gloss=ST-настигать-ST.3SG|SpaceAfter=No
@@ -10931,6 +10931,29 @@
 3	ваԓьын	_	AUX	_	_	2	cop	_	Gloss=быть-ATTR-NOM.SG|SpaceAfter=No
 4	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Yurgayuk:1
+# text = Юргаюкъыма ӄоԓ итгъи ынӄэна чыӈатэнмычыкоеквэ ныԓеӄинъым.
+# text[phon] = jurɣajukʔəma qoɬ itɣʔi ənqena səŋatenməsəkojekwe nəɬeqinʔəm
+# text[rus] = Юргаюк как-то раз проезжал вдоль реки с крутыми скалистыми берегами.
+# text[eng] = Once Iurgaiuk was going along the river with steep rocky shores.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1-3	Юргаюкъыма	_	_	_	_	_	_	_	_
+1	Юргаюк	_	PROPN	_	_	10	nsubj	_	Gloss=Юргаюк-NOM.SG-=EMPH-=PTCL
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	а	_	PART	_	_	1	discourse	_	_
+4	ӄоԓ	_	PRON	_	_	10	dep	_	Gloss=некий
+5	итгъи	_	AUX	_	_	4	cop	_	Gloss=2/3.S/A-являться-TH-2/3SG.S
+6-7	ынӄэна	_	_	_	_	_	_	_	_
+6	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET-=PTCL
+7	а	_	PART	_	_	6	discourse	_	_
+8-9	чыӈатэнмычыкоеквэ	_	_	_	_	_	_	_	Gloss=раскалываться-скала-IN-PROL
+8	чыӈат	_	VERB	_	_	9	acl	_	Gloss=раскалываться
+9	энмычыкоеквэ	_	NOUN	_	_	10	obl	_	Gloss=скала-IN-PROL
+10-11	ныԓеӄинъым	_	_	_	_	_	_	_	SpaceAfter=No
+10	ныԓеӄин	_	VERB	_	_	0	root	_	Gloss=ST-идти-ST.3SG-=EMPH
+11	ъым	_	PART	_	_	10	discourse	_	_
+12	.	_	PUNCT	_	_	10	punct	_	_
+
 # sent_id = Yurgayuk:2
 # text = Ԓюут эʼӄэԓьэӈа танӈа ӈаԓгыԓёӈа натагъан нэйпыгъэн ръэт.
 # text[phon] = ɬuut ʔeqeɬʔeŋa tanŋa ŋaɬɣəɬoŋa nataɣʔan nejpəɣʔen rʔet
@@ -10981,6 +11004,21 @@
 8	ъым	_	PART	_	_	7	discourse	_	_
 9	э	_	PART	_	_	7	discourse	_	_
 10	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Yurgayuk:5
+# text = Иʼԓгын мраӈӄа гакаӈӄорэн мраӈъэӈыкъым.
+# text[phon] = ʔiɬɣən mraŋqa ɣakaŋqoren mraŋʔeŋəkʔəm
+# text[rus] = А правую постромку ездового оленя — справа, к правому полозу (носу) нарты.
+# text[eng] = And the right trace of reindeer harness (he tied up) to the right, to the right front edge of the sledge.
+# labels = complete-dep anno-fran ellipsis
+1	Иʼԓгын	_	NOUN	_	_	4	orphan	3.1:obj	Gloss=правая.постромка.упряжи-NOM.SG
+2	мраӈӄа	_	NOUN	_	_	4	orphan	3.1:obl	Gloss=правый-NEAR
+3	гакаӈӄорэн	_	NOUN	_	_	1	nmod:poss	1:nmod	Gloss=упряжка-олень-GEN
+3.1	_	_	VERB	_	_	_	_	0:root	Gloss=связывать
+4-5	мраӈъэӈыкъым	_	_	_	_	_	_	_	SpaceAfter=No
+4	мраӈъэӈык	_	NOUN	_	_	0	root	3.1:obl	Gloss=правый-нос-LOC-=EMPH
+5	ъым	_	PART	_	_	4	discourse	4:discourse	_
+6	.	_	PUNCT	_	_	4	punct	3.1:punct	_
 
 # sent_id = Yurgayuk:6
 # text = Мыԓьурэгъи ынкы наӄам пиӈэтчыӈын ԓыгэнывваԓявнэн.
