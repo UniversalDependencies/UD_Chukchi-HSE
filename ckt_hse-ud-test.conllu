@@ -5506,6 +5506,19 @@
 6	тэӈэӄыԓпэ	_	ADV	_	_	5	advmod	_	Gloss=GOOD-быстро|SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Knives:2
+# text = Эмныӈинӄинэтъым ытри Ԓетынтаграв.
+# text[phon] = emnəŋinqinetʔəm ətri ɬetəntaɣraw
+# text[rus] = Оба молодые, он [Онмальын] и Летынтаграв.
+# text[eng] = Both are young, he [Onmalyn] and Letyntagraw.
+# labels = complete-dep anno-fran unclear-syntax
+1-2	Эмныӈинӄинэтъым	_	_	_	_	_	_	_	_
+1	Эмныӈинӄинэт	_	ADJ	_	_	0	root	_	Gloss=RESTR-ST-молодой-ST.3SG-PL-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	ытри	_	PRON	_	_	1	nsubj	_	Gloss=они
+4	Ԓетынтаграв	_	PROPN	_	_	1	dislocated	_	Gloss=Лэтынтаграв-NOM.SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Knives:4
 # text = Ыʼмтъом ръэнут торыкагты мыԓьуэʼн ръэнут мытэйкыгъэн ръэнут мыныгйивэвын.
 # text[phon] = ʔəmtʔom rʔenut torəkaɣtə məɬʔuʔen rʔenut mətejkəɣʔen rʔenut mənəɣjiwewən
@@ -5599,6 +5612,19 @@
 7	мыԓьуэʼн	_	VERB	_	_	4	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-видеть-TH-3SG.O
 8	мыныгйивэвын	_	VERB	_	_	4	parataxis:speech	_	Gloss=1SG.S/A.SUBJ-TR-знак-CS-3SG.O|SpaceAfter=No
 9	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Knives:12
+# text = Ынӄэӄ пԓевыт янот ӄыԓьугын.
+# text[phon] = ənqeq pɬewət janot qəɬʔuɣən
+# text[rus] = Тогда сначала найди его».
+# text[eng] = Then find it first».
+# comment = Подобное произношение ənqen загадочно, на дефект записи не похоже.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэӄ	_	PART	_	_	4	discourse	_	Gloss=DET.нер.изм.
+2	пԓевыт	_	ADV	_	_	4	advmod	_	Gloss=пусть.будет.так
+3	янот	_	ADV	_	_	4	advmod	_	Gloss=сначала
+4	ӄыԓьугын	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-находить-IRR-3SG.O|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Knives:13
 # text = Ынӈин оʼтчой ниԓьуткуԓьэтӄинъым.
@@ -5712,6 +5738,37 @@
 3	вай	_	ADV	_	_	4	advmod	_	Gloss=вот
 4	ӈотӄэн	_	PRON	_	_	1	parataxis:speech	_	Gloss=этот|SpaceAfter=No
 5	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Knives:22
+# text = Ынӄэн рыпэт ваԓяпэгԓяръок гэԓӄутысӄычетԓинэтъым.
+# text[phon] = ənqen rəpet waɬapeɣɬarʔok ɣeɬqutəsqəsetɬinetʔəm
+# text[rus] = Когда нож прогремел, все подскочили.
+# text[eng] = When the knife thundered, everyone jumped.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	4	discourse	3:discourse	Gloss=DET
+2	рыпэт	_	ADV	_	_	3	advmod	3:advmod	Gloss=даже
+3	ваԓяпэгԓяръок	_	VERB	_	_	4	advcl	_	Gloss=нож-трещать-DISTR.S-LOC
+3.1	ваԓя	_	NOUN	_	_	_	_	3:nsubj	Gloss=нож
+4-5	гэԓӄутысӄычетԓинэтъым	_	_	_	_	_	_	_	SpaceAfter=No
+4	гэԓӄутысӄычетԓинэт	_	VERB	_	_	0	root	0:root	Gloss=PF-вставать-RAPID-PF.3SG-PL-=EMPH
+5	ъым	_	PART	_	_	4	discourse	4:discourse	_
+6	.	_	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = Knives:23
+# text = Ынӄэ нэгитээʼн эвын ынӄэн ваԓыӈэ ԓьоо.
+# text[phon] = ənqe neɣiteʔen ewən ənqen waɬəŋe ɬʔoo
+# text[rus] = Все посмотрели, действительно, тот нож, найденный.
+# text[eng] = Everybody looked at the knife, indeed, that was that knife.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	Ынӄэ	_	PART	_	_	2	discourse	_	Gloss=DET
+2	нэгитээʼн	_	VERB	_	_	0	root	_	Gloss=LOW.A-смотреть-TH-3SG.O
+3	эвын	_	ADV	_	_	5	advmod	_	Gloss=если
+4	ынӄэн	_	DET	_	_	5	det	_	Gloss=DET
+5-6	ваԓыӈэ	_	_	_	_	_	_	_	_
+5	ваԓыӈ	_	NOUN	_	_	2	parataxis	_	Gloss=нож.NOM.SG-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7	ԓьоо	_	VERB	_	_	5	acl	_	Gloss=находить-PTCP.PASS-NOM.SG|SpaceAfter=No
+8	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Komsomolets_(again):1
 # text = Ӈуткэкин Омваамвыкэн Тымӈэԓӄот нымӈыԓтэԓӄэн.
