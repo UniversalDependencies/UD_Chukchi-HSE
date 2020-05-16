@@ -4223,6 +4223,21 @@
 6	миӈкэкинэтури	_	ADV	_	_	4	parataxis	_	Gloss=где-OBL-REL-NP.2PL|SpaceAfter=No
 7	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = I_am_from_Chukotka:4
+# text = И иквъи ынӄэнэ ӈинӄэй гымнин.
+# text[phon] = i ikwʔi ənqene ŋinqej ɣəmnin
+# text[rus] = И говорит мой сын (букв. мальчик):
+# text[eng] = And my son answers:
+# labels = complete-dep anno-fran ənqen
+1	И	_	CCONJ	_	_	2	cc	_	Gloss=и
+2	иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+3-4	ынӄэнэ	_	_	_	_	_	_	_	_
+3	ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5	ӈинӄэй	_	NOUN	_	_	2	nsubj	_	Gloss=молодой-DIM-NOM.SG
+6	гымнин	_	PRON	_	_	5	nmod:poss	_	Gloss=я-AN.GEN|SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
+
 # sent_id = I_am_from_Chukotka:5
 # text = Мури вай Амваанвыкэнайгым гым.
 # text[phon] = muri waj amwaanwəkenajɣəm ɣəm
@@ -4264,6 +4279,26 @@
 6	нутэнут	_	NOUN	_	_	3	obj	_	Gloss=страна-NOM.SG|SpaceAfter=No
 7	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = I_am_from_Chukotka:8
+# text = Нрзб ӄэԓюӄъым ынӄэн ытԓыгэ нэнаваԓёмӄэн вэтгавыԓьын ынӈинъым ынӄэн.
+# text[phon] = нрзб qeɬuqʔəm ənqen ətɬəɣe nenawaɬomqen wetɣawəɬʔən ənŋinʔəm ənqen
+# text[rus] = Конечно же, отец слышал, как он ответил.
+# text[eng] = Of course, his father heard his answer.
+# labels = complete-dep anno-fran ənqen
+1	Нрзб	_	X	_	_	6	discourse	_	Gloss=
+2-3	ӄэԓюӄъым	_	_	_	_	_	_	_	_
+2	ӄэԓюӄ	_	ADV	_	_	6	advmod	_	Gloss=конечно-=EMPH
+3	ъым	_	PART	_	_	2	discourse	_	_
+4	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET
+5	ытԓыгэ	_	NOUN	_	_	6	nsubj	_	Gloss=отец-INS
+6	нэнаваԓёмӄэн	_	VERB	_	_	0	root	_	Gloss=ST-INV-слышать-ST.3SG
+7	вэтгавыԓьын	_	NOUN	_	_	6	obj	_	Gloss=говорить-ATTR-NOM.SG
+8-9	ынӈинъым	_	_	_	_	_	_	_	_
+8	ынӈин	_	ADV	_	_	6	advmod	_	Gloss=так-=EMPH
+9	ъым	_	PART	_	_	8	discourse	_	_
+10	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET|SpaceAfter=No
+11	.	_	PUNCT	_	_	6	punct	_	_
+
 # sent_id = I_am_from_Chukotka:9
 # text = Нрзб ныний нынинъэйвыӄин экык.
 # text[phon] = нрзб nənij nəninʔejwəqin ekək
@@ -4275,6 +4310,20 @@
 3	нынинъэйвыӄин	_	VERB	_	_	0	root	_	Gloss=ST-объяснять-ST.3SG
 4	экык	_	NOUN	_	_	3	obj	_	Gloss=сын-NOM.SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = I_am_from_Chukotka:10
+# text = Ынӄэн гивэ мури вай Чукоткайпы мытыпкирмык.
+# text[phon] = ənqen ɣiwe muri waj čukotkajpə mətəpkirmək
+# text[rus] = «Обычно говорят, мы прибыли с Чукотки.
+# text[eng] = «People usually say, we came from Chukotka.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET
+2	гивэ	_	VERB	_	_	0	root	_	Gloss=COM-сказать-INS
+3	мури	_	PRON	_	_	6	nsubj	_	Gloss=мы
+4	вай	_	ADV	_	_	6	advmod	_	Gloss=вот
+5	Чукоткайпы	_	PROPN	_	_	6	obl	_	Gloss=Чукотка-ABL
+6	мытыпкирмык	_	VERB	_	_	2	parataxis	_	Gloss=1PL.S/A-прибывать-1PL.S/O|SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = I_am_from_Chukotka:11
 # text = Чукоткакэнаморэ.
@@ -4316,6 +4365,19 @@
 8	э	_	PART	_	_	6	discourse	_	_
 9	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id = I_am_from_Chukotka:14
+# text = Ӄытԓыги гымнин кэԓиткутумгын ӄэргытвааԓ ынӄэн.
+# text[phon] = qətɬəɣi ɣəmnin keɬitkutumɣən qerɣətwaaɬ ənqen
+# text[rus] = Оказывается, там моя одноклассница Кергитваль.
+# text[eng] = It turns out my classmate Qergitwaal is there.
+# labels = complete-dep anno-fran ənqen
+1	Ӄытԓыги	_	ADV	_	_	3	advmod	_	Gloss=оказывается
+2	гымнин	_	PRON	_	_	3	nmod:poss	_	Gloss=я-AN.GEN
+3	кэԓиткутумгын	_	NOUN	_	_	0	root	_	Gloss=писать-ITER-друг-NOM.SG
+4	Ӄэргытвааԓ	_	PROPN	_	_	3	appos	_	Gloss=Кергитваль-NOM.SG
+5	ынӄэн	_	PART	_	_	3	discourse	_	Gloss=DET
+6	.	_	PUNCT	_	_	3	punct	_	_
+
 # sent_id = I_am_from_Chukotka:15
 # text = Мытԓьувыԓгымыкъым.
 # text[phon] = mətɬʔuwəɬɣəməkʔəm
@@ -4336,6 +4398,60 @@
 1	Нывэтгавӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-говорить-ST.3SG-PL
 2	ӈирэргэри	_	ADV	_	_	1	advmod	_	Gloss=два-AGGR|SpaceAfter=No
 3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = I_am_from_Chukotka:18
+# text = Ынӄэнэ энмэнъым Сашкано гэтэныннынԓин.
+# text[phon] = ənqene enmenʔəm saškano ɣetenənnənɬin
+# text[rus] = Они говорят, назвали его Сашкой.
+# text[eng] = They say, they called him Sashka.
+# labels = complete-dep anno-fran ənqen valency
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3-4	энмэнъым	_	_	_	_	_	_	_	_
+3	энмэн	_	ADV	_	_	6	advmod	_	Gloss=говорят-=EMPH
+4	ъым	_	PART	_	_	3	discourse	_	_
+5	Сашкано	_	PROPN	_	_	6	xcomp	_	Gloss=Сашка-EQU
+6	гэтэныннынԓин	_	VERB	_	_	0	root	_	Gloss=PF-MAKE-имя-MAKE-PF.3SG|SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = I_am_from_Chukotka:19
+# text = Гымнан нинивигым вай ынӄэнъым Данилка.
+# text[phon] = ɣəmnan niniwiɣəm waj ənqenʔəm danilka
+# text[rus] = А я ей сказала, что моего зовут Данилка.
+# text[eng] = And I told her that my son’s name is Danilka.
+# labels = complete-dep anno-fran ənqen
+1	Гымнан	_	PRON	_	_	2	nsubj	_	Gloss=я-INS
+2	нинивигым	_	VERB	_	_	0	root	_	Gloss=ST-INV-сказать-NP.1SG
+3	вай	_	ADV	_	_	6	advmod	_	Gloss=вот
+4-5	ынӄэнъым	_	_	_	_	_	_	_	_
+4	ынӄэн	_	PRON	_	_	6	nsubj	_	Gloss=DET-=EMPH
+5	ъым	_	PART	_	_	4	discourse	_	_
+6	Данилка	_	PROPN	_	_	2	parataxis	_	Gloss=Данилка-NOM.SG|SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = I_am_from_Chukotka:20
+# text = Ынӄэн нывэтгавӄэнат.
+# text[phon] = ənqen nəwetɣawqenat
+# text[rus] = Они говорят.
+# text[eng] = They are talking.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET
+2	нывэтгавӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-говорить-ST.3SG-PL|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = I_am_from_Chukotka:21
+# text = Ԓюут ынӄэн нэнан мытваԓёмынат ивыԓьыт.
+# text[phon] = ɬuut ənqen nenan mətwaɬomənat iwəɬʔət
+# text[rus] = Вдруг мы услышали их беседу.
+# text[eng] = Suddenly we heard their conversation.
+# labels = complete-dep anno-fran ənqen
+1	Ԓюут	_	ADV	_	_	4	advmod	_	Gloss=вдруг
+2	ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+3	нэнан	_	X	_	_	4	reparandum	_	Gloss=FST
+4	мытваԓёмынат	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-слышать-3SG.O-PL
+5	ивыԓьыт	_	VERB	_	_	4	obj	_	Gloss=сказать-ATTR-NOM.PL|SpaceAfter=No
+6	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = I_am_from_Chukotka:22
 # text = Сашкана Данилка нэнамӈыԓёӄэн.
@@ -4394,6 +4510,20 @@
 4	Чукоткакэнайгым	_	PROPN	_	_	0	root	_	Gloss=Чукотка-REL-NP.1SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = I_am_from_Chukotka:27
+# text = Ытръэчьым ынӄэн миӈкэкинэйгыт ипэ.
+# text[phon] = ətrʔesʔəm ənqen miŋkekinejɣət ipe
+# text[rus] = «Только с каких именно мест?»
+# text[eng] = «But where are you from, to be more precise?».
+# labels = complete-dep anno-fran ənqen
+1-2	Ытръэчьым	_	_	_	_	_	_	_	_
+1	Ытръэчьы	_	ADV	_	_	4	advmod	_	Gloss=только-=EMPH
+2	м	_	PART	_	_	1	discourse	_	_
+3	ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+4	миӈкэкинэйгыт	_	ADV	_	_	0	root	_	Gloss=где-OBL-REL-NP.2SG
+5	ипэ	_	ADV	_	_	4	advmod	_	Gloss=поистине|SpaceAfter=No
+6	.	_	PUNCT	_	_	4	punct	_	_
+
 # sent_id = I_am_from_Chukotka:28
 # text = Ааа Омваанвыкэнайгым.
 # text[phon] = aaa omwaanwəkenajɣəm
@@ -4417,6 +4547,24 @@
 5	нэмыӄэй	_	ADV	_	_	6	advmod	_	Gloss=тоже
 6	нутэпынмыԓьивым	_	PROPN	_	_	3	parataxis	_	Gloss=Нутэпэльмен-ATTR-NP.1SG|SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = I_am_from_Chukotka:30
+# text = Ынӄэнъым мури ӄэԓюӄъым мыттанӈыткоӈӈомык ипэ ынӄэн.
+# text[phon] = ənqenʔəm muri qeɬuqʔəm məttanŋətkoŋŋomək ipe ənqen
+# text[rus] = Конечно, мы начали смеяться.
+# text[eng] = Of course, we started laughing.
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнъым	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	мури	_	PRON	_	_	6	nsubj	_	Gloss=мы
+4-5	ӄэԓюӄъым	_	_	_	_	_	_	_	_
+4	ӄэԓюӄ	_	ADV	_	_	6	advmod	_	Gloss=конечно-=EMPH
+5	ъым	_	PART	_	_	4	discourse	_	_
+6	мыттанӈыткоӈӈомык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-смеяться-ITER-INCH-1PL.S/O
+7	ипэ	_	ADV	_	_	6	advmod	_	Gloss=поистине
+8	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET|SpaceAfter=No
+9	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Ice_Age:1
 # text = Ынпыӈэвӄэй Кымъыӈэӄэйъымэ Ԓетынтагравнэн ытԓьаӄай ԓгитэԓенъепкинэ ԓыгэн ԓгиынпыӈэвӄэй аръаԓя.
