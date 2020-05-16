@@ -1202,6 +1202,19 @@
 2	эӄэпԓюкэ	_	VERB	_	_	0	root	_	Gloss=CAR-пинать-CAR-INS|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Brandy:2
+# text = Эмнуӈыԓьыт ныпкирӄинэт ынӄэнэ.
+# text[phon] = emnuŋəɬʔət nəpkirqinet ənqene
+# text[rus] = Приезжали тундровики.
+# text[eng] = Tundra people came.
+# labels = complete-dep anno-fran ənqen
+1	Эмнуӈыԓьыт	_	NOUN	_	_	2	nsubj	_	Gloss=тундра-ATTR-NOM.PL
+2	ныпкирӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-прибывать-ST.3SG-PL
+3-4	ынӄэнэ	_	_	_	_	_	_	_	SpaceAfter=No
+3	ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5	.	_	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Brandy:3
 # text = Наӄамэ итык эвынъым нъэӄимԓынӈэӄинэт вэԓыткорайпыӈ.
 # text[phon] = naqame itək ewənʔəm nʔeqimɬənŋeqinet weɬətkorajpəŋ
@@ -1282,6 +1295,34 @@
 4	пыкитԓьыт	_	VERB	_	_	0	root	_	Gloss=прибывать-ATTR-NOM.PL
 5	отпускыԓьыт	_	NOUN	_	_	4	parataxis	_	Gloss=отпуск-ATTR-NOM.PL|SpaceAfter=No
 6	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Brandy:12
+# text = Мрэнтиыʼм ынӄэн.
+# text[phon] = mrentiʔəm ənqen
+# text[rus] = «Мрэнти» то есть.
+# text[eng] = That is «Mrenti».
+# labels = complete-dep anno-fran ənqen
+1-2	Мрэнтиыʼм	_	_	_	_	_	_	_	_
+1	Мрэнти	_	PROPN	_	_	0	root	_	Gloss=комар-NOM.PL-=EMPH
+2	ыʼм	_	PART	_	_	1	discourse	_	_
+3	ынӄэн	_	PART	_	_	1	discourse	_	Gloss=DET|SpaceAfter=No
+4	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Brandy:13
+# text = Ынпыначгын ӄоныры ынӄэнэ гавъёԓьатԓенъым.
+# text[phon] = ənpənasɣən qonərə ənqene ɣawjoɬʔatɬenʔəm
+# text[rus] = И как назло, старик был тем, кто посылал.
+# text[eng] = And unfortunately, the old man was the one who sent.
+# labels = complete-dep anno-fran ənqen
+1	Ынпыначгын	_	NOUN	_	_	5	nsubj	_	Gloss=старик-NOM.SG
+2	ӄоныры	_	ADV	_	_	5	advmod	_	Gloss=притом
+3-4	ынӄэнэ	_	_	_	_	_	_	_	_
+3	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5-6	гавъёԓьатԓенъым	_	_	_	_	_	_	_	SpaceAfter=No
+5	гавъёԓьатԓен	_	VERB	_	_	0	root	_	Gloss=PF-посылать.с.поручением-VB-PF.3SG-=EMPH
+6	ъым	_	PART	_	_	5	discourse	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Brandy:14
 # text = Аʼачек эты нинивӄин.
@@ -8766,6 +8807,23 @@
 1	Ытръэч	_	ADV	_	_	0	root	_	Gloss=только|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Shaman:1
+# text = Ынӄэн ӈуткэкин морыкаӈӄачормыԓьынэ аӈӄай нытваӄэн эӈэӈыԓьын.
+# text[phon] = ənqen ŋutkekin morəkaŋqasorməɬʔəne aŋqaj nətwaqen eŋeŋəɬʔən
+# text[rus] = Здесь, по эту сторону моря, жил шаман Анкай.
+# text[eng] = Here, on this side of the sea, the shaman Anqaj lived.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	Ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET
+2	ӈуткэкин	_	ADV	_	_	6	advmod	_	Gloss=тут-OBL-REL
+3-5	морыкаӈӄачормыԓьынэ	_	_	_	_	_	_	_	Gloss=мы-POSS.INC-море-SIDE-ATTR-NOM.SG-=PTCL
+3	морык	_	PRON	_	_	4	nmod:poss	_	Gloss=мы-POSS.INC
+4	аӈӄачормыԓьын	_	NOUN	_	_	6	nmod:attr	Gloss=море-SIDE-ATTR-NOM.SG	_
+5	э	_	PART	_	_	4	discourse	_	Gloss=PTCL
+6	аӈӄай	_	PROPN	_	_	0	root	_	Gloss=Анкай-NOM.SG
+7	нытваӄэн	_	AUX	_	_	6	cop	_	Gloss=ST-быть-ST.3SG
+8	эӈэӈыԓьын	_	NOUN	_	_	6	nmod:attr	_	Gloss=шаманское.умение-ATTR-NOM.SG|SpaceAfter=No
+9	.	_	PUNCT	_	_	6	punct	_	_
+
 # sent_id = Shaman:2
 # text = Нрзб ԓымынӄо ныԓейвыӄин.
 # text[phon] = нрзб ɬəmənqo nəɬejwəqin
@@ -8777,6 +8835,29 @@
 3	ныԓейвыӄин	_	VERB	_	_	0	root	_	Gloss=ST-ходить-ST.3SG|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Shaman:3
+# text = Къама ӄоԓ нэнтыгъэн ынӄэнэ эвына ӄоԓӄочатԓьанма нэпиригъэн ӈутку танӈа.
+# text[phon] = kʔama qoɬ nentəɣʔen ənqene ewəna qoɬqosatɬʔanma nepiriɣʔen ŋutku tanŋa
+# text[rus] = Однажды, когда создавался колхоз, его арестовали русские.
+# text[eng] = Once, when the kolkhoz was being created, he was arrested by the Russians.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1-2	Къама	_	_	_	_	_	_	_	_
+1	Къам	_	CCONJ	_	_	10	cc	_	Gloss=и-=PTCL
+2	а	_	PART	_	_	1	discourse	_	_
+3	ӄоԓ	_	PRON	_	_	4	obj	_	Gloss=некий
+4	нэнтыгъэн	_	VERB	_	_	10	dep	_	Gloss=LOW.A-иметь-TH-3SG.O
+5-6	ынӄэнэ	_	_	_	_	_	_	_	_
+5	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7-8	эвына	_	_	_	_	_	_	_	_
+7	эвын	_	ADV	_	_	10	advmod	_	Gloss=уже-=PTCL
+8	а	_	PART	_	_	7	discourse	_	_
+9	ӄоԓӄочатԓьанма	_	VERB	_	_	10	advcl	_	Gloss=колхоз-VB-PLAC-SIM
+10	нэпиригъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-брать-TH-3SG.O
+11	ӈутку	_	ADV	_	_	10	advmod	_	Gloss=здесь
+12	танӈа	_	NOUN	_	_	10	nsubj	_	Gloss=чужеземец-INS|SpaceAfter=No
+13	.	_	PUNCT	_	_	10	punct	_	_
+
 # sent_id = Shaman:4
 # text = Нэпиригъэнъым.
 # text[phon] = nepiriɣʔenʔəm
@@ -8787,6 +8868,21 @@
 1	Нэпиригъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-брать-TH-3SG.O-=EMPH
 2	ъым	_	PART	_	_	1	discourse	_	_
 3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Shaman:5
+# text = Ӈайыӄытрык вай ынкы нынтыӄинэт ынӄэн эӈэӈыԓьыт ынӄэ.
+# text[phon] = ŋajəqətrək waj ənkə nəntəqinet ənqen eŋeŋəɬʔət ənqe
+# text[rus] = Там, на Дорожном, держали шаманов.
+# text[eng] = There, in Dorozhnyj, they kept shamans.
+# labels = complete-dep anno-fran ənqen
+1	Ӈайыӄытрык	_	PROPN	_	_	4	obl	_	Gloss=Дорожный-LOC
+2	вай	_	ADV	_	_	4	advmod	_	Gloss=вот
+3	ынкы	_	PRON	_	_	4	obl	_	Gloss=тот-LOC
+4	нынтыӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-иметь-ST.3SG-PL
+5	ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+6	эӈэӈыԓьыт	_	NOUN	_	_	4	obj	_	Gloss=шаманское.умение-ATTR-NOM.PL
+7	ынӄэ	_	PART	_	_	4	discourse	_	Gloss=DET|SpaceAfter=No
+8	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Shaman:8
 # text = Ынкы нычамогъевӄэн тынык пэ нымкыӄин чамокытъым.
