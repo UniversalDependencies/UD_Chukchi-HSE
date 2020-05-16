@@ -8817,7 +8817,7 @@
 2	ӈуткэкин	_	ADV	_	_	6	advmod	_	Gloss=тут-OBL-REL
 3-5	морыкаӈӄачормыԓьынэ	_	_	_	_	_	_	_	Gloss=мы-POSS.INC-море-SIDE-ATTR-NOM.SG-=PTCL
 3	морык	_	PRON	_	_	4	nmod:poss	_	Gloss=мы-POSS.INC
-4	аӈӄачормыԓьын	_	NOUN	_	_	6	nmod:attr	Gloss=море-SIDE-ATTR-NOM.SG	_
+4	аӈӄачормыԓьын	_	NOUN	_	_	6	nmod:attr	_	Gloss=море-SIDE-ATTR-NOM.SG
 5	э	_	PART	_	_	4	discourse	_	Gloss=PTCL
 6	аӈӄай	_	PROPN	_	_	0	root	_	Gloss=Анкай-NOM.SG
 7	нытваӄэн	_	AUX	_	_	6	cop	_	Gloss=ST-быть-ST.3SG
