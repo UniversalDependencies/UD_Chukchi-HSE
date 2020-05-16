@@ -7592,10 +7592,10 @@
 # text[phon] = qərəmʔəm məɣtoɣət repə это repəɬqatəŋŋoɣʔa
 # text[rus] = «Я тебя не вытащу, если будешь тонуть».
 # text[eng] = «I will not pull you out if you start drowning.»
-# labels = complete-dep anno-fran subordination
-1-2	Ӄырымъым	_	_	_	_	_	_	_	_
-1	Ӄырым	_	AUX	_	_	3	aux	_	Gloss=NEG.FUT-=EMPH
-2	ъым	_	PART	_	_	1	discourse	_	_
+# labels = complete-dep anno-fran subordination leaf-invalid
+1-2	Ӄырымъым	_	_	_	_	_	_	_	Gloss=NEG.FUT-=EMPH
+1	Ӄырым	_	AUX	_	_	3	aux	_	Gloss=NEG.FUT
+2	ъым	_	PART	_	_	3	discourse	_	Gloss=EMPH
 3	мыгтогыт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A.SUBJ-вынимать-2SG.O
 4	рэпы	_	X	_	_	6	reparandum	_	Gloss=FST
 5	это	_	X	_	_	6	reparandum	_	Gloss=
@@ -7667,11 +7667,11 @@
 # text[phon] = jeɬʔoj iwkeʔm qenaɣtoɣe teŋənnin teɣniɬɣəqin ŋeɬwəɬ trejəɬ
 # text[rus] = «Братец, вытащи меня, пожалуйста, я абсолютно белое стадо тебе отдам».
 # text[eng] = «Brother (lit. cousin), pull me out, please, I will give you an absolutely white herd.»
-# labels = complete-dep anno-fran
+# labels = complete-dep anno-fran leaf-invalid
 1	Еԓьой	_	NOUN	_	_	4	vocative	_	Gloss=двоюродный.брат-VOC
 2-3	ивкэм	_	_	_	_	_	_	_	_
 2	ивкэ	_	AUX	_	_	4	aux	_	Gloss=OPT-=EMPH
-3	м	_	PART	_	_	2	discourse	_	_
+3	м	_	PART	_	_	4	discourse	_	_
 4	ӄэнагтогэ	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-INV-вынимать-IRR-2/3SG.S
 5	тэӈыннин	_	X	_	_	6	reparandum	_	Gloss=FST
 6	тэгниԓгыӄин	_	ADJ	_	_	7	amod	_	Gloss=GOOD-ST-белый-ST.3SG
@@ -9332,7 +9332,7 @@
 # text[eng] = And my husbends says:
 # labels = complete-dep anno-karina
 1-2	Ымыӈэ	_	_	_	_	_	_	_	_
-1	Ымы	_	ADV	_	_	5	conj	_	Gloss=также-=PTCL
+1	Ымы	_	ADV	_	_	5	advmod	_	Gloss=также-=PTCL
 2	ӈэ	_	PART	_	_	1	discourse	_	_
 3	гым	_	PRON	_	_	5	obj	_	Gloss=я
 4	тумгынэ	_	NOUN	_	_	5	nsubj	_	Gloss=друг-AN.INS
@@ -10178,12 +10178,12 @@
 # text[phon] = miŋkəri məninməkʔəma
 # text[rus] = «Куда направимся?».
 # text[eng] =  «Where are we going to?»
-# labels = complete-dep anno-fran
+# labels = complete-dep anno-fran leaf-invalid
 1	Миӈкыри	_	ADV	_	_	0	root	_	Gloss=где-LOC-ADV.ALL
 2-4	мынинмыкъыма	_	_	_	_	_	_	_	Gloss=1PL.S/A.SUBJ-являться-1PL.S/O-=EMPH-=PTCL|SpaceAfter=No
 2	мынинмык	_	AUX	_	_	1	cop	_	Gloss=1PL.S/A.SUBJ-являться-1PL.S/O
-3	ъым	_	PART	_	_	2	discourse	_	Gloss=EMPH
-4	а	_	PART	_	_	2	discourse	_	Gloss=PTCL
+3	ъым	_	PART	_	_	1	discourse	_	Gloss=EMPH
+4	а	_	PART	_	_	1	discourse	_	Gloss=PTCL
 5	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Water_cart:23
