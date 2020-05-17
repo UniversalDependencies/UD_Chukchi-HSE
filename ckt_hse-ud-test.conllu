@@ -483,6 +483,41 @@
 5	гатъыԓыӈӈоԓенат	_	VERB	_	_	4	parataxis	_	Gloss=PF-болеть-INCH-PF.3SG-PL|SpaceAfter=No
 6	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Being_a_child:7
+# text = И ынӄэн уйӈэ гэнъэԓԓин гагаԓята аԓымы ӈавкэтԓьан.
+# text[phon] = и ənqen ujŋe ɣenʔeɬɬin ɣaɣaɬata aɬəmə ŋawketɬʔan
+# text[rus] = И она умерла, хоть и маленькая была.
+# text[eng] = And she died, though she was little.
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	И	_	CCONJ	_	_	3	cc	_	Gloss=
+2	ынӄэн	_	PART	_	_	3	discourse	_	Gloss=DET
+3	уйӈэ	_	VERB	_	_	0	root	_	Gloss=нет
+4	гэнъэԓԓин	_	AUX	_	_	3	aux	_	Gloss=PF-стать-PF.3SG
+5	гагаԓята	_	VERB	_	_	3	advcl	_	Gloss=COM-проходить-INS
+6	аԓымы	_	PART	_	_	7	discourse	_	Gloss=хотя
+7	ӈавкэтԓьан	_	NOUN	_	_	3	parataxis	_	Gloss=FEM-девочка-ATTR-NOM.SG|SpaceAfter=No
+8	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Being_a_child:8
+# text = Потом конечно гымыкэ гымыкъымэ яачыкэнатэ.
+# text[phon] = потом конечно ɣəməke ɣəməkʔəme jaasəkenate
+# text[rus] = Потом, конечно, после меня младшие (сёстры родились).
+# text[eng] = Then, after me, my younger (sisters were born).
+# labels = complete-dep anno-fran unclear-syntax
+1	Потом	_	X	_	_	5	discourse	_	Gloss=
+2	конечно	_	X	_	_	1	flat:foreign	_	Gloss=
+3-4	гымыкэ	_	_	_	_	_	_	_	_
+3	гымык	_	PRON	_	_	5	reparandum	_	Gloss=я-LOC-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5-7	гымыкъымэ	_	_	_	_	_	_	_	_
+5	гымык	_	PRON	_	_	0	root	_	Gloss=я-LOC-=EMPH-=PTCL
+6	ъым	_	PART	_	_	5	discourse	_	_
+7	э	_	PART	_	_	5	discourse	_	_
+8-9	яачыкэнатэ	_	_	_	_	_	_	_	SpaceAfter=No
+8	яачыкэнат	_	ADV	_	_	5	parataxis	_	Gloss=сзади-REL-PL-=PTCL
+9	э	_	PART	_	_	8	discourse	_	_
+10	.	_	PUNCT	_	_	5	punct	_	_
+
 # sent_id = Being_a_child:9
 # text = Вытгытчьэн нэмыӄэе ӈээккэӄэй нэмыӄэе гагаԓяԓен.
 # text[phon] = wətɣətsʔen neməqeje ŋeekkeqej neməqeje ɣaɣaɬaɬen
@@ -668,6 +703,29 @@
 3.1	пытӄы	_	ADV	_	_	_	_	3:advmod	Gloss=повторно
 4	.	_	PUNCT	_	_	3	punct	3:punct	_
 
+# sent_id = Being_a_child:24
+# text = Яԓгытык яԓгыт ныяԓгынморэ нытарагӄэнатъым йъэԓыги гым ынӄэнэ ытԓьак тароӈыԓьын айкоԓятԓьын нинививым.
+# text[phon] = jaɬɣətək jaɬɣət nəjaɬɣənmore nətaraɣqenatʔəm jʔeɬəɣi ɣəm ənqene ətɬʔak taroŋəɬʔən ajkoɬatɬʔən niniwiwəm
+# text[rus] = Мы кочуем, строят ярангу, а я в первую очередь к маме, делающей полог и стелющей постель и говорю ей:
+# text[eng] = We nomadise, they set the yaranga, and I come to my mother, who is making the inner tent and the bed, and tell her:
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1	Яԓгытык	_	VERB	_	_	3	reparandum	_	Gloss=кочевать-LOC
+2	яԓгыт	_	X	_	_	3	reparandum	_	Gloss=FST
+3	ныяԓгынморэ	_	VERB	_	_	0	root	_	Gloss=ST-кочевать-NP.1PL
+4-5	нытарагӄэнатъым	_	_	_	_	_	_	_	_
+4	нытарагӄэнат	_	VERB	_	_	3	parataxis	_	Gloss=ST-MAKE-жилище-MAKE-ST.3SG-PL-=EMPH
+5	ъым	_	PART	_	_	4	discourse	_	_
+6	йъэԓыги	_	ADV	_	_	13	advmod	_	Gloss=в.первую.очередь
+7	гым	_	PRON	_	_	13	nsubj	_	Gloss=я
+8-9	ынӄэнэ	_	_	_	_	_	_	_	_
+8	ынӄэн	_	PART	_	_	13	discourse	_	Gloss=DET-=PTCL
+9	э	_	PART	_	_	8	discourse	_	_
+10	ытԓьак	_	NOUN	_	_	13	obl	_	Gloss=мать-LOC
+11	тароӈыԓьын	_	VERB	_	_	10	acl:attr	_	Gloss=MAKE-полог-MAKE-ATTR-NOM.SG
+12	айкоԓятԓьын	_	VERB	_	_	10	acl:attr	_	Gloss=постель-VB-ATTR-NOM.SG
+13	нинививым	_	VERB	_	_	3	parataxis	_	Gloss=ST-INV-сказать-NP.1SG|SpaceAfter=No
+14	.	_	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Being_a_child:25
 # text = Мэмэй аны мыммэмэаʼк.
 # text[phon] = memej anə məmmemeʔak
@@ -690,6 +748,17 @@
 2	ъым	_	PART	_	_	1	discourse	_	_
 3	нинивӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-сказать-ST.3SG|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Being_a_child:27
+# text = Аны евъев евъев.
+# text[phon] = anə jewjew jewjew
+# text[rus] = «Ну же, подожди, подожди!».
+# text[eng] = «Come on, wait!».
+# labels = complete-dep anno-fran unclear-syntax
+1	Аны	_	ADV	_	_	2	advmod	_	Gloss=давай
+2	евъев	_	INTJ	_	_	0	root	_	Gloss=постой
+3	евъев	_	INTJ	_	_	2	parataxis	_	Gloss=постой|SpaceAfter=No
+4	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Being_a_child:28
 # text = Гымъым ӄэԓюӄ ынпыӈэвӄэе эпэӄэйъымэ ынӄэнэ ынпычьын чакыгэт гымыкытԓьэн энмэч ынанэ нэмыӄэй гэнмэйӈэвԓинэтэ.
@@ -769,7 +838,7 @@
 # text = Гымнинэт ытԓьат гымнин ытԓыгын ынкъам ытԓя гымнинэт ытԓьат ынкъам ытԓыгыт чачча ныяԓгытӄэнатъым.
 # text[phon] = ɣəmninet ətɬʔat ɣəmnin ətɬəɣən ənkʔam ətɬa ɣəmninet ətɬʔat ənkʔam ətɬəɣət čassa nəjaɬɣətqenatʔəm
 # text[rus] = Мои родители, мой отец и мать, мои родители... Сейчас... Они кочевали.
-# text[eng] = My parents, my father and my mother, and my parents... Now... They nomadized.
+# text[eng] = My parents, my father and my mother, and my parents... Now... They nomadised.
 # labels = complete-dep anno-fran
 1	Гымнинэт	_	PRON	_	_	2	nmod:poss	_	Gloss=я-AN.GEN-PL
 2	ытԓьат	_	NOUN	_	_	12	nsubj	_	Gloss=мать-NOM.PL
@@ -4103,7 +4172,7 @@
 # text = Нэгитэгъэн нэԓкыԓгъэн.
 # text[phon] = neɣiteɣʔen neɬkəɬɣʔen
 # text[rus] = Посмотрели на него, узнали.
-# text[eng] = They looked at him and recognized him.
+# text[eng] = They looked at him and recognised him.
 # labels = complete-dep anno-fran
 1	Нэгитэгъэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-смотреть-TH-3SG.O
 2	нэԓкыԓгъэн	_	VERB	_	_	1	parataxis	_	Gloss=LOW.A-узнавать-TH-3SG.O|SpaceAfter=No
@@ -10008,7 +10077,7 @@
 # text = Нрзб тэԓенъеп коԓё ръиԓечитԓьэтԓеэт таӈымԓьаԓяӈэт таӈымыԓьо нымнымытъым.
 # text[phon] = нрзб teɬenjep koɬo rʔiɬesitɬʔetɬeet taŋəmɬʔaɬaŋet taŋəməɬʔo nəmnəmətʔəm
 # text[rus] = В старину устраивали большие гонки (соревнования) в течение всей зимы все селения (стойбища).
-# text[eng] = In the old days, all the villages (all the camps) organized big races throughout the winter.
+# text[eng] = In the old days, all the villages (all the camps) organised big races throughout the winter.
 # labels = complete-dep anno-fran
 1	Нрзб	_	X	_	_	4	discourse	_	Gloss=
 2	тэԓенъеп	_	ADV	_	_	4	advmod	_	Gloss=раньше-ещё
