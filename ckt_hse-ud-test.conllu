@@ -2277,6 +2277,47 @@
 2	тивын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-3SG.O|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Doormat:5
+# text = Эʼтки ынӄэн ынӄэнэ.
+# text[phon] = ʔetki ənqen ənqene
+# text[rus] = «Ой, ты что?!
+# text[eng] = «Oh, are you kidding?!
+# labels = complete-dep anno-fran ənqen
+1	Эʼтки	_	ADJ	_	_	0	root	_	Gloss=плохо
+2	ынӄэн	_	PART	_	_	1	discourse	_	Gloss=DET
+3-4	ынӄэнэ	_	_	_	_	_	_	_	SpaceAfter=No
+3	ынӄэн	_	PART	_	_	1	discourse	_	Gloss=DET-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Doormat:6
+# text = Эʼтки ынӈэ ынӄэн ягмаԓеччо нэрэтчыгыт.
+# text[phon] = ʔetki ənŋe ənqen jaɣmaɬesco neretsəɣət
+# text[rus] = Не надо, там из тебя сделают половую тряпку (т.е. затопчут и вытрут об тебя ноги).
+# text[eng] = Don’t, they’ll make a doormat out of you.
+# labels = complete-dep anno-fran ənqen valency
+1	Эʼтки	_	ADJ	_	_	0	root	_	Gloss=плохо
+2	ынӈэ	_	AUX	_	_	5	aux	_	Gloss=PROH
+3	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
+4	ягмаԓеччо	_	NOUN	_	_	5	xcomp	_	Gloss=ступня-вытирать-MAT-EQU
+5	нэрэтчыгыт	_	VERB	_	_	1	parataxis	_	Gloss=LOW.A-FUT-делать-2SG.O|SpaceAfter=No
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Doormat:7
+# text = Ынӄэн ныԓгэмаравръоӄэнат чама ръа имыръэнут нинэнпирӄыӄин ынӄэн.
+# text[phon] = ənqen nəɬɣemarawrʔoqenat sama rʔa imərʔenut ninenpirqəqin ənqen
+# text[rus] = Там очень ругаются и всех валят на землю».
+# text[eng] = There, they all swear very much and throw down everybody to the ground».
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET
+2	ныԓгэмаравръоӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-INTS-ссориться-DISTR.S-ST.3SG-PL
+3	чама	_	ADV	_	_	6	advmod	_	Gloss=также
+4	ръа	_	X	_	_	5	reparandum	_	Gloss=FST
+5	имыръэнут	_	PRON	_	_	6	obj	_	Gloss=FC-что.NOM.SG
+6	нинэнпирӄыӄин	_	VERB	_	_	2	parataxis	_	Gloss=ST-INV-валить-ST.3SG
+7	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET|SpaceAfter=No
+8	.	_	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Doormat:8
 # text = Эгэй ытԓён иквъи.
 # text[phon] = eɣej ətɬon ikwʔi
@@ -10302,6 +10343,48 @@
 4	тыйыԓӄэтгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-спать-VB-TH-LOC|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = The_Eskimo_is_fishing:1
+# text = Ынӄэн этъым аӈӄак нъанэԓёӄэн эскимос нэмэ.
+# text[phon] = ənqen etʔəm aŋqak nʔaneɬoqen eskimos neme
+# text[rus] = Это, наверное, на море удил рыбу эскимос снова.
+# text[eng] = It’s probably the Eskimo was fishing on the sea again.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
+2-3	этъым	_	ADV	_	_	_	_	_	_
+2	эт	_	ADV	_	_	5	advmod	_	Gloss=наверное-=EMPH
+3	ъым	_	PART	_	_	2	discourse	_	_
+4	аӈӄак	_	NOUN	_	_	5	obl	_	Gloss=море-LOC
+5	нъанэԓёӄэн	_	VERB	_	_	0	root	_	Gloss=ST-удить-ST.3SG
+6	эскимос	_	NOUN	_	_	5	nsubj	_	Gloss=эскимос-NOM.SG
+7	нэмэ	_	ADV	_	_	5	advmod	_	Gloss=опять|SpaceAfter=No
+8	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:2
+# text = Ынӄэнэ гэԓыткынгыпы янотэ аʼнэԓётаӈа нинъэйӈэвӄаат ыннытэ мэй мэйӈыръаваӈӄытъанам.
+# text[phon] = ənqene ɣeɬətkənɣəpə janote ʔaneɬotaŋa ninʔejŋewqaat ənnəte mej mejŋərʔawaŋqətʔanaʔm
+# text[rus] = Он сначала, удя, из-подо льда призывает рыбу, привлекая большой блесной из моржового клыка.
+# text[eng] = First, while fishing, he is calling the fish from under the ice, attracting it with the big spoon-bait made from the walrus tusk.
+# labels = complete-dep anno-fran ənqen hard-compound
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	8	discourse	_	Gloss=DET-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	гэԓыткынгыпы	_	NOUN	_	_	8	obl	_	Gloss=лёд-TOP-ABL
+4-5	янотэ	_	_	_	_	_	_	_	_
+4	янот	_	ADV	_	_	8	advmod	_	Gloss=сначала-=PTCL
+5	э	_	PART	_	_	4	discourse	_	_
+6-7	аʼнэԓётаӈа	_	_	_	_	_	_	_	_
+6	аʼнэԓётаӈ	_	VERB	_	_	8	advcl	_	Gloss=удить-INS-=PTCL
+7	а	_	PART	_	_	6	discourse	_	_
+8	нинъэйӈэвӄаат	_	VERB	_	_	0	root	_	Gloss=ST-INV-звать-ST.3PL
+9-10	ыннытэ	_	_	_	_	_	_	_	_
+9	ынныт	_	NOUN	_	_	8	obj	_	Gloss=рыба-NOM.PL-=PTCL
+10	э	_	PART	_	_	9	discourse	_	_
+11	мэй	_	X	_	_	12	reparandum	_	Gloss=FST
+12-13	мэйӈыръаваӈӄытъанам	_	_	_	_	_	_	_	SpaceAfter=No
+12	мэйӈыръаваӈӄытъана	_	NOUN	_	_	8	obl	_	Gloss=большой-что-моржовый.клык-блесна-INS-=EMPH
+13	м	_	PART	_	_	12	discourse	_	_
+14	.	_	PUNCT	_	_	8	punct	_	_
+
 # sent_id = The_Eskimo_is_fishing:3
 # text = Ынӄорыӈа ӈыронванныԓьына черунэӈ ӈаԓгычаронаӈыԓьын эюпинэӈ ынӄэнатаӈэ.
 # text[phon] = ənqorəŋa ŋəronwannəɬʔəna seruneŋ ŋaɬɣəsaronaŋəɬʔən ejupineŋ ənqenataŋe
@@ -10485,6 +10568,18 @@
 4	мури	_	PRON	_	_	5	nsubj	_	Gloss=мы
 5	ӄорагынрэтыԓьыморэ	_	NOUN	_	_	2	parataxis	_	Gloss=олень-защищать-ATTR-NP.1PL|SpaceAfter=No
 6	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:17
+# text = Ытръэч ынӄэнэ.
+# text[phon] = ətrʔes ənqene
+# text[rus] = Вот и всё.
+# text[eng] = That’s all.
+# labels = complete-dep anno-fran ənqen
+1	Ытръэч	_	ADV	_	_	2	advmod	_	Gloss=только
+2-3	ынӄэнэ	_	_	_	_	_	_	_	SpaceAfter=No
+2	ынӄэн	_	PRON	_	_	0	root	_	Gloss=DET-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = The_Eskimo_is_fishing:18
 # text = Нымкъэв гэннуԓин нырагтыӈӈоӄэн.
