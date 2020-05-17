@@ -3365,6 +3365,47 @@
 6	въэгти	_	NOUN	_	_	5	nsubj	_	Gloss=трава-NOM.PL|SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Grass:8
+# text = Мурыгрээн кэԓиныгйивэтыԓьын нивӄин иаʼмэ майӈывэтгавыркынэтык ынӄэн нэгитэркынитык.
+# text[phon] = murəɣreen keɬinəɣjiwetəɬʔən niwqin iʔame majŋəwetɣawərkənetək ənqen neɣiterkənitək
+# text[rus] = Учительница, [которая была] с нами, сказала: «Зачем громко говорите, на вас смотрят».
+# text[eng] = The teacher [who was] with us said: «Why are you speaking so loudly, they are looking at you».
+# labels = complete-dep anno-fran ənqen
+1-2	Мурыгрээн	_	_	_	_	_	_	_	Gloss=мы-POSS.INC-=с
+1	Мурыг	_	PRON	_	_	3	nmod	3:nmod	Gloss=мы-POSS.INC
+2	рээн	_	ADP	_	_	1	case	1:case	Gloss=с
+3	кэԓиныгйивэтыԓьын	_	VERB	_	_	4	nsubj	4:nsubj	Gloss=писать-TR-знак-VB-ATTR-NOM.SG
+4	нивӄин	_	VERB	_	_	0	root	0:root	Gloss=ST-сказать-ST.3SG
+5-6	иаʼмэ	_	_	_	_	_	_	_	_
+5	иаʼм	_	ADV	_	_	4	advmod	4:advmod	Gloss=почему-=PTCL
+6	э	_	PART	_	_	5	discourse	5:discourse	_
+7	майӈывэтгавыркынэтык	_	VERB	_	_	4	parataxis:speech	4:parataxis:speech	Gloss=большой-говорить-IPFV-2PL.S/O
+7.1	майӈ	_	ADJ	_	_	_	_	7:dep	Gloss=большой
+8	ынӄэн	_	PART	_	_	9	discourse	9:discourse	Gloss=DET
+9	нэгитэркынитык	_	VERB	_	_	4	parataxis:speech	4:parataxis:speech	Gloss=LOW.A-смотреть-IPFV-2PL.S/O|SpaceAfter=No
+10	.	_	PUNCT	_	_	4	punct	4:punct	_
+
+# sent_id = Grass:9
+# text = Гымнанъым тиквъэн ванэ ӄивтык ынӄэнэ въэ въэгти энмэн тыԓьунэт.
+# text[phon] = ɣəmnanʔəm tikwʔen wane qiwtək ənqene wʔe wʔeɣti enmen təɬʔunet
+# text[rus] = Я сказала: «Неужели нельзя говорить, траву же увидела».
+# text[eng] = I said: «Is it really prohibited to talk when I saw the grass?».
+# labels = complete-dep anno-fran ənqen
+1-2	Гымнанъым	_	_	_	_	_	_	_	_
+1	Гымнан	_	PRON	_	_	3	nsubj	_	Gloss=я-INS-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	тиквъэн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-TH-3SG.O
+4	ванэ	_	AUX	_	_	5	aux	_	Gloss=NEG.NFUT
+5	ӄивтык	_	VERB	_	_	3	parataxis:speech	_	Gloss=2.S/A.SUBJ-сказать-2PL.S/O
+6-7	ынӄэнэ	_	_	_	_	_	_	_	_
+6	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET-=PTCL
+7	э	_	PART	_	_	6	discourse	_	_
+8	въэ	_	X	_	_	9	reparandum	_	Gloss=умереть,FST
+9	въэгти	_	NOUN	_	_	11	obj	_	Gloss=трава-NOM.PL
+10	энмэн	_	PART	_	_	11	discourse	_	Gloss=говорят
+11	тыԓьунэт	_	VERB	_	_	5	parataxis	_	Gloss=1SG.S/A-видеть-3SG.O-PL|SpaceAfter=No
+12	.	_	PUNCT	_	_	3	punct	_	_
+
 # sent_id = GUM:1
 # text = Москва мури ӄэԓюӄъым гэтумгиинэтэ нрзб ӈиръэ ӈинӄэгти мурыгрээн нэмыӄэй.
 # text[phon] = maskwa muri qeɬuqʔəm ɣetumɣiinete нрзб ŋirʔe ŋinqeɣti murəɣreen neməqej
