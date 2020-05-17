@@ -6454,6 +6454,25 @@
 6	ъым	_	PART	_	_	5	discourse	_	_
 7	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id = Larvae:6
+# text = Ытръэч ынӄэнэ ӄоԓ тынтынэт тыгитэнэт ынин кэгынмытъым.
+# text[phon] = ətrʔes ənqene qoɬ təntənet təɣitenet ənin keɣənmətʔəm
+# text[rus] = Только один раз посмотрела на её руки.
+# text[eng] = Only once I looked at her hands.
+# labels = complete-dep anno-fran ənqen
+1	Ытръэч	_	ADV	_	_	6	advmod	_	Gloss=только
+2-3	ынӄэнэ	_	_	_	_	_	_	_	_
+2	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4	ӄоԓ	_	PRON	_	_	6	dep	_	Gloss=некий
+5	тынтынэт	_	VERB	_	_	6	reparandum	_	Gloss=1SG.S/A-иметь-3SG.O-PL
+6	тыгитэнэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-смотреть-3SG.O-PL
+7	ынин	_	PRON	_	_	8	nmod:poss	_	Gloss=он-GEN
+8-9	кэгынмытъым	_	_	_	_	_	_	_	SpaceAfter=No
+8	кэгынмыт	_	NOUN	_	_	6	obj	_	Gloss=кисть.руки-NOM.PL-=EMPH
+9	ъым	_	PART	_	_	8	discourse	_	_
+10	.	_	PUNCT	_	_	8	punct	_	_
+
 # sent_id = Larvae:7
 # text = Эԓёԓьыӈӈоаʼтэ аръаԓя гагты.
 # text[phon] = eɬoɬʔəŋŋoʔate arʔaɬa ɣaɣtə
@@ -6790,6 +6809,25 @@
 7	экык	_	NOUN	_	_	4	appos	_	Gloss=сын-NOM.SG
 8	мытынӄамэтвавын	_	VERB	_	_	1	parataxis	_	Gloss=1PL.S/A-TR-есть-CS-3SG.O|SpaceAfter=No
 9	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Let’s_go_wash_to_Egvekinot:13
+# text = Ӄы ӄы ӄэԓёӄъым я епэчги ачаёӄыӄамэтвакыԓьэн ынӈин ԓыгэн мытэквэнмык.
+# text[phon] = qə qə qeɬoqʔəm ja jepesɣi asajoqəqametwakəɬʔen ənŋin ɬəɣen mətekwenmək
+# text[rus] = Конечно, он ещё не позавтракал, мы прямо так уехали.
+# text[eng] = Of course, he hasn’t had breakfast yet, we left like that.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ӄы	_	X	_	_	3	reparandum	_	Gloss=FST
+2	ӄы	_	X	_	_	3	reparandum	_	Gloss=FST
+3-4	ӄэԓёӄъым	_	_	_	_	_	_	_	_
+3	ӄэԓёӄ	_	ADV	_	_	7	advmod	_	Gloss=конечно-=EMPH
+4	ъым	_	PART	_	_	3	discourse	_	_
+5	я	_	X	_	_	6	reparandum	_	Gloss=FST
+6	епэчги	_	ADV	_	_	7	advmod	_	Gloss=ещё.не
+7	ачаёӄыӄамэтвакыԓьэн	_	VERB	_	_	10	dep	_	Gloss=CAR-чай-EAT-есть-CAR-ATTR-GEN
+8	ынӈин	_	ADV	_	_	10	advmod	_	Gloss=так
+9	ԓыгэн	_	ADV	_	_	10	advmod	_	Gloss=просто
+10	мытэквэнмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-отправляться-1PL.S/O|SpaceAfter=No
+11	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Let’s_go_wash_to_Egvekinot:14
 # text = Ынӄо Иԓгыӄэнъевы мытыпкирмыкъым.
@@ -10350,9 +10388,9 @@
 # text[eng] = It’s probably the Eskimo was fishing on the sea again.
 # labels = complete-dep anno-fran ənqen
 1	Ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
-2-3	этъым	_	ADV	_	_	_	_	_	_
-2	эт	_	ADV	_	_	5	advmod	_	Gloss=наверное-=EMPH
-3	ъым	_	PART	_	_	2	discourse	_	_
+2-3	этъым	_	_	_	_	_	_	_	Gloss=наверное-=EMPH
+2	эт	_	ADV	_	_	5	advmod	_	Gloss=наверное
+3	ъым	_	PART	_	_	2	discourse	_	Gloss=EMPH
 4	аӈӄак	_	NOUN	_	_	5	obl	_	Gloss=море-LOC
 5	нъанэԓёӄэн	_	VERB	_	_	0	root	_	Gloss=ST-удить-ST.3SG
 6	эскимос	_	NOUN	_	_	5	nsubj	_	Gloss=эскимос-NOM.SG
@@ -11939,8 +11977,8 @@
 5	рочгатама	_	ADV	_	_	9	advmod	_	Gloss=другой.берег-ADV.PROL-SIM
 6	ваамԓыӈата	_	NOUN	_	_	9	obl	_	Gloss=река-EDGE-ADV.PROL
 7	йынрытчигэ	_	X	_	_	8	reparandum	_	Gloss=FST
-8	йынрыгэӈытко	йынрын  NOUN	_	_	9	obj	_	Gloss=высокий.обрывистый.берег-BOTTOM-NUMBER
-9-10	мытвинвытэгнэннэтэ	_	_	_	_	_	_	_	_
+8	йынрыгэӈытко	_	NOUN	_	_	9	obj	_	Gloss=высокий.обрывистый.берег-BOTTOM-NUMBER
+9-10	мытвинвытэгнэннэтэ	_	_	_	_	_	_	_	SpaceAfter=No
 9	мытвинвытэгнэннэт	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-след-FRONT-VB-3SG.O-PL-=PTCL
 10	э	_	PART	_	_	9	discourse	_	_
 11	.	_	PUNCT	_	_	9	punct	_	_
@@ -12311,6 +12349,34 @@
 # labels = complete-dep anno-fran
 1	Ръэнут	_	PRON	_	_	0	root	_	Gloss=что.NOM.SG|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Water_cart:41
+# text = Выԓгыкирзовыйчапокԓьынъыма эвтэ джинчыӄонагыԓьын эвыр тэӈэвытӄэй тэгнъыӄэвъяӈӈогъан ыныки нъымытӄытэԓпыгъан гаймаӈэн нъыӄитывъигъэн.
+# text[phon] = wəɬɣəkirzowəjsapokɬʔənʔəma ewte džinsəqonaɣəɬʔən ewər teŋewətqej teɣnʔəqewjaŋŋoɣʔan ənəki nʔəmətqəteɬpəɣʔan ɣajmaŋen nʔəqitəwʔiɣʔen
+# text[rus] = В тонких кирзовых сапогах и джинсовых штанах, сейчас же замёрз бы, если бы вдруг закончилось топливо, возможно, замёрз бы насмерть.
+# text[eng] = He would have frozen in his kersey boots and jeans, and if he had been out of fuel, he would have probably frozen to death.
+# labels = complete-dep anno-karina unclear-syntax
+1-5	Выԓгыкирзовыйчапокԓьынъыма	_	_	_	_	_	_	_	Gloss=тонкий-кирзовый-сапог-ATTR-NOM.SG-=EMPH-=PTCL
+1	Выԓгы	_	ADJ	_	_	3	amod	_	Gloss=тонкий
+2	кирзовый	_	ADJ	_	_	3	amod	_	Gloss=кирзовый
+3	чапокԓьынъыма	_	NOUN	_	_	12	obl	_	Gloss=сапог-ATTR-NOM.SG
+4	ъым	_	PART	_	_	3	discourse	_	Gloss=EMPH
+5	а	_	PART	_	_	3	discourse	_	Gloss=PTCL
+6-7	эвтэ	_	_	_	_	_	_	_	_
+6	эвт	_	SCONJ	_	_	9	mark	_	Gloss=когда-=PTCL,likewise
+7	э	_	PART	_	_	6	discourse	_	_
+8-9	джинсыӄонагыԓьын	_	_	_	_	_	_	_	Gloss=джинсы-штаны-ATTR-NOM.SG
+8	джинсы	_	NOUN	_	_	9	nmod	Gloss=джинсы	_
+9	ӄонагыԓьын	_	NOUN	_	_	3	cc	_	Gloss=штаны-ATTR-NOM.SG
+10	эвыр	_	SCONJ	_	_	9	mark	Gloss=когда	_
+11	тэӈэвытӄэй	_	ADV	_	_	12	advmod	_	Gloss=GOOD-когда-DIM
+12	тэгнъыӄэвъяӈӈогъан	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-GOOD-COND-зябнуть-INCH-TH-IRR.2/3SG.S
+13	ыныки	_	SCONJ	_	_	14	mark	_	Gloss=если
+14	нъымытӄытэԓпыгъан	_	VERB	_	_	12	advcl	_	Gloss=2/3.S/A-COND-жир-кончаться-TH-IRR.2/3SG.S
+14.1	мытӄы	_	NOUN	_	_	_	_	14:nsubj	Gloss=2/3.S/A-COND-жир-кончаться-TH-IRR.2/3SG.S
+15	гаймаӈэн	_	ADV	_	_	16	advmod	_	Gloss=возможно
+16	нъыӄитывъигъэн	_	VERB	_	_	12	parataxis	_	Gloss=2/3.S/A-COND-замерзать-умереть-TH-IRR.2/3SG.S
+17	.	_	PUNCT	_	_	12	punct	_	_
 
 # sent_id = Water_cart:42
 # text = Ытръэч.
