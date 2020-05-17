@@ -1143,6 +1143,20 @@
 4	ыʼттъымыт	_	NOUN	_	_	3	obj	_	Gloss=кость-NOM.PL|SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Bouillon_with_crushed_bones:5
+# text = Кэԓеӈынэ ынӄэн ынпыӈэвӄэй гымнин кэԓеӈынэ нэнамӈыԓёйгым.
+# text[phon] = keɬeŋəne ənqen ənpəŋewqej ɣəmnin keɬeŋəne nenamŋəɬojɣəm
+# text[rus] = Спрашиваю Келенгыне — это бабушка моя.
+# text[eng] = I ask Kelengyne, that is my grandmother.
+# labels = complete-dep anno-karina
+1	Кэԓеӈынэ	_	PROPN	_	_	6	obj	_	Gloss=Келенгыне-NOM.SG
+2	ынӄэн	_	DET	_	_	1	det	_	Gloss=DET
+3	ынпыӈэвӄэй	_	NOUN	_	_	1	acl	_	Gloss=старый-FEM-DIM-NOM.SG
+4	гымнин	_	PRON	_	_	3	nmod:poss	_	Gloss=я-AN.GEN
+5	Кэԓеӈынэ	_	PROPN	_	_	1	reparandum	_	Gloss=Келенгыне-NOM.SG
+6	нэнамӈыԓёйгым	_	VERB	_	_	0	root	_	Gloss=ST-INV-спрашивать-NP.1SG
+7	.	_	PUNCT	_	_	6	punct	_	_
+
 # sent_id = Bouillon_with_crushed_bones:6
 # text = Эм тыта таԓяпԓыткоэʼ тытаԓяпԓыткоаʼ.
 # text[phon] = эм təta taɬapɬətkoʔe tətaɬapɬətkoʔa
@@ -1166,6 +1180,35 @@
 3	ӄытаԓяпатгэ	_	VERB	_	_	1	parataxis:speech	_	Gloss=2.S/A.SUBJ-ударять-варить-IRR-2/3SG.S|SpaceAfter=No
 4	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Bouillon_with_crushed_bones:8
+# text = Ну ынӄэнэ тынпыэʼн таԓяпат.
+# text[phon] = ну ənqene tənpəʔen taɬapat
+# text[rus] = Я повесила (на крюк над огнём) бульон.
+# text[eng] = I hanged the (pot with) broth (on the hook above the fire).
+# labels = complete-dep anno-karina
+1	Ну	_	X	_	_	4	discourse	_	Gloss=
+2-3	ынӄэнэ	_	_	_	_	_	_	_	_
+2	ынӄэн	_	DET	_	_	4	discourse	_	Gloss=DET-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4	тынпыэʼн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-вешать-TH-3SG.O
+5	таԓяпат	_	NOUN	_	_	4	obj	_	Gloss=ударять-варить-NOM.SG|SpaceAfter=No
+6	.	_	PUNCT	_	_	4	punct	_	_
+
+
+# sent_id = Bouillon_with_crushed_bones:9
+# text = Нывинтивым чама ынӄэн ԓгипыгыпгэтыԓьэтӄин таԓяпат.
+# text[phon] = nəwintiwəm sama ənqen ɬɣipəɣəpɣetəɬʔetqin taɬapat
+# text[rus] = Подбрасываю дров в костёр, и сильно кипит похлёбка из толчёной кости.
+# text[eng] = I put some wood into the fire and the bones broth is boiling.
+# labels = complete-dep anno-karina
+1	Нывинтивым	_	VERB	_	_	0	root	_	Gloss=ST-подбрасывать.дрова.в.огонь-NP.1SG
+2	чама	_	ADV	_	_	1	advmod	_	Gloss=также
+3	ынӄэн	_	DET	_	_	1	discourse	_	Gloss=DET
+4	ԓгипыгыпгэтыԓьэтӄин	_	VERB	_	_	1	parataxis	_	Gloss=INTS-кипеть-PLAC-ST.3SG
+5	таԓяпат	_	NOUN	_	_	4	nsubj	_	Gloss=ударять-варить-NOM.SG|SpaceAfter=No
+6	.	_	PUNCT	_	_	1	punct	_	_
+
+
 # sent_id = Bouillon_with_crushed_bones:10
 # text = Оʼтчой ныпыгыпгэтыԓьэтӄин нинивигым.
 # text[phon] = ʔotsoj nəpəɣəpɣetəɬʔetqin niniwiɣəm
@@ -1176,6 +1219,22 @@
 2	ныпыгыпгэтыԓьэтӄин	_	VERB	_	_	0	root	_	Gloss=ST-кипеть-PLAC-ST.3SG
 3	нинивигым	_	VERB	_	_	2	parataxis	_	Gloss=ST-INV-сказать-NP.1SG|SpaceAfter=No
 4	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Bouillon_with_crushed_bones:11
+# text = Вынэ эпэӄэй ынӄэнэ таԓяпат оʼтчой ԓгипыгыпгэттыԓеэркын.
+# text[phon] = wəne epeqej ənqene taɬapat ʔotsoj ɬɣipəɣəpɣettəɬeerkən
+# text[rus] = «Послушай, бабушка, что-то долго кипит этот бульон из толчёных костей!».
+# text[eng] = «Listen, grandmother, the bones broth has been boiling for a long time!»
+# labels = complete-dep anno-karina
+1	Вынэ	_	PART	_	_	2	discourse	_	Gloss=ну.ка
+2	эпэӄэй	_	NOUN	_	_	7	vocative	_	Gloss=бабушка-NOM.SG
+3-4	ынӄэнэ	_	_	_	_	_	_	_	_
+3	ынӄэн	_	DET	_	_	7	discourse	_	Gloss=DET-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5	таԓяпат	_	NOUN	_	_	7	nsubj	_	Gloss=ударять-варить-NOM.SG
+6	оʼтчой	_	ADV	_	_	7	advmod	_	Gloss=долго
+7	ԓгипыгыпгэттыԓеэркын	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INTS-кипеть-GRAD-VB-IPFV|SpaceAfter=No
+8	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bouillon_with_crushed_bones:12
 # text = А ӄынгэргэквынъым.
@@ -1269,7 +1328,7 @@
 # text[phon] = qoɬʔəm nətenŋətkuqin anə wane qʔəɬtəjoɣe
 # text[rus] = Она смеётся: «Да не, снег положи.
 # text[eng] = She laughs: «No, just put some snow in it.
-# labels = complete-dep anno-fran check-subject
+# labels = complete-dep anno-fran subject-checked-karina
 1-2	Ӄоԓьым	_	_	_	_	_	_	_	Gloss=некий-=EMPH
 1	Ӄоԓ	_	PRON	_	_	3	nsubj	3:nsubj	Gloss=некий
 2	ьым	_	PART	_	_	1	discourse	1:discourse	Gloss=EMPH
@@ -9425,6 +9484,24 @@
 4	нытваӄэн	_	AUX	_	_	3	cop	_	Gloss=ST-быть-ST.3SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Stud_buck_reindeer:1
+# text = Эʼми мэ а миӈкыриыʼм ынӄэн тыр тыркыԓьиӈын гэԓӄытԓин.
+# text[phon] = ʔemi me а miŋkəriʔəm ənqen tər tərkəɬʔiŋən ɣeɬqətɬin
+# text[rus] = Где, куда этот производитель ушёл?
+# text[eng] = Where, where did this stud buck reindeer go?
+# labels = complete-dep anno-fran ənqen
+1	Эʼми	_	ADV	_	_	4	reparandum	_	Gloss=где
+2	мэ	_	X	_	_	4	reparandum	_	Gloss=FST
+3	а	_	X	_	_	4	reparandum	_	Gloss=
+4-5	миӈкыриыʼм	_	_	_	_	_	_	_	_
+4	миӈкыри	_	ADV	_	_	9	advmod	_	Gloss=где-LOC-ADV.ALL-=EMPH
+5	ыʼм	_	PART	_	_	4	discourse	_	_
+6	ынӄэн	_	PART	_	_	9	discourse	_	Gloss=DET
+7	тыр	_	X	_	_	8	reparandum	_	Gloss=FST
+8	тыркыԓьиӈын	_	NOUN	_	_	9	nsubj	_	Gloss=тестикула-ATTR-AUG-NOM.SG
+9	гэԓӄытԓин	_	VERB	_	_	0	root	_	Gloss=PF-идти-PF.3SG|SpaceAfter=No
+10	.	_	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Stud_buck_reindeer:2
 # text = Это Ыʼттъыгыргынэ гэкэӈэ пыкиргъим.
 # text[phon] = это ʔəttʔəɣərɣəne ɣekeŋe pəkirɣʔiʔm
@@ -9440,6 +9517,90 @@
 5	пыкиргъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S-=EMPH
 6	м	_	PART	_	_	5	discourse	_	_
 7	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Stud_buck_reindeer:3
+# text = Тынарагтына йъонэн ынӄэ ныпчеӈиӄинэт.
+# text[phon] = tənaraɣtəna jʔonen ənqe nəpseŋiqinet
+# text[rus] = Тынарагтын пошёл ему навстречу, и они начали разговаривать.
+# text[eng] = Tynaragtyn went to meet him, and they began to talk.
+# labels = complete-dep anno-fran ənqen
+1	Тынарагтына	_	PROPN	_	_	2	nsubj	_	Gloss=Тынарагтын-AN.INS
+2	йъонэн	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-настигать-3SG.A.3.O-3SG.O
+3	ынӄэ	_	PART	_	_	4	discourse	_	Gloss=DET
+4	ныпчеӈиӄинэт	_	VERB	_	_	2	parataxis	_	Gloss=ST-расспрашивать-ST.3SG-PL|SpaceAfter=No
+5	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Stud_buck_reindeer:4
+# text = Ӈээккэӄэгти наӄам ытри ынӄэнэ Наташа и Валерия ныкытгынтыръоӄэнат гыроԓмакы ырык.
+# text[phon] = ŋeekkeqeɣti naqam ətri ənqene Наташа и Валерия nəkətɣəntərʔoqenat ɣəroɬmakə ərək
+# text[rus] = Ну там девочки — Наташа и Валерия — бегают вокруг них.
+# text[eng] = Well, there girls—Natasha and Valeria—were running around them.
+# labels = complete-dep anno-fran ənqen non-projective
+1	Ӈээккэӄэгти	_	NOUN	_	_	9	nsubj	_	Gloss=FEM-сын-DIM-NOM.PL
+2	наӄам	_	ADV	_	_	9	discourse	_	Gloss=однако
+3	ытри	_	PRON	_	_	1	appos	_	Gloss=они
+4-5	ынӄэнэ	_	_	_	_	_	_	_	_
+4	ынӄэн	_	PART	_	_	9	discourse	_	Gloss=DET-=PTCL
+5	э	_	PART	_	_	4	discourse	_	_
+6	Наташа	_	PROPN	_	_	1	appos	_	Gloss=
+7	и	_	CCONJ	_	_	8	cc	_	Gloss=
+8	Валерия	_	PROPN	_	_	6	conj	_	Gloss=
+9	ныкытгынтыръоӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-бежать-DISTR.S-ST.3SG-PL
+10	гыроԓмакы	_	ADV	_	_	9	advmod	_	Gloss=вокруг
+11	ырык	_	PRON	_	_	9	obl	_	Gloss=они-LOC|SpaceAfter=No
+12	.	_	PUNCT	_	_	9	punct	_	_
+
+# sent_id = Stud_buck_reindeer:5
+# text = Нрзб Тынарагтына а Тыӈэтинэ ынӄэнэ ӄаавъятыԓьынэ Ыʼттъыгыргын йъонэнъымэ агтаннэнат ынӄэн ӄаат оʼраӈоонрэ.
+# text[phon] = нрзб tənaraɣtəna а təŋetine ənqene qaawjatəɬʔəne ʔəttʔəɣərɣən jʔonenʔəme aɣtannenat ənqen qaat ʔoraŋoonre
+# text[rus] = Тынарагтын… а — Тынэти — пошёл к распрягавшему оленей Ыттыгыргину, отогнал тех оленей в другую сторону.
+# text[eng] = Tynaragtyn… no—Tyngeti—went to Yttygyrgyn who was unharnessing reindeers and drove those reindeers in the other direction.
+# labels = complete-dep anno-fran ənqen
+1	Нрзб	_	X	_	_	10	discourse	_	Gloss=
+2	Тынарагтына	_	PROPN	_	_	4	reparandum	_	Gloss=Тынарагтын-AN.INS
+3	а	_	X	_	_	4	discourse	_	Gloss=
+4	Тыӈэтинэ	_	PROPN	_	_	10	nsubj	_	Gloss=Тынэти-AN.INS
+5-6	ынӄэнэ	_	_	_	_	_	_	_	_
+5	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7-8	ӄаавъятыԓьынэ	_	_	_	_	_	_	_	_
+7	ӄаавъятыԓьын	_	VERB	_	_	9	acl:attr	_	Gloss=олень-распрягать-ATTR-NOM.SG-=PTCL
+8	э	_	PART	_	_	7	discourse	_	_
+9	Ыʼттъыгыргын	_	PROPN	_	_	10	obj	_	Gloss=Ыттыгыргин-NOM.SG
+10-12	йъонэнъымэ	_	_	_	_	_	_	_	_
+10	йъонэнъы	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-настигать-3SG.A.3.O-3SG.O-=EMPH-=PTCL
+11	м	_	PART	_	_	10	discourse	_	_
+12	э	_	PART	_	_	10	discourse	_	_
+13	агтаннэнат	_	VERB	_	_	10	parataxis	_	Gloss=2/3.S/A-гнать-3SG.A.3.O-3SG.O-PL
+14	ынӄэн	_	DET	_	_	15	det	_	Gloss=DET
+15	ӄаат	_	NOUN	_	_	13	obj	_	Gloss=олень-NOM.PL
+16	оʼраӈоонрэ	_	ADV	_	_	13	advmod	_	Gloss=TOWARDS-там-ADV.ALL|SpaceAfter=No
+17	.	_	PUNCT	_	_	10	punct	_	_
+
+# sent_id = Stud_buck_reindeer:6
+# text = Нрзб наӄам мачгыргочаыʼмэ ӄаагтатыԓьын уʼрэӈунриԓы ааӄъым ынӄэн йи га га гаканъёт нэна нэнарэӈатӄэнат ӈаԓвыԓьэты.
+# text[phon] = нрзб naqam masɣərɣosaʔəme qaaɣtatəɬʔən ʔureŋunriɬə aaqʔəm ənqen ji ɣa ɣa ɣakanjot nena nenareŋatqenat ŋaɬwəɬʔetə
+# text[rus] = На возвышенности пастух вон туда тех упряжных оленей гнал от стойбища к стаду.
+# text[eng] = On a hill, a shepherd drove those sledge reindeers from the camp to the herd.
+# labels = complete-dep anno-fran ənqen disfluency
+1	Нрзб	_	X	_	_	15	discourse	_	Gloss=
+2	наӄам	_	ADV	_	_	15	advmod	_	Gloss=однако
+3-5	мачгыргочаыʼмэ	_	_	_	_	_	_	_	_
+3	мачгыргочаыʼ	_	ADV	_	_	15	advmod	_	Gloss=APPR-вверху-=EMPH-=PTCL
+4	м	_	PART	_	_	3	discourse	_	_
+5	э	_	PART	_	_	3	discourse	_	_
+6	ӄаагтатыԓьын	_	NOUN	_	_	15	dislocated	_	Gloss=олень-гнать-ATTR-NOM.SG
+7	уʼрэӈунриԓы	_	ADV	_	_	15	advmod	_	Gloss=TOWARDS-там.в.стороне-ADV.ALL.EXH
+8	ааӄъым	_	X	_	_	9	reparandum	_	Gloss=FST
+9	ынӄэн	_	PART	_	_	15	discourse	_	Gloss=DET
+10	йи	_	X	_	_	13	reparandum	_	Gloss=FST
+11	га	_	X	_	_	13	reparandum	_	Gloss=FST
+12	га	_	X	_	_	13	reparandum	_	Gloss=FST
+13	гаканъёт	_	NOUN	_	_	15	obj	_	Gloss=пара.упряжных.оленей-NOM.PL
+14	нэна	_	X	_	_	15	reparandum	_	Gloss=FST
+15	нэнарэӈатӄэнат	_	VERB	_	_	0	root	_	Gloss=ST-INV-отгонять.стадо.от.стойбища-ST.3SG-PL
+16	ӈаԓвыԓьэты	_	NOUN	_	_	15	obl	_	Gloss=стадо-DAT|SpaceAfter=No
+17	.	_	PUNCT	_	_	15	punct	_	_
 
 # sent_id = Stud_buck_reindeer:7
 # text = Тынарагтынаыʼм Ыʼттъыгыргын нэнамӈыԓёӄэн миӈкыриыʼм тыркыԓьиӈын еэ гэԓ гэ гэԓӄытԓин.
@@ -9472,6 +9633,24 @@
 2	эʼми	_	ADV	_	_	0	root	_	Gloss=где|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Stud_buck_reindeer:9
+# text = А тут ӈээккэӄэгти ынӄэн Валерия увидела Романа ынӄэн ԓьунин Тыӈэти.
+# text[phon] = а тут ŋeekkeqeɣti ənqen Валерия увидела Романа ənqen ɬʔunin təŋeti
+# text[rus] = А тут девочки… Валерия увидела Романа, увидела Тынэти.
+# text[eng] = And then the girls… Valeria saw Roman, saw Tyngeti.
+# labels = complete-dep anno-fran ənqen disfluency
+1	А	_	X	_	_	9	discourse	_	Gloss=
+2	тут	_	X	_	_	1	flat:foreign	_	Gloss=
+3	ӈээккэӄэгти	_	NOUN	_	_	9	dislocated	_	Gloss=FEM-сын-DIM-NOM.PL
+4	ынӄэн	_	PART	_	_	9	discourse	_	Gloss=DET
+5	Валерия	_	PROPN	_	_	6	nsubj	_	Gloss=
+6	увидела	_	VERB	_	_	9	reparandum	_	Gloss=
+7	Романа	_	PROPN	_	_	6	obj	_	Gloss=
+8	ынӄэн	_	PRON	_	_	9	nsubj	_	Gloss=DET
+9	ԓьунин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-видеть-3SG.A.3.O-3SG.O
+10	Тыӈэти	_	PROPN	_	_	9	obj	_	Gloss=Тынэти-NOM.SG|SpaceAfter=No
+11	.	_	PUNCT	_	_	9	punct	_	_
+
 # sent_id = Stud_buck_reindeer:10
 # text = Ԓьунин Тыӈэтим нивӄин ӈаанӄэнъым вай тыркыԓьиӈын.
 # text[phon] = ɬʔunin təŋetiʔm niwqin ŋaanqenʔəm waj tərkəɬʔiŋən
@@ -9489,6 +9668,24 @@
 7	вай	_	ADV	_	_	8	advmod	_	Gloss=вот
 8	тыркыԓьиӈын	_	NOUN	_	_	5	parataxis	_	Gloss=тестикула-ATTR-AUG-NOM.SG|SpaceAfter=No
 9	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Stud_buck_reindeer:11
+# text = Наташанаыʼм нинивӄин ӄырымэн ынӄэн тыркыԓьиӈын ынӄэн дядя Рома.
+# text[phon] = natašanaʔəm niniwqin qərəmen ənqen tərkəɬʔiŋən ənqen дядя Рома
+# text[rus] = Наташа говорит: «Это не производитель, это дядя Рома!».
+# text[eng] = Natasha says: «This is not a stud buck reindeer, this is uncle Roma!».
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1-2	Наташанаыʼм	_	_	_	_	_	_	_	_
+1	Наташана	_	PROPN	_	_	3	nsubj	_	Gloss=Наташа-AN.INS-=EMPH
+2	ыʼм	_	PART	_	_	1	discourse	_	_
+3	нинивӄин	_	VERB	_	_	0	root	_	Gloss=ST-INV-сказать-ST.3SG
+4	ӄырымэн	_	AUX	_	_	3	parataxis:speech	_	Gloss=NEG.FUT-GEN
+5	ынӄэн	_	DET	_	_	6	det	_	Gloss=DET
+6	тыркыԓьиӈын	_	NOUN	_	_	4	nsubj	_	Gloss=тестикула-ATTR-AUG-NOM.SG
+7	ынӄэн	_	DET	_	_	8	det	_	Gloss=DET
+8	дядя	_	NOUN	_	_	3	parataxis:speech	_	Gloss=
+9	Рома	_	PROPN	_	_	8	appos	_	Gloss=|SpaceAfter=No
+10	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Telyopka:1
 # text = Тэлёпкаӄай Тэлёпкаӄай аны ӄыгывъекви.
