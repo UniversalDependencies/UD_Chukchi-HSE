@@ -4401,6 +4401,24 @@
 8.1	чьачаӈ	_	ADJ	_	_	_	_	8:dep	_
 9	.	_	PUNCT	_	_	1	punct	1:punct	_
 
+# sent_id = Hooligan:3
+# text = Ымыԓьо ӄоԓ эргыръокы тыԓӄутгъэкъымэ рэмкын эвын норгымэгԓетӄэн.
+# text[phon] = əməɬʔo qoɬ erɣərʔokə təɬqutɣʔekʔəme remkən ewən norɣəmeɣɬetqen
+# text[rus] = И вот, на рассвете, я встал, смотрю — весь народ уже работает у нарт.
+# text[eng] = And at the dawn, I woke up and saw that all people were already preparing the sledges.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ымыԓьо	_	PRON	_	_	4	dep	_	Gloss=весь
+2	ӄоԓ	_	PRON	_	_	1	dep	_	Gloss=некий
+3	эргыръокы	_	NOUN	_	_	4	obl	_	Gloss=свет-DISTR.S-LOC
+4-6	тыԓӄутгъэкъымэ	_	_	_	_	_	_	_	_
+4	тыԓӄутгъэк	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-вставать-TH-1SG.S-=EMPH-=PTCL
+5	ъым	_	PART	_	_	4	discourse	_	_
+6	э	_	PART	_	_	4	discourse	_	_
+7	рэмкын	_	NOUN	_	_	9	nsubj	_	Gloss=народ-NOM.SG
+8	эвын	_	ADV	_	_	9	advmod	_	Gloss=уже
+9	норгымэгԓетӄэн	_	VERB	_	_	4	parataxis	_	Gloss=ST-нарта-работать-ST.3SG|SpaceAfter=No
+10	.	_	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Hooligan:4
 # text = Чинитъыттъыгаканъёк рэмкыт ӄача энмэ нымигчирэтӄинэт.
 # text[phon] = sinitʔəttʔəɣakanjok remkət qasa enme nəmiɣsiretqinet
@@ -10657,6 +10675,25 @@
 5	ӄинэвинрэтыркын	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=2.S/A.SUBJ-INV-помогать-IPFV|SpaceAfter=No
 6	.	_	PUNCT	_	_	3	punct	3:punct	_
 
+# sent_id = Transhumance:19
+# text = Ынпыӈэвытъым ӄэԓюӄъымэ ынӄэн нэмыӄэе.
+# text[phon] = ənpəŋewətʔəm qeɬuqʔəme ənqen neməqeje
+# text[rus] = И старшие женщины, конечно же, тоже.
+# text[eng] = And elder women, of course, too.
+# labels = complete-dep anno-fran
+1-2	Ынпыӈэвытъым	_	_	_	_	_	_	_	_
+1	Ынпыӈэвыт	_	ADJ	_	_	0	root	_	Gloss=старый-FEM-NOM.PL-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3-5	ӄэԓюӄъымэ	_	_	_	_	_	_	_	_
+3	ӄэԓюӄ	_	ADV	_	_	1	advmod	_	Gloss=конечно-=EMPH-=PTCL
+4	ъым	_	PART	_	_	3	discourse	_	_
+5	э	_	PART	_	_	3	discourse	_	_
+6	ынӄэн	_	DET	_	_	1	discourse	_	Gloss=DET
+7-8	нэмыӄэе	_	_	_	_	_	_	_	SpaceAfter=No
+7	нэмыӄэ	_	ADV	_	_	1	advmod	_	Gloss=тоже-=PTCL
+8	е	_	PART	_	_	7	discourse	_	_
+9	.	_	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Transhumance:20
 # text = Ӈоонӄоӈэ мэӈӄо поӄэпы нэнанӈытоӈанморэ.
 # text[phon] = ŋoonqoŋe meŋqo poqepə nenanŋətoŋanmore
@@ -10670,6 +10707,41 @@
 4	поӄэпы	_	NOUN	_	_	5	obl	_	Gloss=зад-ABL
 5	нэнанӈытоӈанморэ	_	VERB	_	_	0	root	_	Gloss=ST-INV-TR-выходить-SF-NP.1PL|SpaceAfter=No
 6	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Transhumance:22
+# text = Ну и ытԓёнъым эӄыԓпэ ӈэвэӄэ еп айвэ титэ ыʼттъыёԓе ынӄэн раёвынвыԓ раёвынвыԓӄыԓтэӈэ ынпыначгаӈэ нэнаёпат нинэԓӄырирӄинэтъым.
+# text[phon] = ну и ətɬonʔəm eqəɬpe ŋeweqe jep ajwe tite ʔəttʔəjoɬe ənqen rajowənwəɬ rajowənwəɬqəɬteŋe ənpənasɣaŋe nenajopat nineɬqərirqinetʔəm
+# text[rus] = Ну и он (старик) же ещё раньше, на днях, быстро разведал места для будущей стоянки.
+# text[eng] = And he (the old man) investigated the areas suitable for a nightstand earlier these days.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ну	_	X	_	_	20	discourse	_	Gloss=
+2	и	_	X	_	_	1	flat:foreign	_	Gloss=
+3-4	ытԓёнъым	_	_	_	_	_	_	_	_
+3	ытԓён	_	PRON	_	_	20	dislocated	_	Gloss=он-=EMPH
+4	ъым	_	PART	_	_	3	discourse	_	_
+5	эӄыԓпэ	_	ADV	_	_	20	advmod	_	Gloss=быстро
+6-7	ӈэвэӄэ	_	_	_	_	_	_	_	_
+6	ӈэвэӄ	_	PART	_	_	20	discourse	_	Gloss=же-=PTCL
+7	э	_	PART	_	_	6	discourse	_	_
+8	еп	_	ADV	_	_	20	advmod	_	Gloss=ещё
+9	айвэ	_	ADV	_	_	20	advmod	_	Gloss=вчера
+10	титэ	_	ADV	_	_	20	advmod	_	Gloss=когда
+11-12	ыʼттъыёԓе	_	_	_	_	_	_	_	_
+11	ыʼттъыёԓ	_	ADV	_	_	20	advmod	_	Gloss=перед-=PTCL
+12	е	_	PART	_	_	11	discourse	_	_
+13	ынӄэн	_	PART	_	_	20	discourse	_	Gloss=DET
+14	раёвынвыԓ	_	X	_	_	15	reparandum	_	Gloss=FST
+15-16	раёвынвыԓӄыԓтэӈэ	_	_	_	_	_	_	_	_
+15	раёвынвыԓӄыԓтэ	_	VERB	_	_	20	obj	_	Gloss=становиться.стойбищем-NMN-DEB-NOM.PL-=PTCL
+16	ӈэ	_	PART	_	_	15	discourse	_	_
+17-18	ынпыначгаӈэ	_	_	_	_	_	_	_	_
+17	ынпыначга	_	NOUN	_	_	20	nsubj	_	Gloss=старик-INS-=PTCL
+18	ӈэ	_	PART	_	_	17	discourse	_	_
+19	нэнаёпат	_	X	_	_	20	reparandum	_	Gloss=FST
+20-21	нинэԓӄырирӄинэтъым	_	_	_	_	_	_	_	SpaceAfter=No
+20	нинэԓӄырирӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-INV-искать-ST.3SG-PL-=EMPH
+21	ъым	_	PART	_	_	20	discourse	_	_
+22	.	_	PUNCT	_	_	20	punct	_	_
 
 # sent_id = Transhumance:23
 # text = Ԓыгэн ӈэнриԓьым уʼрэӈэнри ныԓемури нымгутыԓемури ымъыԓёӈэт.
