@@ -610,11 +610,28 @@
 7	э	_	PART	_	_	6	discourse	6:discourse	_
 8	.	_	PUNCT	_	_	5	punct	5:punct	_
 
+# sent_id = Being_a_child:15
+# text = Эʼчек выквыӄагтэ тэгнувъэԓеӄин ытԓьата энанымӈыԓяквъэ ынӄэн.
+# text[phon] = ʔesek wəkwəqaɣte teɣnuwʔeɬeqin ətɬʔata enanəmŋəɬakwʔe ənqen
+# text[rus] = Мать рассказывала, что, когда отец мочился, у него вышел камень чёрный-чёрный.
+# text[eng] = My mother told me that when my dad had been urinating a black stone had come out.
+# text[eng'] = Mum told me it was black when (he was) urinating, the stone.
+# timestamp = 00:02:14
+# labels = complete-dep anno-fran ənqen unclear-syntax missing-word
+1	Эʼчек	_	VERB	_	_	3	advcl	_	Gloss=мочиться-LOC
+2	выквыӄагтэ	_	NOUN	_	_	3	dislocated	_	Gloss=камень-DIM-NOM.PL
+3	тэгнувъэԓеӄин	_	ADJ	_	_	0	root	_	Gloss=GOOD-ST-чёрный-ST.3SG
+4	ытԓьата	_	NOUN	_	_	5	nsubj	_	Gloss=мать-INS
+5	энанымӈыԓяквъэ	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-INV-TR-весть-CS-TH-2/3SG.S
+6	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET|SpaceAfter=No
+7	.	_	PUNCT	_	_	5	punct	_	_
+
 # sent_id = Being_a_child:16
 # text = Эʼчууԓгычыку ԓюут ръэнут пэгԓягъэ.
 # text[phon] = ʔesuuɬɣəsəku ɬuut rʔenut peɣɬaɣʔe
 # text[rus] = Вдруг в горшке что-то стукнуло.
 # text[eng] = Suddenly, somthing banged at the chamber pot.
+# timestamp = 00:02:20
 # labels = complete-dep anno-fran
 1	Эʼчууԓгычыку	_	VERB	_	_	4	advcl	_	Gloss=мочиться-CONT-IN
 2	ԓюут	_	ADV	_	_	4	advmod	_	Gloss=вдруг
@@ -627,6 +644,7 @@
 # text[phon] = qətɬəɣi wəkwəɬɣəqaj teɣnuwʔeɬeqin teɣnəkeeqin ənqene
 # text[rus] = Оказывается, это был камень чёрный-чёрный, гладкий-гладкий.
 # text[eng] = It turned out that it was a black smooth stone.
+# timestamp = 00:02:25
 # labels = complete-dep anno-fran ənqen
 1	Ӄытԓыги	_	ADV	_	_	3	advmod	_	Gloss=оказывается
 2	выквыԓгыӄай	_	NOUN	_	_	3	nsubj	_	Gloss=камень-SING-DIM-NOM.SG
@@ -642,6 +660,7 @@
 # text[phon] = niwqinʔəm qeɬuq muri nəɬɣinəŋinmuri nəŋinmuriʔəm ənqene ʔəttʔəɣreen tənintəɣʔen wəkwəɬɣəqaj
 # text[rus] = Говорит, так как мы еще совсем детьми были, выбросили камень туда, где собаки.
 # text[eng] = She says that we were small kids and threw the stone away to where the dogs were.
+# timestamp = 00:02:30
 # labels = complete-dep anno-fran ənqen
 1-2	Нивӄинъым	_	_	_	_	_	_	_	_
 1	Нивӄин	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3SG-=EMPH
@@ -5034,6 +5053,29 @@
 6	аӈӄакэн	_	NOUN	_	_	3	nmod:relat	_	Gloss=море-REL-NOM.SG|SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	_
 
+# sent_id = Incident:1
+# text = Нӄэнэ ымыӈ нытваӄэнэ ынӄэнэ ӈинӄэй аʼачеӄӄай ӈэԓвыԓьыкыӈа.
+# text[phon] = nqene əməŋ nətwaqene ənqene ŋinqej ʔaaseqqaj ŋeɬwəɬʔəkəŋa
+# text[rus] = Было даже такое: мальчик, подросток, в стаде…
+# text[eng] = There was even such: a boy, a teenager, in a herd…
+# labels = complete-dep anno-fran ənqen
+1-2	Нӄэнэ	_	_	_	_	_	_	_	_
+1	Нӄэн	_	PART	_	_	3	discourse	_	Gloss=DET.нер.изм.-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	ымыӈ	_	ADV	_	_	0	root	_	Gloss=также
+4-5	нытваӄэнэ	_	_	_	_	_	_	_	_
+4	нытваӄэн	_	AUX	_	_	3	cop	_	Gloss=ST-быть-ST.3SG-=PTCL
+5	э	_	PART	_	_	4	discourse	_	_
+6-7	ынӄэнэ	_	_	_	_	_	_	_	_
+6	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET-=PTCL
+7	э	_	PART	_	_	6	discourse	_	_
+8	ӈинӄэй	_	ADJ	_	_	9	amod	_	Gloss=молодой-DIM-NOM.SG
+9	аʼачеӄӄай	_	NOUN	_	_	10	nsubj	_	Gloss=парень-DIM-NOM.SG
+10-11	ӈэԓвыԓьыкыӈа	_	_	_	_	_	_	_	SpaceAfter=No
+10	ӈэԓвыԓьыкыӈ	_	NOUN	_	_	3	parataxis	_	Gloss=стадо-LOC-=PTCL
+11	а	_	PART	_	_	10	discourse	_	_
+12	.	_	PUNCT	_	_	10	punct	_	_
+
 # sent_id = Incident:2
 # text = Гытгак аʼйӈама тыр тыркыԓьэ тыркыԓьэ ӄора ӄоратыр тыркыԓьэ гаегъентоԓен.
 # text[phon] = ɣətɣak ʔajŋama tər tərkəɬʔe tərkəɬʔe qora qoratər tərkəɬʔe ɣajeɣjentoɬen
@@ -6089,6 +6131,22 @@
 4	камчамоԓтэ	_	NOUN	_	_	0	root	_	Gloss=комсомолец-NOM.PL|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Komsomolets:7
+# text = Ынӄэнъымэ тагмэгчетъянвытъым ӈэнъянвыт.
+# text[phon] = ənqenʔəme taɣmeɣsetjanwətʔəm ŋenjanwət
+# text[rus] = «Это те, которые хорошо работают, молодые».
+# text[eng] = «They are people who do their job well, young people.»
+# labels = complete-dep anno-fran ənqen unclear-syntax
+1-3	Ынӄэнъымэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET-=EMPH-=PTCL
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	э	_	PART	_	_	1	discourse	_	_
+4-5	тагмэгчетъянвытъым	_	_	_	_	_	_	_	_
+4	тагмэгчетъянвыт	_	NOUN	_	_	0	root	_	Gloss=GOOD-работа-NMN.PL-NOM.PL-=EMPH
+5	ъым	_	PART	_	_	4	discourse	_	_
+6	ӈэнъянвыт	_	ADJ	_	_	4	appos	_	Gloss=молодой-NMN.PL-NOM.PL|SpaceAfter=No
+7	.	_	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Komsomolets:8
 # text = Ээ эты гым камчамоԓевым.
 # text[phon] = ee etə ɣəm kamsamoɬewəm
@@ -6114,6 +6172,18 @@
 4	гыт	_	PRON	_	_	5	nsubj	_	Gloss=ты
 5	эвнумэкэткэ	_	VERB	_	_	1	parataxis:speech	_	Gloss=PREF-кружок-VB-CAR-INS|SpaceAfter=No
 6	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Komsomolets:10
+# text = Ээ эвыӈан ӄырымэнайгым камчамоԓевым.
+# text[phon] = ee ewəŋan qərəmenajɣəm kamsamoɬewəm
+# text[rus] = «Ээ, значит, я не комсомолец».
+# text[eng] = «This means I am not a Komsomol member.»
+# labels = complete-dep anno-fran unclear-syntax
+1	Ээ	_	INTJ	_	_	4	discourse	_	Gloss=ээ
+2	эвыӈан	_	ADV	_	_	4	advmod	_	Gloss=значит
+3	ӄырымэнайгым	_	AUX	_	_	4	aux	_	Gloss=NEG.FUT-GEN-NP.1SG
+4	камчамоԓевым	_	NOUN	_	_	0	root	_	Gloss=комсомолец-NP.1SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Komsomolets:11
 # text = Трагтыгъак.
@@ -7134,6 +7204,19 @@
 2	намӈыԓёгъан	_	VERB	_	_	0	root	_	Gloss=LOW.A-спрашивать-TH-3SG.O
 3	тумгэ	_	NOUN	_	_	2	nsubj	_	Gloss=друг-INS|SpaceAfter=No
 4	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Muscovite_woman:4
+# text = Ыʼмто гынин ӈэвъэн миӈкэмиԓ ваԓьын.
+# text[phon] = ʔəmto ɣənin ŋewʔen miŋkemiɬ waɬʔən
+# text[rus] = «Ну что, как твоя жена?».
+# text[eng] = «So, how is your wife?»
+# labels = complete-dep anno-fran unclear-syntax non-projective
+1	Ыʼмто	_	ADV	_	_	4	discourse	_	Gloss=ну.как
+2	гынин	_	PRON	_	_	3	nmod:poss	_	Gloss=ты-GEN
+3	ӈэвъэн	_	NOUN	_	_	4	nsubj	_	Gloss=жена-NOM.SG
+4	миӈкэмиԓ	_	ADV	_	_	0	root	_	Gloss=где-OBL-LIKE
+5	ваԓьын	_	AUX	_	_	3	acl:attr	_	Gloss=быть-ATTR-NOM.SG|SpaceAfter=No
+6	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Muscovite_woman:5
 # text = Ии ытԓён ынръам черитӄыԓьуӈэ.
