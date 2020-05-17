@@ -6090,6 +6090,19 @@
 3	ныръэтури	_	VERB	_	_	2	parataxis	_	Gloss=ST-что-NP.2PL|SpaceAfter=No
 4	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Komsomolets_(again):6
+# text = Иквъэт вынэ вай комсомолтэ нумэкэтӄинэт.
+# text[phon] = ikwʔet wəne waj kamsamoɬte numeketqinet
+# text[rus] = Отвечают: «Да вот, комсомольцы собрались».
+# text[eng] = They reply: «Well, that is a Komsomol members meeting.»
+# labels = complete-dep anno-fran unclear-syntax
+1	Иквъэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-PL
+2	вынэ	_	PART	_	_	1	parataxis:speech	_	Gloss=ну.ка
+3	вай	_	ADV	_	_	1	parataxis:speech	_	Gloss=вот
+4	комсомолтэ	_	NOUN	_	_	5	nsubj	_	Gloss=комсомолец-NOM.PL
+5	нумэкэтӄинэт	_	VERB	_	_	1	parataxis:speech	_	Gloss=ST-кружок-VB-ST.3SG-PL|SpaceAfter=No
+6	.	_	PUNCT	_	_	5	punct	_	_
+
 # sent_id = Komsomolets_(again):7
 # text = Ээ эты вай гым камчамоԓевым.
 # text[phon] = ee etə waj ɣəm kamsamoɬewəm
@@ -6125,6 +6138,20 @@
 1	Амвынэ	_	ADV	_	_	2	advmod	_	Gloss=RESTR-ну.ка
 2	трагтыгъак	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-жилище-GO.TO-TH-LOC|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Komsomolets_(again):12
+# text = Тивымкэ тивык этаны вай ӄырымэнайгым камчамоԓевым.
+# text[phon] = tiwəmke tiwək etanə waj qərəmenajɣəm kamsamoɬewəm
+# text[rus] = Подумал: «Наверное, я не комсомолец».
+# text[eng] = And thought: «Probably, I am not a Komsomol member.»
+# labels = complete-dep anno-fran unclear-syntax
+1	Тивымкэ	_	X	_	_	2	reparandum	_	Gloss=FST
+2	тивык	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-1SG.S
+3	этаны	_	ADV	_	_	6	advmod	_	Gloss=наверное
+4	вай	_	ADV	_	_	6	advmod	_	Gloss=вот
+5	ӄырымэнайгым	_	AUX	_	_	6	aux	_	Gloss=NEG.FUT-GEN-NP.1SG
+6	камчамоԓевым	_	NOUN	_	_	2	parataxis	_	Gloss=комсомолец-NP.1SG|SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Komsomolets:2
 # text = Кԓюпыӈӄачагты тычейвыткугъакъым.
@@ -9361,6 +9388,31 @@
 11	эквэтгъи	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-отправляться-TH-2/3SG.S|SpaceAfter=No
 12	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Shaman:23
+# text = Ӄоԓетъыԓёӈы ынӈэнӄачайпы ӄуԓийъиԓгыкэ пыкиргъиӈэ пыкиргъэт магԓяԓьытъым иквъэт.
+# text[phon] = qoɬetʔəɬoŋə ənŋenqasajpə quɬijʔiɬɣəke pəkirɣʔiŋe pəkirɣʔet maɣɬaɬʔətʔəm ikwʔet
+# text[rus] = В другой раз, в следующем месяце, из той стороны приехали люди на собачьих упряжках, сказали:
+# text[eng] = Another time, next month, people on dog teams came from the other side, and they said:
+# labels = complete-dep anno-karina unclear-syntax
+1-2	Ӄоԓетъыԓёӈы	_	_	_	_	_	_	_	_
+1	Ӄоԓетъыԓё	_	NOUN	_	_	7	obl	_	Gloss=некий-день-=PTCL
+2	ӈ	_	PART	_	_	1	discourse	_	_
+3-4	ынӈэнӄачайпы	_	_	_	_	_	_	_	_
+3	ынӈэн	_	PRON	_	_	1	conj	_	Gloss=DET.INC-NEAR-ABL
+4	ӄачайпы	_	ADP	_	_	3	case	_	_
+5-6	ӄуԓийъиԓгыкэ	_	_	_	_	_	_	_	_
+5	ӄуԓийъиԓгык	_	NOUN	_	_	1	conj	_	Gloss=некий-месяц-LOC-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7-8	пыкиргъиӈэ	_	_	_	_	_	_	_	_
+7	пыкиргъиӈ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S-=PTCL
+8	э	_	PART	_	_	7	discourse	_	_
+9	пыкиргъэт	_	VERB	_	_	7	parataxis	_	Gloss=2/3.S/A-прибывать-TH-PL
+10-11	магԓяԓьытъым	_	_	_	_	_	_	_	_
+10	магԓяԓьыт	_	NOUN	_	_	7	nsubj	_	Gloss=ездок.на.собаках-NOM.PL-=EMPH
+11	ъым	_	PART	_	_	10	discourse	_	_
+12	иквъэт	_	VERB	_	_	7	parataxis	_	Gloss=2/3.S/A-сказать-TH-PL|SpaceAfter=No
+13	.	_	PUNCT	_	_	7	punct	_	_
+
 # sent_id = Shaman:24
 # text = Вынэ ӈан яра нытваӄэн.
 # text[phon] = wəne ŋan jara nətwaqen
@@ -11586,7 +11638,7 @@
 # text[rus] = Потом там на том берегу у подножий обрывистых скал посмотрели.
 # text[eng] = And then on the other shore, we checked the spots around the cliffs.
 # comment = Непонятно, есть ли что-то на конце слова jənrəɣeŋətko. Если это существительное, должен бытьненулевой показатель номинатива.
-# labels = complete-dep anno-fran check-morph
+# labels = complete-dep anno-fran morph-checked-karina
 1-2	Ӄорыӈа	_	_	_	_	_	_	_	_
 1	Ӄоры	_	ADV	_	_	9	advmod	_	Gloss=потом-=PTCL
 2	ӈа	_	PART	_	_	1	discourse	_	_
@@ -11595,8 +11647,8 @@
 5	рочгатама	_	ADV	_	_	9	advmod	_	Gloss=другой.берег-ADV.PROL-SIM
 6	ваамԓыӈата	_	NOUN	_	_	9	obl	_	Gloss=река-EDGE-ADV.PROL
 7	йынрытчигэ	_	X	_	_	8	reparandum	_	Gloss=FST
-8	йынрыгэӈытко	_	NOUN	_	_	9	obj	_	Gloss=высокий.обрывистый.берег-BOTTOM-NUMBER
-9-10	мытвинвытэгнэннэтэ	_	_	_	_	_	_	_	SpaceAfter=No
+8	йынрыгэӈытко	йынрын  NOUN	_	_	9	obj	_	Gloss=высокий.обрывистый.берег-BOTTOM-NUMBER
+9-10	мытвинвытэгнэннэтэ	_	_	_	_	_	_	_	_
 9	мытвинвытэгнэннэт	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-след-FRONT-VB-3SG.O-PL-=PTCL
 10	э	_	PART	_	_	9	discourse	_	_
 11	.	_	PUNCT	_	_	9	punct	_	_
@@ -11606,7 +11658,7 @@
 # text[phon] = waam ewəsaɣtə eɬqəɬinətək ajwasəŋqas ujŋe rʔet ɬoŋrʔetatəɬʔən
 # text[rus] = Вниз по реке прошлись, с южной стороны следов нет, не наследил.
 # text[eng] = We walked down the river, there were no footprints on the southern side, he did not leave any traces.
-# labels = complete-dep anno-fran unclear-negation
+# labels = complete-dep anno-fran checked-negation-karina
 1	Ваам	_	NOUN	_	_	3	obl	_	Gloss=река
 2	эвычагты	_	ADP	_	_	1	case	_	Gloss=внизу-DAT
 3	эԓӄыԓинытык	_	VERB	_	_	0	root	_	Gloss=
