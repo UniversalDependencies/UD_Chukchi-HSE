@@ -5490,7 +5490,7 @@
 # text[rus] = И оттуда вот особенно, с Ванкаремской гряды холмов, хорошо видны большие скалистые горы (сопки), вот такие вот отвесные.
 # text[eng] = And especially from there, from the Vankarem ridge of hills, large rocky mountains (hills) are clearly visible, such precipitous ones.
 # timestamp = 00:00:14
-# labels = complete-dep anno-fran unclear-syntax
+# labels = complete-dep anno-fran
 1	Нэкэм	_	ADV	_	_	3	advmod	_	Gloss=особенно
 2	вай	_	ADV	_	_	3	advmod	_	Gloss=вот
 3-4	ынӄоӈэ	_	_	_	_	_	_	_	_
@@ -5512,6 +5512,7 @@
 15	э	_	PART	_	_	13	discourse	_	Gloss=PTCL
 16	.	_	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = Ice_Age:4
 # text = Нивӄинэ.
 # text[phon] = niwqine
@@ -5523,6 +5524,45 @@
 1	Нивӄин	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3SG-=PTCL
 2	э	_	PART	_	_	1	discourse	_	_
 3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Ice_Age:5
+# text = Ӈанӄаатъым ӄынут ӈанэ ӄытԓыги тэԓенъепэ тыԓеԓьытэ миӈкы имԓетгынтэвыԓьыт ӄэԓюӄъымэ ӈанӄэ чит таӈымыԓьэтыӈа ӈотӄэн нутэнут мургин мимԓычыку ваԓьын.
+# text[phon] = ŋanqaatʔəm qənut ŋane qətɬəɣi teɬenjepe təɬeɬʔəte miŋkə imɬetɣəntewəɬʔət qeɬuqʔəme ŋanqe sit taŋəməɬʔetəŋa ŋotqen nutenut murɣin mimɬəsəku waɬʔən
+# text[rus] = Вон те [скалы], как там, оказывается, как люди, которые шли, убегали от наводнения, потому что раньше эта земля наша, полностью была под водой.
+# text[eng] = Those [rocks] as there, as it turns out, are as people that were walking, were running away from the flood because earlier this land of ours was completely under water.
+# comment = Нет уверенности, что там действительно произнесено слово miŋkə. В слове mimɬəsəku на месте ɬ звучит [s].
+# labels = complete-dep anno-karina
+1-2	Ӈанӄаатъым	_	_	_	_	_	_	_	_
+1	Ӈанӄаат	_	PRON	_	_	4	nsubj	_	Gloss=тот-NOM.PL-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	ӄынут	_	ADV	_	_	4	advmod	_	Gloss=как
+4-5	ӈанэ	_	_	_	_	_	_	_	_
+4	ӈан	_	PRON	_	_	0	root	_	Gloss=DEICT-=PTCL
+5	э	_	PART	_	_	4	discourse	_	_
+6	ӄытԓыги	_	ADV	_	_	4	discourse	_	Gloss=оказывается
+7-8	тэԓенъепэ	_	_	_	_	_	_	_	_
+7	тэԓенъеп	_	ADV	_	_	9	advmod	_	Gloss=раньше-ещё-=PTCL
+8	э	_	PART	_	_	7	discourse	_	_
+9-10	тыԓеԓьытэ	_	_	_	_	_	_	_	_
+9	тыԓеԓьыт	_	VERB	_	_	4	acl	_	Gloss=идти-ATTR-NOM.PL-=PTCL
+10	э	_	PART	_	_	9	discourse	_	_
+11	миӈкы	_	ADV	_	_	12	advmod	_	Gloss=где-LOC
+12	имԓетгынтэвыԓьыт	_	VERB	_	_	9	advcl	_	Gloss=вода-VB-убегать-ATTR-NOM.PL
+13-15	ӄэԓюӄъымэ	_	_	_	_	_	_	_	_
+13	ӄэԓюӄ	_	ADV	_	_	12	discourse	_	Gloss=конечно-=EMPH-=PTCL
+14	ъым	_	PART	_	_	13	discourse	_	_
+15	э	_	PART	_	_	13	discourse	_	_
+16	ӈанӄэ	_	PRON	_	_	4	dep	_	Gloss=тот.нер.изм.
+17	чит	_	AUX	_	_	16	cop	_	Gloss=было
+18-19	таӈымыԓьэтыӈа	_	_	_	_	_	_	_	_
+18	таӈымыԓьэтыӈ	_	PRON	_	_	21	nmod	_	Gloss=GOOD-весь-DAT-=PTCL
+19	а	_	PART	_	_	18	discourse	_	_
+20	ӈотӄэн	_	PRON	_	_	21	det	_	Gloss=этот
+21	нутэнут	_	NOUN	_	_	23	nsubj	_	Gloss=страна-NOM.SG
+22	мургин	_	PRON	_	_	21	nmod:poss	_	Gloss=мы-GEN
+23	мимԓычыку	_	NOUN	_	_	12	advcl	_	Gloss=вода-IN
+24	ваԓьын	_	AUX	_	_	23	aux	_	Gloss=быть-ATTR-NOM.SG|SpaceAfter=No
+25	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Ice_Age:6
 # text = Ынкъамэ ынӄэна.
@@ -5587,7 +5627,7 @@
 6	ӈутку	_	ADV	_	_	0	root	_	Gloss=здесь
 7-8	мургынутэ	_	_	_	_	_	_	_	_
 7	мургы	_	PRON	_	_	8	nmod:poss	_	Gloss=мы
-8	нутэ	_	NOUN	_	_	6	obl	_	Gloss=страна
+8	нутэ	_	NOUN	_	_	6	obl	Gloss=страна	_
 9	ваԓьыт	_	AUX	_	_	11	acl:attr	_	Gloss=быть-ATTR-NOM.PL
 10-13	камагӈаԓвыԓьыйӈытъыма	_	_	_	_	_	_	_	SpaceAfter=No
 10	камаг	_	NOUN	_	_	11	nmod	_	Gloss=мамонт-стадо-AUG-NOM.PL-=EMPH-=PTCL
@@ -5711,13 +5751,13 @@
 6	м	_	PART	_	_	5	discourse	5:discourse	Gloss=EMPH
 7	къам	_	CCONJ	_	_	12	cc	12:cc	Gloss=и
 8-9	иуԓтиӈэгчыкыкваԓьынэ	_	_	_	_	_	_	_	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG-=PTCL
-8	иуԓтиӈэгчыкыкваԓьын	_	VERB	_	_	12	acl:attr	12:acl:attr	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG
+8	иуԓтиӈэгчыкыкваԓьын	_	VERB	_	_	12	acl:attr	_	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG
 8.1	иуԓти	_	PROPN	_	_	_	_	8.2:nmod	Gloss=Иультин
 8.2	ӈэг	_	NOUN	_	_	_	_	8:obl	Gloss=сопка
 9	э	_	PART	_	_	8	discourse	8:discourse	_
 10-11	ръэвинэ	_	_	_	_	_	_	_	_
 10	ръэвин	_	NOUN	_	_	12	nmod:poss	12:nmod:poss	Gloss=кит-GEN-=PTCL
-11	э	_	PART	_	_	10	discourse	10:discourse	_
+11	э	_	PART	_	_	10	discourse	_	_
 12	ыʼмйиквин	_	NOUN	_	_	17	dislocated	17:dislocated	Gloss=скелет-NOM.SG
 13-14	ынӄэнэ	_	_	_	_	_	_	_	_
 13	ынӄэн	_	PART	_	_	17	discourse	17:discourse	Gloss=DET-=PTCL
