@@ -13352,7 +13352,7 @@
 8-9	джинсыӄонагыԓьын	_	_	_	_	_	_	_	Gloss=джинсы-штаны-ATTR-NOM.SG
 8	джинсы	_	NOUN	_	_	9	nmod	_	Gloss=джинсы	_
 9	ӄонагыԓьын	_	NOUN	_	_	3	conj	_	Gloss=штаны-ATTR-NOM.SG
-10	эвыр	ADV	SCONJ	_	8	9	mark	_	Gloss=когда	_
+10	эвыр	_	SCONJ	_	_	9	mark	_	Gloss=когда
 11	тэӈэвытӄэй	_	ADV	_	_	12	advmod	_	Gloss=GOOD-когда-DIM
 12	тэгнъыӄэвъяӈӈогъан	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-GOOD-COND-зябнуть-INCH-TH-IRR.2/3SG.S
 13	ыныки	_	SCONJ	_	_	14	mark	_	Gloss=если
