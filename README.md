@@ -55,7 +55,7 @@ UPOS: converted with corrections
 XPOS: not available
 Features: not available
 Relations: manual
-Contributors: Tyers, Francis
+Contributors: Tyers, Francis; Mischenkova, Karina
 Contributing: elsewhere
 Contact: ftyers@iu.edu
 ===============================================================================
