@@ -13340,27 +13340,28 @@
 # text[rus] = В тонких кирзовых сапогах и джинсовых штанах, сейчас же замёрз бы, если бы вдруг закончилось топливо, возможно, замёрз бы насмерть.
 # text[eng] = He would have frozen in his kersey boots and jeans, and if he had been out of fuel, he would have probably frozen to death.
 # labels = complete-dep anno-karina unclear-syntax
-1-5	Выԓгыкирзовыйчапокԓьынъыма	_	_	_	_	_	_	_	Gloss=тонкий-кирзовый-сапог-ATTR-NOM.SG-=EMPH-=PTCL
-1	Выԓгы	_	ADJ	_	_	3	amod	_	Gloss=тонкий
-2	кирзовый	_	ADJ	_	_	3	amod	_	Gloss=кирзовый
-3	сапокԓьынъыма	_	NOUN	_	_	12	obl	_	Gloss=сапог-ATTR-NOM.SG
-4	ъым	_	PART	_	_	3	discourse	_	Gloss=EMPH
-5	а	_	PART	_	_	3	discourse	_	Gloss=PTCL
+1-5	Выԓгыкирзовыйсапокԓьынъыма	_	_	_	_	_	_	_	Gloss=тонкий-кирзовый-сапог-ATTR-NOM.SG-=EMPH-=PTCL
+1	Выԓгы	_	ADJ	_	_	3	amod	3:amod	Gloss=тонкий
+2	кирзовый	_	ADJ	_	_	3	amod	3:amod	Gloss=кирзовый
+3	сапокԓьынъыма	_	NOUN	_	_	12	obl	12:obl	Gloss=сапог-ATTR-NOM.SG
+4	ъым	_	PART	_	_	3	discourse	3:discourse	Gloss=EMPH
+5	а	_	PART	_	_	3	discourse	3:discourse	Gloss=PTCL
 6-7	эвтэ	_	_	_	_	_	_	_	_
-6	эвт	_	SCONJ	_	_	9	mark	_	Gloss=когда-=PTCL,likewise
-7	э	_	PART	_	_	6	discourse	_	_
+6	эвт	_	SCONJ	_	_	9	mark	9:mark	Gloss=когда-=PTCL,likewise
+7	э	_	PART	_	_	6	discourse	6:discourse	_
 8-9	джинсыӄонагыԓьын	_	_	_	_	_	_	_	Gloss=джинсы-штаны-ATTR-NOM.SG
-8	джинсы	_	NOUN	_	_	9	nmod	_	Gloss=джинсы
-9	ӄонагыԓьын	_	NOUN	_	_	3	conj	_	Gloss=штаны-ATTR-NOM.SG
-10	эвыр	_	SCONJ	_	_	9	mark	_	Gloss=когда
-11	тэӈэвытӄэй	_	ADV	_	_	12	advmod	_	Gloss=GOOD-когда-DIM
-12	тэгнъыӄэвъяӈӈогъан	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-GOOD-COND-зябнуть-INCH-TH-IRR.2/3SG.S
-13	ыныки	_	SCONJ	_	_	14	mark	_	Gloss=если
-14	нъымытӄытэԓпыгъан	_	VERB	_	_	12	advcl	_	Gloss=2/3.S/A-COND-жир-кончаться-TH-IRR.2/3SG.S
+8	джинсы	_	NOUN	_	_	9	nmod	9:nmod	Gloss=джинсы
+9	ӄонагыԓьын	_	NOUN	_	_	3	conj	3:conj	Gloss=штаны-ATTR-NOM.SG
+10	эвыр	_	SCONJ	_	_	9	mark	9:mark	Gloss=когда
+11	тэӈэвытӄэй	_	ADV	_	_	12	advmod	12:advmod_	Gloss=GOOD-когда-DIM
+12	тэгнъыӄэвъяӈӈогъан	_	VERB	_	_	0	root	0:root	Gloss=2/3.S/A-GOOD-COND-зябнуть-INCH-TH-IRR.2/3SG.S
+13	ыныки	_	SCONJ	_	_	14	mark	14:mark	Gloss=если
+14	нъымытӄытэԓпыгъан	_	VERB	_	_	12	advcl	12:advcl	Gloss=2/3.S/A-COND-жир-кончаться-TH-IRR.2/3SG.S
 14.1	мытӄы	_	NOUN	_	_	_	_	14:nsubj	Gloss=2/3.S/A-COND-жир-кончаться-TH-IRR.2/3SG.S
-15	гаймаӈэн	_	ADV	_	_	16	advmod	_	Gloss=возможно
-16	нъыӄитывъигъэн	_	VERB	_	_	12	parataxis	_	Gloss=2/3.S/A-COND-замерзать-умереть-TH-IRR.2/3SG.S
-17	.	_	PUNCT	_	_	12	punct	_	_
+15	гаймаӈэн	_	ADV	_	_	16	advmod	16:advmod	Gloss=возможно
+16	нъыӄитывъигъэн	_	VERB	_	_	12	parataxis	12:parataxis	Gloss=2/3.S/A-COND-замерзать-умереть-TH-IRR.2/3SG.S|SpaceAfter=No
+16.1	ӄиты	_	VERB	_	_	_	_	16:advcl	Gloss=замерзать
+17	.	_	PUNCT	_	_	12	punct	12:punct	_
 
 # sent_id = Water_cart:42
 # text = Ытръэч.
