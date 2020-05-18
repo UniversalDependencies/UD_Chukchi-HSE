@@ -5512,7 +5512,6 @@
 15	э	_	PART	_	_	13	discourse	_	Gloss=PTCL
 16	.	_	PUNCT	_	_	3	punct	_	_
 
-
 # sent_id = Ice_Age:4
 # text = Нивӄинэ.
 # text[phon] = niwqine
@@ -5627,7 +5626,7 @@
 6	ӈутку	_	ADV	_	_	0	root	_	Gloss=здесь
 7-8	мургынутэ	_	_	_	_	_	_	_	_
 7	мургы	_	PRON	_	_	8	nmod:poss	_	Gloss=мы
-8	нутэ	_	NOUN	_	_	6	obl	Gloss=страна	_
+8	нутэ	_	NOUN	_	_	6	obl	_	Gloss=страна	_
 9	ваԓьыт	_	AUX	_	_	11	acl:attr	_	Gloss=быть-ATTR-NOM.PL
 10-13	камагӈаԓвыԓьыйӈытъыма	_	_	_	_	_	_	_	SpaceAfter=No
 10	камаг	_	NOUN	_	_	11	nmod	_	Gloss=мамонт-стадо-AUG-NOM.PL-=EMPH-=PTCL
@@ -5751,13 +5750,13 @@
 6	м	_	PART	_	_	5	discourse	5:discourse	Gloss=EMPH
 7	къам	_	CCONJ	_	_	12	cc	12:cc	Gloss=и
 8-9	иуԓтиӈэгчыкыкваԓьынэ	_	_	_	_	_	_	_	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG-=PTCL
-8	иуԓтиӈэгчыкыкваԓьын	_	VERB	_	_	12	acl:attr	_	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG
+8	иуԓтиӈэгчыкыкваԓьын	_	VERB	_	_	12	acl:attr	12:acl:attr	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG
 8.1	иуԓти	_	PROPN	_	_	_	_	8.2:nmod	Gloss=Иультин
 8.2	ӈэг	_	NOUN	_	_	_	_	8:obl	Gloss=сопка
 9	э	_	PART	_	_	8	discourse	8:discourse	_
 10-11	ръэвинэ	_	_	_	_	_	_	_	_
 10	ръэвин	_	NOUN	_	_	12	nmod:poss	12:nmod:poss	Gloss=кит-GEN-=PTCL
-11	э	_	PART	_	_	10	discourse	_	_
+11	э	_	PART	_	_	10	discourse	10:discourse	_
 12	ыʼмйиквин	_	NOUN	_	_	17	dislocated	17:dislocated	Gloss=скелет-NOM.SG
 13-14	ынӄэнэ	_	_	_	_	_	_	_	_
 13	ынӄэн	_	PART	_	_	17	discourse	17:discourse	Gloss=DET-=PTCL
@@ -7370,6 +7369,23 @@
 # labels = complete-dep anno-fran
 1	Ивнин	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-3SG.A.3.O-3SG.O|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Larvae:19
+# text = Мачынан ынӄэн эʼнӄэыркынъым ынӈэ ынӈэ рычвойвот энтивкэ.
+# text[phon] = masənan ənqen ʔenqeərkənʔəm ənŋe ənŋe rəswojwot entiwke
+# text[rus] = «Пускай, если не хочет, не надо её заставлять есть личинки».
+# text[eng] = «Let it be, if she does not want it, let's not make her eat grubs».
+# labels = complete-dep anno-karina ənqen
+1	Мачынан	_	PART	_	_	7	discourse	_	Gloss=пусть
+2	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET
+3-4	эʼнӄэыркынъым	_	_	_	_	_	_	_	_
+3	эʼнӄэыркын	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-не.хотеть-VB-IPFV-=EMPH
+4	ъым	_	PART	_	_	3	discourse	_	_
+5	ынӈэ	_	AUX	_	_	3	aux	_	Gloss=PROH
+6	ынӈэ	_	AUX	_	_	5	reparandum	_	Gloss=PROH
+7	рычвойвот	_	VERB	_	_	8	advcl	_	Gloss=личинка-EAT-PURP
+8	энтивкэ	_	VERB	_	_	3	xcomp	_	Gloss=CAR-иметь-DISTR.O-CAR-INS|SpaceAfter=No
+9	.	_	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Larvae:20
 # text = Ытръэч.
