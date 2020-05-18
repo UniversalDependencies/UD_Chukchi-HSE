@@ -5626,7 +5626,7 @@
 6	ӈутку	_	ADV	_	_	0	root	_	Gloss=здесь
 7-8	мургынутэ	_	_	_	_	_	_	_	_
 7	мургы	_	PRON	_	_	8	nmod:poss	_	Gloss=мы
-8	нутэ	_	NOUN	_	_	6	obl	_	Gloss=страна	_
+8	нутэ	_	NOUN	_	_	6	obl	_	Gloss=страна
 9	ваԓьыт	_	AUX	_	_	11	acl:attr	_	Gloss=быть-ATTR-NOM.PL
 10-13	камагӈаԓвыԓьыйӈытъыма	_	_	_	_	_	_	_	SpaceAfter=No
 10	камаг	_	NOUN	_	_	11	nmod	_	Gloss=мамонт-стадо-AUG-NOM.PL-=EMPH-=PTCL
