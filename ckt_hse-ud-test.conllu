@@ -13335,7 +13335,7 @@
 2	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Water_cart:41
-# text = Выԓгыкирзовыйчапокԓьынъыма эвтэ джинчыӄонагыԓьын эвыр тэӈэвытӄэй тэгнъыӄэвъяӈӈогъан ыныки нъымытӄытэԓпыгъан гаймаӈэн нъыӄитывъигъэн.
+# text = Выԓгыкирзовыйсапокԓьынъыма эвтэ джинсыӄонагыԓьын эвыр тэӈэвытӄэй тэгнъыӄэвъяӈӈогъан ыныки нъымытӄытэԓпыгъан гаймаӈэн нъыӄитывъигъэн.
 # text[phon] = wəɬɣəkirzowəjsapokɬʔənʔəma ewte džinsəqonaɣəɬʔən ewər teŋewətqej teɣnʔəqewjaŋŋoɣʔan ənəki nʔəmətqəteɬpəɣʔan ɣajmaŋen nʔəqitəwʔiɣʔen
 # text[rus] = В тонких кирзовых сапогах и джинсовых штанах, сейчас же замёрз бы, если бы вдруг закончилось топливо, возможно, замёрз бы насмерть.
 # text[eng] = He would have frozen in his kersey boots and jeans, and if he had been out of fuel, he would have probably frozen to death.
@@ -13343,16 +13343,16 @@
 1-5	Выԓгыкирзовыйчапокԓьынъыма	_	_	_	_	_	_	_	Gloss=тонкий-кирзовый-сапог-ATTR-NOM.SG-=EMPH-=PTCL
 1	Выԓгы	_	ADJ	_	_	3	amod	_	Gloss=тонкий
 2	кирзовый	_	ADJ	_	_	3	amod	_	Gloss=кирзовый
-3	чапокԓьынъыма	_	NOUN	_	_	12	obl	_	Gloss=сапог-ATTR-NOM.SG
+3	сапокԓьынъыма	_	NOUN	_	_	12	obl	_	Gloss=сапог-ATTR-NOM.SG
 4	ъым	_	PART	_	_	3	discourse	_	Gloss=EMPH
 5	а	_	PART	_	_	3	discourse	_	Gloss=PTCL
 6-7	эвтэ	_	_	_	_	_	_	_	_
 6	эвт	_	SCONJ	_	_	9	mark	_	Gloss=когда-=PTCL,likewise
 7	э	_	PART	_	_	6	discourse	_	_
 8-9	джинсыӄонагыԓьын	_	_	_	_	_	_	_	Gloss=джинсы-штаны-ATTR-NOM.SG
-8	джинсы	_	NOUN	_	_	9	nmod	Gloss=джинсы	_
-9	ӄонагыԓьын	_	NOUN	_	_	3	cc	_	Gloss=штаны-ATTR-NOM.SG
-10	эвыр	_	SCONJ	_	_	9	mark	Gloss=когда	_
+8	джинсы	_	NOUN	_	_	9	nmod	_	Gloss=джинсы	_
+9	ӄонагыԓьын	_	NOUN	_	_	3	conj	_	Gloss=штаны-ATTR-NOM.SG
+10	эвыр	ADV	SCONJ	_	8	9	mark	_	Gloss=когда	_
 11	тэӈэвытӄэй	_	ADV	_	_	12	advmod	_	Gloss=GOOD-когда-DIM
 12	тэгнъыӄэвъяӈӈогъан	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-GOOD-COND-зябнуть-INCH-TH-IRR.2/3SG.S
 13	ыныки	_	SCONJ	_	_	14	mark	_	Gloss=если
