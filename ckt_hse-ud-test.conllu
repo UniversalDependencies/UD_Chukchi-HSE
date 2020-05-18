@@ -9098,6 +9098,28 @@
 4	нытвайгым	_	AUX	_	_	3	cop	_	Gloss=ST-быть-NP.1SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Not_eating_larvae:52
+# text = Гымнан ги гымнин гэчеёттэ тэӈэвыт томыкагты нинэйыԓигым рычват кто мэӈин гэчеёттэ тагъяӈӄэн рычвагты.
+# text[phon] = ɣəmnan ɣi ɣəmnin ɣesejotte teŋewət toməkaɣtə ninejəɬiɣəm rəswat кто meŋin ɣesejotte taɣjaŋqen rəswaɣtə
+# text[rus] = Я собранные личинки тут же другим отдаю, кто хочет личинок.
+# text[eng] = I give the grubs I catch to others, the ones who want some grubs.
+# labels = complete-dep anno-fran unclear-syntax disfluency
+1	Гымнан	_	PRON	_	_	7	nsubj	_	Gloss=я-INS
+2	ги	_	X	_	_	3	reparandum	_	Gloss=FST
+3	гымнин	_	PRON	_	_	4	nmod:poss	_	Gloss=я-AN.GEN
+4	гэчеёттэ	_	VERB	_	_	7	obj	_	Gloss=собирать-PTCP.PASS-NOM.PL
+5	тэӈэвыт	_	ADV	_	_	7	advmod	_	Gloss=GOOD-когда
+6	томыкагты	_	PRON	_	_	7	obl	_	Gloss=другой-OBL-DAT
+7	нинэйыԓигым	_	VERB	_	_	0	root	_	Gloss=ST-INV-давать-NP.1SG
+8	рычват	_	NOUN	_	_	4	dislocated	_	Gloss=личинка-NOM.PL
+9	кто	_	X	_	_	10	reparandum	_	Gloss=
+10	мэӈин	_	PRON	_	_	12	nsubj	_	Gloss=кто
+11	гэчеёттэ	_	VERB	_	_	13	nmod	_	Gloss=собирать-PTCP.PASS-NOM.PL
+12	тагъяӈӄэн	_	VERB	_	_	7	parataxis	_	Gloss=желание-ST.3SG
+13	рычвагты	_	NOUN	_	_	12	obj	_	Gloss=личинка-DAT|SpaceAfter=No
+14	.	_	PUNCT	_	_	7	punct	_	_
+
+
 # sent_id = Not_eating_larvae:53
 # text = И мэчынкы.
 # text[phon] = и mesənkə
