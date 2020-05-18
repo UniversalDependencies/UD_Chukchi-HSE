@@ -5711,13 +5711,13 @@
 6	м	_	PART	_	_	5	discourse	5:discourse	Gloss=EMPH
 7	къам	_	CCONJ	_	_	12	cc	12:cc	Gloss=и
 8-9	иуԓтиӈэгчыкыкваԓьынэ	_	_	_	_	_	_	_	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG-=PTCL
-8	иуԓтиӈэгчыкыкваԓьын	_	VERB	_	_	12	acl:attr	_	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG
+8	иуԓтиӈэгчыкыкваԓьын	_	VERB	_	_	12	acl:attr	12:acl:attr	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG
 8.1	иуԓти	_	PROPN	_	_	_	_	8.2:nmod	Gloss=Иультин
 8.2	ӈэг	_	NOUN	_	_	_	_	8:obl	Gloss=сопка
 9	э	_	PART	_	_	8	discourse	8:discourse	_
 10-11	ръэвинэ	_	_	_	_	_	_	_	_
 10	ръэвин	_	NOUN	_	_	12	nmod:poss	12:nmod:poss	Gloss=кит-GEN-=PTCL
-11	э	_	PART	_	_	10	discourse	_	_
+11	э	_	PART	_	_	10	discourse	10:discourse	_
 12	ыʼмйиквин	_	NOUN	_	_	17	dislocated	17:dislocated	Gloss=скелет-NOM.SG
 13-14	ынӄэнэ	_	_	_	_	_	_	_	_
 13	ынӄэн	_	PART	_	_	17	discourse	17:discourse	Gloss=DET-=PTCL
@@ -6541,6 +6541,7 @@
 5	раӄычгатыркын	_	VERB	_	_	3	parataxis:speech	_	Gloss=2/3.S/A-что-AUG-VB-IPFV|SpaceAfter=No
 6	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Knives:9
 # text = Нан ярак ынӈин ӄитыркын ыныкит равъэчгатгъам миӈкыри мытрэнрэӄэквыт миӈкыри мытрэнтыгыт.
 # text[phon] = nan jarak ənŋin qitərkən ənəkit rawʔesɣatɣʔam miŋkəri mətrenreqekwət miŋkəri mətrentəɣət
 # text[rus] = У себя дома так делай! Вдруг помрёшь, что мы с тобой будем делать, куда денем?».
@@ -6721,9 +6722,9 @@
 1-2	Нанъяачьым	_	_	_	_	_	_	_	_
 1	Нанъяачьы	_	NOUN	_	_	4	nsubj	_	Gloss=SUPER-сзади-=EMPH
 2	м	_	PART	_	_	1	discourse	_	_
-3	ынӄэн	_	PART	_	_	4	det	_	Gloss=DET
+3	ынӄэн	_	DET	_	_	4	det	_	Gloss=DET
 4-5	гыргочаткыныкъым	_	_	_	_	_	_	_	_
-4	гыргочаткынык	_	ADP	_	_	0	root	_	Gloss=вверху-TOP-LOC-=EMPH
+4	гыргочаткынык	_	NOUN	_	_	0	root	_	Gloss=вверху-TOP-LOC-=EMPH
 5	ъым	_	PART	_	_	4	discourse	_	_
 6	янра	_	ADV	_	_	4	advmod	_	Gloss=отдельно|SpaceAfter=No
 7	.	_	PUNCT	_	_	4	punct	_	_
@@ -6892,7 +6893,7 @@
 4	камчамоԓтэ	_	NOUN	_	_	0	root	_	Gloss=комсомолец-NOM.PL|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
-2# sent_id = Komsomolets_(again):10
+# sent_id = Komsomolets_(again):10
 # text = Ынӄэнъыма ӈэнъянвытъым тагмэгчеръянвыт.
 # text[phon] = ənqenʔəma ŋenjanwətʔəm taɣmeɣserjanwət
 # text[rus] = «Это молодёжь, которая хорошо работает».
@@ -10290,8 +10291,8 @@
 2	э	_	PART	_	_	1	discourse	_	_
 3	нивӄээт	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3PL
 4	этаны	_	ADV	_	_	6	advmod	_	Gloss=наверное
-5	уйӈэ	_	PART	_	_	6	aux	_	Gloss=нет
-6	нъэԓгъи	_	VERB	_	_	3	ccomp	_	Gloss=2/3.S/A-стать-TH-2/3SG.S|SpaceAfter=No
+5	уйӈэ	_	VERB	_	_	3	ccomp	_	Gloss=нет
+6	нъэԓгъи	_	AUX	_	_	5	aux	_	Gloss=2/3.S/A-стать-TH-2/3SG.S|SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Shaman:16
@@ -10333,8 +10334,8 @@
 # text[eng] = There was an ice-hole near Amguema.
 # labels = complete-dep anno-karina
 1	Чымче	_	ADV	_	_	0	root	_	Gloss=близко-INS
-2	ынкы	_	DET	_	_	1	det	_	Gloss=тот-LOC
-3	ваԓьын	_	VERB	_	_	1	cop	_	Gloss=быть-ATTR-NOM.SG
+2	ынкы	_	PRON	_	_	1	det	_	Gloss=тот-LOC
+3	ваԓьын	_	AUX	_	_	1	cop	_	Gloss=быть-ATTR-NOM.SG
 4	ыёогыргын	_	NOUN	_	_	1	nsubj	_	Gloss=полынья-NOM.SG
 5-6	Омваанвыкэнъым	_	_	_	_	_	_	_	SpaceAfter=No
 5	Омваанвыкэн	_	PROPN	_	_	4	nmod	_	Gloss=Амгуэма-REL-NOM.SG-=EMPH
@@ -10461,7 +10462,7 @@
 2	ярак	_	NOUN	_	_	3	obl	_	Gloss=яранга-LOC
 3	тъыԓыӈӈогъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-болеть-INCH-TH-2/3SG.S
 4	чычетпэԓӄэтэ	_	NOUN	_	_	3	parataxis	_	Gloss=родственный-умирать-VB-INS2/3SG.S
-5	итгъи	_	VERB	_	_	4	cop	_	Gloss=2/3.S/A-являться-TH-2/3SG.S|SpaceAfter=No
+5	итгъи	_	AUX	_	_	4	cop	_	Gloss=2/3.S/A-являться-TH-2/3SG.S|SpaceAfter=No
 6	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Stud_buck_reindeer:1
@@ -10480,7 +10481,7 @@
 7	тыр	_	X	_	_	8	reparandum	_	Gloss=FST
 8	тыркыԓьиӈын	_	NOUN	_	_	9	nsubj	_	Gloss=тестикула-ATTR-AUG-NOM.SG
 9	гэԓӄытԓин	_	VERB	_	_	0	root	_	Gloss=PF-идти-PF.3SG|SpaceAfter=No
-10	.	_	PUNCT	_	_	1	punct	_	_
+10	.	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Stud_buck_reindeer:2
 # text = Это Ыʼттъыгыргынэ гэкэӈэ пыкиргъим.
@@ -11621,15 +11622,15 @@
 # text[rus] = За впереди идущим последовала упряжка.
 # text[eng] = The team followed behind the racer in front.
 # labels = complete-dep anno-karina
-1	Яноттыԓяк	_	NOUN	_	_	2	obl	_	Gloss=сначала-идти-LOC
+1	Яноттыԓяк	_	NOUN	_	_	2	advcl	2:advcl	Gloss=сначала-идти-LOC
 1.1	Янот	_	ADV	_	_	_	_	1:advmod	Gloss=сначала
 2-3	минринэтгъиӈэ	_	_	_	_	_	_	_	_
-2	минринэтгъиӈ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-следовать.за-TH-2/3SG.S-=PTCL
-3	э	_	PART	_	_	2	discourse	_	_
+2	минринэтгъиӈ	_	VERB	_	_	0	root	0:root	Gloss=2/3.S/A-следовать.за-TH-2/3SG.S-=PTCL
+3	э	_	PART	_	_	2	discourse	2:discourse	_
 4-5	гаканйыӈа	_	_	_	_	_	_	_	SpaceAfter=No
-4	гаканйыӈ	_	NOUN	_	_	2	nsubj	_	Gloss=упряжка-NOM.SG-=PTCL
-5	а	_	PART	_	_	4	discourse	_	_
-6	.	_	PUNCT	_	_	2	punct	_	_
+4	гаканйыӈ	_	NOUN	_	_	2	nsubj	2:nsubj	Gloss=упряжка-NOM.SG-=PTCL
+5	а	_	PART	_	_	4	discourse	4:discourse	_
+6	.	_	PUNCT	_	_	2	punct	2:punct	_
 
 # sent_id = The_race_to_death:5
 # text = Нрзб ынӄэнэ гакооԓгыԓе ынръама ръиԓеԓьынъым.
