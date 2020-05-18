@@ -598,7 +598,7 @@
 # text[phon] = əmə ʔesek wəkwa wək nəkwəntoqen ənqene
 # text[rus] = Даже когда мочился, у него выходили камни.
 # text[eng] = And even when he was urinating, the stones were coming out.
-# labels = complete-dep anno-fran ənqen
+# labels = complete-dep anno-karina
 1	Ымы	_	ADV	_	_	5	advmod	5:advmod	Gloss=также
 2	эʼчек	_	VERB	_	_	5	advcl	5:advcl	Gloss=мочиться-LOC
 3	выква	_	NOUN	_	_	5	reparandum	5:reparandum	Gloss=камень-INS
@@ -617,7 +617,7 @@
 # text[eng] = My mother told me that when my dad had been urinating a black stone had come out.
 # text[eng'] = Mum told me it was black when (he was) urinating, the stone.
 # timestamp = 00:02:14
-# labels = complete-dep anno-fran ənqen unclear-syntax missing-word
+# labels = complete-dep anno-karina
 1	Эʼчек	_	VERB	_	_	3	advcl	_	Gloss=мочиться-LOC
 2	выквыӄагтэ	_	NOUN	_	_	3	dislocated	_	Gloss=камень-DIM-NOM.PL
 3	тэгнувъэԓеӄин	_	ADJ	_	_	0	root	_	Gloss=GOOD-ST-чёрный-ST.3SG
@@ -681,6 +681,37 @@
 13	выквыԓгыӄай	_	NOUN	_	_	12	obj	_	Gloss=камень-SING-DIM-NOM.SG|SpaceAfter=No
 14	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Being_a_child:19
+# text = Уйӈэ эчимгъукыԓьымури ӄэԓюӄ нэмыӄэйъым читъым ынӄэнэ тынэёԓӄыԓьымэ ӈутку рэтԓетъёԓӄыԓ иʼнничгэ иʼнничгу гэтэйкытэ ынӄэн выквыԓгыӄай.
+# text[phon] = ujŋe esimɣʔukəɬʔəmuri qeɬuq neməqejʔəm sitʔəm ənqene tənejoɬqəɬʔəme ŋutku retɬetjoɬqəɬ ʔinnisɣe ʔinnisɣu ɣetejkəte ənqen wəkwəɬɣəqaj
+# text[rus] = Не понимали, что сначала можно его повесить как амулет на шею.
+# text[eng] = We did not understand that we could make a necklace and wear it around the neck as an amulet.
+# labels = complete-dep anno-karina
+1	Уйӈэ	_	PART	_	_	2	aux	_	Gloss=нет
+2	эчимгъукыԓьымури	_	VERB	_	_	0	root	_	Gloss=CAR-думать-CAR-ATTR-NP.1PL
+3	ӄэԓюӄ	_	ADV	_	_	2	advmod	_	Gloss=конечно
+4-5	нэмыӄэйъым	_	_	_	_	_	_	_	_
+4	нэмыӄэй	_	ADV	_	_	2	advmod	_	Gloss=тоже-=EMPH
+5	ъым	_	PART	_	_	4	discourse	_	_
+6-7	читъым	_	_	_	_	_	_	_	_
+6	чит	_	ADV	_	_	2	advmod	_	Gloss=было-=EMPH
+7	ъым	_	PART	_	_	6	discourse	_	_
+8-9	ынӄэнэ	_	_	_	_	_	_	_	_
+8	ынӄэн	_	DET	_	_	10	discourse	_	Gloss=DET-=PTCL
+9	э	_	PART	_	_	8	discourse	_	_
+10-12	тынэёԓӄыԓьымэ	_	_	_	_	_	_	_	_
+10	тынэёԓӄыԓ	_	VERB	_	_	2	ccomp	_	Gloss=шить-PTCP.PASS-DEB-=EMPH-=PTCL
+11	ьым	_	PART	_	_	10	discourse	_	_
+12	э	_	PART	_	_	10	discourse	_	_
+13	ӈутку	_	ADV	_	_	14	advmod	_	Gloss=здесь
+14	рэтԓетъёԓӄыԓ	_	VERB	_	_	10	conj	_	Gloss=подвешивать-PTCP.PASS-DEB
+15	иʼнничгэ	_	X	_	_	16	reparandum	_	Gloss=FST
+16	иʼнничгу	_	NOUN	_	_	17	obj	_	Gloss=ожерелье-EQU
+17	гэтэйкытэ	_	VERB	_	_	14	advcl	_	Gloss=COM-делать-INS
+18	ынӄэн	_	DET	_	_	19	det	_	Gloss=DET
+19	выквыԓгыӄай	_	NOUN	_	_	16	obl	_	Gloss=камень-SING-DIM-NOM.SG|SpaceAfter=No
+20	.	_	PUNCT	_	_	2	punct	_	_
+
 # sent_id = Being_a_child:20
 # text = Ынӄэнъым ынкъам гым итыкэ.
 # text[phon] = ənqenʔəm ənkʔam ɣəm itəke
@@ -721,6 +752,29 @@
 3	гэнапытӄынԓыватԓен	_	VERB	_	_	0	root	0:root	Gloss=PF-INV-повторно-TR-молоко-VB-PF.3SG|SpaceAfter=No
 3.1	пытӄы	_	ADV	_	_	_	_	3:advmod	Gloss=повторно
 4	.	_	PUNCT	_	_	3	punct	3:punct	_
+
+# sent_id = Being_a_child:23
+# text = Ынӄэнэ энмэч тъэргииӈит ӈэръамытԓыӈгээӈэԓьэвымэ панэнаыʼм ынӄэн ныԓёойгым ытԓьак ынӄэн.
+# text[phon] = ənqene enmes tʔerɣiiŋit ŋerʔamətɬəŋɣeeŋeɬʔewəme panenaʔəm ənqen nəɬoojɣəm ətɬʔak ənqen
+# text[rus] = Где-то столько-то лет, семилетняя я ещё питалась грудью у мамы.
+# text[eng] = For some time, when I was seven I was still breast-fed.
+# labels = complete-dep anno-karina
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	DET	_	_	10	discourse	_	Gloss=DET-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	энмэч	_	ADV	_	_	10	advmod	_	Gloss=уже
+4	тъэргииӈит	_	ADV	_	_	10	advmod	_	Gloss=сколько-год-TIME
+5-6	ӈэръамытԓыӈгээӈэԓьэвымэ	_	_	_	_	_	_	_	_
+5	ӈэръамытԓыӈгээӈэԓьэвым	_	NUM	_	_	10	nsubj	_	Gloss=два-пять-год-TIME-ATTR-NP.1SG-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7-8	панэнаыʼм	_	_	_	_	_	_	_	_
+7	панэна	_	ADV	_	_	10	advmod	_	Gloss=по.прежнему-=EMPH
+8	ыʼм	_	PART	_	_	7	discourse	_	_
+9	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET
+10	ныԓёойгым	_	VERB	_	_	0	root	_	Gloss=ST-сосать-NP.1SG
+11	ытԓьак	_	NOUN	_	_	10	obl	_	Gloss=мать-LOC
+12	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET|SpaceAfter=No
+13	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Being_a_child:24
 # text = Яԓгытык яԓгыт ныяԓгынморэ нытарагӄэнатъым йъэԓыги гым ынӄэнэ ытԓьак тароӈыԓьын айкоԓятԓьын нинививым.
@@ -812,6 +866,51 @@
 19	э	_	PART	_	_	18	discourse	_	_
 20	.	_	PUNCT	_	_	18	punct	_	_
 
+# sent_id = Being_a_child:29
+# text = Ӈирэчеӈэ ӄынутъымэ ганрагтатԓен ынӄэн ӄԓявыԓя тъэче эмӈинӄэгԓ эмнэнэнэԓьэыʼм ынӄэн ӄԓявыԓтэ.
+# text[phon] = ŋireseŋe qənutʔəme ɣanraɣtatɬen ənqen qɬawəɬa tʔese emŋinqeɣɬ emneneneɬʔeʔəm ənqen qɬawəɬte
+# text[rus] = Дважды замуж выходила, но только за мужчин с детьми.
+# text[eng] = She married twice but married only men with children.
+# labels = complete-dep anno-karina
+1-2	Ӈирэчеӈэ	_	_	_	_	_	_	_	_
+1	Ӈирэчеӈ	_	NUM	_	_	6	advmod	_	Gloss=два-MPL-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3-5	ӄынутъымэ	_	_	_	_	_	_	_	_
+3	ӄынутъы	_	ADV	_	_	6	advmod	_	Gloss=как-=EMPH-=PTCL
+4	м	_	PART	_	_	3	discourse	_	_
+5	э	_	PART	_	_	3	discourse	_	_
+6	ганрагтатԓен	_	VERB	_	_	0	root	_	Gloss=PF-TR-жилище-GO.TO-VB-PF.3SG
+7	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET
+8	ӄԓявыԓя	_	NOUN	_	_	6	obl	_	Gloss=мужчина-INS
+9	тъэче	_	ADV	_	_	6	advmod	_	Gloss=сколько-MPL
+10	эмӈинӄэгԓ	_	X	_	_	11	reparandum	_	Gloss=FST
+11-12	эмнэнэнэԓьэыʼм	_	_	_	_	_	_	_	_
+11	эмнэнэнэԓьэ	_	NOUN	_	_	8	nmod	_	Gloss=RESTR-ребёнок-ATTR-INS-=EMPH
+12	ыʼм	_	PART	_	_	11	discourse	_	_
+13	ынӄэн	_	DET	_	_	14	det	_	Gloss=DET
+14	ӄԓявыԓтэ	_	NOUN	_	_	6	parataxis	_	Gloss=мужчина-NOM.PL|SpaceAfter=No
+15	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Being_a_child:30
+# text = Ӄунэчеӈэ ыʼттъыёԓкэнъым итыкэ Ӄайвыквын ытри Ӄайвыквыӈа.
+# text[phon] = quneseŋe ʔəttʔəjoɬkenʔəm itəke qajwəkwən ətri qajwəkwəŋa
+# text[rus] = Раз сначала старшие … Кайвукун и Кайвукуна.
+# text[eng] = First the elder ones... Kaiwukun and Kaiwukuna.
+# labels = complete-dep anno-karina
+1-2	Ӄунэчеӈэ	_	_	_	_	_	_	_	_
+1	Ӄунэчеӈ	_	ADV	_	_	5	advmod	_	Gloss=раз-MPL-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3-4	ыʼттъыёԓкэнъым	_	_	_	_	_	_	_	_
+3	ыʼттъыёԓкэн	_	NOUN	_	_	0	root	_	Gloss=перед-REL-=EMPH
+4	ъым	_	PART	_	_	3	discourse	_	_
+5-6	итыкэ	_	_	_	_	_	_	_	_
+5	итык	_	VERB	_	_	3	cop	_	Gloss=являться-LOC-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7	Ӄайвыквын	_	PROPN	_	_	3	appos	_	Gloss=Кайвуквун-NOM.SG
+8	ытри	_	PRON	_	_	9	сс	_	Gloss=они
+9	Ӄайвыквыӈа	_	PROPN	_	_	7	conj	_	Gloss=Кайвуквуна-NOM.SG|SpaceAfter=No
+10	.	_	PUNCT	_	_	5	punct	_	_
+
 # sent_id = Being_a_child:31
 # text = Ӈинӄэгти ынан рымэйӈэвнинэт.
 # text[phon] = ŋinqeɣti ənan rəmejŋewninet
@@ -822,6 +921,27 @@
 2	ынан	_	PRON	_	_	3	nsubj	_	Gloss=он.INS
 3	рымэйӈэвнинэт	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-TR-большой-CS-3SG.A.3.O-3SG.O-PL|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Being_a_child:32
+# text = Ӄоры нэмэӈэ уйӈэ нъэԓык тумгытумъым нэмэ ынӄэнэ.
+# text[phon] = qorə nemeŋe ujŋe nʔeɬək tumɣətumʔəm neme ənqene
+# text[rus] = Потом снова, после того как мужа не стало, снова это…
+# text[eng] = And then again when her husband passed away, again...
+# labels = complete-dep anno-karina
+1	Ӄоры	_	ADV	_	_	9	advmod	_	Gloss=потом
+2-3	нэмэӈэ	_	_	_	_	_	_	_	_
+2	нэмэӈ	_	ADV	_	_	9	advmod	_	Gloss=опять-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4	уйӈэ	_	PART	_	_	5	aux	_	Gloss=нет
+5	нъэԓык	_	VERB	_	_	9	advcl	_	Gloss=стать-LOC
+6-7	тумгытумъым	_	_	_	_	_	_	_	_
+6	тумгытум	_	NOUN	_	_	5	nsubj	_	Gloss=друг-=EMPH
+7	ъым	_	PART	_	_	6	discourse	_	_
+8	нэмэ	_	ADV	_	_	2	reparandum	_	Gloss=опять
+9-10	ынӄэнэ	_	_	_	_	_	_	_	SpaceAfter=No
+9	ынӄэн	_	DET	_	_	0	root	_	Gloss=DET-=PTCL
+10	э	_	PART	_	_	9	discourse	_	_
+11	.	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Being_a_child:33
 # text = Нэмэ ганрагтатԓен нэмэӈэ ӈиръэ ӈинӄэгти выквытыӈатъым ԓьэтыӄай.
@@ -1349,6 +1469,19 @@
 2	эӄэпԓюкэ	_	VERB	_	_	0	root	_	Gloss=CAR-пинать-CAR-INS|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
+
+# sent_id = Brandy:1
+# text = Рыркайпияк мури каԓеткома ынӄэн.
+# text[phon] = rərkajpijak muri kaɬetkoma ənqen
+# text[rus] = В Рыркайпии это [было], когда мы ещё были школьниками.
+# text[eng] = This happened in Ryrkaypiy when we were still schoolchildren.
+# labels = complete-dep anno-karina
+1	Рыркайпияк	_	PROPN	_	_	4	obl	_	Gloss=Рыркайпий-LOC
+2	мури	_	PRON	_	_	3	nsubj	_	Gloss=мы
+3	каԓеткома	_	VERB	_	_	4	advcl	_	Gloss=писать-ITER-SIM
+4	ынӄэн	_	DET	_	_	0	root	_	Gloss=DET|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Brandy:2
 # text = Эмнуӈыԓьыт ныпкирӄинэт ынӄэнэ.
 # text[phon] = emnuŋəɬʔət nəpkirqinet ənqene
@@ -1378,6 +1511,46 @@
 6	нъэӄимԓынӈэӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-плохой-вода-GET-ST.3SG-PL
 7	вэԓыткорайпыӈ	_	NOUN	_	_	6	obl	_	Gloss=товар-ITER-жилище-ABL-AD|SpaceAfter=No
 8	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Brandy:4
+# text = Наӄам ӈанэ а эт ӈиръэӄи.
+# text[phon] = naqam ŋane а эт ŋirʔeqi
+# text[rus] = И там…
+# text[eng] = And there…
+# labels = complete-dep anno-karina
+1	Наӄам	_	CCONJ	_	_	2	cc	_	Gloss=однако
+2-3	ӈанэ	_	_	_	_	_	_	_	_
+2	ӈан	_	PRON	_	_	0	root	_	Gloss=DEICT-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4	а	_	X	_	_	3	reparandum	_	Gloss=
+5	эт	_	X	_	_	3	reparandum	_	Gloss=
+6	ӈиръэӄи	_	X	_	_	3	reparandum	_	Gloss=FST|SpaceAfter=No
+7	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Brandy:5
+# text = Эʼӄимԓытъым аԓва ваԓьыт ынӄэн ӄырымэнэ ԓыгъэӄимԓыт ваа ԓыгэнэ наӄам нычеԓгԓьоӄэнат.
+# text[phon] = ʔeqimɬətʔəm aɬwa waɬʔət ənqen qərəmene ɬəɣʔeqimɬət waa ɬəɣene naqam nəseɬɣɬʔoqenat
+# text[rus] = Бутылки с алкоголем тогда другие были, не такие, как обычно, а прямо красноватые.
+# text[eng] = Bottles with alcohol then were different, not such as usual but really reddish.
+# labels = complete-dep anno-karina
+1-2	Эʼӄимԓытъым	_	_	_	_	_	_	_	_
+1	Эʼӄимԓыт	_	NOUN	_	_	3	nsubj	_	Gloss=плохой-вода-NOM.PL-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	аԓва	_	ADJ	_	_	0	root	_	Gloss=другой-AD
+4	ваԓьыт	_	AUX	_	_	3	aux	_	Gloss=быть-ATTR-NOM.PL
+5	ынӄэн	_	PART	_	_	3	discourse	_	Gloss=DET
+6-7	ӄырымэнэ	_	_	_	_	_	_	_	_
+6	ӄырымэн	_	VERB	_	_	3	parataxis	_	Gloss=NEG.FUT-GEN-=PTCL
+7	э	_	PART	_	_	6	discourse	_	_
+8	ԓыгъэӄимԓыт	_	NOUN	_	_	1	appos	_	Gloss=AUTH-плохой-вода-NOM.PL
+9	ваа	_	ADV	_	_	6	advmod	_	Gloss=договорились
+10-11	ԓыгэнэ	_	_	_	_	_	_	_	_
+10	ԓыгэн	_	PART	_	_	6	discourse	_	Gloss=просто-=PTCL
+11	э	_	PART	_	_	10	discourse	_	_
+12	наӄам	_	CCONJ	_	_	13	cc	_	Gloss=однако
+13	нычеԓгԓьоӄэнат	_	VERB	_	_	3	parataxis	_	Gloss=ST-красный-видеть-ST.3SG-PL|SpaceAfter=No
+13.1	чеԓг	_	ADJ	_	_	_	_	13:dep	Gloss=красный
+14	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Brandy:6
 # text = Мрэнти.
@@ -1442,6 +1615,20 @@
 4	пыкитԓьыт	_	VERB	_	_	0	root	_	Gloss=прибывать-ATTR-NOM.PL
 5	отпускыԓьыт	_	NOUN	_	_	4	parataxis	_	Gloss=отпуск-ATTR-NOM.PL|SpaceAfter=No
 6	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Brandy:11
+# text = Ӄутырыкъым ынӄэн брэнди.
+# text[phon] = qutərəkʔəm ənqen brendi
+# text[rus] = А другие – [покупали] «Брэнди».
+# text[eng] = And other people, they [bought] «Brandy».
+# labels = complete-dep anno-karina
+1-2	Ӄутырыкъым	_	_	_	_	_	_	_	_
+1	Ӄутырык	_	PRON	_	_	0	root	_	Gloss=некий-AN.PL-LOC-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	ынӄэн	_	DET	_	_	4	det	_	Gloss=DET
+4	брэнди	_	PROPN	_	_	1	orphan	_	Gloss=бренди-NOM.SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	1	punct	_	_
+
 
 # sent_id = Brandy:12
 # text = Мрэнтиыʼм ынӄэн.
@@ -1540,6 +1727,38 @@
 8	гэтэнӈыткуԓин	_	VERB	_	_	3	parataxis	_	Gloss=PF-смеяться-ITER-PF.3SG|SpaceAfter=No
 9	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Brandy:19
+# text = Ытръэч ынӄэн пличка бличка иквъиыʼм.
+# text[phon] = ətrʔes ənqen pliska bliska ikwʔiʔəm
+# text[rus] = Только «близко, близко» говорил.
+# text[eng] = He just said «close, close».
+# labels = complete-dep anno-karina
+1	Ытръэч	_	ADV	_	_	5	advmod	_	Gloss=только
+2	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
+3	пличка	_	X	_	_	5	parataxis	_	Gloss=близко
+4	бличка	_	X	_	_	3	reparandum	_	Gloss=близко
+5-6	иквъиыʼм	_	_	_	_	_	_	_	SpaceAfter=No
+5	иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=EMPH
+6	ыʼм	_	PART	_	_	5	discourse	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+
+# sent_id = Brandy:20
+# text = Мытив ынӄэнэ танӈымэԓ иквъи чымчеӄэй.
+# text[phon] = mətiw ənqene tanŋəmeɬ ikwʔi səmseqej
+# text[rus] = Он просто, кажется, по-русски сказал «очень близко».
+# text[eng] = He just seems to have said in Russian «very close».
+# labels = complete-dep anno-karina
+1	Мытив	_	PART	_	_	5	discourse	_	Gloss=кажется
+2-3	ынӄэнэ	_	_	_	_	_	_	_	_
+2	ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4	танӈымэԓ	_	ADV	_	_	5	advmod	_	Gloss=чужеземец-LIKE
+5	иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+6	чымчеӄэй	_	ADV	_	_	5	xcomp	_	Gloss=близко-INS-DIM|SpaceAfter=No
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+
 # sent_id = Brandy:21
 # text = Плиска блиска чымчеӄэй вэԓыткоран Мрэнти ӄыркургынэт.
 # text[phon] = pliska bliska səmseqej weɬətkoran mrenti qərkurɣənet
@@ -1553,6 +1772,43 @@
 5	Мрэнти	_	PROPN	_	_	6	obj	_	Gloss=комар-NOM.PL
 6	ӄыркургынэт	_	VERB	_	_	3	parataxis	_	Gloss=2.S/A.SUBJ-покупать-IRR-3SG.O-PL|SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Brandy:22
+# text = Ынӄэн аʼачекъым вэԓыткорантаэʼм ӄытԓыги ымы Плиски курнинэтъым ымы Мрэнти купи ын курнинэт.
+# text[phon] = ənqen ʔaasekʔəm weɬətkorantaʔem qətɬəɣi əmə pliski kurninetʔəm əmə mrenti купи ən kurninet
+# text[rus] = Это… парень пошёл в магазин, и оказывается, он и «Плиски» купил, и «Мрэнти» купил.
+# text[eng] = The guy went to the store, and it turned out that he bought «Pliska» and «Mrenti» as well.
+# labels = complete-dep anno-karina
+1	Ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET
+2-3	аʼачекъым	_	_	_	_	_	_	_	_
+2	аʼачек	_	NOUN	_	_	4	nsubj	_	Gloss=парень-NOM.SG-=EMPH
+3	ъым	_	PART	_	_	2	discourse	_	_
+4-5	вэԓыткорантаэʼм	_	_	_	_	_	_	_	_
+4	вэԓыткорантаэʼ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-товар-ITER-жилище-GO.DO-TH-2/3SG.S-=EMPH
+5	м	_	PART	_	_	4	discourse	_	_
+6	ӄытԓыги	_	PART	_	_	9	discourse	_	Gloss=оказывается
+7	ымы	_	ADV	_	_	9	advmod	_	Gloss=также
+8	Плиски	_	PROPN	_	_	9	obj	_	Gloss=Плиска.NOM.PL
+9-10	курнинэтъым	_	_	_	_	_	_	_	_
+9	курнинэт	_	VERB	_	_	4	parataxis	_	Gloss=2/3.S/A-покупать-3SG.A.3.O-3SG.O-PL-=EMPH
+10	ъым	_	PART	_	_	9	discourse	_	_
+11	ымы	_	ADV	_	_	12	advmod	_	Gloss=также
+12	Мрэнти	_	PROPN	_	_	15	obj	_	Gloss=комар-NOM.PL
+13	купи	_	X	_	_	15	reparandum	_	Gloss=
+14	ын	_	X	_	_	15	reparandum	_	Gloss=FST
+15	курнинэт	_	VERB	_	_	9	parataxis	_	Gloss=2/3.S/A-покупать-3SG.A.3.O-3SG.O-PL|SpaceAfter=No
+16	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Brandy:23
+# text = Ынӄэн ынӈатаԓ.
+# text[phon] = ənqen ənŋataɬ
+# text[rus] = «Ну что такое!» (, — недовольно говорит тундровик).
+# text[eng] = «Come on!» (, says the tundra man being dissatisfied).
+# labels = complete-dep anno-karina
+1	Ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET
+2	ынӈатаԓ	_	ADV	_	_	0	root	_	Gloss=очень|SpaceAfter=No
+3	.	_	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = Brandy:24
 # text = Нивӄинэт Плиска нэмыӄэй.
@@ -1657,6 +1913,21 @@
 4	нивӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3SG-PL|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Breast:7
+# text = Ыммэмэй эӄыԓпэ ынӄэн ръэнут ынӄэ гынин уʼрэквъи.
+# text[phon] = əmmemej eqəɬpe ənqen rʔenut ənqe ɣənin ʔurekwʔi
+# text[rus] = «Мам, быстро, это самое, у тебя кое-что вылезло».
+# text[eng] = «Mum, quickly, you know, you have something got out».
+# labels = complete-dep anno-fran ənqen non-projective
+1	Ыммэмэй	_	NOUN	_	_	7	vocative	_	Gloss=мама-VOC
+2	эӄыԓпэ	_	ADV	_	_	7	advmod	_	Gloss=быстро
+3	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET
+4	ръэнут	_	PRON	_	_	7	nsubj	_	Gloss=что.NOM.SG
+5	ынӄэ	_	PART	_	_	7	discourse	_	Gloss=DET
+6	гынин	_	PRON	_	_	4	nmod:poss	_	Gloss=ты-GEN
+7	уʼрэквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-появляться-TH-2/3SG.S|SpaceAfter=No
+8	.	_	PUNCT	_	_	7	punct	_	_
+
 # sent_id = Breast:8
 # text = Ванэван мычичевнэт.
 # text[phon] = wanewan məsisewnet
@@ -1678,6 +1949,18 @@
 3	нивӄин	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3SG|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Breast:10
+# text = Ынӄэнэ ӄытэнкэвӈыгын.
+# text[phon] = ənqene qətenkewŋəɣən
+# text[rus] = «Это… поправь там».
+# text[eng] = «Um… put it right there».
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	3	discourse	_	Gloss=DET-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	ӄытэнкэвӈыгын	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-MAKE-гармонировать-MAKE-IRR-3SG.O|SpaceAfter=No
+4	.	_	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Breast:11
 # text = Ръэнут.
 # text[phon] = rʔenut
@@ -1697,6 +1980,19 @@
 2	ӈутку	_	ADV	_	_	3	advmod	_	Gloss=здесь
 3	иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Breast:13
+# text = Ынӄэнэ рэнриԓьиԓгын ӄытэнкэвӈыгын.
+# text[phon] = ənqene renriɬʔiɬɣən qətenkewŋəɣən
+# text[rus] = «Это… поправь бюстгальтер».
+# text[eng] = «This is… straighten the bra».
+# labels = complete-dep anno-fran ənqen
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	4	discourse	_	Gloss=DET-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	рэнриԓьиԓгын	_	NOUN	_	_	4	obj	_	Gloss=верхняя.часть.спины-правая.постромка.упряжи-NOM.SG
+4	ӄытэнкэвӈыгын	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-MAKE-гармонировать-MAKE-IRR-3SG.O|SpaceAfter=No
+5	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Breast:14
 # text = Тыгитээʼн ӈоон ынӄэн.
@@ -1753,6 +2049,26 @@
 7	нэнанкаԓровӄэн	_	VERB	_	_	0	root	_	Gloss=LOW.A-INV-показывать-ST.3SG|SpaceAfter=No
 8	.	_	PUNCT	_	_	7	punct	_	_
 
+# sent_id = Breast:18
+# text = Ӄэԓюӄъым тэнӈу мытытчыгъэн ԓыгэн ԓёԓьоԓгын пинтыӄэтыԓьын ынӄэнэ ранрэԓьэԓгычыкойпы.
+# text[phon] = qeɬuqʔəm tenŋu mətətsəɣʔen ɬəɣen ɬoɬʔoɬɣən pintəqetəɬʔən ənqene ranreɬʔeɬɣəsəkojpə
+# text[rus] = Конечно же, мы смеялись над грудью, выпавшей из бюстгальтера.
+# text[eng] = Of course, we laughed at the boob that fell out of the bra.
+# labels = complete-dep anno-fran ənqen valency
+1-2	Ӄэԓюӄъым	_	_	_	_	_	_	_	_
+1	Ӄэԓюӄ	_	ADV	_	_	4	advmod	_	Gloss=конечно-=EMPH
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	тэнӈу	_	VERB	_	_	4	xcomp	_	Gloss=смеяться-EQU
+4	мытытчыгъэн	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-делать-TH-3SG.O
+5	ԓыгэн	_	ADV	_	_	4	advmod	_	Gloss=просто
+6	ԓёԓьоԓгын	_	NOUN	_	_	4	obj	_	Gloss=грудь-SING-NOM.SG
+7	пинтыӄэтыԓьын	_	VERB	_	_	6	acl:attr	_	Gloss=появляться-ATTR-NOM.SG
+8-9	ынӄэнэ	_	_	_	_	_	_	_	_
+8	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET-=PTCL
+9	э	_	PART	_	_	8	discourse	_	_
+10	ранрэԓьэԓгычыкойпы	_	NOUN	_	_	7	obl	_	Gloss=верхняя.часть.спины-правая.постромка.упряжи-IN-ABL|SpaceAfter=No
+11	.	_	PUNCT	_	_	4	punct	_	_
+
 # sent_id = Breast:19
 # text = Мама ԓыгэн ымыԓьорыкы нэԓьуэʼн.
 # text[phon] = mama ɬəɣen əməɬʔorəkə neɬʔuʔen
@@ -1777,6 +2093,27 @@
 4	ръэнут	_	PRON	_	_	5	obj	_	Gloss=что.NOM.SG
 5	нэԓьуэʼн	_	VERB	_	_	3	parataxis	_	Gloss=LOW.A-видеть-TH-3SG.O|SpaceAfter=No
 6	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Breast:21
+# text = Гэгэргыпынчиԓин ӄэлуӄэ чама юрэӄъым ынӄэнэ ӈыркыԓятгъэ.
+# text[phon] = ɣeɣerɣəpənsiɬin qeluqe sama jureqʔəm ənqene ŋərkəɬatɣʔe
+# text[rus] = Ему, конечно, было досадно и, может быть, стыдно.
+# text[eng] = He, of course, was annoyed and, perhaps, ashamed.
+# labels = complete-dep anno-fran ənqen
+1	Гэгэргыпынчиԓин	_	VERB	_	_	0	root	0:root	Gloss=PF-злиться-выворачивать-PF.3SG
+1.1	гэрг	_	VERB	_	_	_	_	1:advcl	Gloss=злиться
+2-3	ӄэлуӄэ	_	_	_	_	_	_	_	_
+2	ӄэлуӄ	_	ADV	_	_	1	advmod	1:advmod	Gloss=конечно-=PTCL
+3	э	_	PART	_	_	2	discourse	2:discourse	_
+4	чама	_	ADV	_	_	9	advmod	9:advmod	Gloss=также
+5-6	юрэӄъым	_	_	_	_	_	_	_	_
+5	юрэӄ	_	ADV	_	_	9	advmod	9:advmod	Gloss=может.быть-=EMPH
+6	ъым	_	PART	_	_	5	discourse	5:discourse	_
+7-8	ынӄэнэ	_	_	_	_	_	_	_	_
+7	ынӄэн	_	PART	_	_	9	discourse	9:discourse	Gloss=DET-=PTCL
+8	э	_	PART	_	_	7	discourse	7:discourse	_
+9	ӈыркыԓятгъэ	_	VERB	_	_	1	parataxis	1:parataxis	Gloss=2/3.S/A-чувствовать.стыд-VB-TH-2/3SG.S|SpaceAfter=No
+10	.	_	PUNCT	_	_	1	punct	1:punct	_
 
 # sent_id = Chapaev:1
 # text = Киноԓьыт ыныкит ӈан риӈъэтвэ риӈъэтвэыʼмэ.
@@ -4167,7 +4504,7 @@
 3	ӈээккэӄэй	_	NOUN	_	_	5	orphan	5.1:obj	Gloss=FEM-сын-DIM-NOM.SG
 4	нут	_	X	_	_	5	reparandum	5:reparandum	Gloss=FST
 5	нутэӈэвытыну	_	NOUN	_	_	0	root	5.1:xcomp	Gloss=страна-FEM-EQU|SpaceAfter=No
-5.1	ӄытэнынныӈгын	_	VERB	_	_	_	_	0:root	_
+5.1	ӄытэнынныӈгын	_	VERB	_	_	_	_	0:root	Gloss=страна
 6	.	_	PUNCT	_	_	5	punct	5:punct	_
 
 # sent_id = Having_bear_ears:10
@@ -4324,7 +4661,7 @@
 # text[eng] = His relatives are burying his clothes.
 # labels = complete-dep anno-fran unclear-syntax
 1	Эвиръынԓеԓьыт	_	VERB	_	_	0	root	0:root	Gloss=одежда.из.шкур-хоронить-ATTR-NOM.PL
-1.1	Эвиръынт	_	NOUN	_	_	_	_	1:obj	Gloss=одежда.из.шкур
+1.1	Эвиръын	_	NOUN	_	_	_	_	1:obj	Gloss=одежда.из.шкур
 2	яраԓьыт	_	NOUN	_	_	1	nsubj	1:nsubj	Gloss=яранга-ATTR-NOM.PL|SpaceAfter=No
 3	.	_	PUNCT	_	_	1	punct	1:punct	_
 
@@ -4845,6 +5182,34 @@
 2	ъым	_	PART	_	_	1	discourse	_	_
 3	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = I_am_from_Chukotka:16
+# text = Ынин нэмыӄэй гымыкэккэнэ ынпычьэкыкъым ыннаны ынӄэнэ ыннэн ӄнут ыннэнгииӈикинэт ӈинӄэгти ынӄэн.
+# text[phon] = ənin neməqej ɣəməkekkene ənpəsʔekəkʔəm ənnanə ənqene ənnen qnut ənnenɣiiŋikinet ŋinqeɣti ənqen
+# text[rus] = Её сын с моим старшим тоже, можно сказать, одного года.
+# text[eng] = Her son and my eldest one are of the same age, one can say.
+# labels = complete-dep anno-fran ənqen non-projective
+1	Ынин	_	PRON	_	_	4	conj	_	Gloss=он-GEN
+2	нэмыӄэй	_	ADV	_	_	4	advmod	_	Gloss=тоже
+3-4	гымыкэккэнэ	_	_	_	_	_	_	_	_
+3	гымык	_	PRON	_	_	4	nmod:poss	_	Gloss=я-POSS.INC-сын-AN.INS
+4	эккэнэ	_	NOUN	_	_	15	nsubj	_	_
+5-7	ынпычьэкыкъым	_	_	_	_	_	_	_	Gloss=старый-ADJ-сын-NOM.SG-=EMPH
+5	ынпычь	_	ADJ	_	_	6	amod	_	Gloss=старый
+6	экык	_	NOUN	_	_	4	appos	_	Gloss=сын-NOM.SG
+7	ъым	_	PART	_	_	6	discourse	_	Gloss=EMPH
+8	ыннаны	_	X	_	_	13	reparandum	_	Gloss=FST
+9-10	ынӄэнэ	_	_	_	_	_	_	_	_
+9	ынӄэн	_	PART	_	_	15	discourse	_	Gloss=DET-=PTCL
+10	э	_	PART	_	_	9	discourse	_	_
+11	ыннэн	_	NUM	_	_	13	reparandum	_	Gloss=один
+12	ӄнут	_	ADV	_	_	15	advmod	_	Gloss=как
+13-14	ыннэнгииӈикинэт	_	_	_	_	_	_	_	_
+13	ыннэн	_	NUM	_	_	15	nummod	_	Gloss=один-год-TIME-REL-PL
+14	гииӈикинэт	_	NOUN	_	_	15	nmod:relat	_	_
+15	ӈинӄэгти	_	ADJ	_	_	0	root	_	Gloss=молодой-DIM-NOM.PL
+16	ынӄэн	_	PART	_	_	15	discourse	_	Gloss=DET|SpaceAfter=No
+17	.	_	PUNCT	_	_	15	punct	_	_
+
 # sent_id = I_am_from_Chukotka:17
 # text = Нывэтгавӄэнат ӈирэргэри.
 # text[phon] = nəwetɣawqenat ŋirerɣeri
@@ -5095,11 +5460,11 @@
 # text[rus] = Спасаясь от наводнения, люди в тундру очень быстро уходили.
 # text[eng] = Running away from the flood, people very quickly went to the tundra.
 # text[eng'] = Fleeing the water to the tundra the people racing fleeing went.
-# labels = complete-dep anno-fran
+# labels = complete-dep anno-fran missing-ptcl
 1-2	Имԓетгынтэвъыма	_	_	_	_	_	_	_	_
-1	Имԓетгынтэвъым	_	VERB	_	_	8	advcl	8:advcl	Gloss=вода-VB-убегать-SIM-=EMPH
+1	Имԓетгынтэв	_	VERB	_	_	8	advcl	8:advcl	Gloss=вода-VB-убегать-SIM-=EMPH
 1.1	имԓ	_	NOUN	_	_	_	_	1:obj	Gloss=вода
-2	м	_	PART	_	_	1	discourse	1:discourse	_
+2	ъыма	_	PART	_	_	1	discourse	1:discourse	_
 3	амноӈэты	_	NOUN	_	_	8	obl	8:obl	Gloss=тундра-DAT
 4-5	рэмкына	_	_	_	_	_	_	_	_
 4	рэмкын	_	NOUN	_	_	8	nsubj	8:nsubj	Gloss=народ-NOM.SG-=PTCL
@@ -5121,6 +5486,54 @@
 1	Ынӄэн	_	DET	_	_	0	root	_	Gloss=DET-=PTCL
 2	а	_	PART	_	_	1	discourse	_	_
 3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Ice_Age:9
+# text = Ынкы имԓетыкъыма чит ӈутку мургынутэ ваԓьыт камагӈаԓвыԓьыйӈытъыма.
+# text[phon] = ənkə imɬetəkʔəma sit ŋutku murɣənute waɬʔət kamaɣŋaɬwəɬʔəjŋətʔəma
+# text[rus] = Там, когда случилось наводнение, раньше здесь, в нашей тундре были огромные стада мамонтов.
+# text[eng] = Before the flood happened, here, in our tundra, there had been huge herds of mammoths.
+# comment = Не слышно показателя локатива в слове murɣənute[k], нет уверенности, что оно произнесено именно так и что это одно слово. Если murɣə- представляет собой инкорпорацию личного местоимения (впритяжательной функции), то ожидалось бы скорее murəɣ-.
+# labels = complete-dep anno-fran unclear-syntax
+1	Ынкы	_	PRON	_	_	6	obl	_	Gloss=тот-LOC
+2-4	имԓетыкъыма	_	_	_	_	_	_	_	_
+2	имԓетык	_	VERB	_	_	6	advcl	_	Gloss=вода-VB-LOC-=EMPH-=PTCL
+3	ъым	_	PART	_	_	2	discourse	_	_
+4	а	_	PART	_	_	2	discourse	_	_
+5	чит	_	AUX	_	_	6	cop	_	Gloss=было
+6	ӈутку	_	ADV	_	_	0	root	_	Gloss=здесь
+7-8	мургынутэ	_	_	_	_	_	_	_	_
+7	мургы	_	PRON	_	_	8	nmod:poss	_	Gloss=мы
+8	нутэ	_	NOUN	_	_	6	obl	Gloss=страна	_
+9	ваԓьыт	_	AUX	_	_	11	acl:attr	_	Gloss=быть-ATTR-NOM.PL
+10-13	камагӈаԓвыԓьыйӈытъыма	_	_	_	_	_	_	_	SpaceAfter=No
+10	камаг	_	NOUN	_	_	11	nmod	_	Gloss=мамонт-стадо-AUG-NOM.PL-=EMPH-=PTCL
+11	ӈаԓвыԓьыйӈыт	_	NOUN	_	_	6	nsubj	_	Gloss=мамонт-стадо-AUG-NOM.PL-=EMPH-=PTCL
+12	ъым	_	PART	_	_	11	discourse	_	_
+13	а	_	PART	_	_	11	discourse	_	_
+14	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Ice_Age:10
+# text = Игыт ӈан рынныт ынӄаатэ нутэкэ ръыԓӄычыку ръыԓӄывээмык рээн ныԓьуӄинэтэ.
+# text[phon] = iɣət ŋan rənnət ənqaate nuteke rʔəɬqəsəku rʔəɬqəweemək reen nəɬʔuqinete
+# text[rus] = Сейчас их рога (бивни) находят до сих пор в земле, в глине, в песчаных речках.
+# text[eng] = Now their horns (tusks) are still found in the ground, in clay, in sandy rivers.
+# labels = complete-dep anno-fran ənqen
+1	Игыт	_	ADV	_	_	11	advmod	_	Gloss=сегодня
+2	ӈан	_	ADV	_	_	11	advmod	_	Gloss=DEICT
+3	рынныт	_	NOUN	_	_	11	nsubj	_	Gloss=рог-NOM.PL
+4-5	ынӄаатэ	_	_	_	_	_	_	_	_
+4	ынӄаат	_	DET	_	_	3	det	_	Gloss=DET-NOM.PL-=PTCL
+5	э	_	PART	_	_	4	discourse	_	_
+6-7	нутэкэ	_	_	_	_	_	_	_	_
+6	нутэк	_	NOUN	_	_	11	obl	_	Gloss=страна-LOC-=PTCL
+7	э	_	PART	_	_	6	discourse	_	_
+8	ръыԓӄычыку	_	NOUN	_	_	9	reparandum	_	Gloss=глина-IN
+9	ръыԓӄывээмык	_	NOUN	_	_	11	obl	_	Gloss=глина-река-LOC
+10	рээн	_	ADP	_	_	9	case	_	Gloss=вместе.с.этим
+11-12	ныԓьуӄинэтэ	_	_	_	_	_	_	_	SpaceAfter=No
+11	ныԓьуӄинэт	_	VERB	_	_	0	root	_	Gloss=ST-находить-ST.3SG-PL-=PTCL
+12	э	_	PART	_	_	11	discourse	_	_
+13	.	_	PUNCT	_	_	11	punct	_	_
 
 # sent_id = Ice_Age:11
 # text = Чит нымкыӄин коԓё камагтэ.
@@ -5196,6 +5609,44 @@
 4	нэнэны	_	NOUN	_	_	2	obj	_	Gloss=ребёнок-NOM.SG-=PTCL
 5	ӈ	_	PART	_	_	4	discourse	_	_
 6	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Ice_Age:15
+# text = Къама мимԓык нэмэ пэԓӄынтэттыԓеиʼм къам иуԓтиӈэгчыкыкваԓьынэ ръэвинэ ыʼмйиквин ынӄэнэ амыԓӄыкваԓьын ынкы гамыԓӄыпэԓятԓена ръэв.
+# text[phon] = kʔama mimɬək neme peɬqəntettəɬeʔiʔm kʔam iuɬtiŋeɣsəkəkwaɬʔəne rʔewine ʔəmjikwin ənqene aməɬqəkwaɬʔən ənkə ɣaməɬqəpeɬatɬena rʔew
+# text[rus] = И потом вода опять вернулась, и в Иультинских сопках застряли китовые кости (скелет), там в песках, на мели, остался кит.
+# text[eng] = And then the water returned again, and the whale bones (the skeleton) stuck in the Iultinsky hills, there was a whale in the sand, aground.
+# labels = complete-dep anno-fran ənqen non-projective
+1-2	Къама	_	_	_	_	_	_	_	_
+1	Къам	_	CCONJ	_	_	5	cc	5:cc	Gloss=и-=PTCL
+2	а	_	PART	_	_	1	discourse	1:discourse	_
+3	мимԓык	_	NOUN	_	_	5	obl	5:obl	Gloss=вода-LOC
+4	нэмэ	_	ADV	_	_	5	advmod	5:advmod	Gloss=опять
+5-6	пэԓӄынтэттыԓеиʼм	_	_	_	_	_	_	_	Gloss=возвращаться-VB-идти-TH-2/3SG.S-=EMPH
+5	пэԓӄынтэттыԓеиʼ	_	VERB	_	_	0	root	0:root	Gloss=возвращаться-VB-идти-TH-2/3SG.S
+5.1	пэԓӄынт	_	VERB	_	_	_	_	5:advcl	Gloss=возвращаться
+6	м	_	PART	_	_	5	discourse	5:discourse	Gloss=EMPH
+7	къам	_	CCONJ	_	_	12	cc	12:cc	Gloss=и
+8-9	иуԓтиӈэгчыкыкваԓьынэ	_	_	_	_	_	_	_	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG-=PTCL
+8	иуԓтиӈэгчыкыкваԓьын	_	VERB	_	_	12	acl:attr	_	Gloss=Иультин-сопка-застревать-ATTR-NOM.SG
+8.1	иуԓти	_	PROPN	_	_	_	_	8.2:nmod	Gloss=Иультин
+8.2	ӈэг	_	NOUN	_	_	_	_	8:obl	Gloss=сопка
+9	э	_	PART	_	_	8	discourse	8:discourse	_
+10-11	ръэвинэ	_	_	_	_	_	_	_	_
+10	ръэвин	_	NOUN	_	_	12	nmod:poss	12:nmod:poss	Gloss=кит-GEN-=PTCL
+11	э	_	PART	_	_	10	discourse	_	_
+12	ыʼмйиквин	_	NOUN	_	_	17	dislocated	17:dislocated	Gloss=скелет-NOM.SG
+13-14	ынӄэнэ	_	_	_	_	_	_	_	_
+13	ынӄэн	_	PART	_	_	17	discourse	17:discourse	Gloss=DET-=PTCL
+14	э	_	PART	_	_	13	discourse	13:discourse	_
+15	амыԓӄыкваԓьын	_	VERB	_	_	19	acl:attr	19:acl:attr	Gloss=мель-застревать-ATTR-NOM.SG
+15.1	амыԓ	_	NOUN	_	_	_	_	15:obl	Gloss=мель
+16	ынкы	_	PRON	_	_	17	obl	17:obl	Gloss=тот-LOC
+17-18	гамыԓӄыпэԓятԓена	_	_	_	_	_	_	_	Gloss=PF-мель-оставлять-VB-PF.3SG-=PTCL
+17	гамыԓӄыпэԓятԓен	_	VERB	_	_	5	parataxis	5:parataxis	Gloss=PF-мель-оставлять-VB-PF.3SG
+17.1	амыԓ	_	NOUN	_	_	_	_	17:obj	Gloss=мель
+18	а	_	PART	_	_	17	discourse	17:discourse	Gloss=PTCL
+19	ръэв	_	NOUN	_	_	17	nsubj	17:nsubj	Gloss=кит-NOM.SG|SpaceAfter=No
+20	.	_	PUNCT	_	_	5	punct	5:punct	_
 
 # sent_id = Ice_Age:16
 # text = Ынӄэн нэмэ мимыԓ гэквэтԓин гэтэԓпыԓин аӈӄакэн.
@@ -5479,6 +5930,18 @@
 3	ӄԓявыԓ	_	NOUN	_	_	1	conj	_	Gloss=мужчина-NOM.SG
 4	гатваԓенат	_	AUX	_	_	0	root	_	Gloss=PF-быть-PF.3SG-PL|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Kettle:3
+# text = Ӈэԓвыԓ ыргин уйӈэ гэнъэтԓин.
+# text[phon] = ŋeɬwəɬ ərɣin ujŋe ɣenʔetɬin
+# text[rus] = Стада их не стало.
+# text[eng] = Their herd was gone.
+# labels = complete-dep anno-fran unclear-syntax negation
+1	Ӈэԓвыԓ	_	NOUN	_	_	3	obj	_	Gloss=стадо-NOM.SG
+2	ыргин	_	PRON	_	_	1	nmod:poss	_	Gloss=они-GEN
+3	уйӈэ	_	VERB	_	_	0	root	_	Gloss=нет
+4	гэнъэтԓин	_	AUX	_	_	3	aux	_	Gloss=PF-стать-PF.3SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Kettle:4
 # text = Ынан ӄԓявыԓя ӈэвъэнйыръын ивнин.
@@ -5868,6 +6331,28 @@
 6	тэӈэӄыԓпэ	_	ADV	_	_	5	advmod	_	Gloss=GOOD-быстро|SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
 
+# sent_id = Knives:1
+# text = Ынӄэн нэмэӈ ӄоԓ итгъи г Онмаԓьырыкы грэм Онмаԓьыргыеквэ таэʼм.
+# text[phon] = ənqen nemeŋ qoɬ itɣʔi ɣ onmaɬʔərəkə ɣrem onmaɬʔərɣəjekwe taʔeʔm
+# text[rus] = Однажды, как-то раз так случилось, что проезжал по землям, где жили Онмальын.
+# text[eng] = Once it happened so that he passed through the lands where Onmalyn lived.
+# comment = Непонятно, кто проезжал. Интерпретация множественного числа нуждается в уточнении.
+# labels = complete-dep anno-fran ənqen
+1	Ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET
+2-3	нэмэӈ	_	_	_	_	_	_	_	_
+2	нэмэ	_	ADV	_	_	10	advmod	_	Gloss=опять-=PTCL
+3	ӈ	_	PART	_	_	2	discourse	_	_
+4	ӄоԓ	_	PRON	_	_	5	dep	_	Gloss=некий
+5	итгъи	_	VERB	_	_	10	dep	_	Gloss=2/3.S/A-являться-TH-2/3SG.S
+6	г	_	X	_	_	7	reparandum	_	Gloss=FST
+7	Онмаԓьырыкы	_	PROPN	_	_	10	obl	_	Gloss=Онмальын-AN.PL-DAT
+8	грэм	_	X	_	_	9	reparandum	_	Gloss=FST
+9	Онмаԓьыргыеквэ	_	PROPN	_	_	10	obl	_	Gloss=Онмальын-AN.PL-PROL
+10-11	таэʼм	_	_	_	_	_	_	_	SpaceAfter=No
+10	таэʼ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-проходить-TH-2/3SG.S-=EMPH
+11	м	_	PART	_	_	10	discourse	_	_
+12	.	_	PUNCT	_	_	10	punct	_	_
+
 # sent_id = Knives:2
 # text = Эмныӈинӄинэтъым ытри Ԓетынтаграв.
 # text[phon] = emnəŋinqinetʔəm ətri ɬetəntaɣraw
@@ -5956,6 +6441,25 @@
 4	о	_	X	_	_	5	reparandum	_	Gloss=FST
 5	раӄычгатыркын	_	VERB	_	_	3	parataxis:speech	_	Gloss=2/3.S/A-что-AUG-VB-IPFV|SpaceAfter=No
 6	.	_	PUNCT	_	_	3	punct	_	_
+
+# text = Нан ярак ынӈин ӄитыркын ыныкит равъэчгатгъам миӈкыри мытрэнрэӄэквыт миӈкыри мытрэнтыгыт.
+# text[phon] = nan jarak ənŋin qitərkən ənəkit rawʔesɣatɣʔam miŋkəri mətrenreqekwət miŋkəri mətrentəɣət
+# text[rus] = У себя дома так делай! Вдруг помрёшь, что мы с тобой будем делать, куда денем?».
+# text[eng] = Do like that at your own home! What if will die, what will we do with you, where we will put you?».
+# labels = complete-dep anno-fran unclear-syntax
+1	Нан	_	ADV	_	_	3	advmod	_	Gloss=сам
+2	ярак	_	NOUN	_	_	3	obl	_	Gloss=яранга-LOC
+3	ынӈин	_	ADV	_	_	0	root	_	Gloss=так
+4	ӄитыркын	_	VERB	_	_	3	cop	_	Gloss=2.S/A.SUBJ-являться-IPFV
+5	ыныкит	_	ADV	_	_	6	advmod	_	Gloss=если
+6-7	равъэчгатгъам	_	_	_	_	_	_	_	_
+6	равъэчгатгъа	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-FUT-умереть-AUG-VB-TH-=EMPH
+7	м	_	PART	_	_	6	discourse	_	_
+8	миӈкыри	_	ADV	_	_	9	advmod	_	Gloss=где-LOC-ADV.ALL
+9	мытрэнрэӄэквыт	_	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A-FUT-TR-что-CS-2SG.O
+10	миӈкыри	_	ADV	_	_	11	advmod	_	Gloss=где-LOC-ADV.ALL
+11	мытрэнтыгыт	_	VERB	_	_	3	parataxis	_	Gloss=1PL.S/A-FUT-иметь-2SG.O|SpaceAfter=No
+12	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Knives:10
 # text = Ынӈин ниԓьуткуԓьэтӄинъым ивнинэт ръэнутъым мыԓьуэʼн мыныгйивэвын.
@@ -8321,6 +8825,18 @@
 2	мынырычвомык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A.SUBJ-личинка-EAT-1PL.S/O|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Not_eating_larvae:51
+# text = А гым вэԓвагты нытвайгым.
+# text[phon] = а ɣəm weɬwaɣtə nətwajɣəm
+# text[rus] = А мне совсем не хочется.
+# text[eng] = I do not want that at all.
+# labels = complete-dep anno-fran unclear-syntax
+1	А	_	CCONJ	_	_	3	cc	_	Gloss=
+2	гым	_	PRON	_	_	3	nsubj	_	Gloss=я
+3	вэԓвагты	_	ADV	_	_	0	root	_	Gloss=быть.не.в.курсе-DAT
+4	нытвайгым	_	AUX	_	_	3	cop	_	Gloss=ST-быть-NP.1SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	3	punct	_	_
+
 # sent_id = Not_eating_larvae:53
 # text = И мэчынкы.
 # text[phon] = и mesənkə
@@ -10386,7 +10902,7 @@
 # text[phon] = ənqen etʔəm aŋqak nʔaneɬoqen eskimos neme
 # text[rus] = Это, наверное, на море удил рыбу эскимос снова.
 # text[eng] = It’s probably the Eskimo was fishing on the sea again.
-# labels = complete-dep anno-fran ənqen
+# labels = complete-dep anno-karina
 1	Ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET
 2-3	этъым	_	_	_	_	_	_	_	Gloss=наверное-=EMPH
 2	эт	_	ADV	_	_	5	advmod	_	Gloss=наверное
@@ -10482,6 +10998,23 @@
 1	Ынӄорыӈ	_	ADV	_	_	0	root	_	Gloss=потом-=PTCL
 2	а	_	PART	_	_	1	discourse	_	_
 3	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = The_Eskimo_is_fishing:7
+# text = Ынӄэнэ аӈӄаԓыгэнниӈыт гэчымъэв нывинӄээт гиԓйиӈкы ваԓьыт.
+# text[phon] = ənqene aŋqaɬəɣenniŋət ɣesəmʔew nəwinqeet ɣiɬjiŋkə waɬʔət
+# text[rus] = Таким образом, арктические гольцы, пока рядом, подо льдом спокойно ходят.
+# text[eng] = Thus, the Arctic chars, while being nearby, are walking quietly under the ice.
+# labels = complete-dep anno-karina
+1-2	Ынӄэнэ	_	_	_	_	_	_	_	_
+1	Ынӄэн	_	PART	_	_	5	discourse	_	Gloss=DET-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	аӈӄаԓыгэнниӈыт	_	NOUN	_	_	5	nsubj	_	Gloss=море-AUTH-рыба-AUG-NOM.PL
+4	гэчымъэв	_	ADV	_	_	5	advmod	_	Gloss=COM-близко.нер.изм.-ADV
+5	нывинӄээт	_	VERB	_	_	0	root	_	Gloss=ST-смирный-ST.3PL
+6	гиԓйиӈкы	_	NOUN	_	_	7	obl	_	Gloss=лёд-BOTTOM-LOC
+7	ваԓьыт	_	VERB	_	_	5	parataxis	_	Gloss=быть-ATTR-NOM.PL|SpaceAfter=No
+8	.	_	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = The_Eskimo_is_fishing:8
 # text = Ныгиԓйиӈэтӄээтъым ынкъамэ.
@@ -10698,6 +11231,22 @@
 8	ӈ	_	PART	_	_	7	discourse	_	_
 9	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id = The_race_to_death:4
+# text = Яноттыԓяк минринэтгъиӈэ гаканйыӈа.
+# text[phon] = janottəɬak minrinetɣʔiŋe ɣakanjəŋa
+# text[rus] = За впереди идущим последовала упряжка.
+# text[eng] = The team followed behind the racer in front.
+# labels = complete-dep anno-karina
+1	Яноттыԓяк	_	NOUN	_	_	2	obl	_	Gloss=сначала-идти-LOC
+1.1	Янот	_	ADV	_	_	_	_	1:advmod	Gloss=сначала
+2-3	минринэтгъиӈэ	_	_	_	_	_	_	_	_
+2	минринэтгъиӈ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-следовать.за-TH-2/3SG.S-=PTCL
+3	э	_	PART	_	_	2	discourse	_	_
+4-5	гаканйыӈа	_	_	_	_	_	_	_	SpaceAfter=No
+4	гаканйыӈ	_	NOUN	_	_	2	nsubj	_	Gloss=упряжка-NOM.SG-=PTCL
+5	а	_	PART	_	_	4	discourse	_	_
+6	.	_	PUNCT	_	_	2	punct	_	_
+
 # sent_id = The_race_to_death:5
 # text = Нрзб ынӄэнэ гакооԓгыԓе ынръама ръиԓеԓьынъым.
 # text[phon] = нрзб ənqene ɣakooɬɣəɬe ənrʔama rʔiɬeɬʔənʔəm
@@ -10717,6 +11266,24 @@
 8	ъым	_	PART	_	_	7	discourse	_	_
 9	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = The_race_to_death:6
+# text = Амгаканйыӈа яноттыԓяка пыкиргъиӈэ.
+# text[phon] = amɣakanjəŋa janottəɬaka pəkirɣʔiŋe
+# text[rus] = Только упряжка (без гонщика) пришла за впереди идущим.
+# text[eng] = Only the team (without the driver) came after the first racer.
+# labels = complete-dep anno-karina
+1-2	Амгаканйыӈа	_	_	_	_	_	_	_	_
+1	Амгаканйыӈ	_	NOUN	_	_	5	nsubj	_	Gloss=RESTR-упряжка-NOM.SG-=PTCL
+2	а	_	PART	_	_	1	discourse	_	_
+3-4	яноттыԓяка	_	_	_	_	_	_	_	_
+3	яноттыԓяк	_	NOUN	_	_	5	obl	_	Gloss=сначала-идти-LOC-=PTCL
+4	а	_	PART	_	_	3	discourse	_	_
+5-6	пыкиргъиӈэ	_	_	_	_	_	_	_	SpaceAfter=No
+5	пыкиргъиӈ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7	.	_	PUNCT	_	_	5	punct	_	_
+
+
 # sent_id = The_race_to_death:7
 # text = Таӈранъав орвоор ныԓеӄин.
 # text[phon] = taŋranʔaw orwoor nəɬeqin
@@ -10727,6 +11294,21 @@
 2	орвоор	_	NOUN	_	_	3	obl	_	Gloss=нарта
 3	ныԓеӄин	_	VERB	_	_	0	root	_	Gloss=ST-идти-ST.3SG|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = The_race_to_death:8
+# text = Тэӈԓюӈымыԓеԓьын тэӈэвыт ныви яноттыԓяк ӄача пыкиргъи нывиԓгъи.
+# text[phon] = teŋɬuŋəməɬeɬʔən teŋewət nəwi janottəɬak qasa pəkirɣʔi nəwiɬɣʔi
+# text[rus] = Абсолютно без единой поломки (нарта) пришла, возле впереди идущего остановилась.
+# text[eng] = The sledge came without a single breakdown and stopped near the racer in front.
+# labels = complete-dep anno-karina
+1	Тэӈԓюӈымыԓеԓьын	_	VERB	_	_	6	nsubj	_	Gloss=GOOD-NEG.PFV-ломать(ся)-ATTR-NOM.SG
+2	тэӈэвыт	_	ADV	_	_	6	advmod	_	Gloss=GOOD-когда
+3	ныви	_	X	_	_	4	reparandum	_	Gloss=FST
+4	яноттыԓяк	_	NOUN	_	_	6	obl	_	Gloss=сначала-идти-LOC
+5	ӄача	_	ADP	_	_	4	case	_	Gloss=около
+6	пыкиргъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S
+7	нывиԓгъи	_	VERB	_	_	6	parataxis	_	Gloss=2/3.S/A-останавливаться-TH-2/3SG.S|SpaceAfter=No
+8	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = The_race_to_death:9
 # text = А этынвынъым пэ поӄытгагтыёԓго ытръэч ныԓгыӄин нрзб чьэчеӈвыйичыку.
@@ -12759,7 +13341,7 @@
 1	Иʼԓгын	_	NOUN	_	_	4	orphan	3.1:obj	Gloss=правая.постромка.упряжи-NOM.SG
 2	мраӈӄа	_	NOUN	_	_	4	orphan	3.1:obl	Gloss=правый-NEAR
 3	гакаӈӄорэн	_	NOUN	_	_	1	nmod:poss	1:nmod	Gloss=упряжка-олень-GEN
-3.1	_	_	VERB	_	_	_	_	0:root	Gloss=связывать
+3.1	эʼԓевнин	_	VERB	_	_	_	_	0:root	Gloss=связывать
 4-5	мраӈъэӈыкъым	_	_	_	_	_	_	_	SpaceAfter=No
 4	мраӈъэӈык	_	NOUN	_	_	0	root	3.1:obl	Gloss=правый-нос-LOC-=EMPH
 5	ъым	_	PART	_	_	4	discourse	4:discourse	_
