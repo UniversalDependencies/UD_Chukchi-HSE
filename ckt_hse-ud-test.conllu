@@ -613,7 +613,7 @@
 # sent_id = Being_a_child:15
 # text = Эʼчек выквыӄагтэ тэгнувъэԓеӄин ытԓьата энанымӈыԓяквъэ ынӄэн.
 # text[phon] = ʔesek wəkwəqaɣte teɣnuwʔeɬeqin ətɬʔata enanəmŋəɬakwʔe ənqen
-# text[rus] = Мать рассказывала, что, когда отец мочился, у него вышел камень чёрный-чёрный.
+# text[rus] = Мать раccказывала, что, когда отец мочился, у него вышел камень чёрный-чёрный.
 # text[eng] = My mother told me that when my dad had been urinating a black stone had come out.
 # text[eng'] = Mum told me it was black when (he was) urinating, the stone.
 # timestamp = 00:02:14
@@ -687,7 +687,7 @@
 # text[rus] = Не понимали, что сначала можно его повесить как амулет на шею.
 # text[eng] = We did not understand that we could make a necklace and wear it around the neck as an amulet.
 # labels = complete-dep anno-karina
-1	Уйӈэ	_	PART	_	_	2	aux	_	Gloss=нет
+1	Уйӈэ	_	AUX	_	_	2	aux	_	Gloss=нет
 2	эчимгъукыԓьымури	_	VERB	_	_	0	root	_	Gloss=CAR-думать-CAR-ATTR-NP.1PL
 3	ӄэԓюӄ	_	ADV	_	_	2	advmod	_	Gloss=конечно
 4-5	нэмыӄэйъым	_	_	_	_	_	_	_	_
@@ -873,7 +873,7 @@
 # text[eng] = She married twice but married only men with children.
 # labels = complete-dep anno-karina
 1-2	Ӈирэчеӈэ	_	_	_	_	_	_	_	_
-1	Ӈирэчеӈ	_	NUM	_	_	6	advmod	_	Gloss=два-MPL-=PTCL
+1	Ӈирэчеӈ	_	ADV	_	_	6	advmod	_	Gloss=два-MPL-=PTCL
 2	э	_	PART	_	_	1	discourse	_	_
 3-5	ӄынутъымэ	_	_	_	_	_	_	_	_
 3	ӄынутъы	_	ADV	_	_	6	advmod	_	Gloss=как-=EMPH-=PTCL
@@ -904,12 +904,12 @@
 3	ыʼттъыёԓкэн	_	NOUN	_	_	0	root	_	Gloss=перед-REL-=EMPH
 4	ъым	_	PART	_	_	3	discourse	_	_
 5-6	итыкэ	_	_	_	_	_	_	_	_
-5	итык	_	VERB	_	_	3	cop	_	Gloss=являться-LOC-=PTCL
+5	итык	_	AUX	_	_	3	cop	_	Gloss=являться-LOC-=PTCL
 6	э	_	PART	_	_	5	discourse	_	_
 7	Ӄайвыквын	_	PROPN	_	_	3	appos	_	Gloss=Кайвуквун-NOM.SG
-8	ытри	_	PRON	_	_	9	сс	_	Gloss=они
+8	ытри	_	PRON	_	_	9	cc	_	Gloss=они
 9	Ӄайвыквыӈа	_	PROPN	_	_	7	conj	_	Gloss=Кайвуквуна-NOM.SG|SpaceAfter=No
-10	.	_	PUNCT	_	_	5	punct	_	_
+10	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Being_a_child:31
 # text = Ӈинӄэгти ынан рымэйӈэвнинэт.
@@ -932,7 +932,7 @@
 2-3	нэмэӈэ	_	_	_	_	_	_	_	_
 2	нэмэӈ	_	ADV	_	_	9	advmod	_	Gloss=опять-=PTCL
 3	э	_	PART	_	_	2	discourse	_	_
-4	уйӈэ	_	PART	_	_	5	aux	_	Gloss=нет
+4	уйӈэ	_	AUX	_	_	5	aux	_	Gloss=нет
 5	нъэԓык	_	VERB	_	_	9	advcl	_	Gloss=стать-LOC
 6-7	тумгытумъым	_	_	_	_	_	_	_	_
 6	тумгытум	_	NOUN	_	_	5	nsubj	_	Gloss=друг-=EMPH
@@ -1264,7 +1264,7 @@
 5	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bouillon_with_crushed_bones:5
-# text = Кэԓеӈынэ ынӄэн ынпыӈэвӄэй гымнин кэԓеӈынэ нэнамӈыԓёйгым.
+# text = Кэԓеӈынэ ынӄэн ынпыӈэвӄэй гымнин Кэԓеӈынэ нэнамӈыԓёйгым.
 # text[phon] = keɬeŋəne ənqen ənpəŋewqej ɣəmnin keɬeŋəne nenamŋəɬojɣəm
 # text[rus] = Спрашиваю Келенгыне — это бабушка моя.
 # text[eng] = I ask Kelengyne, that is my grandmother.
@@ -1274,7 +1274,7 @@
 3	ынпыӈэвӄэй	_	NOUN	_	_	1	acl	_	Gloss=старый-FEM-DIM-NOM.SG
 4	гымнин	_	PRON	_	_	3	nmod:poss	_	Gloss=я-AN.GEN
 5	Кэԓеӈынэ	_	PROPN	_	_	1	reparandum	_	Gloss=Келенгыне-NOM.SG
-6	нэнамӈыԓёйгым	_	VERB	_	_	0	root	_	Gloss=ST-INV-спрашивать-NP.1SG
+6	нэнамӈыԓёйгым	_	VERB	_	_	0	root	_	Gloss=ST-INV-спрашивать-NP.1SG|SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bouillon_with_crushed_bones:6
@@ -1314,7 +1314,6 @@
 5	таԓяпат	_	NOUN	_	_	4	obj	_	Gloss=ударять-варить-NOM.SG|SpaceAfter=No
 6	.	_	PUNCT	_	_	4	punct	_	_
 
-
 # sent_id = Bouillon_with_crushed_bones:9
 # text = Нывинтивым чама ынӄэн ԓгипыгыпгэтыԓьэтӄин таԓяпат.
 # text[phon] = nəwintiwəm sama ənqen ɬɣipəɣəpɣetəɬʔetqin taɬapat
@@ -1327,7 +1326,6 @@
 4	ԓгипыгыпгэтыԓьэтӄин	_	VERB	_	_	1	parataxis	_	Gloss=INTS-кипеть-PLAC-ST.3SG
 5	таԓяпат	_	NOUN	_	_	4	nsubj	_	Gloss=ударять-варить-NOM.SG|SpaceAfter=No
 6	.	_	PUNCT	_	_	1	punct	_	_
-
 
 # sent_id = Bouillon_with_crushed_bones:10
 # text = Оʼтчой ныпыгыпгэтыԓьэтӄин нинивигым.
@@ -1469,7 +1467,6 @@
 2	эӄэпԓюкэ	_	VERB	_	_	0	root	_	Gloss=CAR-пинать-CAR-INS|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
-
 # sent_id = Brandy:1
 # text = Рыркайпияк мури каԓеткома ынӄэн.
 # text[phon] = rərkajpijak muri kaɬetkoma ənqen
@@ -1533,24 +1530,24 @@
 # text[rus] = Бутылки с алкоголем тогда другие были, не такие, как обычно, а прямо красноватые.
 # text[eng] = Bottles with alcohol then were different, not such as usual but really reddish.
 # labels = complete-dep anno-karina
-1-2	Эʼӄимԓытъым	_	_	_	_	_	_	_	_
-1	Эʼӄимԓыт	_	NOUN	_	_	3	nsubj	_	Gloss=плохой-вода-NOM.PL-=EMPH
-2	ъым	_	PART	_	_	1	discourse	_	_
-3	аԓва	_	ADJ	_	_	0	root	_	Gloss=другой-AD
-4	ваԓьыт	_	AUX	_	_	3	aux	_	Gloss=быть-ATTR-NOM.PL
-5	ынӄэн	_	PART	_	_	3	discourse	_	Gloss=DET
+1-2	Эʼӄимԓытъым	_	_	_	_	_	_	_	Gloss=плохой-вода-NOM.PL-=EMPH
+1	Эʼӄимԓыт	_	NOUN	_	_	3	nsubj	3:nsubj	Gloss=плохой-вода-NOM.PL
+2	ъым	_	PART	_	_	1	discourse	1:discourse	Gloss=EMPH
+3	аԓва	_	ADJ	_	_	0	root	0:root	Gloss=другой-AD
+4	ваԓьыт	_	AUX	_	_	3	aux	3:aux	Gloss=быть-ATTR-NOM.PL
+5	ынӄэн	_	PART	_	_	3	discourse	3:discourse	Gloss=DET
 6-7	ӄырымэнэ	_	_	_	_	_	_	_	_
-6	ӄырымэн	_	VERB	_	_	3	parataxis	_	Gloss=NEG.FUT-GEN-=PTCL
-7	э	_	PART	_	_	6	discourse	_	_
-8	ԓыгъэӄимԓыт	_	NOUN	_	_	1	appos	_	Gloss=AUTH-плохой-вода-NOM.PL
+6	ӄырымэн	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=NEG.FUT-GEN-=PTCL
+7	э	_	PART	_	_	6	discourse	6:discourse	_
+8	ԓыгъэӄимԓыт	_	NOUN	_	_	1	appos	1:appos	Gloss=AUTH-плохой-вода-NOM.PL
 9	ваа	_	ADV	_	_	6	advmod	_	Gloss=договорились
 10-11	ԓыгэнэ	_	_	_	_	_	_	_	_
-10	ԓыгэн	_	PART	_	_	6	discourse	_	Gloss=просто-=PTCL
-11	э	_	PART	_	_	10	discourse	_	_
-12	наӄам	_	CCONJ	_	_	13	cc	_	Gloss=однако
-13	нычеԓгԓьоӄэнат	_	VERB	_	_	3	parataxis	_	Gloss=ST-красный-видеть-ST.3SG-PL|SpaceAfter=No
+10	ԓыгэн	_	PART	_	_	6	discourse	6:discourse	Gloss=просто-=PTCL
+11	э	_	PART	_	_	10	discourse	10:discourse	_
+12	наӄам	_	CCONJ	_	_	13	cc	13:cc	Gloss=однако
+13	нычеԓгԓьоӄэнат	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=ST-красный-видеть-ST.3SG-PL|SpaceAfter=No
 13.1	чеԓг	_	ADJ	_	_	_	_	13:dep	Gloss=красный
-14	.	_	PUNCT	_	_	3	punct	_	_
+14	.	_	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = Brandy:6
 # text = Мрэнти.
@@ -1628,7 +1625,6 @@
 3	ынӄэн	_	DET	_	_	4	det	_	Gloss=DET
 4	брэнди	_	PROPN	_	_	1	orphan	_	Gloss=бренди-NOM.SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	1	punct	_	_
-
 
 # sent_id = Brandy:12
 # text = Мрэнтиыʼм ынӄэн.
@@ -1742,7 +1738,6 @@
 6	ыʼм	_	PART	_	_	5	discourse	_	_
 7	.	_	PUNCT	_	_	5	punct	_	_
 
-
 # sent_id = Brandy:20
 # text = Мытив ынӄэнэ танӈымэԓ иквъи чымчеӄэй.
 # text[phon] = mətiw ənqene tanŋəmeɬ ikwʔi səmseqej
@@ -1757,7 +1752,6 @@
 5	иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
 6	чымчеӄэй	_	ADV	_	_	5	xcomp	_	Gloss=близко-INS-DIM|SpaceAfter=No
 7	.	_	PUNCT	_	_	5	punct	_	_
-
 
 # sent_id = Brandy:21
 # text = Плиска блиска чымчеӄэй вэԓыткоран Мрэнти ӄыркургынэт.
@@ -1808,7 +1802,6 @@
 1	Ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET
 2	ынӈатаԓ	_	ADV	_	_	0	root	_	Gloss=очень|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
-
 
 # sent_id = Brandy:24
 # text = Нивӄинэт Плиска нэмыӄэй.
@@ -4135,7 +4128,6 @@
 8	фонтан	_	NOUN	_	_	4	ccomp	_	Gloss=фонтан-NOM.SG|SpaceAfter=No
 9	.	_	PUNCT	_	_	1	punct	_	_
 
-
 # sent_id = GUM:21
 # text = Ӄытԓыги ынӄэн ԓюутэ энаркып энаркыпчыткогъэ ӈинчьэккэтэыʼм.
 # text[phon] = qətɬəɣi ənqen ɬuute enarkəp enarkəpsətkoɣʔe ŋinsʔekketeʔəm
@@ -5249,11 +5241,11 @@
 # text[rus] = Её сын с моим старшим тоже, можно сказать, одного года.
 # text[eng] = Her son and my eldest one are of the same age, one can say.
 # labels = complete-dep anno-fran ənqen non-projective
-1	Ынин	_	PRON	_	_	4	conj	_	Gloss=он-GEN
+1	Ынин	_	PRON	_	_	15	nsubj	_	Gloss=он-GEN
 2	нэмыӄэй	_	ADV	_	_	4	advmod	_	Gloss=тоже
 3-4	гымыкэккэнэ	_	_	_	_	_	_	_	_
 3	гымык	_	PRON	_	_	4	nmod:poss	_	Gloss=я-POSS.INC-сын-AN.INS
-4	эккэнэ	_	NOUN	_	_	15	nsubj	_	_
+4	эккэнэ	_	NOUN	_	_	1	conj	_	_
 5-7	ынпычьэкыкъым	_	_	_	_	_	_	_	Gloss=старый-ADJ-сын-NOM.SG-=EMPH
 5	ынпычь	_	ADJ	_	_	6	amod	_	Gloss=старый
 6	экык	_	NOUN	_	_	4	appos	_	Gloss=сын-NOM.SG
@@ -5519,7 +5511,6 @@
 14	ъым	_	PART	_	_	13	discourse	_	Gloss=EMPH
 15	э	_	PART	_	_	13	discourse	_	Gloss=PTCL
 16	.	_	PUNCT	_	_	3	punct	_	_
-
 
 # sent_id = Ice_Age:4
 # text = Нивӄинэ.
