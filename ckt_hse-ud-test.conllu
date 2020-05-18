@@ -6589,7 +6589,7 @@
 1	Нан	_	ADV	_	_	3	advmod	_	Gloss=сам
 2	ярак	_	NOUN	_	_	3	obl	_	Gloss=яранга-LOC
 3	ынӈин	_	ADV	_	_	0	root	_	Gloss=так
-4	ӄитыркын	_	VERB	_	_	3	cop	_	Gloss=2.S/A.SUBJ-являться-IPFV
+4	ӄитыркын	_	AUX	_	_	3	cop	_	Gloss=2.S/A.SUBJ-являться-IPFV
 5	ыныкит	_	ADV	_	_	6	advmod	_	Gloss=если
 6-7	равъэчгатгъам	_	_	_	_	_	_	_	_
 6	равъэчгатгъа	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-FUT-умереть-AUG-VB-TH-=EMPH
