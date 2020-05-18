@@ -58,6 +58,26 @@ the sentence is believed to have.
 
 # Tokenisation
 
+Tokens in the corpus are defined as sequences of non-whitespace or punctuation
+characters separated by whitespace.
+
+Underneath tokens are syntactic words. These are words which take part
+in dependency relations.
+
+A single token may be split into more than one word based on the following criteria:
+
+* Emphatic clitics are split (notably *-ъм* and *-а*)
+* In non-absolutive noun phrases, attributive modifiers (nouns, adjectives and numerals) 
+which have been incorporated are split. The splits are based on the provided gloss.
+
+Incorporation into lexical verbs does not involve splitting in the basic representation,
+sentences are annotated according to their surface syntax, e.g. a verb
+with an incorporated object is annotated as intransitive following its
+agreement morphology.
+
+In the enhanced representation, the argument structure is recovered,
+incorporated items are given nodes.
+
 # Morphology
 
 # Syntax
