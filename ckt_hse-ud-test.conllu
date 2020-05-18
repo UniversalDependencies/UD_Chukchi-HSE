@@ -1540,7 +1540,7 @@
 6	ӄырымэн	_	VERB	_	_	3	parataxis	3:parataxis	Gloss=NEG.FUT-GEN-=PTCL
 7	э	_	PART	_	_	6	discourse	6:discourse	_
 8	ԓыгъэӄимԓыт	_	NOUN	_	_	1	appos	1:appos	Gloss=AUTH-плохой-вода-NOM.PL
-9	ваа	_	ADV	_	_	6	advmod	_	Gloss=договорились
+9	ваа	_	ADV	_	_	6	advmod	6:advmod	Gloss=договорились
 10-11	ԓыгэнэ	_	_	_	_	_	_	_	_
 10	ԓыгэн	_	PART	_	_	6	discourse	6:discourse	Gloss=просто-=PTCL
 11	э	_	PART	_	_	10	discourse	10:discourse	_
@@ -5587,7 +5587,7 @@
 6	ӈутку	_	ADV	_	_	0	root	_	Gloss=здесь
 7-8	мургынутэ	_	_	_	_	_	_	_	_
 7	мургы	_	PRON	_	_	8	nmod:poss	_	Gloss=мы
-8	нутэ	_	NOUN	_	_	6	obl	Gloss=страна	_
+8	нутэ	_	NOUN	_	_	6	obl	_	Gloss=страна
 9	ваԓьыт	_	AUX	_	_	11	acl:attr	_	Gloss=быть-ATTR-NOM.PL
 10-13	камагӈаԓвыԓьыйӈытъыма	_	_	_	_	_	_	_	SpaceAfter=No
 10	камаг	_	NOUN	_	_	11	nmod	_	Gloss=мамонт-стадо-AUG-NOM.PL-=EMPH-=PTCL
@@ -6598,7 +6598,6 @@
 11	ъым	_	PART	_	_	10	discourse	_	_
 12	.	_	PUNCT	_	_	7	punct	_	_
 
-
 # sent_id = Knives:12
 # text = Ынӄэӄ пԓевыт янот ӄыԓьугын.
 # text[phon] = ənqeq pɬewət janot qəɬʔuɣən
@@ -6728,7 +6727,6 @@
 5	ъым	_	PART	_	_	4	discourse	_	_
 6	янра	_	ADV	_	_	4	advmod	_	Gloss=отдельно|SpaceAfter=No
 7	.	_	PUNCT	_	_	4	punct	_	_
-
 
 # sent_id = Knives:20
 # text = Аʼԓяйпыԓьын ԓыгэпэтываԓы ынӄэ тымӈэвԓен.
@@ -6881,7 +6879,6 @@
 4	эвнумэкэткэ	_	VERB	_	_	0	root	_	Gloss=PREF-кружок-VB-CAR-INS|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	_	_
 
-
 # sent_id = Komsomolets_(again):9
 # text = Ээ микынтим камчамоԓтэ.
 # text[phon] = ee mikəntiʔm kamsamoɬte
@@ -6910,7 +6907,6 @@
 5	ъым	_	PART	_	_	4	discourse	_	_
 6	тагмэгчеръянвыт	_	NOUN	_	_	0	root	_	Gloss=GOOD-работа-NMN.PL-NOM.PL|SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	_
-
 
 # sent_id = Komsomolets_(again):11
 # text = Амвынэ трагтыгъак.
@@ -10244,7 +10240,6 @@
 6	ганточгатэгыт	_	VERB	_	_	4	xcomp	_	Gloss=PF-выходить-AUG-VB-NP.2SG|SpaceAfter=No
 7	.	_	PUNCT	_	_	1	punct	_	_
 
-
 # sent_id = Shaman:12
 # text = Нивӄин пԓеэн пчемытъэт ытръэч гъачаӈӈойгым.
 # text[phon] = niwqin pɬeen psemətʔet ətrʔes ɣʔasaŋŋojɣəm
@@ -10299,7 +10294,6 @@
 6	нъэԓгъи	_	VERB	_	_	3	ccomp	_	Gloss=2/3.S/A-стать-TH-2/3SG.S|SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
 
-
 # sent_id = Shaman:16
 # text = Ԓюут ӈоонӄо омкытагнэпы пинтыӄэтгъи оʼро оʼо оʼраырыкагты ныԓеӄин.
 # text[phon] = ɬuut ŋoonqo omkətaɣnepə pintəqetɣʔi ʔoro ʔoo ʔoraərəkaɣtə nəɬeqin
@@ -10346,7 +10340,6 @@
 5	Омваанвыкэн	_	PROPN	_	_	4	nmod	_	Gloss=Амгуэма-REL-NOM.SG-=EMPH
 6	ъым	_	PART	_	_	5	discourse	_	_
 7	.	_	PUNCT	_	_	1	punct	_	_
-
 
 # sent_id = Shaman:19
 # text = Ԓьиннык навыквынэԓгэтгъэнъым ынкы нэнпыԓӄэквъэн.
@@ -10470,7 +10463,6 @@
 4	чычетпэԓӄэтэ	_	NOUN	_	_	3	parataxis	_	Gloss=родственный-умирать-VB-INS2/3SG.S
 5	итгъи	_	VERB	_	_	4	cop	_	Gloss=2/3.S/A-являться-TH-2/3SG.S|SpaceAfter=No
 6	.	_	PUNCT	_	_	3	punct	_	_
-
 
 # sent_id = Stud_buck_reindeer:1
 # text = Эʼми мэ а миӈкыриыʼм ынӄэн тыр тыркыԓьиӈын гэԓӄытԓин.
@@ -11408,7 +11400,6 @@
 7	ваԓьыт	_	VERB	_	_	5	parataxis	_	Gloss=быть-ATTR-NOM.PL|SpaceAfter=No
 8	.	_	PUNCT	_	_	5	punct	_	_
 
-
 # sent_id = The_Eskimo_is_fishing:8
 # text = Ныгиԓйиӈэтӄээтъым ынкъамэ.
 # text[phon] = nəɣiɬjiŋetqeetʔəm ənkʔame
@@ -11675,7 +11666,6 @@
 5	пыкиргъиӈ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S-=PTCL
 6	э	_	PART	_	_	5	discourse	_	_
 7	.	_	PUNCT	_	_	5	punct	_	_
-
 
 # sent_id = The_race_to_death:7
 # text = Таӈранъав орвоор ныԓеӄин.
