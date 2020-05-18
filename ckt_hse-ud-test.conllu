@@ -4908,6 +4908,22 @@
 2.1	ӈойӈ	_	NOUN	_	_	_	_	2:obj	_
 3	.	_	PUNCT	_	_	2	punct	2:punct	_
 
+# sent_id = Hooligan:8
+# text = Нивигым этаны гымнин ынӄэнэ пэнин ӄуӈычгытэйкэвытумгын.
+# text[phon] = niwiɣəm etanə ɣəmnin ənqene penin quŋəsɣətejkewətumɣən
+# text[rus] = Я думал, это, наверное, мой друг, с которым мы постоянно в шутку боролись.
+# text[eng] = I thought that was probably my friend with which we used to fight for fun.
+# labels = complete-dep anno-fran ənqen speech
+1	Нивигым	_	VERB	_	_	0	root	_	Gloss=ST-сказать-NP.1SG
+2	этаны	_	ADV	_	_	1	parataxis:speech	_	Gloss=наверное
+3	гымнин	_	PRON	_	_	7	nmod:poss	_	Gloss=я-AN.GEN
+4-5	ынӄэнэ	_	_	_	_	_	_	_	_
+4	ынӄэн	_	PART	_	_	7	discourse	_	Gloss=DET-=PTCL
+5	э	_	PART	_	_	4	discourse	_	_
+6	пэнин	_	ADJ	_	_	7	amod	_	Gloss=прежний
+7	ӄуӈычгытэйкэвытумгын	_	NOUN	_	_	1	parataxis:speech	_	Gloss=озорной-бороться-друг-NOM.SG|SpaceAfter=No
+8	.	_	PUNCT	_	_	1	punct	_	_
+
 # sent_id = Hooligan:9
 # text = Читъым нэрмэйгым гым нэрмэчитивым Ваӈӄарэмак тэйкэвык.
 # text[phon] = sitʔəm nermejɣəm ɣəm nermesitiwəm waŋqaremak tejkewək
@@ -9870,6 +9886,42 @@
 7	ынӄэ	_	PART	_	_	4	discourse	_	Gloss=DET|SpaceAfter=No
 8	.	_	PUNCT	_	_	4	punct	_	_
 
+# sent_id = Shaman:6
+# text = Чит ынӄэнэ.
+# text[phon] = sit ənqene
+# text[rus] = Ну это самое…
+# text[eng] = Well, um…
+# labels = complete-dep anno-karina
+1	Чит	_	AUX	_	_	2	cop	_	Gloss=было
+2-3	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL|SpaceAfter=No
+2	ынӄэн	_	PRON	_	_	0	root	_	Gloss=DET
+3	э	_	PART	_	_	2	discourse	_	Gloss=PTCL
+4	.	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Shaman:7
+# text = Пэрэнвыкъымэ оттычанԓяйӈычыко нэ ныёйвыӄэн ныёӄэн рэнэ пыԓвынты рыпыԓвынтыԓгав ваԓьын оʼмрэты оттычанԓяйӈынъым.
+# text[phon] = perenwəkʔəme ottəsanɬajŋəsəko ne nəjojwəqen nəjoqen rene pəɬwəntə rəpəɬwəntəɬɣaw waɬʔən ʔomretə ottəsanɬajŋənʔəm
+# text[rus] = В тюрьме затолкали в деревянный ящик, снаружи обитый железом.
+# text[eng] = In the prison, they pushed him into the wooden box that was covered with iron.
+# labels = complete-dep anno-karina valency
+1-3	Пэрэнвыкъымэ	_	_	_	_	_	_	_	_
+1	Пэрэнвык	_	VERB	_	_	7	obl	_	Gloss=брать-NMN-LOC-=EMPH-=PTCL
+2	ъым	_	PART	_	_	1	discourse	_	_
+3	э	_	PART	_	_	1	discourse	_	_
+4	оттычанԓяйӈычыко	_	NOUN	_	_	7	obl	_	Gloss=дерево-ящик-AUG-IN
+5	нэ	_	X	_	_	7	reparandum	_	Gloss=FST
+6	ныёйвыӄэн	_	VERB	_	_	7	reparandum	_	Gloss=ST-класть-DISTR.O-ST.3SG
+7	ныёӄэн	_	VERB	_	_	0	root	_	Gloss=ST-класть-ST.3SG
+8	рэнэ	_	X	_	_	10	reparandum	_	Gloss=FST
+9	пыԓвынты	_	X	_	_	10	reparandum	_	Gloss=FST
+10	рыпыԓвынтыԓгав	_	NOUN	_	_	13	acl:attr	_	Gloss=CUM-металл-CUM
+11	ваԓьын	_	AUX	_	_	10	cop	_	Gloss=быть-ATTR-NOM.SG
+12	оʼмрэты	_	ADJ	_	_	13	amod	_	Gloss=крепкий-DAT
+13-14	оттычанԓяйӈынъым	_	_	_	_	_	_	_	SpaceAfter=No
+13	оттычанԓяйӈын	_	NOUN	_	_	7	obj	_	Gloss=дерево-ящик-AUG-NOM.SG-=EMPH
+14	ъым	_	PART	_	_	13	discourse	_	_
+15	.	_	PUNCT	_	_	7	punct	_	_
+
 # sent_id = Shaman:8
 # text = Ынкы нычамогъевӄэн тынык пэ нымкыӄин чамокытъым.
 # text[phon] = ənkə nəsamoɣjewqen tənək pe nəmkəqin samokətʔəm
@@ -9925,6 +9977,21 @@
 2	ааӈкы	_	ADJ	_	_	0	root	_	Gloss=открыто|SpaceAfter=No
 3	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Shaman:11
+# text = Нымӈыԓёӄэн ытԓён гэрэӄигыт кытвыԓӄун миӈкыри ганточгатэгыт.
+# text[phon] = nəmŋəɬoqen ətɬon ɣereqiɣət kətwəɬqun miŋkəri ɣantosɣateɣət
+# text[rus] = Его спрашивают: что же ты сделал, как ты вышел?
+# text[eng] = They ask him: what did you do, how did you get out?
+# labels = complete-dep anno-karina
+1	Нымӈыԓёӄэн	_	VERB	_	_	0	root	_	Gloss=ST-спрашивать-ST.3SG
+2	ытԓён	_	PRON	_	_	1	obj	_	Gloss=он
+3	гэрэӄигыт	_	VERB	_	_	4	xcomp	_	Gloss=PF-что-NP.2SG
+4	кытвыԓӄун	_	VERB	_	_	1	xcomp	_	Gloss=умудряться
+5	миӈкыри	_	ADV	_	_	6	advmod	_	Gloss=где-LOC-ADV.ALL
+6	ганточгатэгыт	_	VERB	_	_	4	xcomp	_	Gloss=PF-выходить-AUG-VB-NP.2SG|SpaceAfter=No
+7	.	_	PUNCT	_	_	1	punct	_	_
+
+
 # sent_id = Shaman:12
 # text = Нивӄин пԓеэн пчемытъэт ытръэч гъачаӈӈойгым.
 # text[phon] = niwqin pɬeen psemətʔet ətrʔes ɣʔasaŋŋojɣəm
@@ -9964,6 +10031,22 @@
 4	ъым	_	PART	_	_	3	discourse	_	_
 5	.	_	PUNCT	_	_	2	punct	_	_
 
+# sent_id = Shaman:15
+# text = Ԓюутэ нивӄээт этаны уйӈэ нъэԓгъи.
+# text[phon] = ɬuute niwqeet etanə ujŋe nʔeɬɣʔi
+# text[rus] = Говорят: наверное, не стало его.
+# text[eng] = They say: probably, he is no more.
+# labels = complete-dep anno-karina
+1-2	Ԓюутэ	_	_	_	_	_	_	_	_
+1	Ԓюут	_	ADV	_	_	3	advmod	_	Gloss=вдруг-=PTCL
+2	э	_	PART	_	_	1	discourse	_	_
+3	нивӄээт	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3PL
+4	этаны	_	ADV	_	_	6	advmod	_	Gloss=наверное
+5	уйӈэ	_	PART	_	_	6	aux	_	Gloss=нет
+6	нъэԓгъи	_	VERB	_	_	3	ccomp	_	Gloss=2/3.S/A-стать-TH-2/3SG.S|SpaceAfter=No
+7	.	_	PUNCT	_	_	3	punct	_	_
+
+
 # sent_id = Shaman:16
 # text = Ԓюут ӈоонӄо омкытагнэпы пинтыӄэтгъи оʼро оʼо оʼраырыкагты ныԓеӄин.
 # text[phon] = ɬuut ŋoonqo omkətaɣnepə pintəqetɣʔi ʔoro ʔoo ʔoraərəkaɣtə nəɬeqin
@@ -9996,6 +10079,22 @@
 6	м	_	PART	_	_	5	discourse	_	_
 7	.	_	PUNCT	_	_	5	punct	_	_
 
+# sent_id = Shaman:18
+# text = Чымче ынкы ваԓьын ыёогыргын Омваанвыкэнъым.
+# text[phon] = səmse ənkə waɬʔən əjooɣərɣən omwaanwəkenʔəm
+# text[rus] = Там неподалёку была полынья амгуэмская.
+# text[eng] = There was an ice-hole near Amguema.
+# labels = complete-dep anno-karina
+1	Чымче	_	ADV	_	_	0	root	_	Gloss=близко-INS
+2	ынкы	_	DET	_	_	1	det	_	Gloss=тот-LOC
+3	ваԓьын	_	VERB	_	_	1	cop	_	Gloss=быть-ATTR-NOM.SG
+4	ыёогыргын	_	NOUN	_	_	1	nsubj	_	Gloss=полынья-NOM.SG
+5-6	Омваанвыкэнъым	_	_	_	_	_	_	_	SpaceAfter=No
+5	Омваанвыкэн	_	PROPN	_	_	4	nmod	_	Gloss=Амгуэма-REL-NOM.SG-=EMPH
+6	ъым	_	PART	_	_	5	discourse	_	_
+7	.	_	PUNCT	_	_	1	punct	_	_
+
+
 # sent_id = Shaman:19
 # text = Ԓьиннык навыквынэԓгэтгъэнъым ынкы нэнпыԓӄэквъэн.
 # text[phon] = ɬʔinnək nawəkwəneɬɣetɣʔenʔəm ənkə nenpəɬqekwʔen
@@ -10022,6 +10121,33 @@
 2	ъым	_	PART	_	_	1	discourse	_	_
 3	.	_	PUNCT	_	_	1	punct	_	_
 
+# sent_id = Shaman:21
+# text = Ԓюут ӈоонӄо ӄоԓеыёогыргытагнэпыӈ выйигиӈэтэӈэ а янот ынӄэнэ гаԓгаӄай ԓюут ыёогыргытагнэпы пиврэиʼм.
+# text[phon] = ɬuut ŋoonqo qoɬeəjooɣərɣətaɣnepəŋ wəjiɣiŋeteŋe а janot ənqene ɣaɬɣaqaj ɬuut əjooɣərɣətaɣnepə piwreʔim
+# text[rus] = Вдруг там из другой полыньи из-под облака пара вынырнула уточка.
+# text[eng] = Suddenly there from another ice-hole a small duck emerged in a cloud of steam.
+# labels = complete-dep anno-karina
+1	Ԓюут	_	ADV	_	_	14	advmod	_	Gloss=вдруг
+2	ӈоонӄо	_	ADV	_	_	14	advmod	_	Gloss=там-ADV.ABL
+3-4	ӄоԓеыёогыргытагнэпыӈ	_	_	_	_	_	_	_	_
+3	ӄоԓе	_	PRON	_	_	4	nmod	_	Gloss=некий-полынья-FRONT-ABL-AD
+4	ыёогыргытагнэпыӈ	_	NOUN	_	_	14	obl	_	_
+5-6	выйигиӈэтэӈэ	_	_	_	_	_	_	_	_
+5	выйигиӈэтэӈ	_	NOUN	_	_	14	obl	_	Gloss=пар-BOTTOM-ADV.PROL-=PTCL
+6	э	_	PART	_	_	5	discourse	_	_
+7	а	_	PART	_	_	8	discourse	_	Gloss=
+8	янот	_	ADV	_	_	14	advmod	_	Gloss=сначала
+9-10	ынӄэнэ	_	_	_	_	_	_	_	_
+9	ынӄэн	_	DET	_	_	14	det	_	Gloss=DET-=PTCL
+10	э	_	PART	_	_	9	discourse	_	_
+11	гаԓгаӄай	_	NOUN	_	_	14	nsubj	_	Gloss=утка-DIM-NOM.SG
+12	ԓюут	_	ADV	_	_	14	advmod	_	Gloss=вдруг
+13	ыёогыргытагнэпы	_	NOUN	_	_	14	obl	_	Gloss=полынья-FRONT-ABL
+14-15	пиврэиʼм	_	_	_	_	_	_	_	SpaceAfter=No
+14	пиврэ	_	ADV	_	_	0	root	_	Gloss=2/3.S/A-вынырнуть-TH-2/3SG.S-=EMPH
+15	иʼм	_	PART	_	_	14	discourse	_	_
+16	.	_	PUNCT	_	_	14	punct	_	_
+
 # sent_id = Shaman:22
 # text = Пиврэ ынӄоры риӈэиʼ виг йыӈачыкогт йыӈэчыкутгъи ры ыны ыныгнотаӈӄачагты эквэтгъи.
 # text[phon] = piwre ənqorə riŋeʔi wiɣ jəŋasəkoɣt jəŋesəkutɣʔi rə ənə ənəɣnotaŋqasaɣtə ekwetɣʔi
@@ -10047,7 +10173,7 @@
 # text[phon] = qoɬetʔəɬoŋə ənŋenqasajpə quɬijʔiɬɣəke pəkirɣʔiŋe pəkirɣʔet maɣɬaɬʔətʔəm ikwʔet
 # text[rus] = В другой раз, в следующем месяце, из той стороны приехали люди на собачьих упряжках, сказали:
 # text[eng] = Another time, next month, people on dog teams came from the other side, and they said:
-# labels = complete-dep anno-karina unclear-syntax
+# labels = complete-dep anno-karina
 1-2	Ӄоԓетъыԓёӈы	_	_	_	_	_	_	_	_
 1	Ӄоԓетъыԓё	_	NOUN	_	_	7	obl	_	Gloss=некий-день-=PTCL
 2	ӈ	_	PART	_	_	1	discourse	_	_
@@ -10078,6 +10204,20 @@
 3	яра	_	NOUN	_	_	0	root	_	Gloss=яранга
 4	нытваӄэн	_	AUX	_	_	3	cop	_	Gloss=ST-быть-ST.3SG|SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Shaman:25
+# text = Ынкы ярак тъыԓыӈӈогъэ чычетпэԓӄэтэ итгъи.
+# text[phon] = ənkə jarak tʔəɬəŋŋoɣʔe səsetpeɬqete itɣʔi
+# text[rus] = Там, дома, своей смертью умер.
+# text[eng] = There, at home, he died by his death.
+# labels = complete-dep anno-karina unclear-syntax
+1	Ынкы	_	DET	_	_	2	det	_	Gloss=тот-LOC
+2	ярак	_	NOUN	_	_	3	obl	_	Gloss=яранга-LOC
+3	тъыԓыӈӈогъэ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-болеть-INCH-TH-2/3SG.S
+4	чычетпэԓӄэтэ	_	NOUN	_	_	3	parataxis	_	Gloss=родственный-умирать-VB-INS2/3SG.S
+5	итгъи	_	VERB	_	_	4	cop	_	Gloss=2/3.S/A-являться-TH-2/3SG.S|SpaceAfter=No
+6	.	_	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = Stud_buck_reindeer:1
 # text = Эʼми мэ а миӈкыриыʼм ынӄэн тыр тыркыԓьиӈын гэԓӄытԓин.
@@ -11671,6 +11811,25 @@
 4	поӄэпы	_	NOUN	_	_	5	obl	_	Gloss=зад-ABL
 5	нэнанӈытоӈанморэ	_	VERB	_	_	0	root	_	Gloss=ST-INV-TR-выходить-SF-NP.1PL|SpaceAfter=No
 6	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Transhumance:commercial21
+# text = Гым тэӈэмпиритэ ынӄэнэ рырвинрыёт чеймыкинэт ынӄэнат гымнан аʼтав нэнайпатэвым.
+# text[phon] = ɣəm teŋempirite ənqene rərwinrəjot sejməkinet ənqenat ɣəmnan ʔataw nenajpatewəm
+# text[rus] = Я голыми руками беру первых (самых ручных) и вторых (тягловых) оленей и ставлю их.
+# text[eng] = With bare hands, I take the most domestic reindeer and the draught reindeer and place them in the appropriate position.
+# labels = complete-dep anno-fran unclear-syntax
+1	Гым	_	PRON	_	_	10	dislocated	_	Gloss=я
+2	тэӈэмпиритэ	_	VERB	_	_	10	advcl	_	Gloss=GOOD-RESTR-брать-INS
+3-4	ынӄэнэ	_	_	_	_	_	_	_	_
+3	ынӄэн	_	PART	_	_	2	discourse	_	Gloss=DET-=PTCL
+4	э	_	PART	_	_	3	discourse	_	_
+5	рырвинрыёт	_	VERB	_	_	10	obj	_	Gloss=TR-вести.за.руку-PTCP.PASS-NOM.PL
+6	чеймыкинэт	_	NOUN	_	_	5	conj	_	Gloss=тягловый.олень-REL-NOM.PL
+7	ынӄэнат	_	PRON	_	_	5	appos	_	Gloss=DET-NOM.PL
+8	гымнан	_	PRON	_	_	10	nsubj	_	Gloss=я-INS
+9	аʼтав	_	ADV	_	_	10	advmod	_	Gloss=ну
+10	нэнайпатэвым	_	VERB	_	_	0	root	_	Gloss=ST-INV-надевать-VB-NP.1SG|SpaceAfter=No
+11	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Transhumance:22
 # text = Ну и ытԓёнъым эӄыԓпэ ӈэвэӄэ еп айвэ титэ ыʼттъыёԓе ынӄэн раёвынвыԓ раёвынвыԓӄыԓтэӈэ ынпыначгаӈэ нэнаёпат нинэԓӄырирӄинэтъым.
