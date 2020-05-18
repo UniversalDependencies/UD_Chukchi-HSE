@@ -32,6 +32,30 @@ by [Vasilisa Adriyanets](github.com/BasilisAndr/). There may be errors in the au
 conversion. Particularly the treatment of Russian loan words and proper nouns, the 
 character *s*, and the glottal stop.
 
+# Metadata
+
+Each sentence has the following information:
+
+* `sent_id`: This indicates the file and the sentence number. The filename is equivalent 
+to the name from the [Chuklang](http://chuklang.ru/) site.
+* `text`: The text in the Chukchi orthography. This is automatically generated from the 
+phonemic transcription and partially manually corrected. See Orthography notes above.
+* `text[phon]`: A phonemic transcription. Words in Cyrillic in here are either false 
+starts or sequences of loan words.
+* `text[rus]`: A free translation of the sentence in Russian.
+* `text[eng]`: A free translation of the sentence in English.
+* `labels`: A set of labels indicating some metadata about the sentence, may include the 
+annotator name, if the sentence is complete, or just has dependencies, or if there is 
+something unclear in the syntax.
+
+In addition, some sentences have extra information
+
+* `timestamp`: The offset of the `.wav` file in `hh:mm:ss` format where the sentence
+starts.
+* `comment`: A comment from the transcriber, usually in Russian.
+* `text[eng']`: A secondary, more literal translation in English of the structure that
+the sentence is believed to have.
+
 # Tokenisation
 
 # Morphology
