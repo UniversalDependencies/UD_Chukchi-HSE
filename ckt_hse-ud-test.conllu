@@ -13894,9 +13894,10 @@
 # text[rus] = А он на вершине скалы выколачивает подстилку на нарте от снежной пыли.
 # text[eng] = And he is on top of the mountain cleaning the seat pad from snow.
 # labels = complete-dep anno-fran
-1	Энмыткынык	_	NOUN	_	_	2	obl	_	Gloss=скала-TOP-LOC
-2	напэӄовтытэвԓяӄэн	_	VERB	_	_	0	root	_	Gloss=ST-подстилка.на.нарте.из.шкуры-стряхивать-ST.3SG|SpaceAfter=No
-3	.	_	PUNCT	_	_	1	punct	_	_
+1	Энмыткынык	_	NOUN	_	_	2	obl	2:obl	Gloss=скала-TOP-LOC
+2	напэӄовтытэвԓяӄэн	_	VERB	_	_	0	root	0:root	Gloss=ST-подстилка.на.нарте.из.шкуры-стряхивать-ST.3SG|SpaceAfter=No
+2.1	апэӄовт	_	NOUN	_	_	_	_	2:obj	Gloss=подстилка.на.нарте.из.шкуры
+3	.	_	PUNCT	_	_	1	punct	1:punct	_
 
 # sent_id = Yurgayuk:11
 # text = Ытръэч.
