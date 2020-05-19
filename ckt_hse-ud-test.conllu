@@ -5544,7 +5544,7 @@
 8	э	_	PART	_	_	7	discourse	7:discourse	_
 9-10	тыԓеԓьытэ	_	_	_	_	_	_	_	_
 9	тыԓеԓьыт	_	VERB	_	_	4	acl	4:acl	Gloss=идти-ATTR-NOM.PL-=PTCL
-10	э	_	PART	_	_	9	discourse	_	_
+10	э	_	PART	_	_	9	discourse	9:discourse	_
 11	миӈкы	_	ADV	_	_	12	advmod	12:advmod	Gloss=где-LOC
 12	имԓетгынтэвыԓьыт	_	VERB	_	_	9	advcl	9:advcl	Gloss=вода-VB-убегать-ATTR-NOM.PL
 12.1	имԓ	_	NOUN	_	_	_	_	12:obj	Gloss=вода
