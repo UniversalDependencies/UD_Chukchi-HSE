@@ -140,9 +140,9 @@
 # labels = complete anno-fran
 1	Ынкы	_	PRON	_	_	3	obl	_	Gloss=тот-LOC
 2	иԓирыкы	_	NOUN	_	_	3	obl	_	Gloss=остров-LOC
-3-4	нантыӈӈонатъым	_	_	_	_	_	_	_	SpaceAfter=No
-3	нантыӈӈонат	_	VERB	_	_	0	root	_	Gloss=LOW.A-держать-INCH-3SG.O-PL-=EMPH
-4	ъым	_	PART	_	_	3	advmod:emph	_	_
+3-4	нантыӈӈонатъым	_	_	_	_	_	_	_	Gloss=LOW.A-держать-INCH-3SG.O-PL-=EMPH|SpaceAfter=No
+3	нантыӈӈонат	_	VERB	_	_	0	root	_	Gloss=LOW.A-держать-INCH-3SG.O-PL
+4	ъым	_	PART	_	_	3	advmod:emph	_	Gloss=EMPH
 5	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = A_chatterbox_and_a_wanton_girl:5
@@ -184,9 +184,9 @@
 # text[eng] = The old man says: «You know what...»
 # labels = complete-dep anno-fran
 1	Ынпыначгын	_	NOUN	_	_	2	nsubj	_	Gloss=старик-NOM.SG
-2-3	иквъиӈа	_	_	_	_	_	_	_	_
-2	иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=PTCL
-3	ӈа	_	PART	_	_	2	parataxis:speech	_	_
+2-3	иквъиӈа	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=PTCL
+2	иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+3	ӈа	_	PART	_	_	2	parataxis:speech	_	Gloss=PTCL
 4	амвынэ	_	PART	_	_	3	flat	_	Gloss=RESTR-ну.ка|SpaceAfter=No
 5	.	_	PUNCT	_	_	2	punct	_	_
 
@@ -873,11 +873,11 @@
 # text[eng] = She married twice but married only men with children.
 # labels = complete-dep anno-karina
 1-2	Ӈирэчеӈэ	_	_	_	_	_	_	_	Gloss=два-MPL-=PTCL
-1	Ӈирэчеӈ	_	ADV	_	_	6	advmod	_	Gloss=два-MPL
-2	э	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+1	Ӈирэче	_	ADV	_	_	6	advmod	_	Gloss=два-MPL
+2	ӈэ	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
 3-5	ӄынутъымэ	_	_	_	_	_	_	_	Gloss=как-=EMPH-=PTCL
-3	ӄынутъы	_	ADV	_	_	6	advmod	_	Gloss=как
-4	м	_	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+3	ӄынут	_	ADV	_	_	6	advmod	_	Gloss=как
+4	ъым	_	PART	_	_	3	advmod:emph	_	Gloss=EMPH
 5	э	_	PART	_	_	3	advmod:emph	_	Gloss=PTCL
 6	ганрагтатԓен	_	VERB	_	_	0	root	_	Gloss=PF-TR-жилище-GO.TO-VB-PF.3SG
 7	ынӄэн	_	PART	_	_	6	discourse	_	Gloss=DET
@@ -896,16 +896,16 @@
 # text[phon] = quneseŋe ʔəttʔəjoɬkenʔəm itəke qajwəkwən ətri qajwəkwəŋa
 # text[rus] = Раз сначала старшие … Кайвукун и Кайвукуна.
 # text[eng] = First the elder ones... Kaiwukun and Kaiwukuna.
-# labels = complete-dep anno-karina
+# labels = complete-dep anno-karina reattached-clitic
 1-2	Ӄунэчеӈэ	_	_	_	_	_	_	_	Gloss=раз-MPL-=PTCL
-1	Ӄунэчеӈ	_	ADV	_	_	5	advmod	_	Gloss=раз-MPL
-2	э	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+1	Ӄунэче	_	ADV	_	_	5	advmod	_	Gloss=раз-MPL
+2	ӈэ	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
 3-4	ыʼттъыёԓкэнъым	_	_	_	_	_	_	_	Gloss=перед-REL-=EMPH
 3	ыʼттъыёԓкэн	_	NOUN	_	_	0	root	_	Gloss=перед-REL
 4	ъым	_	PART	_	_	3	advmod:emph	_	Gloss=EMPH
 5-6	итыкэ	_	_	_	_	_	_	_	Gloss=являться-LOC-=PTCL
 5	итык	_	AUX	_	_	3	cop	_	Gloss=являться-LOC
-6	э	_	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+6	э	_	PART	_	_	3	advmod:emph	_	Gloss=PTCL
 7	Ӄайвыквын	_	PROPN	_	_	3	appos	_	Gloss=Кайвуквун-NOM.SG
 8	ытри	_	PRON	_	_	7	conj	_	Gloss=они
 9	Ӄайвыквыӈа	_	PROPN	_	_	7	conj	_	Gloss=Кайвуквуна-NOM.SG|SpaceAfter=No
@@ -930,8 +930,8 @@
 # labels = complete-dep anno-karina
 1	Ӄоры	_	ADV	_	_	9	advmod	_	Gloss=потом
 2-3	нэмэӈэ	_	_	_	_	_	_	_	Gloss=опять-=PTCL
-2	нэмэӈ	_	ADV	_	_	9	advmod	_	Gloss=опять
-3	э	_	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+2	нэмэ	_	ADV	_	_	9	advmod	_	Gloss=опять
+3	ӈэ	_	PART	_	_	2	advmod:emph	_	Gloss=PTCL
 4	уйӈэ	_	AUX	_	_	5	aux	_	Gloss=нет
 5	нъэԓык	_	VERB	_	_	9	advcl	_	Gloss=стать-LOC
 6-7	тумгытумъым	_	_	_	_	_	_	_	Gloss=друг-=EMPH
@@ -952,8 +952,8 @@
 1	Нэмэ	_	ADV	_	_	2	advmod	_	Gloss=опять
 2	ганрагтатԓен	_	VERB	_	_	0	root	_	Gloss=PF-TR-жилище-GO.TO-VB-PF.3SG
 3-4	нэмэӈэ	_	_	_	_	_	_	_	Gloss=опять-=PTCL
-3	нэмэӈ	_	ADV	_	_	6	advmod	_	Gloss=опять
-4	э	_	PART	_	_	3	advmod:emph	_	Gloss=PTCL
+3	нэмэ	_	ADV	_	_	6	advmod	_	Gloss=опять
+4	ӈэ	_	PART	_	_	3	advmod:emph	_	Gloss=PTCL
 5	ӈиръэ	_	NUM	_	_	6	nummod	_	Gloss=два
 6	ӈинӄэгти	_	NOUN	_	_	2	parataxis	_	Gloss=молодой-DIM-NOM.PL
 7-8	Выквытыӈатъым	_	_	_	_	_	_	_	Gloss=Выквутынат-NOM.SG-=EMPH
@@ -1181,10 +1181,10 @@
 # text[phon] = ənkʔame triɬɣətekwʔeʔəm trawerʔepəɣʔa trasapokɣəpɣʔa
 # text[rus] = DMP: — Ещё помоюсь, оденусь, надену сапоги.
 # text[eng] = DMP: — And I will wash myself, get dressed, put on my boots.
-# labels = complete-dep anno-fran
+# labels = complete-dep anno-fran reattached-clitic
 1-2	Ынкъамэ	_	_	_	_	_	_	_	Gloss=и-=PTCL
 1	Ынкъам	_	CCONJ	_	_	3	cc	3:cc	Gloss=и
-2	э	_	PART	_	_	1	advmod:emph	1:advmod	Gloss=PTCL
+2	э	_	PART	_	_	3	advmod:emph	1:advmod	Gloss=PTCL
 3-4	триԓгытэквъэыʼм	_	_	_	_	_	_	_	Gloss=1SG.S/A-FUT-мыться-TH-=EMPH
 3	триԓгытэквъэ	_	VERB	_	_	0	root	0:root	Gloss=1SG.S/A-FUT-мыться-TH
 4	ыʼм	_	PART	_	_	3	advmod:emph	3:advmod	Gloss=EMPH
@@ -1841,8 +1841,8 @@
 3	ым	_	X	_	_	5	reparandum	_	Gloss=FST
 4	мэм	_	X	_	_	5	reparandum	_	Gloss=FST
 5-6	мэмԓетыӈэ	_	_	_	_	_	_	_	_
-5	мэмԓетыӈ	_	NOUN	_	_	0	root	_	Gloss=вода-DAT-=PTCL
-6	э	_	PART	_	_	5	advmod:emph	_	_
+5	мэмԓеты	_	NOUN	_	_	0	root	_	Gloss=вода-DAT-=PTCL
+6	ӈэ	_	PART	_	_	5	advmod:emph	_	_
 7	трэӄыгъэк	_	VERB	_	_	5	parataxis	_	Gloss=1SG.S/A-что-TH-1SG.S|SpaceAfter=No
 8	.	_	PUNCT	_	_	5	punct	_	_
 
@@ -2507,8 +2507,8 @@
 3	ченэтрагты	_	NOUN	_	_	4	obl	_	Gloss=сам-жилище-DAT
 4	танэн	_	VERB	_	_	1	parataxis	_	Gloss=2/3.S/A-приносить-3SG.O-3SG.O
 5-6	ынкыӈэ	_	_	_	_	_	_	_	SpaceAfter=No
-5	ынкыӈ	_	PRON	_	_	4	obl	_	Gloss=тот-LOC-=PTCL
-6	э	_	PART	_	_	5	advmod:emph	_	_
+5	ынкы	_	PRON	_	_	4	obl	_	Gloss=тот-LOC-=PTCL
+6	ӈэ	_	PART	_	_	5	advmod:emph	_	_
 7	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Dog_sledge_driver:4
@@ -2518,8 +2518,8 @@
 # text[eng] = He has just regained consciousness.
 # labels = complete-dep anno-fran
 1-2	Выткуӈэ	_	_	_	_	_	_	_	_
-1	Выткуӈ	_	ADV	_	_	3	advmod	_	Gloss=только.что-=PTCL
-2	э	_	PART	_	_	1	advmod:emph	_	_
+1	Вытку	_	ADV	_	_	3	advmod	_	Gloss=только.что-=PTCL
+2	ӈэ	_	PART	_	_	1	advmod:emph	_	_
 3-5	чыкээквъиыʼмэ	_	_	_	_	_	_	_	SpaceAfter=No
 3	чыкээквъиыʼ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-опомниться-TH-2/3SG.S-=EMPH-=PTCL
 4	м	_	PART	_	_	3	advmod:emph	_	_
@@ -4186,8 +4186,8 @@
 # labels = complete-dep anno-fran
 1	Эʼми	_	ADV	_	_	0	root	_	Gloss=где
 2-3	ӄуттиӈэ	_	_	_	_	_	_	_	_
-2	ӄуттиӈ	_	PRON	_	_	1	nsubj	_	Gloss=некий-NOM.PL-=PTCL
-3	э	_	PART	_	_	2	advmod:emph	_	_
+2	ӄутти	_	PRON	_	_	1	nsubj	_	Gloss=некий-NOM.PL-=PTCL
+3	ӈэ	_	PART	_	_	2	advmod:emph	_	_
 4-6	эʼмиыʼмэ	_	_	_	_	_	_	_	_
 4	эʼми	_	ADV	_	_	7	reparandum	_	Gloss=где-=EMPH-=PTCL
 5	ыʼм	_	PART	_	_	4	advmod:emph	_	_
@@ -4831,10 +4831,10 @@
 # text[phon] = ənkʔame qaŋan mikənti iɣət это jaatɬʔat təntəjaatənat
 # text[rus] = А… ну как же, чьи это сейчас потомки (наследники), я забыла.
 # text[eng] = And... I forgot who are their descendants now.
-# labels = complete-dep anno-karina
+# labels = complete-dep anno-karina reattached-clitic
 1-2	Ынкъамэ	_	_	_	_	_	_	_	Gloss=и-=PTCL
 1	Ынкъам	_	CCONJ	_	_	8	cc	_	Gloss=и
-2	э	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+2	э	_	PART	_	_	8	advmod:emph	_	Gloss=PTCL
 3	ӄаӈан	_	PART	_	_	8	discourse	_	Gloss=же
 4	микынти	_	PRON	_	_	7	nsubj	_	Gloss=кто-AN.GEN-NOM.PL
 5	игыт	_	ADV	_	_	7	advmod	_	Gloss=сегодня
@@ -5201,8 +5201,8 @@
 # labels = complete-dep anno-fran
 1	Ымы	_	ADV	_	_	6	advmod	_	Gloss=также
 2-3	ынӄорыӈэ	_	_	_	_	_	_	_	_
-2	ынӄорыӈ	_	ADV	_	_	6	advmod	_	Gloss=потом-=PTCL
-3	э	_	PART	_	_	2	advmod:emph	_	_
+2	ынӄоры	_	ADV	_	_	6	advmod	_	Gloss=потом-=PTCL
+3	ӈэ	_	PART	_	_	2	advmod:emph	_	_
 4	Анадырык	_	PROPN	_	_	6	obl	_	Gloss=Анадырь-LOC
 5	ынӄоры	_	ADV	_	_	6	advmod	_	Gloss=потом
 6-8	мытыпкирмыкъымэ	_	_	_	_	_	_	_	SpaceAfter=No
@@ -5470,8 +5470,8 @@
 # timestamp = 00:00:08
 # labels = complete-dep anno-fran
 1-2	Купрэткумуриӈэ	_	_	_	_	_	_	_	_
-1	Купрэткумуриӈ	_	VERB	_	_	0	root	_	Gloss=сеть-ITER-NP.1PL-=PTCL
-2	э	_	PART	_	_	1	advmod:emph	_	_
+1	Купрэткумури	_	VERB	_	_	0	root	_	Gloss=сеть-ITER-NP.1PL-=PTCL
+2	ӈэ	_	PART	_	_	1	advmod:emph	_	_
 3-4	ямгагытгыкъым	_	_	_	_	_	_	_	_
 3	ямгагытгык	_	NOUN	_	_	1	obl	_	Gloss=EVERY-озеро-LOC-=EMPH
 4	ъым	_	PART	_	_	3	advmod:emph	_	_
@@ -5494,12 +5494,12 @@
 1	Нэкэм	_	ADV	_	_	3	advmod	_	Gloss=особенно
 2	вай	_	ADV	_	_	3	advmod	_	Gloss=вот
 3-4	ынӄоӈэ	_	_	_	_	_	_	_	_
-3	ынӄоӈ	_	ADV	_	_	0	root	_	Gloss=оттуда-=PTCL
-4	э	_	PART	_	_	3	advmod:emph	_	_
+3	ынӄо	_	ADV	_	_	0	root	_	Gloss=оттуда-=PTCL
+4	ӈэ	_	PART	_	_	3	advmod:emph	_	_
 5-7	ваӈӄарэмараӄаеквэйпыӈэ	_	_	_	_	_	_	_	Gloss=Ванкарем-грань-EXT-ABL-=PTCL
 5	ваӈӄарэма	_	PROPN	_	_	6	nmod	_	Gloss=Ванкарем
-6	раӄаеквэйпыӈ	_	NOUN	_	_	3	parataxis	_	Gloss=грань-EXT-ABL
-7	э	_	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+6	раӄаеквэйпы	_	NOUN	_	_	3	parataxis	_	Gloss=грань-EXT-ABL
+7	ӈэ	_	PART	_	_	6	advmod:emph	_	Gloss=PTCL
 8	таӈъора	_	ADV	_	_	9	dep	_	Gloss=GOOD-открытый-AD
 9	выквыткойӈыт	_	NOUN	_	_	3	parataxis	_	Gloss=камень-NUMBER-AUG-NOM.PL
 10	ынӈин	_	ADV	_	_	12	advmod	_	Gloss=так
@@ -5555,8 +5555,8 @@
 16	ӈанӄэ	_	PRON	_	_	4	dep	4:dep	Gloss=тот.нер.изм.
 17	чит	_	AUX	_	_	16	cop	16:cop	Gloss=было
 18-19	таӈымыԓьэтыӈа	_	_	_	_	_	_	_	_
-18	таӈымыԓьэтыӈ	_	PRON	_	_	21	nmod	21:nmod	Gloss=GOOD-весь-DAT-=PTCL
-19	а	_	PART	_	_	18	advmod:emph	18:advmod:emph	_
+18	таӈымыԓьэты	_	PRON	_	_	21	nmod	21:nmod	Gloss=GOOD-весь-DAT-=PTCL
+19	ӈа	_	PART	_	_	18	advmod:emph	18:advmod:emph	_
 20	ӈотӄэн	_	PRON	_	_	21	det	21:det	Gloss=этот
 21	нутэнут	_	NOUN	_	_	23	nsubj	23:nsubj	Gloss=страна-NOM.SG
 22	мургин	_	PRON	_	_	21	nmod:poss	21:nmod:poss	Gloss=мы-GEN
@@ -5569,10 +5569,10 @@
 # text[phon] = ənkʔame ənqena
 # text[rus] = Потом это…
 # text[eng] = Then um…
-# labels = complete-dep anno-fran
+# labels = complete-dep anno-fran reattached-clitic
 1-2	Ынкъамэ	_	_	_	_	_	_	_	_
 1	Ынкъам	_	CCONJ	_	_	3	cc	_	Gloss=и-=PTCL
-2	э	_	PART	_	_	1	advmod:emph	_	_
+2	э	_	PART	_	_	3	advmod:emph	_	_
 3-4	ынӄэна	_	_	_	_	_	_	_	SpaceAfter=No
 3	ынӄэн	_	PRON	_	_	0	root	_	Gloss=DET-=PTCL
 4	а	_	PART	_	_	3	advmod:emph	_	_
@@ -5676,13 +5676,13 @@
 # text[phon] = ənkʔame ənqenataŋa enmena ʔorawet нрзб ʔo ʔorawetramkəna ɣejeɣteɬɬin enmena
 # text[rus] = И это… говорят, человечество спаслось.
 # text[eng] = And this ... they say, humanity was saved.
-# labels = complete-dep anno-fran
+# labels = complete-dep anno-fran reattached-clitic
 1-2	Ынкъамэ	_	_	_	_	_	_	_	_
 1	Ынкъам	_	CCONJ	_	_	12	cc	_	Gloss=и-=PTCL
-2	э	_	PART	_	_	1	advmod:emph	_	_
+2	э	_	PART	_	_	12	advmod:emph	_	_
 3-4	ынӄэнатаӈа	_	_	_	_	_	_	_	_
-3	ынӄэнатаӈ	_	PRON	_	_	12	nsubj	_	Gloss=DET-INS-=PTCL
-4	а	_	PART	_	_	3	advmod:emph	_	_
+3	ынӄэната	_	PRON	_	_	12	nsubj	_	Gloss=DET-INS-=PTCL
+4	ӈа	_	PART	_	_	3	advmod:emph	_	_
 5-6	энмэна	_	_	_	_	_	_	_	_
 5	энмэн	_	PART	_	_	12	discourse	_	Gloss=итак-=PTCL
 6	а	_	PART	_	_	5	advmod:emph	_	_
@@ -5739,10 +5739,10 @@
 # text[phon] = kʔama mimɬək neme peɬqəntettəɬeʔiʔm kʔam iuɬtiŋeɣsəkəkwaɬʔəne rʔewine ʔəmjikwin ənqene aməɬqəkwaɬʔən ənkə ɣaməɬqəpeɬatɬena rʔew
 # text[rus] = И потом вода опять вернулась, и в Иультинских сопках застряли китовые кости (скелет), там в песках, на мели, остался кит.
 # text[eng] = And then the water returned again, and the whale bones (the skeleton) stuck in the Iultinsky hills, there was a whale in the sand, aground.
-# labels = complete-dep anno-fran ənqen non-projective
+# labels = complete-dep anno-fran ənqen non-projective reattached-clitic
 1-2	Къама	_	_	_	_	_	_	_	_
 1	Къам	_	CCONJ	_	_	5	cc	5:cc	Gloss=и-=PTCL
-2	а	_	PART	_	_	1	advmod:emph	1:advmod:emph	_
+2	а	_	PART	_	_	5	advmod:emph	1:advmod:emph	_
 3	мимԓык	_	NOUN	_	_	5	obl	5:obl	Gloss=вода-LOC
 4	нэмэ	_	ADV	_	_	5	advmod	5:advmod	Gloss=опять
 5-6	пэԓӄынтэттыԓеиʼм	_	_	_	_	_	_	_	Gloss=возвращаться-VB-идти-TH-2/3SG.S-=EMPH
@@ -5792,22 +5792,22 @@
 # text[phon] = nqene əməŋ nətwaqene ənqene ŋinqej ʔaaseqqaj ŋeɬwəɬʔəkəŋa
 # text[rus] = Было даже такое: мальчик, подросток, в стаде…
 # text[eng] = There was even such: a boy, a teenager, in a herd…
-# labels = complete-dep anno-fran ənqen
+# labels = complete-dep anno-fran ənqen reattached-clitic
 1-2	Нӄэнэ	_	_	_	_	_	_	_	_
 1	Нӄэн	_	PART	_	_	3	discourse	_	Gloss=DET.нер.изм.-=PTCL
 2	э	_	PART	_	_	1	advmod:emph	_	_
 3	ымыӈ	_	ADV	_	_	0	root	_	Gloss=также
 4-5	нытваӄэнэ	_	_	_	_	_	_	_	_
 4	нытваӄэн	_	AUX	_	_	3	cop	_	Gloss=ST-быть-ST.3SG-=PTCL
-5	э	_	PART	_	_	4	advmod:emph	_	_
+5	э	_	PART	_	_	3	advmod:emph	_	_
 6-7	ынӄэнэ	_	_	_	_	_	_	_	_
 6	ынӄэн	_	PART	_	_	10	discourse	_	Gloss=DET-=PTCL
 7	э	_	PART	_	_	6	advmod:emph	_	_
 8	ӈинӄэй	_	ADJ	_	_	9	amod	_	Gloss=молодой-DIM-NOM.SG
 9	аʼачеӄӄай	_	NOUN	_	_	10	nsubj	_	Gloss=парень-DIM-NOM.SG
 10-11	ӈэԓвыԓьыкыӈа	_	_	_	_	_	_	_	SpaceAfter=No
-10	ӈэԓвыԓьыкыӈ	_	NOUN	_	_	3	parataxis	_	Gloss=стадо-LOC-=PTCL
-11	а	_	PART	_	_	10	advmod:emph	_	_
+10	ӈэԓвыԓьыкы	_	NOUN	_	_	3	parataxis	_	Gloss=стадо-LOC-=PTCL
+11	ӈа	_	PART	_	_	10	advmod:emph	_	_
 12	.	_	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Incident:2
@@ -6530,8 +6530,8 @@
 # text[eng] = Well, then…
 # labels = complete-dep anno-fran
 1-3	Ынӄэнъымэ	_	_	_	_	_	_	_	SpaceAfter=No
-1	Ынӄэнъы	_	PRON	_	_	0	root	_	Gloss=DET-=EMPH-=PTCL
-2	м	_	PART	_	_	1	advmod:emph	_	_
+1	Ынӄэн	_	PRON	_	_	0	root	_	Gloss=DET-=EMPH-=PTCL
+2	ъым	_	PART	_	_	1	advmod:emph	_	_
 3	э	_	PART	_	_	1	advmod:emph	_	_
 4	.	_	PUNCT	_	_	1	punct	_	_
 
@@ -6563,8 +6563,8 @@
 # text[eng] = Then…
 # labels = complete-dep anno-fran
 1-2	Ӄорыӈэ	_	_	_	_	_	_	_	SpaceAfter=No
-1	Ӄорыӈ	_	ADV	_	_	0	root	_	Gloss=потом-=PTCL
-2	э	_	PART	_	_	1	advmod:emph	_	_
+1	Ӄоры	_	ADV	_	_	0	root	_	Gloss=потом-=PTCL
+2	ӈэ	_	PART	_	_	1	advmod:emph	_	_
 3	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Knives:8
@@ -6693,8 +6693,8 @@
 1	Ԓюут	_	ADV	_	_	6	advmod	_	Gloss=вдруг
 2	мэӈӄо	_	ADV	_	_	6	advmod	_	Gloss=где-ADV.ABL
 3-4	расӄэпыӈэ	_	_	_	_	_	_	_	_
-3	расӄэпыӈ	_	NOUN	_	_	6	obl	_	Gloss=крыша-ABL-=PTCL
-4	э	_	PART	_	_	3	advmod:emph	_	_
+3	расӄэпы	_	NOUN	_	_	6	obl	_	Gloss=крыша-ABL-=PTCL
+4	ӈэ	_	PART	_	_	3	advmod:emph	_	_
 5	ваԓят	_	NOUN	_	_	6	nsubj	_	Gloss=нож-NOM.PL
 6	аратыткоӈӈоаʼт	_	VERB	_	_	0	root	_	Gloss=падать-ITER-INCH-TH-PL
 7	аакгэӈэтыӈ	_	NOUN	_	_	6	obl	_	Gloss=жирник-BOTTOM-DAT-AD|SpaceAfter=No
@@ -6819,8 +6819,8 @@
 3	эвын	_	ADV	_	_	5	advmod	_	Gloss=если
 4	ынӄэн	_	DET	_	_	5	det	_	Gloss=DET
 5-6	ваԓыӈэ	_	_	_	_	_	_	_	_
-5	ваԓыӈ	_	NOUN	_	_	2	parataxis	_	Gloss=нож.NOM.SG-=PTCL
-6	э	_	PART	_	_	5	advmod:emph	_	_
+5	ваԓы	_	NOUN	_	_	2	parataxis	_	Gloss=нож.NOM.SG-=PTCL
+6	ӈэ	_	PART	_	_	5	advmod:emph	_	_
 7	ԓьоо	_	VERB	_	_	5	acl	_	Gloss=находить-PTCP.PASS-NOM.SG|SpaceAfter=No
 8	.	_	PUNCT	_	_	2	punct	_	_
 
@@ -7239,8 +7239,8 @@
 # labels = complete-dep anno-fran ənqen
 1	Ынӄэн	_	PRON	_	_	4	obj	_	Gloss=DET
 2-3	эӄыԓпэӈэ	_	_	_	_	_	_	_	_
-2	эӄыԓпэӈ	_	ADV	_	_	4	advmod	_	Gloss=быстро-=PTCL
-3	э	_	PART	_	_	2	advmod:emph	_	_
+2	эӄыԓпэ	_	ADV	_	_	4	advmod	_	Gloss=быстро-=PTCL
+3	ӈэ	_	PART	_	_	2	advmod:emph	_	_
 4	тыпиринэт	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-брать-3SG.O-PL
 5	ынӈин	_	ADV	_	_	4	advmod	_	Gloss=так|SpaceAfter=No
 6	.	_	PUNCT	_	_	4	punct	_	_
@@ -7274,8 +7274,8 @@
 # text[eng] = Then I told my grandmother about it.
 # labels = complete-dep anno-fran
 1-2	Ынӄорыӈэ	_	_	_	_	_	_	_	_
-1	Ынӄорыӈ	_	ADV	_	_	3	advmod	_	Gloss=потом-=PTCL
-2	э	_	PART	_	_	1	advmod:emph	_	_
+1	Ынӄоры	_	ADV	_	_	3	advmod	_	Gloss=потом-=PTCL
+2	ӈэ	_	PART	_	_	1	advmod:emph	_	_
 3	гамӈыԓтэтԓен	_	VERB	_	_	0	root	_	Gloss=PF-весть-DUR-PF.3SG
 4	апаӄайына	_	NOUN	_	_	3	obl	_	Gloss=бабушка-AN.DAT|SpaceAfter=No
 5	.	_	PUNCT	_	_	3	punct	_	_
@@ -8172,11 +8172,11 @@
 # text[eng] = Then, the next year, she came to Chukotka.
 # labels = complete-dep anno-fran
 1-2	Ынӄорыӈа	_	_	_	_	_	_	_	_
-1	Ынӄорыӈ	_	ADV	_	_	7	advmod	_	Gloss=потом-=PTCL
-2	а	_	PART	_	_	1	advmod:emph	_	_
+1	Ынӄоры	_	ADV	_	_	7	advmod	_	Gloss=потом-=PTCL
+2	ӈа	_	PART	_	_	1	advmod:emph	_	_
 3-4	ӄоԓетъыԓёӈа	_	_	_	_	_	_	_	_
-3	ӄоԓетъыԓёӈ	_	NOUN	_	_	7	obl	_	Gloss=некий-день-=PTCL
-4	а	_	PART	_	_	3	advmod:emph	_	_
+3	ӄоԓетъыԓё	_	NOUN	_	_	7	obl	_	Gloss=некий-день-=PTCL
+4	ӈа	_	PART	_	_	3	advmod:emph	_	_
 5	нэмэ	_	ADV	_	_	7	advmod	_	Gloss=опять
 6	Чукоткагты	_	PROPN	_	_	7	obl	_	Gloss=Чукотка-DAT
 7-8	етгъиыʼм	_	_	_	_	_	_	_	SpaceAfter=No
@@ -8218,8 +8218,8 @@
 2	ытԓён	_	PRON	_	_	4	nsubj	_	Gloss=он
 3	ынръам	_	PART	_	_	4	discourse	_	Gloss=видимо
 4-5	черитӄыԓьуӈэ	_	_	_	_	_	_	_	SpaceAfter=No
-4	черитӄыԓьуӈ	_	VERB	_	_	0	root	_	Gloss=грязнуля-=PTCL
-5	э	_	PART	_	_	4	advmod:emph	_	_
+4	черитӄыԓьу	_	VERB	_	_	0	root	_	Gloss=грязнуля-=PTCL
+5	ӈэ	_	PART	_	_	4	advmod:emph	_	_
 6	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Muscovite_woman:6
@@ -10171,10 +10171,10 @@
 # text[phon] = kʔama qoɬ nentəɣʔen ənqene ewəna qoɬqosatɬʔanma nepiriɣʔen ŋutku tanŋa
 # text[rus] = Однажды, когда создавался колхоз, его арестовали русские.
 # text[eng] = Once, when the kolkhoz was being created, he was arrested by the Russians.
-# labels = complete-dep anno-fran ənqen unclear-syntax
+# labels = complete-dep anno-fran ənqen unclear-syntax reattached-clitic
 1-2	Къама	_	_	_	_	_	_	_	_
 1	Къам	_	CCONJ	_	_	10	cc	_	Gloss=и-=PTCL
-2	а	_	PART	_	_	1	advmod:emph	_	_
+2	а	_	PART	_	_	10	advmod:emph	_	_
 3	ӄоԓ	_	PRON	_	_	4	obj	_	Gloss=некий
 4	нэнтыгъэн	_	VERB	_	_	10	dep	_	Gloss=LOW.A-иметь-TH-3SG.O
 5-6	ынӄэнэ	_	_	_	_	_	_	_	_
@@ -10274,8 +10274,8 @@
 # text[eng] = When it dawned, he was sitting on the box, and the locks, removed, were lying down in the snow.
 # labels = complete-dep anno-fran leaf-invalid
 1-2	Ӄорыӈэ	_	_	_	_	_	_	_	_
-1	Ӄорыӈ	_	ADV	_	_	3	advmod	_	Gloss=потом-=PTCL
-2	э	_	PART	_	_	1	advmod:emph	_	_
+1	Ӄоры	_	ADV	_	_	3	advmod	_	Gloss=потом-=PTCL
+2	ӈэ	_	PART	_	_	1	advmod:emph	_	_
 3	нэргыръоӄаат	_	NOUN	_	_	0	root	_	Gloss=ST-свет-DISTR.S-ST.3PL
 4	эвын	_	PART	_	_	8	discourse	_	Gloss=если
 5	чанԓяткынык	_	NOUN	_	_	8	obl	_	Gloss=ящик-TOP-LOC
@@ -10369,8 +10369,8 @@
 1	Ԓюут	_	ADV	_	_	3	advmod	_	Gloss=вдруг-=PTCL
 2	э	_	PART	_	_	1	advmod:emph	_	_
 3	нивӄээт	_	VERB	_	_	0	root	_	Gloss=ST-сказать-ST.3PL
-4	этаны	_	ADV	_	_	6	advmod	_	Gloss=наверное
-5	уйӈэ	_	VERB	_	_	3	ccomp	_	Gloss=нет
+4	этаны	_	ADV	_	_	3	parataxis:speech	_	Gloss=наверное
+5	уйӈэ	_	VERB	_	_	3	parataxis:speech	_	Gloss=нет
 6	нъэԓгъи	_	AUX	_	_	5	aux	_	Gloss=2/3.S/A-стать-TH-2/3SG.S|SpaceAfter=No
 7	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -10459,8 +10459,8 @@
 3	ӄоԓе	_	PRON	_	_	4	nmod	_	Gloss=некий-полынья-FRONT-ABL-AD
 4	ыёогыргытагнэпыӈ	_	NOUN	_	_	14	obl	_	_
 5-6	выйигиӈэтэӈэ	_	_	_	_	_	_	_	_
-5	выйигиӈэтэӈ	_	NOUN	_	_	14	obl	_	Gloss=пар-BOTTOM-ADV.PROL-=PTCL
-6	э	_	PART	_	_	5	advmod:emph	_	_
+5	выйигиӈэтэ	_	NOUN	_	_	14	obl	_	Gloss=пар-BOTTOM-ADV.PROL-=PTCL
+6	ӈэ	_	PART	_	_	5	advmod:emph	_	_
 7	а	_	PART	_	_	8	advmod:emph	_	Gloss=
 8	янот	_	ADV	_	_	14	advmod	_	Gloss=сначала
 9-10	ынӄэнэ	_	_	_	_	_	_	_	_
@@ -10510,8 +10510,8 @@
 5	ӄуԓийъиԓгык	_	NOUN	_	_	1	conj	_	Gloss=некий-месяц-LOC-=PTCL
 6	э	_	PART	_	_	5	advmod:emph	_	_
 7-8	пыкиргъиӈэ	_	_	_	_	_	_	_	_
-7	пыкиргъиӈ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S-=PTCL
-8	э	_	PART	_	_	7	advmod:emph	_	_
+7	пыкиргъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S-=PTCL
+8	ӈэ	_	PART	_	_	7	advmod:emph	_	_
 9	пыкиргъэт	_	VERB	_	_	7	parataxis	_	Gloss=2/3.S/A-прибывать-TH-PL
 10-11	магԓяԓьытъым	_	_	_	_	_	_	_	_
 10	магԓяԓьыт	_	NOUN	_	_	7	nsubj	_	Gloss=ездок.на.собаках-NOM.PL-=EMPH
@@ -11392,8 +11392,8 @@
 4	янот	_	ADV	_	_	8	advmod	_	Gloss=сначала-=PTCL
 5	э	_	PART	_	_	4	advmod:emph	_	_
 6-7	аʼнэԓётаӈа	_	_	_	_	_	_	_	_
-6	аʼнэԓётаӈ	_	VERB	_	_	8	advcl	_	Gloss=удить-INS-=PTCL
-7	а	_	PART	_	_	6	advmod:emph	_	_
+6	аʼнэԓёта	_	VERB	_	_	8	advcl	_	Gloss=удить-INS-=PTCL
+7	ӈа	_	PART	_	_	6	advmod:emph	_	_
 8	нинъэйӈэвӄаат	_	VERB	_	_	0	root	_	Gloss=ST-INV-звать-ST.3PL
 9-10	ыннытэ	_	_	_	_	_	_	_	_
 9	ынныт	_	NOUN	_	_	8	obj	_	Gloss=рыба-NOM.PL-=PTCL
@@ -11411,8 +11411,8 @@
 # text[eng] = Then the trident hook, a two-hook weapon of stabbing, in such a manner…
 # labels = complete-dep anno-fran
 1-2	Ынӄорыӈа	_	_	_	_	_	_	_	_
-1	Ынӄорыӈ	_	ADV	_	_	6	advmod	_	Gloss=потом-=PTCL
-2	а	_	PART	_	_	1	advmod:emph	_	_
+1	Ынӄоры	_	ADV	_	_	6	advmod	_	Gloss=потом-=PTCL
+2	ӈа	_	PART	_	_	1	advmod:emph	_	_
 3-5	ӈыронванныԓьына	_	_	_	_	_	_	_	три-зуб-ATTR-NOM.SG-=PTCL
 3	ӈырон	_	NUM	_	_	4	nummod	_	Gloss=три
 4	ванныԓьын	_	NOUN	_	_	6	nmod:attr	_	Gloss=зуб-ATTR-NOM.SG
@@ -11659,10 +11659,10 @@
 # text[phon] = ənkʔame qoɬ nitqinet nəmŋəɬteɬqenate taŋamaɬwa waɬʔən ʔeraɣərɣən nətwaqenʔəme
 # text[rus] = И иногда рассказывали, что всякие, самые разнообразные гонки бывали.
 # text[eng] = And sometimes people told that there were a wide range of the most diverse races.
-# labels = complete-dep anno-fran copulae
+# labels = complete-dep anno-fran copulae reattached-clitic
 1-2	Ынкъамэ	_	_	_	_	_	_	_	_
 1	Ынкъам	_	CCONJ	_	_	5	cc	_	Gloss=и-=PTCL
-2	э	_	PART	_	_	1	advmod:emph	_	_
+2	э	_	PART	_	_	5	advmod:emph	_	_
 3	ӄоԓ	_	PRON	_	_	5	dep	_	Gloss=некий
 4	нитӄинэт	_	AUX	_	_	3	cop	_	Gloss=ST-являться-ST.3SG-PL
 5-6	нымӈыԓтэԓӄэнатэ	_	_	_	_	_	_	_	_
@@ -11673,8 +11673,8 @@
 9	эʼрагыргын	_	NOUN	_	_	5	parataxis	_	Gloss=состязаться.в.гонках.на.упряжках-NMLZ-NOM.SG
 10-12	нытваӄэнъымэ	_	_	_	_	_	_	_	SpaceAfter=No
 10	нытваӄэн	_	AUX	_	_	9	cop	_	Gloss=ST-быть-ST.3SG-=EMPH-=PTCL
-11	ъым	_	PART	_	_	10	advmod:emph	_	_
-12	э	_	PART	_	_	10	advmod:emph	_	_
+11	ъым	_	PART	_	_	9	advmod:emph	_	_
+12	э	_	PART	_	_	9	advmod:emph	_	_
 13	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = The_race_to_death:3
@@ -11702,13 +11702,12 @@
 # text[eng] = The team followed behind the racer in front.
 # labels = complete-dep anno-karina
 1	Яноттыԓяк	_	NOUN	_	_	2	advcl	2:advcl	Gloss=сначала-идти-LOC
-1.1	Янот	_	ADV	_	_	_	_	1:advmod	Gloss=сначала
 2-3	минринэтгъиӈэ	_	_	_	_	_	_	_	_
-2	минринэтгъиӈ	_	VERB	_	_	0	root	0:root	Gloss=2/3.S/A-следовать.за-TH-2/3SG.S-=PTCL
-3	э	_	PART	_	_	2	advmod:emph	2:advmod:emph	_
+2	минринэтгъи	_	VERB	_	_	0	root	0:root	Gloss=2/3.S/A-следовать.за-TH-2/3SG.S-=PTCL
+3	ӈэ	_	PART	_	_	2	advmod:emph	2:advmod:emph	_
 4-5	гаканйыӈа	_	_	_	_	_	_	_	SpaceAfter=No
-4	гаканйыӈ	_	NOUN	_	_	2	nsubj	2:nsubj	Gloss=упряжка-NOM.SG-=PTCL
-5	а	_	PART	_	_	4	advmod:emph	4:advmod:emph	_
+4	гаканйы	_	NOUN	_	_	2	nsubj	2:nsubj	Gloss=упряжка-NOM.SG-=PTCL
+5	ӈа	_	PART	_	_	4	advmod:emph	4:advmod:emph	_
 6	.	_	PUNCT	_	_	2	punct	2:punct	_
 
 # sent_id = The_race_to_death:5
@@ -11736,16 +11735,16 @@
 # text[rus] = Только упряжка (без гонщика) пришла за впереди идущим.
 # text[eng] = Only the team (without the driver) came after the first racer.
 # labels = complete-dep anno-karina
-1-2	Амгаканйыӈа	_	_	_	_	_	_	_	_
-1	Амгаканйыӈ	_	NOUN	_	_	5	nsubj	_	Gloss=RESTR-упряжка-NOM.SG-=PTCL
-2	а	_	PART	_	_	1	advmod:emph	_	_
-3-4	яноттыԓяка	_	_	_	_	_	_	_	_
-3	яноттыԓяк	_	NOUN	_	_	5	obl	_	Gloss=сначала-идти-LOC-=PTCL
-4	а	_	PART	_	_	3	advmod:emph	_	_
-5-6	пыкиргъиӈэ	_	_	_	_	_	_	_	SpaceAfter=No
-5	пыкиргъиӈ	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S-=PTCL
-6	э	_	PART	_	_	5	advmod:emph	_	_
-7	.	_	PUNCT	_	_	5	punct	_	_
+1-2	Амгаканйыӈа	_	_	_	_	_	_	_	Gloss=RESTR-упряжка-NOM.SG-=PTCL
+1	Амгаканйы	_	NOUN	_	_	5	nsubj	5:nsubj	Gloss=RESTR-упряжка-NOM.SG
+2	ӈа	_	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=PTCL
+3-4	яноттыԓяка	_	_	_	_	_	_	_	Gloss=сначала-идти-LOC-=PTCL
+3	яноттыԓяк	_	NOUN	_	_	5	obl	5:obl	Gloss=сначала-идти-LOC
+4	а	_	PART	_	_	3	advmod:emph	3:advmod:emph	Gloss=PTCL
+5-6	пыкиргъиӈэ	_	_	_	_	_	_	_	Gloss=2/3.S/A-прибывать-TH-2/3SG.S-=PTCL|SpaceAfter=No
+5	пыкиргъи	_	VERB	_	_	0	root	0:root	Gloss=2/3.S/A-прибывать-TH-2/3SG.S
+6	ӈэ	_	PART	_	_	5	advmod:emph	5:advmod:emph	Gloss=PTCL
+7	.	_	PUNCT	_	_	5	punct	5:punct	_
 
 # sent_id = The_race_to_death:7
 # text = Таӈранъав орвоор ныԓеӄин.
@@ -11854,16 +11853,18 @@
 4-5	ынпыначгынэ	_	_	_	_	_	_	_	_
 4	ынпыначгын	_	NOUN	_	_	0	root	_	Gloss=старик-NOM.SG-=PTCL
 5	э	_	PART	_	_	4	advmod:emph	_	_
-6	ыʼвэӄучин	_	NOUN	_	_	7	nmod	_	Gloss=муж-GEN
+6	ыʼвэӄучин	_	NOUN	_	_	7	nmod:poss	_	Gloss=муж-GEN
 7	тумгытум	_	NOUN	_	_	4	parataxis	_	Gloss=друг-NOM.SG
-8	ыʼвэӄучин	_	NOUN	_	_	9	nmod	_	Gloss=муж-GEN
+8	ыʼвэӄучин	_	NOUN	_	_	9	nmod:poss	_	Gloss=муж-GEN
 9	ытԓыгын	_	NOUN	_	_	4	parataxis	_	Gloss=отец-NOM.SG
 10	мык	_	X	_	_	11	reparandum	_	Gloss=FST
-11	гымыгтумгин	_	NOUN	_	_	12	nmod	_	Gloss=я-POSS.INC-друг-GEN
-12-13	ытԓыгынэ	_	_	_	_	_	_	_	SpaceAfter=No
-12	ытԓыгын	_	NOUN	_	_	4	parataxis	_	Gloss=отец-NOM.SG-=PTCL
-13	э	_	PART	_	_	12	advmod:emph	_	_
-14	.	_	PUNCT	_	_	4	punct	_	_
+11-12	гымыгтумгин	_	_	_	_	_	_	_	Gloss=я-POSS.INC-друг-GEN
+11	гымыг	_	NOUN	_	_	12	nmod:poss	_	Gloss=я-POSS.INC
+12	тумгин	_	NOUN	_	_	13	nmod:poss	_	Gloss=друг-GEN
+13-14	ытԓыгынэ	_	_	_	_	_	_	_	SpaceAfter=No
+13	ытԓыгын	_	NOUN	_	_	4	parataxis	_	Gloss=отец-NOM.SG-=PTCL
+14	э	_	PART	_	_	13	advmod:emph	_	_
+15	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Transhumance:4
 # text = Моргынан нынԓеӄоно нинъэйӈэвмури.
@@ -11872,7 +11873,7 @@
 # text[eng] = We called him Nynleko.
 # labels = complete-dep anno-karina
 1	Моргынан	_	PRON	_	_	3	obj	_	Gloss=мы-INS
-2	нынԓеӄоно	_	PROPN	_	_	3	obl	_	Gloss=Нынлеко-EQU
+2	нынԓеӄоно	_	PROPN	_	_	3	xcomp	_	Gloss=Нынлеко-EQU
 3	нинъэйӈэвмури	_	VERB	_	_	0	root	_	Gloss=ST-INV-звать-NP.1PL|SpaceAfter=No
 4	.	_	PUNCT	_	_	3	punct	_	_
 
@@ -11918,7 +11919,7 @@
 6	э	_	PART	_	_	4	advmod:emph	4:advmod:emph	Gloss=PTCL
 7	ӈэвэӄ	_	PART	_	_	8	discourse	8:discourse	Gloss=же
 8	нынтовэрэнморэ	_	VERB	_	_	4	parataxis	4:parataxis	Gloss=ST-выходить-спускаться-VB-NP.1PL
-8.1	нто	_	VERB	_	_	_	_	8:advcl	Gloss=Gloss=ST-выходить-спускаться-VB-NP.1PL
+8.1	нто	_	VERB	_	_	_	_	8:advcl	Gloss=выходить
 9	ымыԓьо	_	DET	_	_	8	nsubj	8:nsubj	Gloss=весь|SpaceAfter=No
 10	.	_	PUNCT	_	_	4	punct	4:punct	_
 
@@ -11942,7 +11943,7 @@
 # text[eng] = We remove the yaranga roof, so...
 # labels = complete-dep anno-karina
 1	Нырэтэмӈытэнмури	_	VERB	_	_	0	root	0:root	Gloss=ST-покрышка.яранги-отрываться-NP.1PL
-1.1	рэтэм	_	NOUN	_	_	_	_	1:obj	Gloss=ST-покрышка.яранги-отрываться-NP.1PL
+1.1	рэтэм	_	NOUN	_	_	_	_	1:obj	Gloss=покрышка.яранги
 2	ымыԓьэты	_	PRON	_	_	1	obl	1:obl	Gloss=весь-DAT
 3-4	ынӄэнэ	_	_	_	_	_	_	_	Gloss=DET-=PTCL|SpaceAfter=No
 3	ынӄэн	_	PART	_	_	1	discourse	1:discourse	Gloss=DET
@@ -11954,11 +11955,11 @@
 # text[phon] = ninejŋemuri ŋeweqe nətiŋeŋŋəmuri orwət
 # text[rus] = Загружаем нарты.
 # text[eng] = We load the sledge.
-# labels = complete-dep anno-karina
+# labels = complete-dep anno-karina reattached-clitic
 1	Нинэйӈэмури	_	VERB	_	_	0	root	_	Gloss=ST-INV-грузить-NP.1PL
 2-3	ӈэвэӄэ	_	_	_	_	_	_	_	_
 2	ӈэвэӄ	_	PART	_	_	1	cc	_	Gloss=же-=PTCL
-3	э	_	PART	_	_	2	advmod:emph	_	_
+3	э	_	PART	_	_	1	advmod:emph	_	_
 4	нытиӈэӈӈымури	_	VERB	_	_	1	parataxis	_	Gloss=ST-MAKE-ноша-MAKE-NP.1PL
 5	орвыт	_	NOUN	_	_	4	obj	_	Gloss=нарта-NOM.PL|SpaceAfter=No
 6	.	_	PUNCT	_	_	1	punct	_	_
@@ -12830,16 +12831,16 @@
 # text[rus] = Зимой, где-то в декабре, сюда ездили за водой под бугор.
 # text[eng] = In the winter, someday in December, we came here to the bottom of the hill to fetch some water.
 # labels = complete-dep anno-fran
-1-2	Ԓьэԓеӈръукэ	_	_	_	_	_	_	_	_
-1	Ԓьэԓеӈръук	_	VERB	_	_	6	advcl	_	Gloss=зима-DISTR.S-LOC-=PTCL
-2	э	_	PART	_	_	1	advmod:emph	_	_
+1-2	Ԓьэԓеӈръукэ	_	_	_	_	_	_	_	Gloss=зима-DISTR.S-LOC-=PTCL
+1	Ԓьэԓеӈръук	_	VERB	_	_	6	advcl	_	Gloss=зима-DISTR.S-LOC
+2	э	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
 3	тэкэм	_	ADV	_	_	6	advmod	_	Gloss=прямо.к
 4	ӄууԓьэтык	_	NOUN	_	_	6	obl	_	Gloss=стоять.о.коротких.днях.декабря-LOC
 5	ӈутри	_	ADV	_	_	6	advmod	_	Gloss=тут-ADV.ALL
 6	наймыӄаат	_	VERB	_	_	0	root	_	Gloss=ST-сходить.за.водой-ST.3PL
-7-8	энмыгэӈэтыӈа	_	_	_	_	_	_	_	SpaceAfter=No
-7	энмыгэӈэтыӈ	_	NOUN	_	_	6	obl	_	Gloss=скала-BOTTOM-DAT-=PTCL
-8	а	_	PART	_	_	7	advmod:emph	_	_
+7-8	энмыгэӈэтыӈа	_	_	_	_	_	_	_	Gloss=скала-BOTTOM-DAT-=PTCL|SpaceAfter=No
+7	энмыгэӈэты	_	NOUN	_	_	6	obl	_	Gloss=скала-BOTTOM-DAT
+8	ӈа	_	PART	_	_	7	advmod:emph	_	Gloss=PTCL
 9	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Water_cart:2
@@ -12866,37 +12867,37 @@
 2	инъыӈӄач	_	NOUN	_	_	3	obl	_	Gloss=утро-NEAR
 3	гатымӈэвԓен	_	VERB	_	_	0	root	_	Gloss=PF-потеряться-PF.3SG
 4	тагмынгытчьэты	_	NUM	_	_	3	obl	_	Gloss=GOOD-десять-ADJ-DAT
-5-6	тыԓикъым	_	_	_	_	_	_	_	SpaceAfter=No
-5	тыԓик	_	VERB	_	_	3	advcl	_	Gloss=поворачиваться-LOC-=EMPH
-6	ъым	_	PART	_	_	5	advmod:emph	_	_
+5-6	тыԓикъым	_	_	_	_	_	_	_	Gloss=поворачиваться-LOC-=EMPH|SpaceAfter=No
+5	тыԓик	_	VERB	_	_	3	advcl	_	Gloss=поворачиваться-LOC
+6	ъым	_	PART	_	_	5	advmod:emph	_	Gloss=EMPH
 7	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Water_cart:4
-# text = Ԓюутэ вуԓӄытвикэ ӈэръамытԓыӈчьэты гаԓякэ очочаӈа главный заатехника инъэйӈэквъи энавэтгавъёԓгыткоэʼ иквъиӈа.
+# text = Ԓюутэ вуԓӄытвикэ ӈэръамытԓыӈчьэты гаԓякэ очочаӈа главный зоотехника инъэйӈэквъи энавэтгавъёԓгыткоэʼ иквъиӈа.
 # text[phon] = ɬuute wuɬqətwike ŋerʔamətɬəŋsʔetə ɣaɬake ososaŋa главный zaatʲexnʲika inʔejŋekwʔi enawetɣawjoɬɣətkoʔe ikwʔiŋa
 # text[rus] = Вдруг вечером, после семи часов, начальник — главный зоотехник — позвал меня, позвонил по телефону и сказал:
 # text[eng] = Suddenly, in the evening, after 7 pm., the chief — the chief livestock expert — called me and said:
 # labels = complete-dep anno-fran
-1-2	Ԓюутэ	_	_	_	_	_	_	_	_
-1	Ԓюут	_	ADV	_	_	12	advmod	_	Gloss=вдруг-=PTCL
-2	э	_	PART	_	_	1	advmod:emph	_	_
-3-4	вуԓӄытвикэ	_	_	_	_	_	_	_	_
-3	вуԓӄытвик	_	NOUN	_	_	12	obl	_	Gloss=темнота-TRSF-LOC-=PTCL
-4	э	_	PART	_	_	3	advmod:emph	_	_
+1-2	Ԓюутэ	_	_	_	_	_	_	_	Gloss=вдруг-=PTCL
+1	Ԓюут	_	ADV	_	_	12	advmod	_	Gloss=вдруг
+2	э	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
+3-4	вуԓӄытвикэ	_	_	_	_	_	_	_	Gloss=темнота-TRSF-LOC-=PTCL
+3	вуԓӄытвик	_	VERB	_	_	12	advcl	_	Gloss=темнота-TRSF-LOC
+4	э	_	PART	_	_	3	advmod:emph	_	Gloss=PTCL
 5	ӈэръамытԓыӈчьэты	_	NUM	_	_	6	obl	_	Gloss=два-пять-ADJ-DAT
-6-7	гаԓякэ	_	_	_	_	_	_	_	_
-6	гаԓяк	_	VERB	_	_	12	advcl	_	Gloss=проходить-LOC-=PTCL
-7	э	_	PART	_	_	6	advmod:emph	_	_
-8-9	очочаӈа	_	_	_	_	_	_	_	_
-8	очочаӈ	_	NOUN	_	_	12	nsubj	_	Gloss=начальник-INS-=PTCL
-9	а	_	PART	_	_	8	advmod:emph	_	_
+6-7	гаԓякэ	_	_	_	_	_	_	_	Gloss=проходить-LOC-=PTCL
+6	гаԓяк	_	VERB	_	_	12	advcl	_	Gloss=проходить-LOC
+7	э	_	PART	_	_	6	advmod:emph	_	Gloss=PTCL
+8-9	очочаӈа	_	_	_	_	_	_	_	Gloss=начальник-INS-=PTCL
+8	очоча	_	NOUN	_	_	12	nsubj	_	Gloss=начальник-INS
+9	ӈа	_	PART	_	_	8	advmod:emph	_	Gloss=PTCL
 10	главный	_	ADJ	_	_	11	amod	_	Gloss=
-11	заатехника	_	NOUN	_	_	8	appos	_	Gloss=зоотехник-INS
+11	зоотехника	_	NOUN	_	_	8	appos	_	Gloss=зоотехник-INS
 12	инъэйӈэквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-INV-звать-TH-2/3SG.S
 13	энавэтгавъёԓгыткоэʼ	_	VERB	_	_	12	parataxis	_	Gloss=2/3.S/A-INV-говорить-CONT-ITER-TH-2/3SG.S
-14-15	иквъиӈа	_	_	_	_	_	_	_	SpaceAfter=No
-14	иквъиӈ	_	VERB	_	_	12	parataxis	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=PTCL
-15	а	_	PART	_	_	14	advmod:emph	_	_
+14-15	иквъиӈа	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=PTCL|SpaceAfter=No
+14	иквъи	_	VERB	_	_	12	parataxis	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+15	ӈа	_	PART	_	_	14	advmod:emph	_	Gloss=PTCL
 16	.	_	PUNCT	_	_	12	punct	_	_
 
 # sent_id = Water_cart:5
@@ -12909,10 +12910,10 @@
 2	гынмыԓ	_	ADV	_	_	5	advmod	_	Gloss=недавно
 3	инъэ	_	NOUN	_	_	5	obl	_	Gloss=утро-INS
 4	ковԓёрвоор	_	NOUN	_	_	5	nsubj	_	Gloss=шар-нарта-NOM.SG
-5-7	гатымӈэвԓенъыма	_	_	_	_	_	_	_	SpaceAfter=No
-5	гатымӈэвԓен	_	VERB	_	_	0	root	_	Gloss=PF-потеряться-PF.3SG-=EMPH-=PTCL
-6	ъым	_	PART	_	_	5	advmod:emph	_	_
-7	а	_	PART	_	_	5	advmod:emph	_	_
+5-7	гатымӈэвԓенъыма	_	_	_	_	_	_	_	Gloss=PF-потеряться-PF.3SG-=EMPH-=PTCL|SpaceAfter=No
+5	гатымӈэвԓен	_	VERB	_	_	0	root	_	Gloss=PF-потеряться-PF.3SG
+6	ъым	_	PART	_	_	5	advmod:emph	_	Gloss=EMPH
+7	а	_	PART	_	_	5	advmod:emph	_	Gloss=PTCL
 8	.	_	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Water_cart:6
@@ -12943,9 +12944,9 @@
 # labels = complete-dep anno-fran
 1	Энмэч	_	ADV	_	_	3	advmod	_	Gloss=уже
 2	воԓӄытвэӈӈо	_	VERB	_	_	3	reparandum	_	Gloss=темнота-TRSF-INCH
-3-4	вуԓӄытвигъим	_	_	_	_	_	_	_	SpaceAfter=No
-3	вуԓӄытвигъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-темнота-TRSF-TH-2/3SG.S-=EMPH
-4	м	_	PART	_	_	3	advmod:emph	_	_
+3-4	вуԓӄытвигъим	_	_	_	_	_	_	_	Gloss=2/3.S/A-темнота-TRSF-TH-2/3SG.S-=EMPH|SpaceAfter=No
+3	вуԓӄытвигъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-темнота-TRSF-TH-2/3SG.S
+4	м	_	PART	_	_	3	advmod:emph	_	Gloss=EMPH
 5	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Water_cart:9
@@ -12955,15 +12956,15 @@
 # text[eng] = The reindeer herders could probably come and we would all come together to help.»
 # labels = complete-dep anno-fran
 1	Ӄорагынрэтыԓьыт	_	NOUN	_	_	4	nsubj	_	Gloss=олень-защищать-ATTR-NOM.PL
-2-3	вэчьыма	_	_	_	_	_	_	_	_
-2	вэчьым	_	PART	_	_	4	discourse	_	Gloss=пожалуй-=PTCL
-3	а	_	PART	_	_	2	advmod:emph	_	_
-4-5	нъъетынэтэ	_	_	_	_	_	_	_	_
-4	нъъетынэт	_	VERB	_	_	0	root	_	Gloss=COND-приходить-IRR.2/3SG.S-PL-=PTCL
-5	э	_	PART	_	_	4	advmod:emph	_	_
-6-7	мынъумэкэнмыкъым	_	_	_	_	_	_	_	_
-6	мынъумэкэнмык	_	VERB	_	_	4	parataxis	_	Gloss=1PL.S/A.COND-кружок-VB-1PL.S/O-=EMPH
-7	ъым	_	PART	_	_	6	advmod:emph	_	_
+2-3	вэчьыма	_	_	_	_	_	_	_	Gloss=пожалуй-=PTCL
+2	вэчьым	_	PART	_	_	4	discourse	_	Gloss=пожалуй
+3	а	_	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+4-5	нъъетынэтэ	_	_	_	_	_	_	_	Gloss=COND-приходить-IRR.2/3SG.S-PL-=PTCL
+4	нъъетынэт	_	VERB	_	_	0	root	_	Gloss=COND-приходить-IRR.2/3SG.S-PL
+5	э	_	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6-7	мынъумэкэнмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A.COND-кружок-VB-1PL.S/O-=EMPH
+6	мынъумэкэнмык	_	VERB	_	_	4	parataxis	_	Gloss=1PL.S/A.COND-кружок-VB-1PL.S/O
+7	ъым	_	PART	_	_	6	advmod:emph	_	Gloss=EMPH
 8	вэнратынво	_	VERB	_	_	6	advcl	_	Gloss=помогать-SUP|SpaceAfter=No
 9	.	_	PUNCT	_	_	4	punct	_	_
 
@@ -12997,16 +12998,16 @@
 # text[rus] = Потом где-то ещё других ждали людей.
 # text[eng] = And then we were waiting for some other people.
 # labels = complete-dep anno-fran non-projective
-1-2	Ӄорыӈа	_	_	_	_	_	_	_	_
-1	Ӄоры	_	ADV	_	_	8	advmod	_	Gloss=потом-=PTCL
-2	ӈа	_	PART	_	_	1	advmod:emph	_	_
+1-2	Ӄорыӈа	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ӄоры	_	ADV	_	_	8	advmod	_	Gloss=потом
+2	ӈа	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
 3	эʼми	_	ADV	_	_	8	advmod	_	Gloss=где
-4-5	епӈа	_	_	_	_	_	_	_	_
-4	еп	_	ADV	_	_	8	advmod	_	Gloss=ещё-=PTCL
-5	ӈа	_	PART	_	_	4	advmod:emph	_	_
-6-7	ӄуттиӈа	_	_	_	_	_	_	_	_
-6	ӄутти	_	PRON	_	_	9	nmod	_	Gloss=некий-NOM.PL-=PTCL
-7	ӈа	_	PART	_	_	6	advmod:emph	_	_
+4-5	епӈа	_	_	_	_	_	_	_	Gloss=ещё-=PTCL
+4	еп	_	ADV	_	_	8	advmod	_	Gloss=ещё
+5	ӈа	_	PART	_	_	4	advmod:emph	_	Gloss=PTCL
+6-7	ӄуттиӈа	_	_	_	_	_	_	_	Gloss=некий-NOM.PL-=PTCL
+6	ӄутти	_	PRON	_	_	9	nmod	_	Gloss=некий-NOM.PL
+7	ӈа	_	PART	_	_	6	advmod:emph	_	Gloss=PTCL
 8	нъатчаӄаат	_	VERB	_	_	0	root	_	Gloss=ST-ждать-ST.3PL
 9	оʼравэтԓьат	_	NOUN	_	_	8	obj	_	Gloss=человек-NOM.PL|SpaceAfter=No
 10	.	_	PUNCT	_	_	8	punct	_	_
@@ -13033,18 +13034,18 @@
 # text[eng] = And then on the other shore, we checked the spots around the cliffs.
 # comment = Непонятно, есть ли что-то на конце слова jənrəɣeŋətko. Если это существительное, должен бытьненулевой показатель номинатива.
 # labels = complete-dep anno-fran morph-checked-karina
-1-2	Ӄорыӈа	_	_	_	_	_	_	_	_
-1	Ӄоры	_	ADV	_	_	9	advmod	_	Gloss=потом-=PTCL
-2	ӈа	_	PART	_	_	1	advmod:emph	_	_
+1-2	Ӄорыӈа	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ӄоры	_	ADV	_	_	9	advmod	_	Gloss=потом
+2	ӈа	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
 3	вай	_	ADV	_	_	9	advmod	_	Gloss=вот
 4	ынкы	_	PRON	_	_	9	obl	_	Gloss=тот-LOC
 5	рочгатама	_	ADV	_	_	9	advmod	_	Gloss=другой.берег-ADV.PROL-SIM
 6	ваамԓыӈата	_	NOUN	_	_	9	obl	_	Gloss=река-EDGE-ADV.PROL
 7	йынрытчигэ	_	X	_	_	8	reparandum	_	Gloss=FST
 8	йынрыгэӈытко	_	NOUN	_	_	9	obj	_	Gloss=высокий.обрывистый.берег-BOTTOM-NUMBER
-9-10	мытвинвытэгнэннэтэ	_	_	_	_	_	_	_	SpaceAfter=No
-9	мытвинвытэгнэннэт	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-след-FRONT-VB-3SG.O-PL-=PTCL
-10	э	_	PART	_	_	9	advmod:emph	_	_
+9-10	мытвинвытэгнэннэтэ	_	_	_	_	_	_	_	Gloss=1PL.S/A-след-FRONT-VB-3SG.O-PL-=PTCL|SpaceAfter=No
+9	мытвинвытэгнэннэт	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-след-FRONT-VB-3SG.O-PL
+10	э	_	PART	_	_	9	advmod:emph	_	Gloss=PTCL
 11	.	_	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Water_cart:15
@@ -13071,9 +13072,9 @@
 # comment = Возможно, произносит [ɣaɬɣə-] в начале. Тогда с гармонией гласных всё в порядке, однако нужнозаводить новый алломорф для интенсификатора.
 1	Ӈоонрэ	_	ADV	_	_	6	advmod	_	Gloss=там-ADV.ALL
 2	ԓм	_	X	_	_	3	reparandum	_	Gloss=FST
-3-4	айгысӄыӈӄачьым	_	_	_	_	_	_	_	_
-3	айгысӄыӈӄачьы	_	NOUN	_	_	6	obl	_	Gloss=север-NEAR-=EMPH
-4	м	_	PART	_	_	3	advmod:emph	_	_
+3-4	айгысӄыӈӄачьым	_	_	_	_	_	_	_	Gloss=север-NEAR-=EMPH
+3	айгысӄыӈӄачьы	_	NOUN	_	_	6	obl	_	Gloss=север-NEAR
+4	м	_	PART	_	_	3	advmod:emph	_	Gloss=EMPH
 5	ԓымынкыри	_	PRON	_	_	6	obl	_	Gloss=OMN-тот-LOC-ADV.ALL
 6	гаԓгиръэтатԓяԓен	_	VERB	_	_	0	root	_	Gloss=PF-INTS-дорога-VB-GRAD-PF.3SG|SpaceAfter=No
 7	.	_	PUNCT	_	_	6	punct	_	_
@@ -13152,9 +13153,9 @@
 # text[eng] = I told the chief:
 # labels = complete-dep anno-fran
 1	Тивын	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-3SG.O
-2-3	очоча	_	_	_	_	_	_	_	SpaceAfter=No
-2	очоч	_	NOUN	_	_	1	obj	_	Gloss=начальник-=PTCL
-3	а	_	PART	_	_	2	advmod:emph	_	_
+2-3	очоча	_	_	_	_	_	_	_	Gloss=начальник-=PTCL|SpaceAfter=No
+2	очоч	_	NOUN	_	_	1	obj	_	Gloss=начальник
+3	а	_	PART	_	_	2	advmod:emph	_	Gloss=PTCL
 4	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Water_cart:24
@@ -13178,13 +13179,13 @@
 1	Миӈкы	_	ADV	_	_	4	advmod	_	Gloss=где-LOC
 2	винвыт	_	NOUN	_	_	4	obj	_	Gloss=след-NOM.PL
 3	эвын	_	ADV	_	_	4	advmod	_	Gloss=если
-4-5	мытрайъоӈына	_	_	_	_	_	_	_	_
-4	мытрайъоӈын	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-FUT-настигать-FUT-3SG.O-=PTCL
-5	а	_	PART	_	_	4	advmod:emph	_	_
+4-5	мытрайъоӈына	_	_	_	_	_	_	_	Gloss=1PL.S/A-FUT-настигать-FUT-3SG.O-=PTCL
+4	мытрайъоӈын	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-FUT-настигать-FUT-3SG.O
+5	а	_	PART	_	_	4	advmod:emph	_	Gloss=PTCL
 6	мытрантымӈэвӈӈоӈын	_	VERB	_	_	4	parataxis	_	Gloss=1PL.S/A-FUT-TR-потеряться-INCH-FUT-3SG.O
-7-8	мынкынпыткоԓьатыӈӈомыкъым	_	_	_	_	_	_	_	SpaceAfter=No
-7	мынкынпыткоԓьатыӈӈомык	_	VERB	_	_	4	parataxis	_	Gloss=1PL.S/A.SUBJ-ITER-PLAC-INCH-1PL.S/O-=EMPH
-8	ъым	_	PART	_	_	7	advmod:emph	_	_
+7-8	мынкынпыткоԓьатыӈӈомыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A.SUBJ-ITER-PLAC-INCH-1PL.S/O-=EMPH|SpaceAfter=No
+7	мынкынпыткоԓьатыӈӈомык	_	VERB	_	_	4	parataxis	_	Gloss=1PL.S/A.SUBJ-ITER-PLAC-INCH-1PL.S/O
+8	ъым	_	PART	_	_	7	advmod:emph	_	Gloss=EMPH
 9	.	_	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Water_cart:26
@@ -13195,13 +13196,13 @@
 # labels = complete-dep anno-fran
 1	Ԓгиэʼӄээʼвкы	_	ADJ	_	_	4	acl	_	Gloss=INTS-BAD-негнущийся-LOC
 2	ваԓьын	_	AUX	_	_	1	cop	_	Gloss=быть-ATTR-NOM.SG
-3-5	танӈочочьым	_	_	_	_	_	_	_	_
-3	танӈ	_	NOUN	_	_	4	nmod	_	Gloss=чужеземец-начальник-NOM.SG-=EMPH
-4	очочьы	_	NOUN	_	_	6	obj	_	_
-5	м	_	PART	_	_	4	advmod:emph	_	_
-6-7	тиквъэна	_	_	_	_	_	_	_	SpaceAfter=No
-6	тиквъэн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-TH-3SG.O-=PTCL
-7	а	_	PART	_	_	6	advmod:emph	_	_
+3-5	танӈочочьым	_	_	_	_	_	_	_	Gloss=чужеземец-начальник-NOM.SG-=EMPH
+3	танӈ	_	NOUN	_	_	4	nmod	_	Gloss=чужеземец
+4	очочьы	_	NOUN	_	_	6	obj	_	Gloss=начальник-NOM.SG
+5	м	_	PART	_	_	4	advmod:emph	_	Gloss=EMPH
+6-7	тиквъэна	_	_	_	_	_	_	_	Gloss=1SG.S/A-сказать-TH-3SG.O-=PTCL|SpaceAfter=No
+6	тиквъэн	_	VERB	_	_	0	root	_	Gloss=1SG.S/A-сказать-TH-3SG.O
+7	а	_	PART	_	_	6	advmod:emph	_	Gloss=PTCL
 8	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Water_cart:27
@@ -13210,9 +13211,9 @@
 # text[rus] = «Зачем вы нас зовёте помогать?
 # text[eng] = «Why are you asking us for help?
 # labels = complete-dep anno-fran
-1-2	Наӄамэ	_	_	_	_	_	_	_	_
-1	Наӄам	_	ADV	_	_	3	advmod	_	Gloss=однако-=PTCL
-2	э	_	PART	_	_	1	advmod:emph	_	_
+1-2	Наӄамэ	_	_	_	_	_	_	_	Gloss=однако-=PTCL
+1	Наӄам	_	ADV	_	_	3	advmod	_	Gloss=однако
+2	э	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
 3	эʼйӈэвыткуркынитык	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-звать-1PL.O-IPFV-2PL.S/O
 4-6	винрэттумгъум	_	_	_	_	_	_	_	Gloss=помогать-друг-EQU-=EMPH|SpaceAfter=No
 4	винрэт	_	VERB	_	_	5	acl	_	Gloss=помогать
@@ -13226,9 +13227,9 @@
 # text[rus] = Лучше уж тогда сами ищите, раз вы не слушаете, что я говорю».
 # text[eng] = You'd better look for him yourselves if you do not listen to what I say.»
 # labels = complete-dep anno-fran
-1-2	Опопыӈа	_	_	_	_	_	_	_	_
-1	Опопыӈ	_	ADV	_	_	5	advmod	_	Gloss=лучше-=PTCL
-2	а	_	PART	_	_	1	advmod:emph	_	_
+1-2	Опопыӈа	_	_	_	_	_	_	_	Gloss=лучше-=PTCL
+1	Опопы	_	ADV	_	_	5	advmod	_	Gloss=лучше
+2	ӈа	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
 3	торгынан	_	PRON	_	_	5	nsubj	_	Gloss=вы-INS
 4	чинит	_	ADV	_	_	5	advmod	_	Gloss=сам
 5	ӄэнарэрыркынэтык	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-искать-IPFV-2PL.S/O
@@ -13247,9 +13248,9 @@
 # labels = complete-dep anno-fran
 1	Ӄээӄын	_	ADV	_	_	3	advmod	_	Gloss=ещё.немного
 2	авъеткынка	_	NOUN	_	_	3	obl	_	Gloss=CAR-воздух-TOP-CAR-INS
-3-4	вэтчатвагъэм	_	_	_	_	_	_	_	SpaceAfter=No
-3	вэтчатваг	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-вставать-RES-TH-2/3SG.S-=EMPH
-4	ъэм	_	PART	_	_	3	advmod:emph	_	_
+3-4	вэтчатвагъэм	_	_	_	_	_	_	_	Gloss=2/3.S/A-вставать-RES-TH-2/3SG.S-=EMPH|SpaceAfter=No
+3	вэтчатваг	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-вставать-RES-TH-2/3SG.S
+4	ъэм	_	PART	_	_	3	advmod:emph	_	Gloss=EMPH
 5	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Water_cart:30
@@ -13258,10 +13259,10 @@
 # text[rus] = Сказал:
 # text[eng] = He said:
 # labels = complete-dep anno-fran
-1-3	Иквъиыʼма	_	_	_	_	_	_	_	SpaceAfter=No
-1	Иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=EMPH-=PTCL
-2	ыʼм	_	PART	_	_	1	advmod:emph	_	_
-3	а	_	PART	_	_	1	advmod:emph	_	_
+1-3	Иквъиыʼма	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=EMPH-=PTCL|SpaceAfter=No
+1	Иквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+2	ыʼм	_	PART	_	_	1	advmod:emph	_	Gloss=EMPH
+3	а	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
 4	.	_	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Water_cart:31
@@ -13271,10 +13272,10 @@
 # text[eng] = «Sit down into the cab, into the anterior all-terrain vehicle.
 # labels = complete-dep anno-fran
 1	Кабинак	_	NOUN	_	_	2	obl	_	Gloss=кабина-LOC
-2-4	ӄыӈэԓӄиквъима	_	_	_	_	_	_	_	_
-2	ӄыӈэԓӄиквъи	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-садиться.в.транспорт-IRR-2/3SG.S-=EMPH-=PTCL
-3	м	_	PART	_	_	2	advmod:emph	_	_
-4	а	_	PART	_	_	2	advmod:emph	_	_
+2-4	ӄыӈэԓӄиквъима	_	_	_	_	_	_	_	Gloss=2.S/A.SUBJ-садиться.в.транспорт-IRR-2/3SG.S-=EMPH-=PTCL
+2	ӄыӈэԓӄиквъи	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-садиться.в.транспорт-IRR-2/3SG.S
+3	м	_	PART	_	_	2	advmod:emph	_	Gloss=EMPH
+4	а	_	PART	_	_	2	advmod:emph	_	Gloss=PTCL
 5-8	ыʼттъыёԓвездеходыкъыма	_	_	_	_	_	_	_	Gloss=перед-вездеход-LOC-=EMPH-=PTCL|SpaceAfter=No
 5	ыʼттъыёԓ	_	ADJ	_	_	6	amod	_	Gloss=перед
 6	вездеходык	_	NOUN	_	_	2	obl	_	Gloss=вездеход-LOC
@@ -13307,9 +13308,9 @@
 5	ваамъеквэ	_	NOUN	_	_	8	obl	_	Gloss=река-PROL
 6	ӄойвыткыната	_	NOUN	_	_	8	obl	_	Gloss=лёд.на.реке-TOP-ADV.PROL
 7	тарӄойвыткыната	_	NOUN	_	_	8	obl	_	Gloss=царапать-лёд.на.реке-TOP-ADV.PROL
-8-9	мытԓеԓьэнмыкъым	_	_	_	_	_	_	_	SpaceAfter=No
-8	мытԓеԓьэнмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-идти-PLAC-1PL.S/O-=EMPH
-9	ъым	_	PART	_	_	8	advmod:emph	_	_
+8-9	мытԓеԓьэнмыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-идти-PLAC-1PL.S/O-=EMPH|SpaceAfter=No
+8	мытԓеԓьэнмык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-идти-PLAC-1PL.S/O
+9	ъым	_	PART	_	_	8	advmod:emph	_	Gloss=EMPH
 10	.	_	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Water_cart:34
@@ -13318,16 +13319,16 @@
 # text[rus] = Потом мимо высокого бугра вдруг проехали.
 # text[eng] = Then we suddenly passed a high hill.
 # labels = complete-dep anno-fran
-1-2	Ынӄорыӈ	_	_	_	_	_	_	_	_
-1	Ынӄоры	_	ADV	_	_	6	advmod	_	Gloss=потом-=PTCL
-2	ӈ	_	PART	_	_	1	advmod:emph	_	_
+1-2	Ынӄорыӈ	_	_	_	_	_	_	_	Gloss=потом-=PTCL
+1	Ынӄоры	_	ADV	_	_	6	advmod	_	Gloss=потом
+2	ӈ	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
 3-4	эквыйынрэпы	_	_	_	_	_	_	_	Gloss=высокий-высокий.обрывистый.берег-ABL
 3	эквы	_	ADJ	_	_	4	amod	_	Gloss=высокий
 4	йынрэпы	_	NOUN	_	_	6	obl	_	Gloss=высокий.обрывистый.берег-ABL
 5	ԓюут	_	ADV	_	_	6	advmod	_	Gloss=вдруг
-6-7	мыттамкъым	_	_	_	_	_	_	_	SpaceAfter=No
-6	мыттамк	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-проходить-1PL.S/O-=EMPH
-7	ъым	_	PART	_	_	6	advmod:emph	_	_
+6-7	мыттамкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-проходить-1PL.S/O-=EMPH|SpaceAfter=No
+6	мыттамк	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-проходить-1PL.S/O
+7	ъым	_	PART	_	_	6	advmod:emph	_	Gloss=EMPH
 8	.	_	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Water_cart:35
@@ -13357,9 +13358,9 @@
 6	кэӈкэԓетэ	_	NOUN	_	_	9	obl	_	Gloss=наконечник.хорея-ADV.PROL
 7	вээмӄэйчыку	_	NOUN	_	_	9	obl	_	Gloss=река-DIM-IN
 8	ачымъытъымыёԓгычыкоеквэ	_	NOUN	_	_	9	obl	_	Gloss=лучевая.кость-CONT-IN-PROL
-9-10	мытԓяӈӈомыкъым	_	_	_	_	_	_	_	_
-9	мытԓяӈӈомык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-идти-INCH-1PL.S/O-=EMPH
-10	ъым	_	PART	_	_	9	advmod:emph	_	_
+9-10	мытԓяӈӈомыкъым	_	_	_	_	_	_	_	Gloss=1PL.S/A-идти-INCH-1PL.S/O-=EMPH
+9	мытԓяӈӈомык	_	VERB	_	_	0	root	_	Gloss=1PL.S/A-идти-INCH-1PL.S/O
+10	ъым	_	PART	_	_	9	advmod:emph	_	Gloss=EMPH
 11	тотръэт	_	NOUN	_	_	12	obj	_	Gloss=новый-дорога-NOM.SG
 12	мытйъогъан	_	VERB	_	_	9	parataxis	_	Gloss=1PL.S/A-настигать-TH-3SG.O|SpaceAfter=No
 13	.	_	PUNCT	_	_	9	punct	_	_
@@ -13426,9 +13427,9 @@
 3	сапокԓьынъыма	_	NOUN	_	_	12	obl	12:obl	Gloss=сапог-ATTR-NOM.SG
 4	ъым	_	PART	_	_	3	advmod:emph	3:advmod:emph	Gloss=EMPH
 5	а	_	PART	_	_	3	advmod:emph	3:advmod:emph	Gloss=PTCL
-6-7	эвтэ	_	_	_	_	_	_	_	_
-6	эвт	_	SCONJ	_	_	9	mark	9:mark	Gloss=когда-=PTCL,likewise
-7	э	_	PART	_	_	6	advmod:emph	6:advmod:emph	_
+6-7	эвтэ	_	_	_	_	_	_	_	Gloss=когда-=PTCL
+6	эвт	_	SCONJ	_	_	9	mark	9:mark	Gloss=когда
+7	э	_	PART	_	_	6	advmod:emph	6:advmod:emph	Gloss=PTCL
 8-9	джинсыӄонагыԓьын	_	_	_	_	_	_	_	Gloss=джинсы-штаны-ATTR-NOM.SG
 8	джинсы	_	NOUN	_	_	9	nmod	9:nmod	Gloss=джинсы
 9	ӄонагыԓьын	_	NOUN	_	_	3	conj	3:conj	Gloss=штаны-ATTR-NOM.SG
@@ -13483,13 +13484,13 @@
 # text[eng] = Find out who does that.»
 # labels = complete-dep anno-fran subordination
 1	Нрзб	_	X	_	_	2	discourse	_	Gloss=
-2-3	ӄыныгйивэквынэ	_	_	_	_	_	_	_	_
-2	ӄыныгйивэквын	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-TR-знак-CS-IRR-3SG.O-=PTCL
-3	э	_	PART	_	_	2	advmod:emph	_	_
+2-3	ӄыныгйивэквынэ	_	_	_	_	_	_	_	Gloss=2.S/A.SUBJ-TR-знак-CS-IRR-3SG.O-=PTCL
+2	ӄыныгйивэквын	_	VERB	_	_	0	root	_	Gloss=2.S/A.SUBJ-TR-знак-CS-IRR-3SG.O
+3	э	_	PART	_	_	2	advmod:emph	_	Gloss=PTCL
 4	микынэ	_	PRON	_	_	8	nsubj	_	Gloss=кто-AN.INS
-5-6	ынӄэна	_	_	_	_	_	_	_	_
-5	ынӄэн	_	PRON	_	_	8	obj	_	Gloss=DET-=PTCL
-6	а	_	PART	_	_	5	advmod:emph	_	_
+5-6	ынӄэна	_	_	_	_	_	_	_	Gloss=DET-=PTCL
+5	ынӄэн	_	PRON	_	_	8	obj	_	Gloss=DET
+6	а	_	PART	_	_	5	advmod:emph	_	Gloss=PTCL
 7	ынӈин	_	ADV	_	_	8	advmod	_	Gloss=так
 8	рытыркынин	_	VERB	_	_	2	dep	_	Gloss=2/3.S/A-иметь-IPFV-3SG.A.3.O-3SG.O|SpaceAfter=No
 9	.	_	PUNCT	_	_	2	punct	_	_
@@ -13502,12 +13503,12 @@
 # labels = complete-dep anno-fran
 1	Пэтԓе	_	ADV	_	_	3	advmod	_	Gloss=быстро
 2	Пэтька	_	PROPN	_	_	3	nsubj	_	Gloss=Петька-NOM.SG
-3-4	рэсӄиквъим	_	_	_	_	_	_	_	_
-3	рэсӄиквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-входить-TH-2/3SG.S-=EMPH
-4	м	_	PART	_	_	3	advmod:emph	_	_
-5-6	иквъиӈа	_	_	_	_	_	_	_	SpaceAfter=No
-5	иквъиӈ	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=PTCL
-6	а	_	PART	_	_	5	advmod:emph	_	_
+3-4	рэсӄиквъим	_	_	_	_	_	_	_	Gloss=2/3.S/A-входить-TH-2/3SG.S-=EMPH
+3	рэсӄиквъи	_	VERB	_	_	0	root	_	Gloss=2/3.S/A-входить-TH-2/3SG.S
+4	м	_	PART	_	_	3	advmod:emph	_	Gloss=EMPH
+5-6	иквъиӈа	_	_	_	_	_	_	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S-=PTCL|SpaceAfter=No
+5	иквъи	_	VERB	_	_	3	parataxis	_	Gloss=2/3.S/A-сказать-TH-2/3SG.S
+6	ӈа	_	PART	_	_	5	advmod:emph	_	Gloss=PTCL
 7	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = WC:5
@@ -13563,9 +13564,9 @@
 # text[rus] = А рядом ещё один.
 # text[eng] = Another one near it.
 # labels = complete-dep anno-fran
-1-2	Ӄоԓьым	_	_	_	_	_	_	_	_
-1	Ӄоԓ	_	PRON	_	_	0	root	_	Gloss=некий-=EMPH
-2	ьым	_	PART	_	_	1	advmod:emph	_	_
+1-2	Ӄоԓьым	_	_	_	_	_	_	_	Gloss=некий-=EMPH
+1	Ӄоԓ	_	PRON	_	_	0	root	_	Gloss=некий
+2	ьым	_	PART	_	_	1	advmod:emph	_	Gloss=EMPH
 3	нэмэ	_	ADV	_	_	1	advmod	_	Gloss=опять
 4	ынык	_	PRON	_	_	1	nmod	_	Gloss=он-LOC
 5	ӄача	_	ADP	_	_	4	case	_	Gloss=около|SpaceAfter=No
@@ -13604,9 +13605,9 @@
 # labels = complete-dep anno-fran
 1	Гымнан	_	PRON	_	_	3	nsubj	_	Gloss=я-INS
 2	торывтатык	_	VERB	_	_	3	advcl	_	Gloss=новый-лист-VB-LOC
-3-4	нинэгичийгымэ	_	_	_	_	_	_	_	_
-3	нинэгичийгым	_	VERB	_	_	0	root	_	Gloss=ST-INV-собирать-NP.1SG-=PTCL
-4	э	_	PART	_	_	3	advmod:emph	_	_
+3-4	нинэгичийгымэ	_	_	_	_	_	_	_	Gloss=ST-INV-собирать-NP.1SG-=PTCL
+3	нинэгичийгым	_	VERB	_	_	0	root	_	Gloss=ST-INV-собирать-NP.1SG
+4	э	_	PART	_	_	3	advmod:emph	_	Gloss=PTCL
 5	вытвыттэ	_	NOUN	_	_	3	obj	_	Gloss=лист-NOM.PL
 6	рымавыттэ	_	NOUN	_	_	5	appos	_	Gloss=дикий.щавель-NOM.PL
 7	эээ	_	INTJ	_	_	8	discourse	_	Gloss=
@@ -13620,9 +13621,9 @@
 # text[rus] = Щавель… смешиваю там (всё), иван-чай и зелёные листочки…
 # text[eng] = Sorrel... I mix it all up, fireweed and the green leaves.
 # labels = complete-dep anno-fran
-1-2	Рымавыттэм	_	_	_	_	_	_	_	_
-1	Рымавыттэ	_	NOUN	_	_	0	root	_	Gloss=дикий.щавель-NOM.PL-=EMPH
-2	м	_	PART	_	_	1	advmod:emph	_	_
+1-2	Рымавыттэм	_	_	_	_	_	_	_	Gloss=дикий.щавель-NOM.PL-=EMPH
+1	Рымавыттэ	_	NOUN	_	_	0	root	_	Gloss=дикий.щавель-NOM.PL
+2	м	_	PART	_	_	1	advmod:emph	_	Gloss=EMPH
 3	нинэнръэԓевивым	_	VERB	_	_	1	parataxis	_	Gloss=ST-INV-TR-смешиваться-CS-NP.1SG
 4	ынкы	_	PRON	_	_	3	obl	_	Gloss=тот-LOC
 5	гэвтыт	_	NOUN	_	_	3	obj	_	Gloss=иван.чай-NOM.PL
@@ -13669,9 +13670,9 @@
 # text[eng] = All together that turns a bit sour.
 # labels = complete-dep anno-fran
 1	Чеэкэй	_	ADV	_	_	2	advmod	_	Gloss=вместе
-2-3	нымэчвиԓетӄинъым	_	_	_	_	_	_	_	SpaceAfter=No
-2	нымэчвиԓетӄин	_	VERB	_	_	0	root	_	Gloss=ST-APPR-портиться-VB-ST.3SG-=EMPH
-3	ъым	_	PART	_	_	2	advmod:emph	_	_
+2-3	нымэчвиԓетӄинъым	_	_	_	_	_	_	_	Gloss=ST-APPR-портиться-VB-ST.3SG-=EMPH|SpaceAfter=No
+2	нымэчвиԓетӄин	_	VERB	_	_	0	root	_	Gloss=ST-APPR-портиться-VB-ST.3SG
+3	ъым	_	PART	_	_	2	advmod:emph	_	Gloss=EMPH
 4	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Wyttal:7
@@ -13725,10 +13726,12 @@
 # text[eng] = We grind it and mix it with liver (lit. beat it with liver), we eat it with the (seal) fat.
 # labels = complete-dep anno-fran
 1	Рыпонтаԓгав	_	NOUN	_	_	2	obl	_	Gloss=CUM-печень-CUM
-2	нэнатаԓяморъэм	_	VERB	_	_	0	root	_	Gloss=ST-INV-ударять-NP.1PL.EMPH
-3	нинэнумури	_	VERB	_	_	2	parataxis	_	Gloss=ST-INV-есть-NP.1PL
-4	рымытӄыԓгавкы	_	NOUN	_	_	3	obl	_	Gloss=CUM-жир-CUM-LOC|SpaceAfter=No
-5	.	_	PUNCT	_	_	2	punct	_	_
+2-3	нэнатаԓяморъэм	_	_	_	_	_	_	_	Gloss=ST-INV-ударять-NP.1PL-=EMPH
+2	нэнатаԓяморъэ	_	VERB	_	_	0	root	_	Gloss=ST-INV-ударять-NP.1PL
+3	м	_	VERB	_	_	2	discourse	_	Gloss=EMPH
+4	нинэнумури	_	VERB	_	_	2	parataxis	_	Gloss=ST-INV-есть-NP.1PL
+5	рымытӄыԓгавкы	_	NOUN	_	_	4	obl	_	Gloss=CUM-жир-CUM-LOC|SpaceAfter=No
+6	.	_	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Wyttal:12
 # text = Тэӄэмэӈ ынӈин ваԓьын.
@@ -13772,12 +13775,12 @@
 # labels = complete-dep anno-fran
 1	Ԓюут	_	ADV	_	_	7	advmod	_	Gloss=вдруг
 2-3	эʼӄэԓьэӈа	_	_	_	_	_	_	_	Gloss=плохой-ATTR-INS-=PTCL
-2	эʼӄэԓьэӈ	_	ADJ	_	_	7	nsubj	_	Gloss=плохой-ATTR-INS
-3	а	_	PART	_	_	2	advmod:emph	_	Gloss=PTCL
+2	эʼӄэԓьэ	_	ADJ	_	_	7	nsubj	_	Gloss=плохой-ATTR-INS
+3	ӈа	_	PART	_	_	2	advmod:emph	_	Gloss=PTCL
 4	танӈа	_	NOUN	_	_	2	appos	_	Gloss=чужеземец-INS
 5-6	ӈаԓгыԓёӈа	_	_	_	_	_	_	_	Gloss=по.обе.стороны-=PTCL
-5	ӈаԓгыԓёӈ	_	ADV	_	_	7	advmod	_	Gloss=по.обе.стороны
-6	а	_	PART	_	_	5	advmod:emph	_	Gloss=PTCL
+5	ӈаԓгыԓё	_	ADV	_	_	7	advmod	_	Gloss=по.обе.стороны
+6	ӈа	_	PART	_	_	5	advmod:emph	_	Gloss=PTCL
 7	натагъан	_	VERB	_	_	0	root	_	Gloss=LOW.A-проходить-TH-3SG.O
 8	нэйпыгъэн	_	VERB	_	_	7	parataxis	_	Gloss=LOW.A-затыкать-TH-3SG.O
 9	ръэт	_	NOUN	_	_	8	obj	_	Gloss=дорога-NOM.SG|SpaceAfter=No
@@ -13904,7 +13907,7 @@
 # text[phon] = ətrʔes
 # text[rus] = Конец.
 # text[eng] = That is all.
-# labels = complete-dep anno-fran
+# labels = complete anno-fran
 1	Ытръэч	_	ADV	_	_	0	root	_	Gloss=только|SpaceAfter=No
 2	.	_	PUNCT	_	_	1	punct	_	_
 
