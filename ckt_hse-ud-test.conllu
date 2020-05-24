@@ -898,7 +898,7 @@
 # text[eng] = First the elder ones... Kaiwukun and Kaiwukuna.
 # labels = complete-dep anno-karina reattached-clitic
 1-2	Ӄунэчеӈэ	_	_	_	_	_	_	_	Gloss=раз-MPL-=PTCL
-1	Ӄунэче	_	ADV	_	_	5	advmod	_	Gloss=раз-MPL
+1	Ӄунэче	_	ADV	_	_	3	advmod	_	Gloss=раз-MPL
 2	ӈэ	_	PART	_	_	1	advmod:emph	_	Gloss=PTCL
 3-4	ыʼттъыёԓкэнъым	_	_	_	_	_	_	_	Gloss=перед-REL-=EMPH
 3	ыʼттъыёԓкэн	_	NOUN	_	_	0	root	_	Gloss=перед-REL
