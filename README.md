@@ -93,12 +93,12 @@ incorporated items are given nodes.
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: speech
+Genre: spoken 
 Lemmas: not available
 UPOS: converted with corrections
 XPOS: not available
 Features: not available
-Relations: manual
+Relations: manual native
 Contributors: Tyers, Francis; Mischenkova, Karina
 Contributing: elsewhere
 Contact: ftyers@iu.edu
