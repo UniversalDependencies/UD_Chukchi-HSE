@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>1004</sentences><tokens>5389</tokens><words>6124</words><fused>653</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>1004</sentences><tokens>5389</tokens><words>6124</words><fused>653</fused></test>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="2264" /><!-- ., ъым, э, ынӄэн, а, гым, и, м, ынкъам, ынӄо, ынкы, ӈэ, ынӈин, нрзб, ыʼм -->
+  <fusions unique="493" /><!-- ынӄэнэ, ӄэԓюӄъым, ӄоԓьым, ынкъамэ, гымнинэ, ԓюутэ, читъым, ынӄэна, ынӄэнъымэ, этъым, Ынӄорыӈа, иквъиӈа, иквъэтэ, нивӄинэ, нэмыӄэе -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">96</tag><!-- _ -->
+    <tag name="ADP">23</tag><!-- _ -->
+    <tag name="ADV">790</tag><!-- _ -->
+    <tag name="AUX">134</tag><!-- _ -->
+    <tag name="CCONJ">112</tag><!-- _ -->
+    <tag name="DET">44</tag><!-- _ -->
+    <tag name="INTJ">35</tag><!-- _ -->
+    <tag name="NOUN">842</tag><!-- _ -->
+    <tag name="NUM">20</tag><!-- _ -->
+    <tag name="PART">856</tag><!-- _ -->
+    <tag name="PRON">394</tag><!-- _ -->
+    <tag name="PROPN">208</tag><!-- _ -->
+    <tag name="PUNCT">1004</tag><!-- _ -->
+    <tag name="SCONJ">3</tag><!-- _ -->
+    <tag name="VERB">1183</tag><!-- _ -->
+    <tag name="X">380</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="39">
+    <dep name="acl">15</dep>
+    <dep name="acl:attr">15</dep>
+    <dep name="acl:relat">1</dep>
+    <dep name="advcl">61</dep>
+    <dep name="advmod">689</dep>
+    <dep name="advmod:emph">672</dep>
+    <dep name="amod">38</dep>
+    <dep name="appos">51</dep>
+    <dep name="aux">40</dep>
+    <dep name="aux:neg">7</dep>
+    <dep name="case">23</dep>
+    <dep name="cc">123</dep>
+    <dep name="ccomp">6</dep>
+    <dep name="conj">85</dep>
+    <dep name="cop">50</dep>
+    <dep name="dep">31</dep>
+    <dep name="det">39</dep>
+    <dep name="discourse">300</dep>
+    <dep name="dislocated">16</dep>
+    <dep name="flat">3</dep>
+    <dep name="flat:foreign">38</dep>
+    <dep name="flat:name">4</dep>
+    <dep name="mark">3</dep>
+    <dep name="nmod">29</dep>
+    <dep name="nmod:attr">11</dep>
+    <dep name="nmod:poss">78</dep>
+    <dep name="nmod:relat">12</dep>
+    <dep name="nsubj">409</dep>
+    <dep name="nummod">14</dep>
+    <dep name="obj">213</dep>
+    <dep name="obl">299</dep>
+    <dep name="orphan">11</dep>
+    <dep name="parataxis">324</dep>
+    <dep name="parataxis:speech">50</dep>
+    <dep name="punct">1004</dep>
+    <dep name="reparandum">295</dep>
+    <dep name="root">1004</dep>
+    <dep name="vocative">36</dep>
+    <dep name="xcomp">25</dep>
+  </deps>
+</treebank>
