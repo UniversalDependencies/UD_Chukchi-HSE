@@ -96,6 +96,8 @@ incorporated items are given nodes.
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Undocumented parataxis:speech changed to parataxis:rep as in other languages.
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
 
