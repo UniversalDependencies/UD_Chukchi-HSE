@@ -18,7 +18,19 @@ the [Chuklang](http://chuklang.ru/) project. They have their own
 
 ## References
 
-* (citation)
+If you use this in your work, please cite:
+
+* Tyers, F. M. and Mishchenkova, K. (2020) "Dependency annotation of noun incorporation in polysynthetic languages". *Proceedings of the Fourth Workshop on Universal Dependencies (UDW 2020)*. pp. 195—204
+
+```
+@inproceedings{tyers:20,
+ author = {Francis M. Tyers and Karina Mishchenkova},
+ title = {Dependency annotation of noun incorporation in polysynthetic languages},
+ booktitle = {Proceedings of the Fourth Workshop on Universal Dependencies (UDW 2020)},
+ pages = {195--204},
+ year = 2020
+}
+```
 
 # Orthography
 
@@ -84,6 +96,8 @@ incorporated items are given nodes.
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Undocumented parataxis:speech changed to parataxis:rep as in other languages.
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
 
