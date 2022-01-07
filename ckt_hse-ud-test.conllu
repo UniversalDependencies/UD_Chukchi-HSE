@@ -1620,11 +1620,12 @@
 # text[eng] = And other people, they [bought] «Brandy».
 # labels = complete-dep anno-karina
 1-2	Ӄутырыкъым	_	_	_	_	_	_	_	Gloss=некий-AN.PL-LOC-=EMPH
-1	Ӄутырык	_	PRON	_	_	0	root	0:root	Gloss=некий-AN.PL-LOC
+1	Ӄутырык	_	PRON	_	_	0	root	2.1:nsubj	Gloss=некий-AN.PL-LOC
 2	ъым	_	PART	_	_	1	advmod:emph	1:advmod:emph	Gloss=EMPH
+2.1	_	_	VERB	_	_	_	_	0:root	Gloss=покупали
 3	ынӄэн	_	DET	_	_	4	det	4:det	Gloss=DET
-4	Брэнди	_	PROPN	_	_	1	orphan	1:orphan	Gloss=бренди-NOM.SG|SpaceAfter=No
-5	.	_	PUNCT	_	_	1	punct	1:punct	_
+4	Брэнди	_	PROPN	_	_	1	orphan	2.1:obj	Gloss=бренди-NOM.SG|SpaceAfter=No
+5	.	_	PUNCT	_	_	1	punct	2.1:punct	_
 
 # sent_id = Brandy:12
 # text = Мрэнтиыʼм ынӄэн.
@@ -5966,7 +5967,7 @@
 # labels = complete-dep anno-fran unclear-syntax
 1	Мэвын	_	ADV	_	_	4	advmod	4:advmod	Gloss=разве
 2	ынӈин	_	ADV	_	_	3	advmod	3:advmod	Gloss=так
-3	мэйӈыԓьын	_	ADJ	_	_	4	orphan	4:orphan	Gloss=большой-ATTR-NOM.SG
+3	мэйӈыԓьын	_	ADJ	_	_	4	dep	4:dep	Gloss=большой-ATTR-NOM.SG
 4	нъывинвэтгъэн	_	VERB	_	_	0	root	0:root	Gloss=2/3.S/A-COND-след-VB-TH-IRR.2/3SG.S|SpaceAfter=No
 5	.	_	PUNCT	_	_	4	punct	4:punct	_
 
@@ -7119,11 +7120,12 @@
 # text[rus] = Во время летней кочёвки мы [тогда были].
 # text[eng] = During the time of summer nomadizing, we...
 # labels = complete-dep anno-fran
-1	Тагрытыԓяма	_	VERB	_	_	2	orphan	2:orphan	Gloss=кочевать.летом-SIM
+1	Тагрытыԓяма	_	VERB	_	_	2	orphan	3.1:advcl	Gloss=кочевать.летом-SIM
 2-3	муриӈэ	_	_	_	_	_	_	_	Gloss=мы-=PTCL|SpaceAfter=No
-2	мури	_	PRON	_	_	0	root	0:root	Gloss=мы
+2	мури	_	PRON	_	_	0	root	3.1:nsubj	Gloss=мы
 3	ӈэ	_	PART	_	_	2	advmod:emph	2:advmod:emph	Gloss=PTCL
-4	.	_	PUNCT	_	_	2	punct	2:punct	_
+3.1	_	_	VERB	_	_	_	_	0:root	Gloss=тогда.были
+4	.	_	PUNCT	_	_	2	punct	3.1:punct	_
 
 # sent_id = Larvae:2
 # text = Ынӄэнэ гым ипэ Кымъыӈэнэ нэнатарычваӈӄэн ӄэԓюӄ ӈээккэӄэйивым еп.
@@ -12493,10 +12495,12 @@
 # labels = complete-dep anno-fran unclear-syntax
 1	Нэмэ	_	ADV	_	_	2	advmod	2:advmod	Gloss=опять
 2	Мачквагты	_	PROPN	_	_	0	root	0:root	Gloss=Москва-DAT
-3	Мачквайпы	_	PROPN	_	_	4	orphan	4:orphan	Gloss=Москва-ABL
-4	Въаӈэты	_	PROPN	_	_	2	conj	2:conj	Gloss=Анадырь-DAT
-5	Въаӈгыпы	_	PROPN	_	_	6	orphan	6:orphan	Gloss=Анадырь-ABL
-6	эԓгыӄанъявэты	_	PROPN	_	_	2	conj	2:conj	Gloss=белый-ущелье-DAT
+3	Мачквайпы	_	PROPN	_	_	4	orphan	4.1:obl	Gloss=Москва-ABL
+4	Въаӈэты	_	PROPN	_	_	2	conj	4.1:obl	Gloss=Анадырь-DAT
+4.1	_	_	VERB	_	_	_	_	2:conj	Gloss=полетим
+5	Въаӈгыпы	_	PROPN	_	_	6	orphan	6.1:obl	Gloss=Анадырь-ABL
+6	эԓгыӄанъявэты	_	PROPN	_	_	2	conj	6.1:obl	Gloss=белый-ущелье-DAT
+6.1	_	_	VERB	_	_	_	_	2:conj	Gloss=полетим
 7	ынкъам	_	CCONJ	_	_	10	cc	10:cc	Gloss=и
 8	ӈутриԓы	_	ADV	_	_	10	advmod	10:advmod	Gloss=тут-ADV.ALL.EXH
 9	нэмэ	_	ADV	_	_	10	advmod	10:advmod	Gloss=опять
