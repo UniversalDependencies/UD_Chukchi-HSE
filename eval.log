@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Chukchi-HSE:
-commit 6c9859c228e8cc5a61148fca1156e29fdba888e3
+commit d043d039eba472d151971601c191a3f75dea66ed
+Merge: 58968ed b788554
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 08:55:57 2021 +0200
 Size: counted 6124 of 6124 words (nodes).
 Size: min(0, log((N/1000)**2)) = 3.62443095559087.
 Size: maximum value 13.815511 is for 1000000 words or more.
