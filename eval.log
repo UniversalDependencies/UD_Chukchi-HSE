@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Chukchi-HSE:
-commit 62b6db255f05f98161f199c5e070cbec89f624f7
+commit f169b6364d304b6b98c4c9e5a3e4accdfb978e1a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 09:38:58 2023 +0200
+Date:   Mon Nov 6 11:36:42 2023 +0100
 Size: counted 6124 of 6124 words (nodes).
 Size: min(0, log((N/1000)**2)) = 3.62443095559087.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,6 +25,18 @@ Udapi: found 1681 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 6124 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ckt --max-err=10 UD_Chukchi-HSE/ckt_hse-ud-test.conllu
+[Line 452 Sent Being_a_child:5 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 451 Sent Being_a_child:5 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 453 Sent Being_a_child:5 Node 3]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 451 Sent Being_a_child:5 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 454 Sent Being_a_child:5 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 451 Sent Being_a_child:5 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 508 Sent Being_a_child:8 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 507 Sent Being_a_child:8 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 1441 Sent Bouillon_with_crushed_bones:18 Node 5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 1440 Sent Bouillon_with_crushed_bones:18 Node 4]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 76
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
