@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Chukchi-HSE:
-commit f169b6364d304b6b98c4c9e5a3e4accdfb978e1a
+commit a9c81d10cb68be0f079603f2fbdf7a30771c0e19
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 11:36:42 2023 +0100
+Date:   Sun May 5 11:59:45 2024 +0200
 Size: counted 6124 of 6124 words (nodes).
 Size: min(0, log((N/1000)**2)) = 3.62443095559087.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -36,7 +36,7 @@ Genres: found 1 out of 17 known.
 [Line 1441 Sent Bouillon_with_crushed_bones:18 Node 5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 1440 Sent Bouillon_with_crushed_bones:18 Node 4]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 76
+Warnings: 77
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
