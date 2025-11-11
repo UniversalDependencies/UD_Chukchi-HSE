@@ -53,7 +53,7 @@
     <dep name="conj">85</dep>
     <dep name="cop">50</dep>
     <dep name="dep">32</dep>
-    <dep name="det">39</dep>
+    <dep name="det">38</dep>
     <dep name="discourse">300</dep>
     <dep name="dislocated">16</dep>
     <dep name="flat">3</dep>
@@ -67,7 +67,7 @@
     <dep name="nsubj">409</dep>
     <dep name="nummod">14</dep>
     <dep name="obj">213</dep>
-    <dep name="obl">299</dep>
+    <dep name="obl">300</dep>
     <dep name="orphan">10</dep>
     <dep name="parataxis">324</dep>
     <dep name="parataxis:rep">50</dep>

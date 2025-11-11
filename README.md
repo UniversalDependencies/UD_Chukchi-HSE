@@ -109,6 +109,7 @@ incorporated items are given nodes.
 Data available since: UD v2.7
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: spoken 
 Lemmas: not available
 UPOS: converted with corrections
