@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Chukchi-HSE:
-commit 868163114707670fcdb8e8b15d4199adc16ae328
-Merge: 063e591 257d4c3
+commit e5d1823e7881d50229b4b56c9f4221e9a0e40081
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 18:56:59 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ckt_hse'
 Language code (from CoNLL-U file name) = 'ckt'
@@ -25,20 +25,24 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ckt --max-err=10 UD_Chukchi-HSE/ckt_hse-ud-test.conllu
-[Line 452 Sent Being_a_child:5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 451 Sent Being_a_child:5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 453 Sent Being_a_child:5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 451 Sent Being_a_child:5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 454 Sent Being_a_child:5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 451 Sent Being_a_child:5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 508 Sent Being_a_child:8]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 507 Sent Being_a_child:8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 712 Sent Being_a_child:19]: [L3 Warning obl-should-be-nmod] The parent (node [16] 'иʼнничгу') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1441 Sent Bouillon_with_crushed_bones:18]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-...suppressing further errors regarding Warning
-Warnings: 78
-*** PASSED ***
-Validity: 1
+[Line 452 Sent Being_a_child:5]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 451 Sent Being_a_child:5]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 453 Sent Being_a_child:5]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 451 Sent Being_a_child:5]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 454 Sent Being_a_child:5]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 451 Sent Being_a_child:5]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 508 Sent Being_a_child:8]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 507 Sent Being_a_child:8]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 712 Sent Being_a_child:19]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'иʼнничгу') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1441 Sent Bouillon_with_crushed_bones:18]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 1440 Sent Bouillon_with_crushed_bones:18]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further messages regarding WARNING/MORPHO
+[Line 9504 Sent Parents:4]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'мури') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 76
+SYNTAX errors: 2
+*** FAILED *** with 2 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.01) = 0.00111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
@@ -46,6 +50,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.847058823529412) = 0.0941176470588235
 (weight=0.111111111111111) * (score{udeprels}=0.783783783783784) = 0.0870870870870871
-(TOTAL score=0.287505373902234) * (availability=1) * (validity=1) = 0.287505373902234
-STARS = 1.5
-UD_Chukchi-HSE	0.287505373902234	1.5
+(TOTAL score=0.287505373902234) * (availability=1) * (validity=0.01) = 0.00287505373902234
+STARS = 0
+UD_Chukchi-HSE	0.00287505373902234	0
