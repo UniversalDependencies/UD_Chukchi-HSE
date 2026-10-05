@@ -60,14 +60,14 @@
     <dep name="flat:foreign">38</dep>
     <dep name="flat:name">4</dep>
     <dep name="mark">3</dep>
-    <dep name="nmod">29</dep>
+    <dep name="nmod">31</dep>
     <dep name="nmod:attr">11</dep>
     <dep name="nmod:poss">78</dep>
     <dep name="nmod:relat">12</dep>
     <dep name="nsubj">409</dep>
     <dep name="nummod">14</dep>
     <dep name="obj">213</dep>
-    <dep name="obl">300</dep>
+    <dep name="obl">298</dep>
     <dep name="orphan">10</dep>
     <dep name="parataxis">324</dep>
     <dep name="parataxis:rep">50</dep>

@@ -709,7 +709,7 @@
 16	иʼнничгу	_	NOUN	_	_	17	obj	17:obj	Gloss=ожерелье-EQU
 17	гэтэйкытэ	_	VERB	_	_	14	advcl	14:advcl	Gloss=COM-делать-INS
 18	ынӄэн	_	DET	_	_	19	det	19:det	Gloss=DET
-19	выквыԓгыӄай	_	NOUN	_	_	16	obl	16:obl	Gloss=камень-SING-DIM-NOM.SG|SpaceAfter=No
+19	выквыԓгыӄай	_	NOUN	_	_	16	nmod	16:nmod	Gloss=камень-SING-DIM-NOM.SG|SpaceAfter=No
 20	.	_	PUNCT	_	_	2	punct	2:punct	_
 
 # sent_id = Being_a_child:20
@@ -9501,7 +9501,7 @@
 # labels = complete-dep anno-karina
 1	Ынкъам	_	CCONJ	_	_	5	cc	5:cc	Gloss=и
 2	мури	_	PRON	_	_	5	nsubj	5:nsubj	Gloss=мы
-3	гачакэттомга	_	NOUN	_	_	2	obl	2:obl	Gloss=COM-сестра-друг-INS
+3	гачакэттомга	_	NOUN	_	_	2	nmod	2:nmod	Gloss=COM-сестра-друг-INS
 4	гэ	_	X	_	_	5	reparandum	5:reparandum	Gloss=FST
 5	гэегтэԓмури	_	VERB	_	_	0	root	0:root	Gloss=PF-спастись-NP.1PL
 6	Каврагыргын	_	PROPN	_	_	5	dislocated	5:dislocated	Gloss=Каврагыргин-NOM.SG
